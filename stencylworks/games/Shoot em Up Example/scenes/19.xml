@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="2" desc="" format="1.0" gravx="-0.0" gravy="0.0" height="13120" id="19" name="Stage Asteroids2" revision="" savecount="0" tiled="1" tileh="16" tilew="16" type="standard" width="416">
+<layers>
+<layer color="0,0,255" id="1" name="Front" order="0"/>
+<layer color="100,168,234" id="0" name="Back" order="1"/>
+</layers>
+<grad-bg b1="0" b2="0" g1="0" g2="0" r1="0" r2="128"/>
+<backgrounds>
+<ref id="208"/>
+</backgrounds>
+<foregrounds>
+<ref id="32"/>
+</foregrounds>
+<joints/>
+<regions>
+<region b="64" g="64" h="38" id="0" name="Boss Region" pts="4,410.0,0.0,410.0,38.0,0.0,38.0,0.0,0.0" r="64" type="box" w="410" x="0" y="544"/>
+</regions>
+<terrainRegions/>
+<actors>
+<actor a="0.0" aid="17" c="true" group="0" id="66" x="192" y="13056" z="1">
+<snippets>
+<s enabled="true" id="50">
+<prop id="1" val="fire"/>
+<prop id="2" val="85"/>
+<prop id="3" val=""/>
+<prop id="4" val="9"/>
+<prop id="5" val="90"/>
+<prop id="6" val="90"/>
+<prop id="7" val="16"/>
+<prop id="8" val="true"/>
+<prop id="9" val=""/>
+<prop id="10" val="false"/>
+<prop id="11" val="-64"/>
+<prop id="12" val="0"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="84">
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="48">
+<prop id="1" val="stopped"/>
+<prop id="2" val="stopped"/>
+<prop id="3" val="stopped"/>
+<prop id="4" val="stopped"/>
+<prop id="5" val="0"/>
+<prop id="6" val="30"/>
+<prop id="7" val="0"/>
+<prop id="8" val="-30"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="81">
+<prop id="1" val="0.0"/>
+<prop id="2" val="0.0"/>
+<prop id="4" val="0.0"/>
+<prop id="5" val="1"/>
+<prop id="6" val="1"/>
+<prop id="7" val=""/>
+<prop id="9" val="false"/>
+<prop id="10" val="false"/>
+<prop id="11" val="0"/>
+<prop id="12" val="0"/>
+<prop id="13" val="8.0"/>
+<prop id="14" val="2.0"/>
+<prop id="15" val="167"/>
+<prop id="2147483647" val="thisactor"/>
+<prop id="17" val="167"/>
+<prop id="16" val="4"/>
+<prop id="19" val="197"/>
+<prop id="18" val="1"/>
+</s>
+<s enabled="true" id="5">
+<prop id="1" val="fire"/>
+<prop id="2" val="Fire1"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="89">
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="45">
+<prop id="2" val="5"/>
+<prop id="3" val="8"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+</snippets>
+</actor>
+<actor a="0.0" aid="19" c="false" group="7" id="213" x="245" y="11101" z="1"/>
+<actor a="0.0" aid="18" c="true" group="7" id="213" x="28" y="11568" z="1">
+<snippets>
+<s enabled="true" id="81">
+<prop id="1" val="0.0"/>
+<prop id="2" val="0.0"/>
+<prop id="4" val="0.0"/>
+<prop id="5" val="4"/>
+<prop id="6" val="4"/>
+<prop id="7" val=""/>
+<prop id="9" val="false"/>
+<prop id="10" val="false"/>
+<prop id="11" val="0"/>
+<prop id="12" val="0"/>
+<prop id="13" val="8.0"/>
+<prop id="14" val="2.0"/>
+<prop id="15" val="195"/>
+<prop id="2147483647" val="thisactor"/>
+<prop id="17" val="195"/>
+<prop id="16" val="1"/>
+<prop id="19" val="198"/>
+<prop id="18" val="1"/>
+</s>
+<s enabled="true" id="54">
+<prop id="2" val="false"/>
+<prop id="3" val="false"/>
+<prop id="4" val="false"/>
+<prop id="5" val="true"/>
+<prop id="6" val="false"/>
+<prop id="7" val="false"/>
+<prop id="8" val="false"/>
+<prop id="9" val="false"/>
+<prop id="10" val="false"/>
+<prop id="11" val="false"/>
+<prop id="12" val="false"/>
+<prop id="13" val="false"/>
+<prop id="14" val="false"/>
+<prop id="15" val="false"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="37">
+<prop id="1" val="2"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="41">
+<prop id="1" val="0.12"/>
+<prop id="2" val="79"/>
+<prop id="3" val="255,0,0,255"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="26">
+<prop id="1" val="360"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+</snippets>
+</actor>
+<actor a="0.0" aid="21" c="true" group="7" id="215" x="224" y="9780" z="1">
+<snippets>
+<s enabled="true" id="81">
+<prop id="1" val="0.0"/>
+<prop id="2" val="0.0"/>
+<prop id="4" val="0.0"/>
+<prop id="5" val="8"/>
+<prop id="6" val="8"/>
+<prop id="7" val=""/>
+<prop id="9" val="false"/>
+<prop id="10" val="false"/>
+<prop id="11" val="0"/>
+<prop id="12" val="0"/>
+<prop id="13" val="4"/>
+<prop id="14" val="1"/>
+<prop id="15" val="195"/>
+<prop id="2147483647" val="thisactor"/>
+<prop id="17" val="195"/>
+<prop id="16" val="1"/>
+<prop id="19" val="198"/>
+<prop id="18" val="1"/>
+</s>
+<s enabled="true" id="54">
+<prop id="2" val="false"/>
+<prop id="3" val="false"/>
+<prop id="4" val="false"/>
+<prop id="5" val="false"/>
+<prop id="6" val="false"/>
+<prop id="7" val="true"/>
+<prop id="8" val="false"/>
+<prop id="9" val="false"/>
+<prop id="10" val="false"/>
+<prop id="11" val="false"/>
+<prop id="12" val="false"/>
+<prop id="13" val="false"/>
+<prop id="14" val="false"/>
+<prop id="15" val="false"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="37">
+<prop id="1" val="2"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="41">
+<prop id="1" val="0.12"/>
+<prop id="2" val="79"/>
+<prop id="3" val="255,0,0,255"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="26">
+<prop id="1" val="360"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+</snippets>
+</actor>
+<actor a="0.0" aid="20" c="true" group="7" id="215" x="24" y="10312" z="1">
+<snippets>
+<s enabled="true" id="81">
+<prop id="1" val="0.0"/>
+<prop id="2" val="0.0"/>
+<prop id="4" val="0.0"/>
+<prop id="5" val="6"/>
+<prop id="6" val="6"/>
+<prop id="7" val=""/>
+<prop id="9" val="false"/>
+<prop id="10" val="false"/>
+<prop id="11" val="0"/>
+<prop id="12" val="0"/>
+<prop id="13" val="4"/>
+<prop id="14" val="1"/>
+<prop id="15" val="195"/>
+<prop id="2147483647" val="thisactor"/>
+<prop id="17" val="195"/>
+<prop id="16" val="1"/>
+<prop id="19" val="198"/>
+<prop id="18" val="1"/>
+</s>
+<s enabled="true" id="54">
+<prop id="2" val="false"/>
+<prop id="3" val="false"/>
+<prop id="4" val="false"/>
+<prop id="5" val="false"/>
+<prop id="6" val="false"/>
+<prop id="7" val="true"/>
+<prop id="8" val="false"/>
+<prop id="9" val="false"/>
+<prop id="10" val="false"/>
+<prop id="11" val="false"/>
+<prop id="12" val="false"/>
+<prop id="13" val="false"/>
+<prop id="14" val="false"/>
+<prop id="15" val="false"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="37">
+<prop id="1" val="2"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="41">
+<prop id="1" val="0.12"/>
+<prop id="2" val="79"/>
+<prop id="3" val="255,0,0,255"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="26">
+<prop id="1" val="360"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+</snippets>
+</actor>
+<actor a="0.0" aid="23" c="true" group="6" id="217" x="40" y="9448" z="1">
+<snippets>
+<s enabled="true" id="81">
+<prop id="1" val="0.0"/>
+<prop id="2" val="0.0"/>
+<prop id="4" val="0.0"/>
+<prop id="5" val="10"/>
+<prop id="6" val="10"/>
+<prop id="7" val=""/>
+<prop id="9" val="false"/>
+<prop id="10" val="false"/>
+<prop id="11" val="0"/>
+<prop id="12" val="0"/>
+<prop id="13" val="8.0"/>
+<prop id="14" val="2.0"/>
+<prop id="15" val="195"/>
+<prop id="2147483647" val="thisactor"/>
+<prop id="17" val="169"/>
+<prop id="16" val="4"/>
+<prop id="19" val="198"/>
+<prop id="18" val="1"/>
+</s>
+<s enabled="true" id="54">
+<prop id="2" val="false"/>
+<prop id="3" val="false"/>
+<prop id="4" val="false"/>
+<prop id="5" val="false"/>
+<prop id="6" val="false"/>
+<prop id="7" val="false"/>
+<prop id="8" val="false"/>
+<prop id="9" val="true"/>
+<prop id="10" val="false"/>
+<prop id="11" val="false"/>
+<prop id="12" val="false"/>
+<prop id="13" val="false"/>
+<prop id="14" val="false"/>
+<prop id="15" val="false"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="37">
+<prop id="1" val="2"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="41">
+<prop id="1" val="0.12"/>
+<prop id="2" val="79"/>
+<prop id="3" val="255,0,0,255"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="26">
+<prop id="1" val="360"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+</snippets>
+</actor>
+<actor a="0.0" aid="22" c="false" group="7" id="215" x="136" y="9148" z="1"/>
+<actor a="0.0" aid="25" c="false" group="6" id="217" x="240" y="7848" z="1"/>
+<actor a="0.0" aid="24" c="true" group="6" id="217" x="40" y="8428" z="1">
+<snippets>
+<s enabled="true" id="81">
+<prop id="1" val="0.0"/>
+<prop id="2" val="0.0"/>
+<prop id="4" val="0.0"/>
+<prop id="5" val="8"/>
+<prop id="6" val="8"/>
+<prop id="7" val=""/>
+<prop id="9" val="false"/>
+<prop id="10" val="false"/>
+<prop id="11" val="0"/>
+<prop id="12" val="0"/>
+<prop id="13" val="8.0"/>
+<prop id="14" val="2.0"/>
+<prop id="15" val="195"/>
+<prop id="2147483647" val="thisactor"/>
+<prop id="17" val="169"/>
+<prop id="16" val="4"/>
+<prop id="19" val="198"/>
+<prop id="18" val="1"/>
+</s>
+<s enabled="true" id="54">
+<prop id="2" val="false"/>
+<prop id="3" val="false"/>
+<prop id="4" val="false"/>
+<prop id="5" val="false"/>
+<prop id="6" val="false"/>
+<prop id="7" val="false"/>
+<prop id="8" val="false"/>
+<prop id="9" val="true"/>
+<prop id="10" val="false"/>
+<prop id="11" val="false"/>
+<prop id="12" val="false"/>
+<prop id="13" val="false"/>
+<prop id="14" val="false"/>
+<prop id="15" val="false"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="37">
+<prop id="1" val="2"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="41">
+<prop id="1" val="0.12"/>
+<prop id="2" val="79"/>
+<prop id="3" val="255,0,0,255"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="26">
+<prop id="1" val="360"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+</snippets>
+</actor>
+<actor a="0.0" aid="27" c="false" group="7" id="213" x="44" y="7088" z="1"/>
+<actor a="0.0" aid="26" c="false" group="7" id="215" x="188" y="8088" z="1"/>
+<actor a="0.0" aid="29" c="true" group="7" id="215" x="156" y="6684" z="1">
+<snippets>
+<s enabled="true" id="81">
+<prop id="1" val="0.0"/>
+<prop id="2" val="0.0"/>
+<prop id="4" val="0.0"/>
+<prop id="5" val="6"/>
+<prop id="6" val="6"/>
+<prop id="7" val=""/>
+<prop id="9" val="false"/>
+<prop id="10" val="false"/>
+<prop id="11" val="0"/>
+<prop id="12" val="0"/>
+<prop id="13" val="4"/>
+<prop id="14" val="1"/>
+<prop id="15" val="195"/>
+<prop id="2147483647" val="thisactor"/>
+<prop id="17" val="195"/>
+<prop id="16" val="1"/>
+<prop id="19" val="198"/>
+<prop id="18" val="1"/>
+</s>
+<s enabled="true" id="54">
+<prop id="2" val="false"/>
+<prop id="3" val="false"/>
+<prop id="4" val="false"/>
+<prop id="5" val="false"/>
+<prop id="6" val="false"/>
+<prop id="7" val="true"/>
+<prop id="8" val="false"/>
+<prop id="9" val="false"/>
+<prop id="10" val="false"/>
+<prop id="11" val="false"/>
+<prop id="12" val="false"/>
+<prop id="13" val="false"/>
+<prop id="14" val="false"/>
+<prop id="15" val="false"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="37">
+<prop id="1" val="2"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="41">
+<prop id="1" val="0.12"/>
+<prop id="2" val="79"/>
+<prop id="3" val="255,0,0,255"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="26">
+<prop id="1" val="360"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+</snippets>
+</actor>
+<actor a="0.0" aid="28" c="false" group="7" id="213" x="168" y="6260" z="1"/>
+<actor a="0.0" aid="31" c="false" group="6" id="217" x="232" y="4696" z="1"/>
+<actor a="0.0" aid="30" c="false" group="6" id="217" x="20" y="5460" z="1"/>
+<actor a="0.0" aid="34" c="false" group="7" id="213" x="24" y="3252" z="1"/>
+<actor a="0.0" aid="35" c="false" group="7" id="213" x="232" y="2948" z="1"/>
+<actor a="0.0" aid="32" c="false" group="7" id="215" x="56" y="3832" z="1"/>
+<actor a="0.0" aid="33" c="false" group="7" id="213" x="216" y="3552" z="1"/>
+<actor a="0.0" aid="38" c="false" group="7" id="213" x="20" y="896" z="1"/>
+<actor a="0.0" aid="39" c="false" group="11" id="140" x="224" y="10604" z="1"/>
+<actor a="0.0" aid="36" c="false" group="6" id="217" x="81" y="1822" z="1"/>
+<actor a="0.0" aid="37" c="false" group="6" id="217" x="204" y="1170" z="1"/>
+<actor a="0.0" aid="42" c="false" group="11" id="140" x="72" y="6464" z="1"/>
+<actor a="0.0" aid="43" c="false" group="11" id="140" x="220" y="4192" z="1"/>
+<actor a="0.0" aid="40" c="false" group="11" id="140" x="64" y="8852" z="1"/>
+<actor a="0.0" aid="41" c="false" group="11" id="140" x="300" y="7572" z="1"/>
+<actor a="0.0" aid="47" c="true" group="4" id="179" x="192" y="272" z="1">
+<snippets>
+<s enabled="true" id="55">
+<prop id="2" val="tockfire"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="81">
+<prop id="1" val="0.0"/>
+<prop id="2" val="0"/>
+<prop id="4" val="0"/>
+<prop id="5" val="4"/>
+<prop id="6" val="4"/>
+<prop id="7" val=""/>
+<prop id="9" val="false"/>
+<prop id="10" val="false"/>
+<prop id="11" val="0"/>
+<prop id="12" val="0"/>
+<prop id="13" val="4"/>
+<prop id="14" val="3"/>
+<prop id="15" val="11"/>
+<prop id="2147483647" val="thisactor"/>
+<prop id="17" val="13"/>
+<prop id="16" val="2"/>
+<prop id="19" val="15"/>
+<prop id="18" val="1.5"/>
+</s>
+<s enabled="true" id="54">
+<prop id="2" val="true"/>
+<prop id="3" val="false"/>
+<prop id="4" val="false"/>
+<prop id="5" val="false"/>
+<prop id="6" val="false"/>
+<prop id="7" val="false"/>
+<prop id="8" val="false"/>
+<prop id="9" val="false"/>
+<prop id="10" val="false"/>
+<prop id="11" val="false"/>
+<prop id="12" val="false"/>
+<prop id="13" val="false"/>
+<prop id="14" val="false"/>
+<prop id="15" val="false"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="78">
+<prop id="2" val="4"/>
+<prop id="3" val="false"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="10">
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="56">
+<prop id="1" val="tockfire"/>
+<prop id="2" val="300"/>
+<prop id="3" val=""/>
+<prop id="4" val="190"/>
+<prop id="5" val="270"/>
+<prop id="6" val="270"/>
+<prop id="7" val="186"/>
+<prop id="8" val="0"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="41">
+<prop id="1" val="0.12"/>
+<prop id="2" val="79"/>
+<prop id="3" val="255,0,0,255"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+</snippets>
+</actor>
+<actor a="0.0" aid="50" c="true" group="4" id="5" x="192" y="160" z="1">
+<snippets>
+<s enabled="true" id="0">
+<prop id="2" val="5"/>
+<prop id="3" val="false"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="55">
+<prop id="2" val="enemyfire1"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="81">
+<prop id="1" val="0.0"/>
+<prop id="2" val="0"/>
+<prop id="4" val="0"/>
+<prop id="5" val="5"/>
+<prop id="6" val="5"/>
+<prop id="7" val=""/>
+<prop id="9" val="false"/>
+<prop id="10" val="false"/>
+<prop id="11" val="0"/>
+<prop id="12" val="0"/>
+<prop id="13" val="8"/>
+<prop id="14" val="2"/>
+<prop id="15" val="171"/>
+<prop id="2147483647" val="thisactor"/>
+<prop id="17" val="171"/>
+<prop id="16" val="4"/>
+<prop id="19" val="15"/>
+<prop id="18" val="1"/>
+</s>
+<s enabled="true" id="54">
+<prop id="2" val="false"/>
+<prop id="3" val="false"/>
+<prop id="4" val="false"/>
+<prop id="5" val="false"/>
+<prop id="6" val="false"/>
+<prop id="7" val="false"/>
+<prop id="8" val="true"/>
+<prop id="9" val="false"/>
+<prop id="10" val="false"/>
+<prop id="11" val="false"/>
+<prop id="12" val="false"/>
+<prop id="13" val="false"/>
+<prop id="14" val="false"/>
+<prop id="15" val="false"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="10">
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="56">
+<prop id="1" val="enemyfire1"/>
+<prop id="2" val="300"/>
+<prop id="3" val=""/>
+<prop id="4" val="94"/>
+<prop id="5" val="270"/>
+<prop id="6" val="270"/>
+<prop id="7" val="186"/>
+<prop id="8" val="0"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="41">
+<prop id="1" val="0.12"/>
+<prop id="2" val="79"/>
+<prop id="3" val="255,255,0,255"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+</snippets>
+</actor>
+<actor a="0.0" aid="49" c="true" group="4" id="179" x="320" y="240" z="1">
+<snippets>
+<s enabled="true" id="55">
+<prop id="2" val="tockfire"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="81">
+<prop id="1" val="0.0"/>
+<prop id="2" val="0"/>
+<prop id="4" val="0"/>
+<prop id="5" val="4"/>
+<prop id="6" val="4"/>
+<prop id="7" val=""/>
+<prop id="9" val="false"/>
+<prop id="10" val="false"/>
+<prop id="11" val="0"/>
+<prop id="12" val="0"/>
+<prop id="13" val="4"/>
+<prop id="14" val="3"/>
+<prop id="15" val="11"/>
+<prop id="2147483647" val="thisactor"/>
+<prop id="17" val="13"/>
+<prop id="16" val="2"/>
+<prop id="19" val="15"/>
+<prop id="18" val="1.5"/>
+</s>
+<s enabled="true" id="54">
+<prop id="2" val="true"/>
+<prop id="3" val="false"/>
+<prop id="4" val="false"/>
+<prop id="5" val="false"/>
+<prop id="6" val="false"/>
+<prop id="7" val="false"/>
+<prop id="8" val="false"/>
+<prop id="9" val="false"/>
+<prop id="10" val="false"/>
+<prop id="11" val="false"/>
+<prop id="12" val="false"/>
+<prop id="13" val="false"/>
+<prop id="14" val="false"/>
+<prop id="15" val="false"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="78">
+<prop id="2" val="4"/>
+<prop id="3" val="false"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="10">
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="56">
+<prop id="1" val="tockfire"/>
+<prop id="2" val="300"/>
+<prop id="3" val=""/>
+<prop id="4" val="190"/>
+<prop id="5" val="270"/>
+<prop id="6" val="270"/>
+<prop id="7" val="186"/>
+<prop id="8" val="0"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="41">
+<prop id="1" val="0.12"/>
+<prop id="2" val="79"/>
+<prop id="3" val="255,0,0,255"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+</snippets>
+</actor>
+<actor a="0.0" aid="48" c="true" group="4" id="179" x="80" y="240" z="1">
+<snippets>
+<s enabled="true" id="55">
+<prop id="2" val="tockfire"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="81">
+<prop id="1" val="0.0"/>
+<prop id="2" val="0"/>
+<prop id="4" val="0"/>
+<prop id="5" val="4"/>
+<prop id="6" val="4"/>
+<prop id="7" val=""/>
+<prop id="9" val="false"/>
+<prop id="10" val="false"/>
+<prop id="11" val="0"/>
+<prop id="12" val="0"/>
+<prop id="13" val="4"/>
+<prop id="14" val="3"/>
+<prop id="15" val="11"/>
+<prop id="2147483647" val="thisactor"/>
+<prop id="17" val="13"/>
+<prop id="16" val="2"/>
+<prop id="19" val="15"/>
+<prop id="18" val="1.5"/>
+</s>
+<s enabled="true" id="54">
+<prop id="2" val="true"/>
+<prop id="3" val="false"/>
+<prop id="4" val="false"/>
+<prop id="5" val="false"/>
+<prop id="6" val="false"/>
+<prop id="7" val="false"/>
+<prop id="8" val="false"/>
+<prop id="9" val="false"/>
+<prop id="10" val="false"/>
+<prop id="11" val="false"/>
+<prop id="12" val="false"/>
+<prop id="13" val="false"/>
+<prop id="14" val="false"/>
+<prop id="15" val="false"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="78">
+<prop id="2" val="4"/>
+<prop id="3" val="false"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="10">
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="56">
+<prop id="1" val="tockfire"/>
+<prop id="2" val="300"/>
+<prop id="3" val=""/>
+<prop id="4" val="190"/>
+<prop id="5" val="270"/>
+<prop id="6" val="270"/>
+<prop id="7" val="186"/>
+<prop id="8" val="0"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+<s enabled="true" id="41">
+<prop id="1" val="0.12"/>
+<prop id="2" val="79"/>
+<prop id="3" val="255,0,0,255"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+</snippets>
+</actor>
+</actors>
+<snippets>
+<s enabled="true" id="51">
+<prop id="1" val="0.0"/>
+<prop id="2" val="50"/>
+<prop id="3" val="100"/>
+<prop id="4" val="150"/>
+<prop id="6" val="0.0"/>
+<prop id="7" val="200"/>
+<prop id="8" val="300"/>
+<prop id="9" val="500"/>
+<prop id="10" val="650"/>
+<prop id="11" val="1000"/>
+<prop id="12" val="1500"/>
+<prop id="13" val="2500"/>
+<prop id="14" val="1000"/>
+<prop id="15" val="2000"/>
+<prop id="17" val="4000"/>
+<prop id="16" val="3000"/>
+</s>
+<s enabled="true" id="71">
+<prop id="1" val="0.0"/>
+<prop id="2" val="17"/>
+</s>
+<s enabled="true" id="53">
+<prop id="1" val="133"/>
+<prop id="2" val="Score"/>
+<prop id="5" val="6"/>
+<prop id="6" val=""/>
+<prop id="7" val="144"/>
+<prop id="8" val="7"/>
+</s>
+<s enabled="true" id="93">
+<prop id="1" val="17"/>
+<prop id="3" val="146"/>
+<prop id="4" val="32"/>
+<prop id="5" val="128"/>
+<prop id="6" val="0"/>
+<prop id="7" val=""/>
+</s>
+<s enabled="true" id="95">
+<prop id="2" val="0.0"/>
+<prop id="3" val="0.0"/>
+<prop id="4" val="222"/>
+<prop id="5" val="48"/>
+<prop id="6" val="12"/>
+<prop id="7" val="8"/>
+<prop id="8" val="12"/>
+</s>
+<s enabled="true" id="12">
+<prop id="1" val="0.0"/>
+<prop id="2" val="17"/>
+<prop id="3" val="20"/>
+<prop id="4" val="43"/>
+<prop id="5" val="2.5"/>
+<prop id="7" val="39"/>
+<prop id="9" val="6"/>
+<prop id="10" val="6"/>
+<prop id="11" val="448"/>
+</s>
+<s enabled="true" id="88">
+<prop id="1" val="0.0"/>
+<prop id="2" val="0.0"/>
+<prop id="3" val=""/>
+<prop id="4" val="13"/>
+</s>
+<s enabled="true" id="14">
+<prop id="1" val="201"/>
+</s>
+<s enabled="true" id="30">
+<prop id="1" val=""/>
+<prop id="3" val="30"/>
+<prop id="4" val="68"/>
+<prop id="5" val="0.0"/>
+<prop id="6" val="0.0"/>
+<prop id="7" val="2"/>
+<prop id="2147483647" val="thisactor"/>
+</s>
+</snippets>
+<terrain/>
+</scene>

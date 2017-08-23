@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1"/>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="88">
+<group id="-1">
+<set-val-71-1 comment="false" x="26" y="113">
+<int id="0" val="0"/>
+</set-val-71-1>
+<actors-in-group comment="false" x="26" y="133">
+<group id="-1">
+<increment comment="false" x="37" y="166">
+<int id="0" val="1"/>
+<int id="1" val="1"/>
+</increment>
+</group>
+<pick-group comment="false" id="0" x="0" y="0">
+<int id="0" val="4"/>
+</pick-group>
+</actors-in-group>
+<if comment="false" x="26" y="205">
+<group id="-1">
+<disable-snippet comment="false" x="37" y="235"/>
+<disable-snippet2 comment="false" x="37" y="255">
+<ACTOR eid="var" id="0" vid="2"/>
+<int id="1" val="Simple 4 Way Movement"/>
+</disable-snippet2>
+<disable-snippet2 comment="false" x="37" y="282">
+<ACTOR eid="var" id="0" vid="2"/>
+<int id="1" val="Fire Bullets"/>
+</disable-snippet2>
+<dolater comment="false" x="37" y="309">
+<group id="-1">
+<custom-code comment="false" x="48" y="329">
+<int id="0" val="setScrollSpeedForBackground(0, 32);"/>
+</custom-code>
+<dolater comment="false" x="48" y="349">
+<group id="-1">
+<play-sound3 comment="false" x="59" y="369">
+<SOUND eid="145" id="0"/>
+</play-sound3>
+<custom-code comment="false" x="59" y="396">
+<int id="0" val="setScrollSpeedForBackground(0, 64);"/>
+</custom-code>
+<dolater comment="false" x="59" y="416">
+<group id="-1">
+<custom-code comment="false" x="70" y="436">
+<int id="0" val="setScrollSpeedForBackground(0, 128);"/>
+</custom-code>
+<dolater comment="false" x="70" y="456">
+<group id="-1">
+<custom-code comment="false" x="81" y="476">
+<int id="0" val="setScrollSpeedForBackground(0, 256);"/>
+</custom-code>
+<dolater comment="false" x="81" y="496">
+<group id="-1">
+<custom-code comment="false" x="92" y="516">
+<int id="0" val="setScrollSpeedForBackground(0, 256);"/>
+</custom-code>
+<setanim comment="false" x="92" y="536">
+<ACTOR eid="var" id="0" vid="2"/>
+<int id="1" val="thruster"/>
+</setanim>
+<dolater comment="false" x="92" y="563">
+<group id="-1">
+<custom-code comment="false" x="103" y="583">
+<int id="0" val="setScrollSpeedForBackground(0, 512);"/>
+</custom-code>
+</group>
+<int id="0" val="1"/>
+</dolater>
+</group>
+<int id="0" val="1"/>
+</dolater>
+</group>
+<int id="0" val="1.2"/>
+</dolater>
+</group>
+<int id="0" val="1.4"/>
+</dolater>
+</group>
+<int id="0" val="1.6"/>
+</dolater>
+</group>
+<int id="0" val="8"/>
+</dolater>
+</group>
+<lesseq comment="false" id="0" x="0" y="0">
+<get-val-71-1 comment="false" id="0" x="0" y="0"/>
+<int id="1" val="0"/>
+</lesseq>
+</if>
+</group>
+</step>
+</group>
+<group id="2">
+<draw comment="false" x="15" y="715">
+<group id="-1"/>
+</draw>
+</group>
+<group id="3"/>
+<group id="4"/>
+<group id="5"/>
+<group id="6"/>
+<group id="7"/>
+<group id="8"/>
+<group id="9"/>
+<group id="10"/>
+<group id="11"/>
+<group id="12"/>
+<group id="13"/>
+<group id="14">
+<moveTo comment="false" x="230" y="28">
+<ACTOR eid="var" id="0" vid="2"/>
+<div comment="false" id="1" x="0" y="0">
+<screenw comment="false" id="0" x="0" y="0"/>
+<int id="1" val="2"/>
+</div>
+<int id="2" val="448"/>
+<int id="3" val="1.5"/>
+<int id="4" val="0"/>
+</moveTo>
+</group>
+<group id="-1"/>
+</groups>

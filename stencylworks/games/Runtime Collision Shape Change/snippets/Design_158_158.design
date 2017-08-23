@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <draw comment="false" x="15" y="276">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="130">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <collide comment="false" x="15" y="203">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group eventID="-1" id="3">
+        <receive-message comment="false" x="15" y="349">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="379">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="412">
+                            <group eventID="-1" id="-1">
+                                <create-recycled-actor comment="false" x="48" y="437">
+                                    <ACTORTYPE eid="var" id="0" vid="4"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="0"/>
+                                    <int id="3" val="0"/>
+                                </create-recycled-actor>
+                                <custom-407 comment="false" x="48" y="464">
+                                    <ACTOR eid="this" id="0"/>
+                                    <str-combine comment="false" id="1" x="0" y="0">
+                                        <int id="0" val="Create Recycled Actor: "/>
+                                        <custom-525 comment="false" id="1" x="0" y="0">
+                                            <ACTOR eid="lastcreated" id="0"/>
+                                        </custom-525>
+                                    </str-combine>
+                                </custom-407>
+                            </group>
+                            <get-val-158-12 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <else comment="false" x="37" y="521">
+                            <group eventID="-1" id="-1">
+                                <create-actor3 comment="false" x="48" y="541">
+                                    <ACTORTYPE eid="var" id="0" vid="4"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="0"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                                <custom-407 comment="false" x="48" y="568">
+                                    <ACTOR eid="this" id="0"/>
+                                    <str-combine comment="false" id="1" x="0" y="0">
+                                        <int id="0" val="Create Actor: "/>
+                                        <custom-525 comment="false" id="1" x="0" y="0">
+                                            <ACTOR eid="lastcreated" id="0"/>
+                                        </custom-525>
+                                    </str-combine>
+                                </custom-407>
+                            </group>
+                        </else>
+                        <set-xy comment="false" x="37" y="625">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="0"/>
+                            <minus comment="false" id="2" x="0" y="0">
+                                <get-xy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="2"/>
+                                </get-xy>
+                                <div comment="false" id="1" x="0" y="0">
+                                    <get-wh comment="false" id="0" x="0" y="0">
+                                        <ACTOR eid="lastcreated" id="0"/>
+                                        <int id="1" val="0"/>
+                                    </get-wh>
+                                    <int id="1" val="2"/>
+                                </div>
+                            </minus>
+                        </set-xy>
+                        <set-xy comment="false" x="37" y="675">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="1"/>
+                            <minus comment="false" id="2" x="0" y="0">
+                                <get-xy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="3"/>
+                                </get-xy>
+                                <div comment="false" id="1" x="0" y="0">
+                                    <get-wh comment="false" id="0" x="0" y="0">
+                                        <ACTOR eid="lastcreated" id="0"/>
+                                        <int id="1" val="1"/>
+                                    </get-wh>
+                                    <int id="1" val="2"/>
+                                </div>
+                            </minus>
+                        </set-xy>
+                        <setvel comment="false" x="37" y="725">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <minus comment="false" id="1" x="0" y="0">
+                                <getdir comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                </getdir>
+                                <get-val-158-5 comment="false" id="1" x="0" y="0"/>
+                            </minus>
+                            <get-val-158-2 comment="false" id="2" x="0" y="0"/>
+                        </setvel>
+                    </group>
+                    <value comment="false" id="0" x="0" y="0">
+                        <int id="0" val="4"/>
+                        <int id="1" val="0"/>
+                    </value>
+                </if>
+                <else comment="false" x="26" y="782">
+                    <group eventID="-1" id="-1">
+                        <custom-422 comment="false" x="37" y="802">
+                            <int id="0" val="&amp;quot;Actor Type&amp;quot; is null in &amp;quot;Spawn Moving Actor&amp;quot;"/>
+                            <ACTOR eid="this" id="1"/>
+                        </custom-422>
+                    </group>
+                </else>
+            </group>
+            <get-val-158-1 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group eventID="-1" id="4">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="-1" id="-1">
+                        <set-val-158-5 comment="false" x="37" y="65">
+                            <get-val-158-10 comment="false" id="0" x="0" y="0"/>
+                        </set-val-158-5>
+                    </group>
+                    <get-val-158-11 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </init>
+    </group>
+    <group id="-1"/>
+</groups>

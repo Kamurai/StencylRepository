@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="520" extheight="704" extwidth="704" extx="-32" exty="-32" format="2.1" gravx="-0.0" gravy="30.0" height="640" id="17" name="Collision Scene" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <layer color="100,168,234" id="0" name="Layer 0" order="0"/>
+    </layers>
+    <color-bg blue="255" green="255" red="255"/>
+    <backgrounds>
+        <ref id="429"/>
+    </backgrounds>
+    <foregrounds/>
+    <joints/>
+    <regions/>
+    <terrainRegions>
+        <terrainRegion b="64" g="64" group="1" h="1" id="1" name="Terrain 1" pts="4,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0" r="64" type="box" w="1" x="229" y="369"/>
+        <terrainRegion b="64" g="64" group="1" h="539" id="2" name="Terrain 2" pts="25,639.0,100.0,617.0,257.0,583.0,356.0,507.0,490.0,424.0,579.0,351.0,601.0,290.0,577.0,261.0,512.0,237.0,410.0,222.0,303.0,193.0,303.0,193.0,348.0,164.0,347.0,164.0,385.0,129.0,394.0,128.0,432.0,96.0,430.0,97.0,478.0,61.0,475.0,63.0,510.0,31.0,506.0,38.0,568.0,0.0,568.0,0.0,639.0,638.0,639.0" r="64" type="poly" w="639" x="0" y="100"/>
+    </terrainRegions>
+    <actors>
+        <actor a="0.0" aid="1" c="true" group="3" id="597" name="Nova 1" sx="1.0" sy="1.0" x="291" y="188" z="0">
+            <snippets>
+                <s enabled="true" id="515">
+                    <prop id="1" list="0" val="false"/>
+                    <prop id="2" list="0" val="0"/>
+                    <prop id="3" list="0" val="0"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="404">
+                    <prop id="2" list="0" val="0.0"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="3" c="true" group="3" id="582" name="Button 128 3" sx="1.0" sy="1.0" x="32" y="32" z="0">
+            <snippets>
+                <s enabled="true" id="441">
+                    <prop id="1" list="0" val="168"/>
+                    <prop id="2" list="0" val="0,0,0,255"/>
+                    <prop id="3" list="0" val="true"/>
+                    <prop id="4" list="0" val="Circle"/>
+                    <prop id="5" list="0" val="0"/>
+                    <prop id="6" list="0" val="0"/>
+                    <prop id="7" list="0" val=""/>
+                    <prop id="8" list="0" val=""/>
+                    <prop id="9" list="0" val="true"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="0.0"/>
+                    <prop id="12" list="0" val="0.0"/>
+                    <prop id="13" list="0" val="false"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="429">
+                    <prop id="3" list="1" val=""/>
+                    <prop id="5" list="0" val="1.0"/>
+                    <prop id="6" list="0" val="8.0"/>
+                    <prop id="7" list="0" val="8.0"/>
+                    <prop id="8" list="0" val="153,204,255,255"/>
+                    <prop id="9" list="0" val="false"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="1"/>
+                    <prop id="12" list="0" val="2.0"/>
+                    <prop id="13" list="0" val="Mouse Enter"/>
+                    <prop id="15" list="0" val="1.0"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="17" list="0" val="true"/>
+                    <prop id="16" list="0" val="false"/>
+                    <prop id="18" list="0" val="Mouse Leave"/>
+                </s>
+                <s enabled="true" id="474">
+                    <prop id="4" list="0" val="Button Clicked"/>
+                    <prop id="5" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="513">
+                    <prop id="1" list="0" val=""/>
+                    <prop id="2" list="0" val=""/>
+                    <prop id="3" list="0" val=""/>
+                    <prop id="4" list="0" val="Button Clicked"/>
+                    <prop id="5" list="0" val=""/>
+                    <prop id="6" list="0" val="1"/>
+                    <prop id="7" list="0" val="7"/>
+                    <prop id="8" list="0" val="-1"/>
+                    <prop id="9" list="0" val="-1"/>
+                    <prop id="10" list="0" val="0"/>
+                    <prop id="11" list="0" val="0"/>
+                    <prop id="12" list="0" val="0"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="473">
+                    <prop id="17" list="0" val="Mouse Pressed on Self"/>
+                    <prop id="16" list="0" val="Mouse Down on Self"/>
+                    <prop id="18" list="0" val="Mouse Released on Self"/>
+                    <prop id="8" list="0" val="Mouse Released"/>
+                    <prop id="9" list="0" val="Mouse Pressed"/>
+                    <prop id="10" list="0" val="Mouse Down"/>
+                    <prop id="11" list="0" val="false"/>
+                    <prop id="12" list="0" val="Mouse Over"/>
+                    <prop id="13" list="0" val="Mouse Enter"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="Mouse Leave"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="503">
+                    <prop id="2" list="0" val="Animation 1"/>
+                    <prop id="3" list="0" val="Animation 0"/>
+                    <prop id="4" list="0" val="Mouse Pressed on Self"/>
+                    <prop id="5" list="0" val="Mouse Released"/>
+                    <prop id="6" list="0" val="Mouse Leave"/>
+                    <prop id="7" list="0" val="Animation 0"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="4" c="true" group="3" id="628" name="Arrow Button Right 4" sx="1.0" sy="1.0" x="576" y="32" z="0">
+            <snippets>
+                <s enabled="true" id="429">
+                    <prop id="3" list="1" val=""/>
+                    <prop id="5" list="0" val="1.0"/>
+                    <prop id="6" list="0" val="8.0"/>
+                    <prop id="7" list="0" val="8.0"/>
+                    <prop id="8" list="0" val="153,204,255,255"/>
+                    <prop id="9" list="0" val="false"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="1"/>
+                    <prop id="12" list="0" val="2.0"/>
+                    <prop id="13" list="0" val="Mouse Enter"/>
+                    <prop id="15" list="0" val="1.0"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="17" list="0" val="true"/>
+                    <prop id="16" list="0" val="false"/>
+                    <prop id="18" list="0" val="Mouse Leave"/>
+                </s>
+                <s enabled="true" id="474">
+                    <prop id="4" list="0" val="Button Clicked"/>
+                    <prop id="5" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="513">
+                    <prop id="1" list="0" val="Button Clicked"/>
+                    <prop id="2" list="0" val=""/>
+                    <prop id="3" list="0" val=""/>
+                    <prop id="4" list="0" val=""/>
+                    <prop id="5" list="0" val=""/>
+                    <prop id="6" list="0" val="1"/>
+                    <prop id="7" list="0" val=""/>
+                    <prop id="8" list="0" val=""/>
+                    <prop id="9" list="0" val=""/>
+                    <prop id="10" list="0" val="0"/>
+                    <prop id="11" list="0" val="0"/>
+                    <prop id="12" list="0" val="0"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="473">
+                    <prop id="17" list="0" val="Mouse Pressed on Self"/>
+                    <prop id="16" list="0" val="Mouse Down on Self"/>
+                    <prop id="18" list="0" val="Mouse Released on Self"/>
+                    <prop id="8" list="0" val="Mouse Released"/>
+                    <prop id="9" list="0" val="Mouse Pressed"/>
+                    <prop id="10" list="0" val="Mouse Down"/>
+                    <prop id="11" list="0" val="false"/>
+                    <prop id="12" list="0" val="Mouse Over"/>
+                    <prop id="13" list="0" val="Mouse Enter"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="Mouse Leave"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="503">
+                    <prop id="2" list="0" val="Animation 1"/>
+                    <prop id="3" list="0" val="Animation 0"/>
+                    <prop id="4" list="0" val="Mouse Pressed on Self"/>
+                    <prop id="5" list="0" val="Mouse Released"/>
+                    <prop id="6" list="0" val="Mouse Leave"/>
+                    <prop id="7" list="0" val="Animation 0"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="5" c="true" group="3" id="632" name="Arrow Button Left 5" sx="1.0" sy="1.0" x="480" y="32" z="0">
+            <snippets>
+                <s enabled="true" id="429">
+                    <prop id="3" list="1" val=""/>
+                    <prop id="5" list="0" val="1.0"/>
+                    <prop id="6" list="0" val="8.0"/>
+                    <prop id="7" list="0" val="8.0"/>
+                    <prop id="8" list="0" val="153,204,255,255"/>
+                    <prop id="9" list="0" val="false"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="1"/>
+                    <prop id="12" list="0" val="2.0"/>
+                    <prop id="13" list="0" val="Mouse Enter"/>
+                    <prop id="15" list="0" val="1.0"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="17" list="0" val="true"/>
+                    <prop id="16" list="0" val="false"/>
+                    <prop id="18" list="0" val="Mouse Leave"/>
+                </s>
+                <s enabled="true" id="474">
+                    <prop id="4" list="0" val="Button Clicked"/>
+                    <prop id="5" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="513">
+                    <prop id="1" list="0" val=""/>
+                    <prop id="2" list="0" val="Button Clicked"/>
+                    <prop id="3" list="0" val=""/>
+                    <prop id="4" list="0" val=""/>
+                    <prop id="5" list="0" val=""/>
+                    <prop id="6" list="0" val="1"/>
+                    <prop id="7" list="0" val=""/>
+                    <prop id="8" list="0" val=""/>
+                    <prop id="9" list="0" val=""/>
+                    <prop id="10" list="0" val="0"/>
+                    <prop id="11" list="0" val="0"/>
+                    <prop id="12" list="0" val="0"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="473">
+                    <prop id="17" list="0" val="Mouse Pressed on Self"/>
+                    <prop id="16" list="0" val="Mouse Down on Self"/>
+                    <prop id="18" list="0" val="Mouse Released on Self"/>
+                    <prop id="8" list="0" val="Mouse Released"/>
+                    <prop id="9" list="0" val="Mouse Pressed"/>
+                    <prop id="10" list="0" val="Mouse Down"/>
+                    <prop id="11" list="0" val="false"/>
+                    <prop id="12" list="0" val="Mouse Over"/>
+                    <prop id="13" list="0" val="Mouse Enter"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="Mouse Leave"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="503">
+                    <prop id="2" list="0" val="Animation 1"/>
+                    <prop id="3" list="0" val="Animation 0"/>
+                    <prop id="4" list="0" val="Mouse Pressed on Self"/>
+                    <prop id="5" list="0" val="Mouse Released"/>
+                    <prop id="6" list="0" val="Mouse Leave"/>
+                    <prop id="7" list="0" val="Animation 0"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="6" c="true" group="3" id="388" name="Text 6" sx="1.0" sy="1.0" x="528" y="32" z="0">
+            <snippets>
+                <s enabled="true" id="441">
+                    <prop id="1" list="0" val="168"/>
+                    <prop id="2" list="0" val="0,0,0,255"/>
+                    <prop id="3" list="0" val="true"/>
+                    <prop id="4" list="0" val="Scale"/>
+                    <prop id="5" list="0" val="0"/>
+                    <prop id="6" list="0" val="0"/>
+                    <prop id="7" list="0" val=""/>
+                    <prop id="8" list="0" val=""/>
+                    <prop id="9" list="0" val="true"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="0"/>
+                    <prop id="12" list="0" val="0"/>
+                    <prop id="13" list="0" val="true"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="7" c="true" group="3" id="637" name="Number Field 7" sx="1.0" sy="1.0" x="96" y="64" z="0">
+            <snippets>
+                <s enabled="true" id="441">
+                    <prop id="1" list="0" val="168"/>
+                    <prop id="2" list="0" val="0,0,0,255"/>
+                    <prop id="3" list="0" val="true"/>
+                    <prop id="4" list="0" val="Size"/>
+                    <prop id="5" list="0" val="-30"/>
+                    <prop id="6" list="0" val="0"/>
+                    <prop id="7" list="0" val=""/>
+                    <prop id="8" list="0" val=""/>
+                    <prop id="9" list="0" val="false"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="0.0"/>
+                    <prop id="12" list="0" val="0.0"/>
+                    <prop id="13" list="0" val="false"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="429">
+                    <prop id="3" list="1" val=""/>
+                    <prop id="5" list="0" val="1.0"/>
+                    <prop id="6" list="0" val="8.0"/>
+                    <prop id="7" list="0" val="8.0"/>
+                    <prop id="8" list="0" val="153,204,255,255"/>
+                    <prop id="9" list="0" val="false"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="1"/>
+                    <prop id="12" list="0" val="2.0"/>
+                    <prop id="13" list="0" val="Mouse Enter"/>
+                    <prop id="15" list="0" val="1.0"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="17" list="0" val="true"/>
+                    <prop id="16" list="0" val="false"/>
+                    <prop id="18" list="0" val="Mouse Leave"/>
+                </s>
+                <s enabled="true" id="514">
+                    <prop id="1" list="0" val="false"/>
+                    <prop id="2" list="0" val="0.0"/>
+                    <prop id="3" list="0" val=""/>
+                    <prop id="5" list="0" val="0.0"/>
+                    <prop id="7" list="0" val="4.0"/>
+                    <prop id="8" list="0" val="168"/>
+                    <prop id="9" list="0" val="0,0,0,255"/>
+                    <prop id="10" list="0" val="false"/>
+                    <prop id="11" list="0" val="0.5"/>
+                    <prop id="12" list="0" val=""/>
+                    <prop id="13" list="0" val=""/>
+                    <prop id="14" list="0" val="12.0"/>
+                    <prop id="15" list="0" val="16"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="473">
+                    <prop id="17" list="0" val="Mouse Pressed on Self"/>
+                    <prop id="16" list="0" val="Mouse Down on Self"/>
+                    <prop id="18" list="0" val="Mouse Released on Self"/>
+                    <prop id="8" list="0" val="Mouse Released"/>
+                    <prop id="9" list="0" val="Mouse Pressed"/>
+                    <prop id="10" list="0" val="Mouse Down"/>
+                    <prop id="11" list="0" val="false"/>
+                    <prop id="12" list="0" val="Mouse Over"/>
+                    <prop id="13" list="0" val="Mouse Enter"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="Mouse Leave"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="8" c="true" group="3" id="582" name="Button 128 8" sx="1.0" sy="1.0" x="32" y="128" z="0">
+            <snippets>
+                <s enabled="true" id="441">
+                    <prop id="1" list="0" val="168"/>
+                    <prop id="2" list="0" val="0,0,0,255"/>
+                    <prop id="3" list="0" val="true"/>
+                    <prop id="4" list="0" val="Rectangle"/>
+                    <prop id="5" list="0" val="0"/>
+                    <prop id="6" list="0" val="0"/>
+                    <prop id="7" list="0" val=""/>
+                    <prop id="8" list="0" val=""/>
+                    <prop id="9" list="0" val="true"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="0.0"/>
+                    <prop id="12" list="0" val="0.0"/>
+                    <prop id="13" list="0" val="false"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="429">
+                    <prop id="3" list="1" val=""/>
+                    <prop id="5" list="0" val="1.0"/>
+                    <prop id="6" list="0" val="8.0"/>
+                    <prop id="7" list="0" val="8.0"/>
+                    <prop id="8" list="0" val="153,204,255,255"/>
+                    <prop id="9" list="0" val="false"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="1"/>
+                    <prop id="12" list="0" val="2.0"/>
+                    <prop id="13" list="0" val="Mouse Enter"/>
+                    <prop id="15" list="0" val="1.0"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="17" list="0" val="true"/>
+                    <prop id="16" list="0" val="false"/>
+                    <prop id="18" list="0" val="Mouse Leave"/>
+                </s>
+                <s enabled="true" id="474">
+                    <prop id="4" list="0" val="Button Clicked"/>
+                    <prop id="5" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="513">
+                    <prop id="1" list="0" val=""/>
+                    <prop id="2" list="0" val=""/>
+                    <prop id="3" list="0" val=""/>
+                    <prop id="4" list="0" val=""/>
+                    <prop id="5" list="0" val="Button Clicked"/>
+                    <prop id="6" list="0" val="1"/>
+                    <prop id="7" list="0" val="7"/>
+                    <prop id="8" list="0" val="9"/>
+                    <prop id="9" list="0" val="10"/>
+                    <prop id="10" list="0" val="0"/>
+                    <prop id="11" list="0" val="0"/>
+                    <prop id="12" list="0" val="0"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="473">
+                    <prop id="17" list="0" val="Mouse Pressed on Self"/>
+                    <prop id="16" list="0" val="Mouse Down on Self"/>
+                    <prop id="18" list="0" val="Mouse Released on Self"/>
+                    <prop id="8" list="0" val="Mouse Released"/>
+                    <prop id="9" list="0" val="Mouse Pressed"/>
+                    <prop id="10" list="0" val="Mouse Down"/>
+                    <prop id="11" list="0" val="false"/>
+                    <prop id="12" list="0" val="Mouse Over"/>
+                    <prop id="13" list="0" val="Mouse Enter"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="Mouse Leave"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="503">
+                    <prop id="2" list="0" val="Animation 1"/>
+                    <prop id="3" list="0" val="Animation 0"/>
+                    <prop id="4" list="0" val="Mouse Pressed on Self"/>
+                    <prop id="5" list="0" val="Mouse Released"/>
+                    <prop id="6" list="0" val="Mouse Leave"/>
+                    <prop id="7" list="0" val="Animation 0"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="9" c="true" group="3" id="637" name="Number Field 9" sx="1.0" sy="1.0" x="96" y="160" z="0">
+            <snippets>
+                <s enabled="true" id="441">
+                    <prop id="1" list="0" val="168"/>
+                    <prop id="2" list="0" val="0,0,0,255"/>
+                    <prop id="3" list="0" val="true"/>
+                    <prop id="4" list="0" val="Width"/>
+                    <prop id="5" list="0" val="-45"/>
+                    <prop id="6" list="0" val="0"/>
+                    <prop id="7" list="0" val=""/>
+                    <prop id="8" list="0" val=""/>
+                    <prop id="9" list="0" val="false"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="0.0"/>
+                    <prop id="12" list="0" val="0.0"/>
+                    <prop id="13" list="0" val="false"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="429">
+                    <prop id="3" list="1" val=""/>
+                    <prop id="5" list="0" val="1.0"/>
+                    <prop id="6" list="0" val="8.0"/>
+                    <prop id="7" list="0" val="8.0"/>
+                    <prop id="8" list="0" val="153,204,255,255"/>
+                    <prop id="9" list="0" val="false"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="1"/>
+                    <prop id="12" list="0" val="2.0"/>
+                    <prop id="13" list="0" val="Mouse Enter"/>
+                    <prop id="15" list="0" val="1.0"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="17" list="0" val="true"/>
+                    <prop id="16" list="0" val="false"/>
+                    <prop id="18" list="0" val="Mouse Leave"/>
+                </s>
+                <s enabled="true" id="514">
+                    <prop id="1" list="0" val="false"/>
+                    <prop id="2" list="0" val="0.0"/>
+                    <prop id="3" list="0" val=""/>
+                    <prop id="5" list="0" val="0.0"/>
+                    <prop id="7" list="0" val="4.0"/>
+                    <prop id="8" list="0" val="168"/>
+                    <prop id="9" list="0" val="0,0,0,255"/>
+                    <prop id="10" list="0" val="false"/>
+                    <prop id="11" list="0" val="0.5"/>
+                    <prop id="12" list="0" val=""/>
+                    <prop id="13" list="0" val=""/>
+                    <prop id="14" list="0" val="12.0"/>
+                    <prop id="15" list="0" val="32"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="473">
+                    <prop id="17" list="0" val="Mouse Pressed on Self"/>
+                    <prop id="16" list="0" val="Mouse Down on Self"/>
+                    <prop id="18" list="0" val="Mouse Released on Self"/>
+                    <prop id="8" list="0" val="Mouse Released"/>
+                    <prop id="9" list="0" val="Mouse Pressed"/>
+                    <prop id="10" list="0" val="Mouse Down"/>
+                    <prop id="11" list="0" val="false"/>
+                    <prop id="12" list="0" val="Mouse Over"/>
+                    <prop id="13" list="0" val="Mouse Enter"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="Mouse Leave"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="10" c="true" group="3" id="637" name="Number Field 10" sx="1.0" sy="1.0" x="96" y="192" z="0">
+            <snippets>
+                <s enabled="true" id="441">
+                    <prop id="1" list="0" val="168"/>
+                    <prop id="2" list="0" val="0,0,0,255"/>
+                    <prop id="3" list="0" val="true"/>
+                    <prop id="4" list="0" val="Height"/>
+                    <prop id="5" list="0" val="-45"/>
+                    <prop id="6" list="0" val="0"/>
+                    <prop id="7" list="0" val=""/>
+                    <prop id="8" list="0" val=""/>
+                    <prop id="9" list="0" val="false"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="0.0"/>
+                    <prop id="12" list="0" val="0.0"/>
+                    <prop id="13" list="0" val="false"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="429">
+                    <prop id="3" list="1" val=""/>
+                    <prop id="5" list="0" val="1.0"/>
+                    <prop id="6" list="0" val="8.0"/>
+                    <prop id="7" list="0" val="8.0"/>
+                    <prop id="8" list="0" val="153,204,255,255"/>
+                    <prop id="9" list="0" val="false"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="1"/>
+                    <prop id="12" list="0" val="2.0"/>
+                    <prop id="13" list="0" val="Mouse Enter"/>
+                    <prop id="15" list="0" val="1.0"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="17" list="0" val="true"/>
+                    <prop id="16" list="0" val="false"/>
+                    <prop id="18" list="0" val="Mouse Leave"/>
+                </s>
+                <s enabled="true" id="514">
+                    <prop id="1" list="0" val="false"/>
+                    <prop id="2" list="0" val="0.0"/>
+                    <prop id="3" list="0" val=""/>
+                    <prop id="5" list="0" val="0.0"/>
+                    <prop id="7" list="0" val="4.0"/>
+                    <prop id="8" list="0" val="168"/>
+                    <prop id="9" list="0" val="0,0,0,255"/>
+                    <prop id="10" list="0" val="false"/>
+                    <prop id="11" list="0" val="0.5"/>
+                    <prop id="12" list="0" val=""/>
+                    <prop id="13" list="0" val=""/>
+                    <prop id="14" list="0" val="12.0"/>
+                    <prop id="15" list="0" val="32"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="473">
+                    <prop id="17" list="0" val="Mouse Pressed on Self"/>
+                    <prop id="16" list="0" val="Mouse Down on Self"/>
+                    <prop id="18" list="0" val="Mouse Released on Self"/>
+                    <prop id="8" list="0" val="Mouse Released"/>
+                    <prop id="9" list="0" val="Mouse Pressed"/>
+                    <prop id="10" list="0" val="Mouse Down"/>
+                    <prop id="11" list="0" val="false"/>
+                    <prop id="12" list="0" val="Mouse Over"/>
+                    <prop id="13" list="0" val="Mouse Enter"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="Mouse Leave"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="11" c="true" group="3" id="388" name="Text 11" sx="1.0" sy="1.0" x="288" y="32" z="0">
+            <snippets>
+                <s enabled="true" id="441">
+                    <prop id="1" list="0" val="168"/>
+                    <prop id="2" list="0" val="0,0,0,255"/>
+                    <prop id="3" list="0" val="true"/>
+                    <prop id="4" list="0" val="Drag and Drop the Sun"/>
+                    <prop id="5" list="0" val="0"/>
+                    <prop id="6" list="0" val="0"/>
+                    <prop id="7" list="0" val=""/>
+                    <prop id="8" list="0" val=""/>
+                    <prop id="9" list="0" val="true"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="0"/>
+                    <prop id="12" list="0" val="0"/>
+                    <prop id="13" list="0" val="true"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="12" c="true" group="3" id="388" name="Text 12" sx="1.0" sy="1.0" x="288" y="64" z="0">
+            <snippets>
+                <s enabled="true" id="441">
+                    <prop id="1" list="0" val="168"/>
+                    <prop id="2" list="0" val="0,0,0,255"/>
+                    <prop id="3" list="0" val="true"/>
+                    <prop id="4" list="0" val="Press R to Reload the Scene"/>
+                    <prop id="5" list="0" val="0"/>
+                    <prop id="6" list="0" val="0"/>
+                    <prop id="7" list="0" val=""/>
+                    <prop id="8" list="0" val=""/>
+                    <prop id="9" list="0" val="true"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="0"/>
+                    <prop id="12" list="0" val="0"/>
+                    <prop id="13" list="0" val="true"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+    </actors>
+    <snippets>
+        <s enabled="true" id="259">
+            <prop id="1" list="0" val="128,0,0,255"/>
+            <prop id="2" list="0" val="true"/>
+            <prop id="3" list="0" val="No Control"/>
+        </s>
+        <s enabled="true" id="517">
+            <prop id="1" list="0" val="[Key] Key Down"/>
+            <prop id="3" list="0" val="[Key] Key Released"/>
+            <prop id="4" list="0" val="[Key] Key Pressed"/>
+            <prop id="6" list="0" val="Reload"/>
+            <prop id="8" list="0" val=""/>
+        </s>
+        <s enabled="true" id="518">
+            <prop id="3" list="0" val="Reload Key Pressed"/>
+            <prop id="4" list="0" val="0.5"/>
+            <prop id="5" list="0" val="0.5"/>
+            <prop id="6" list="0" val="0,0,0,255"/>
+        </s>
+    </snippets>
+    <terrain/>
+</scene>

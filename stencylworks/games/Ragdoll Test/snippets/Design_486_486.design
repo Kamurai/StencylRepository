@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="161">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="6">
+        <receiver-38-601 comment="false" x="15" y="234">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="259">
+                    <int id="0" val="return &amp;quot; &amp;quot;;"/>
+                </custom-code>
+            </group>
+        </receiver-38-601>
+    </group>
+    <group eventID="-1" id="7">
+        <receiver-39-602 comment="false" x="15" y="307">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="332">
+                    <int id="0" val="return &amp;quot;&amp;quot;;"/>
+                </custom-code>
+            </group>
+        </receiver-39-602>
+    </group>
+    <group eventID="-1" id="8">
+        <receiver-40-632 comment="false" x="15" y="380">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="410">
+                    <int id="0" val="return __string == &amp;quot;&amp;quot;;"/>
+                </custom-code>
+            </group>
+            <get-byobval-486-632-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-40-632>
+    </group>
+    <group id="-1"/>
+</groups>

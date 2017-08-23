@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group id="0">
+        <init comment="false" x="15" y="15">
+            <group id="-1">
+                <if comment="false" x="26" y="40">
+                    <group id="-1">
+                        <toggle-fullscreen comment="false" x="37" y="65">
+                            <int id="0" val="0"/>
+                        </toggle-fullscreen>
+                    </group>
+                    <get-val-277-2 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </init>
+    </group>
+    <group id="1">
+        <step comment="false" x="15" y="132">
+            <group id="-1">
+                <if comment="false" x="26" y="157">
+                    <group id="-1">
+                        <if comment="false" x="37" y="190">
+                            <group id="-1">
+                                <toggle-fullscreen comment="false" x="48" y="215">
+                                    <int id="0" val="1"/>
+                                </toggle-fullscreen>
+                                <set-val-277-2 comment="false" x="48" y="242">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-val-277-2>
+                            </group>
+                            <get-val-277-2 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <else comment="false" x="37" y="279">
+                            <group id="-1">
+                                <toggle-fullscreen comment="false" x="48" y="299">
+                                    <int id="0" val="0"/>
+                                </toggle-fullscreen>
+                                <set-val-277-2 comment="false" x="48" y="326">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-val-277-2>
+                            </group>
+                        </else>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <CONTROL eid="var" id="1" vid="3"/>
+                    </keystate>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group id="2">
+        <draw comment="false" x="15" y="403">
+            <group id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

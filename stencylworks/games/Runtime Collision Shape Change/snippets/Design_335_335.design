@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <collide comment="false" x="15" y="161">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group eventID="-1" id="3">
+        <draw comment="false" x="15" y="234">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="4">
+        <receive-message comment="false" x="15" y="307">
+            <group eventID="-1" id="-1">
+                <dolater comment="false" x="26" y="337">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="369">
+                            <group eventID="-1" id="-1">
+                                <custom-407 comment="false" x="48" y="402">
+                                    <ACTOR eid="this" id="0"/>
+                                    <get-val-335-2 comment="false" id="1" x="0" y="0"/>
+                                </custom-407>
+                                <shout comment="false" x="48" y="434">
+                                    <ACTOR eid="this" id="0"/>
+                                    <get-val-335-2 comment="false" id="1" x="0" y="0"/>
+                                </shout>
+                            </group>
+                            <custom-487 comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                            </custom-487>
+                        </if>
+                    </group>
+                    <get-val-335-1 comment="false" id="0" x="0" y="0"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <get-val-335-4 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group id="-1"/>
+</groups>

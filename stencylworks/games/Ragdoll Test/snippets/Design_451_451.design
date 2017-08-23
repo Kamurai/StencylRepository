@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <ignore-screen-tolerance comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                </ignore-screen-tolerance>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="95">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="120">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="171">
+                            <group eventID="-1" id="-1">
+                                <if comment="false" x="48" y="196">
+                                    <group eventID="-1" id="-1">
+                                        <custom-664 comment="false" x="59" y="234">
+                                            <int id="0" val="Recycle Self"/>
+                                            <get-item comment="false" id="1" x="0" y="0">
+                                                <int id="0" val="[this]"/>
+                                                <int id="1" val="0"/>
+                                            </get-item>
+                                        </custom-664>
+                                        <recycle comment="false" x="59" y="259">
+                                            <ACTOR eid="this" id="0"/>
+                                        </recycle>
+                                    </group>
+                                    <not comment="false" id="0" x="0" y="0">
+                                        <custom-488 comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                        </custom-488>
+                                    </not>
+                                </if>
+                            </group>
+                            <get-val-451-1 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <else comment="false" x="37" y="310">
+                            <group eventID="-1" id="-1">
+                                <custom-664 comment="false" x="48" y="330">
+                                    <int id="0" val="Kill Self"/>
+                                    <get-item comment="false" id="1" x="0" y="0">
+                                        <int id="0" val="[this]"/>
+                                        <int id="1" val="0"/>
+                                    </get-item>
+                                </custom-664>
+                                <die comment="false" x="48" y="355">
+                                    <ACTOR eid="this" id="0"/>
+                                </die>
+                            </group>
+                        </else>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <custom-494 comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0"/>
+                            <screen-wh comment="false" id="3" x="0" y="0">
+                                <int id="0" val="0"/>
+                            </screen-wh>
+                            <screen-wh comment="false" id="4" x="0" y="0">
+                                <int id="0" val="1"/>
+                            </screen-wh>
+                        </custom-494>
+                    </not>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <collide comment="false" x="15" y="438">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group eventID="-1" id="3">
+        <draw comment="false" x="15" y="511">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

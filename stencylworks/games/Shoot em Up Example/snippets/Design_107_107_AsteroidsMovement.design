@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<collide comment="false" x="15" y="798">
+<group id="-1"/>
+</collide>
+</group>
+<group id="1">
+<step comment="false" x="15" y="88">
+<group id="-1">
+<set-val-107-5 comment="false" x="26" y="113">
+<trig-master comment="false" id="0" x="0" y="0">
+<int id="0" val="1"/>
+<to-radians comment="false" id="1" x="0" y="0">
+<getdir comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getdir>
+</to-radians>
+</trig-master>
+</set-val-107-5>
+<set-val-107-6 comment="false" x="26" y="164">
+<trig-master comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<to-radians comment="false" id="1" x="0" y="0">
+<getdir comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getdir>
+</to-radians>
+</trig-master>
+</set-val-107-6>
+<if comment="false" x="26" y="215">
+<group id="-1">
+<push-shove comment="false" x="37" y="253">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="1"/>
+<get-val-107-5 comment="false" id="2" x="0" y="0"/>
+<get-val-107-6 comment="false" id="3" x="0" y="0"/>
+<get-val-107-7 comment="false" id="4" x="0" y="0"/>
+</push-shove>
+</group>
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-107-1 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</if>
+<if comment="false" x="26" y="297">
+<group id="-1">
+<push-shove comment="false" x="37" y="335">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="1"/>
+<neg comment="false" id="2" x="0" y="0">
+<get-val-107-5 comment="false" id="0" x="0" y="0"/>
+</neg>
+<neg comment="false" id="3" x="0" y="0">
+<get-val-107-6 comment="false" id="0" x="0" y="0"/>
+</neg>
+<get-val-107-7 comment="false" id="4" x="0" y="0"/>
+</push-shove>
+</group>
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-107-2 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</if>
+<if comment="false" x="26" y="384">
+<group id="-1">
+<setdx comment="false" x="37" y="440">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="0"/>
+</setdx>
+<setdy comment="false" x="37" y="467">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="0"/>
+</setdy>
+</group>
+<and comment="false" id="0" x="0" y="0">
+<not comment="false" id="0" x="0" y="0">
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-107-1 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</not>
+<not comment="false" id="1" x="0" y="0">
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-107-2 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</not>
+</and>
+</if>
+<if comment="false" x="26" y="506">
+<group id="-1">
+<setav comment="false" x="37" y="544">
+<ACTOR eid="this" id="0"/>
+<neg comment="false" id="1" x="0" y="0">
+<get-val-107-8 comment="false" id="0" x="0" y="0"/>
+</neg>
+</setav>
+</group>
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-107-3 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</if>
+<if comment="false" x="26" y="593">
+<group id="-1">
+<setav comment="false" x="37" y="631">
+<ACTOR eid="this" id="0"/>
+<get-val-107-8 comment="false" id="1" x="0" y="0"/>
+</setav>
+</group>
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-107-4 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</if>
+<if comment="false" x="26" y="675">
+<group id="-1">
+<setav comment="false" x="37" y="731">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="0"/>
+</setav>
+</group>
+<and comment="false" id="0" x="0" y="0">
+<not comment="false" id="0" x="0" y="0">
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-107-3 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</not>
+<not comment="false" id="1" x="0" y="0">
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-107-4 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</not>
+</and>
+</if>
+</group>
+</step>
+</group>
+<group id="2">
+<draw comment="false" x="15" y="871">
+<group id="-1"/>
+</draw>
+</group>
+<group id="3">
+<init comment="false" x="15" y="15">
+<group id="-1"/>
+</init>
+</group>
+<group id="-1"/>
+</groups>

@@ -1,0 +1,16 @@
+#
+#Sat Mar 09 18:08:41 CST 2013
+monospace=false
+monospace.numerals=false
+style=plain
+tracking=0
+color=\#ffffff
+shadow.y=0
+family=shift.ttf
+shadow.x=0
+shadow.color=\#000000
+gradient.offset=0
+shadow.blur=65
+stroke.size=0
+antialias=true
+size=15

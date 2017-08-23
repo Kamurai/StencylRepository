@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="113">
+                    <group eventID="-1" id="-1">
+                        <set-val-411-4 comment="false" x="37" y="146">
+                            <not comment="false" id="0" x="0" y="0">
+                                <get-val-411-4 comment="false" id="0" x="0" y="0"/>
+                            </not>
+                        </set-val-411-4>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <CONTROL eid="var" id="1" vid="5"/>
+                    </keystate>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="216">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="241">
+                    <group eventID="-1" id="-1">
+                        <set-alpha comment="false" x="37" y="266">
+                            <get-val-411-6 comment="false" id="0" x="0" y="0"/>
+                        </set-alpha>
+                        <set-stroke-color comment="false" x="37" y="291">
+                            <color id="0" vid="3"/>
+                        </set-stroke-color>
+                        <repeat comment="false" x="37" y="318">
+                            <group eventID="-1" id="-1">
+                                <set-val-411-2 comment="false" x="48" y="351">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <times comment="false" id="0" x="0" y="0">
+                                            <loopindex comment="false" id="0" x="0" y="0"/>
+                                            <tile-wh comment="false" id="1" x="0" y="0">
+                                                <int id="0" val="0"/>
+                                            </tile-wh>
+                                        </times>
+                                        <screen-xy comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="1"/>
+                                        </screen-xy>
+                                    </minus>
+                                </set-val-411-2>
+                                <draw-line comment="false" x="48" y="394">
+                                    <int id="0" val="0"/>
+                                    <get-val-411-2 comment="false" id="1" x="0" y="0"/>
+                                    <scene-wh comment="false" id="2" x="0" y="0">
+                                        <int id="0" val="0"/>
+                                    </scene-wh>
+                                    <get-val-411-2 comment="false" id="3" x="0" y="0"/>
+                                </draw-line>
+                            </group>
+                            <scene-wh comment="false" id="0" x="0" y="0">
+                                <int id="0" val="3"/>
+                            </scene-wh>
+                        </repeat>
+                        <repeat comment="false" x="37" y="439">
+                            <group eventID="-1" id="-1">
+                                <set-val-411-1 comment="false" x="48" y="472">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <times comment="false" id="0" x="0" y="0">
+                                            <loopindex comment="false" id="0" x="0" y="0"/>
+                                            <tile-wh comment="false" id="1" x="0" y="0">
+                                                <int id="0" val="1"/>
+                                            </tile-wh>
+                                        </times>
+                                        <screen-xy comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="0"/>
+                                        </screen-xy>
+                                    </minus>
+                                </set-val-411-1>
+                                <draw-line comment="false" x="48" y="515">
+                                    <get-val-411-1 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <get-val-411-1 comment="false" id="2" x="0" y="0"/>
+                                    <scene-wh comment="false" id="3" x="0" y="0">
+                                        <int id="0" val="1"/>
+                                    </scene-wh>
+                                </draw-line>
+                            </group>
+                            <scene-wh comment="false" id="0" x="0" y="0">
+                                <int id="0" val="2"/>
+                            </scene-wh>
+                        </repeat>
+                        <set-alpha comment="false" x="37" y="560">
+                            <int id="0" val="100"/>
+                        </set-alpha>
+                    </group>
+                    <get-val-411-4 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

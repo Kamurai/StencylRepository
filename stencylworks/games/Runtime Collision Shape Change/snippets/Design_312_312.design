@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="161">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="186">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="211">
+                            <group eventID="-1" id="-1">
+                                <set-font-new comment="false" x="48" y="244">
+                                    <FONT eid="var" id="0" vid="9"/>
+                                </set-font-new>
+                            </group>
+                            <value comment="false" id="0" x="0" y="0">
+                                <int id="0" val="9"/>
+                                <int id="1" val="0"/>
+                            </value>
+                        </if>
+                        <set-font-color comment="false" x="37" y="283">
+                            <color id="0" vid="10"/>
+                        </set-font-color>
+                        <draw-text comment="false" x="37" y="310">
+                            <get-val-288-3 comment="false" id="0" x="0" y="0"/>
+                            <div comment="false" id="1" x="0" y="0">
+                                <minus comment="false" id="0" x="0" y="0">
+                                    <screen-wh comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="0"/>
+                                    </screen-wh>
+                                    <get-font-width comment="false" id="1" x="0" y="0">
+                                        <get-val-312-3 comment="false" id="0" x="0" y="0"/>
+                                    </get-font-width>
+                                </minus>
+                                <int id="1" val="2"/>
+                            </div>
+                            <div comment="false" id="2" x="0" y="0">
+                                <minus comment="false" id="0" x="0" y="0">
+                                    <screen-wh comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="1"/>
+                                    </screen-wh>
+                                    <get-font-height comment="false" id="1" x="0" y="0"/>
+                                </minus>
+                                <int id="1" val="2"/>
+                            </div>
+                        </draw-text>
+                        <if comment="false" x="37" y="353">
+                            <group eventID="-1" id="-1">
+                                <dolater comment="false" x="48" y="383">
+                                    <group eventID="-1" id="-1">
+                                        <set-val-288-7 comment="false" x="59" y="415">
+                                            <false comment="false" id="0" x="0" y="0"/>
+                                        </set-val-288-7>
+                                    </group>
+                                    <get-val-288-11 comment="false" id="0" x="0" y="0"/>
+                                    <ACTOR eid="lastcreated" id="2"/>
+                                </dolater>
+                            </group>
+                            <not comment="false" id="0" x="0" y="0">
+                                <get-val-312-15 comment="false" id="0" x="0" y="0"/>
+                            </not>
+                        </if>
+                    </group>
+                    <get-val-288-7 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="-1" id="3">
+        <receive-message comment="false" x="15" y="504">
+            <group eventID="-1" id="-1">
+                <set-val-288-7 comment="false" x="26" y="534">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-288-7>
+            </group>
+            <get-val-288-6 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group eventID="-1" id="4">
+        <receive-message comment="false" x="15" y="587">
+            <group eventID="-1" id="-1">
+                <set-val-288-7 comment="false" x="26" y="617">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-288-7>
+            </group>
+            <get-val-288-8 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group id="-1"/>
+</groups>

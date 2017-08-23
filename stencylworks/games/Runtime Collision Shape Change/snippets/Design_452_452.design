@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="113">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="151">
+                            <group eventID="-1" id="-1">
+                                <custom-407 comment="false" x="48" y="176">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="Recycle Self (After Animation)"/>
+                                </custom-407>
+                                <recycle comment="false" x="48" y="203">
+                                    <ACTOR eid="this" id="0"/>
+                                </recycle>
+                            </group>
+                            <get-val-452-1 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <else comment="false" x="37" y="242">
+                            <group eventID="-1" id="-1">
+                                <custom-407 comment="false" x="48" y="262">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="Kill Self (After Animation)"/>
+                                </custom-407>
+                                <die comment="false" x="48" y="289">
+                                    <ACTOR eid="this" id="0"/>
+                                </die>
+                            </group>
+                        </else>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <is-anim comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                        </is-anim>
+                    </not>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <collide comment="false" x="15" y="368">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group eventID="-1" id="3">
+        <draw comment="false" x="15" y="441">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

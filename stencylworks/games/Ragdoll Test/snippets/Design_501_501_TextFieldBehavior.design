@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <periodic comment="false" x="26" y="40">
+                    <group eventID="-1" id="-1">
+                        <set-val-501-10 comment="false" x="37" y="72">
+                            <not comment="false" id="0" x="0" y="0">
+                                <get-val-501-10 comment="false" id="0" x="0" y="0"/>
+                            </not>
+                        </set-val-501-10>
+                    </group>
+                    <get-val-501-11 comment="false" id="0" x="0" y="0"/>
+                    <ACTOR eid="this" id="2"/>
+                </periodic>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="142">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="167">
+                    <group eventID="-1" id="-1">
+                        <set-val-501-1 comment="false" x="37" y="200">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-501-1>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="2"/>
+                    </amousestate>
+                </if>
+                <else-if comment="false" x="26" y="237">
+                    <group eventID="-1" id="-1">
+                        <set-val-501-1 comment="false" x="37" y="270">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-501-1>
+                    </group>
+                    <mousestate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="2"/>
+                    </mousestate>
+                </else-if>
+                <if comment="false" x="26" y="307">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="332">
+                            <group eventID="-1" id="-1">
+                                <set-val-501-12 comment="false" x="48" y="357">
+                                    <custom-548 comment="false" id="0" x="0" y="0"/>
+                                </set-val-501-12>
+                                <if comment="false" x="48" y="382">
+                                    <group eventID="-1" id="-1">
+                                        <set-val-501-1 comment="false" x="59" y="412">
+                                            <false comment="false" id="0" x="0" y="0"/>
+                                        </set-val-501-1>
+                                    </group>
+                                    <eq comment="false" id="0" x="0" y="0">
+                                        <get-val-501-12 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="ENTER"/>
+                                    </eq>
+                                </if>
+                                <else-if comment="false" x="48" y="449">
+                                    <group eventID="-1" id="-1">
+                                        <set-val-501-3 comment="false" x="59" y="479">
+                                            <str-substring comment="false" id="0" x="0" y="0">
+                                                <get-val-501-3 comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val="0"/>
+                                                <minus comment="false" id="2" x="0" y="0">
+                                                    <str-length comment="false" id="0" x="0" y="0">
+                                                        <get-val-501-3 comment="false" id="0" x="0" y="0"/>
+                                                    </str-length>
+                                                    <int id="1" val="1"/>
+                                                </minus>
+                                            </str-substring>
+                                        </set-val-501-3>
+                                    </group>
+                                    <eq comment="false" id="0" x="0" y="0">
+                                        <get-val-501-12 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="BACKSPACE"/>
+                                    </eq>
+                                </else-if>
+                                <else-if comment="false" x="48" y="531">
+                                    <group eventID="-1" id="-1">
+                                        <if comment="false" x="59" y="566">
+                                            <group eventID="-1" id="-1">
+                                                <set-val-501-3 comment="false" x="70" y="596">
+                                                    <str-combine comment="false" id="0" x="0" y="0">
+                                                        <get-val-501-3 comment="false" id="0" x="0" y="0"/>
+                                                        <custom-601 comment="false" id="1" x="0" y="0"/>
+                                                    </str-combine>
+                                                </set-val-501-3>
+                                            </group>
+                                            <eq comment="false" id="0" x="0" y="0">
+                                                <get-val-501-12 comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val="SPACE"/>
+                                            </eq>
+                                        </if>
+                                        <else-if comment="false" x="59" y="638">
+                                            <group eventID="-1" id="-1">
+                                                <if comment="false" x="70" y="668">
+                                                    <group eventID="-1" id="-1">
+                                                        <set-val-501-3 comment="false" x="81" y="701">
+                                                            <str-combine comment="false" id="0" x="0" y="0">
+                                                                <get-val-501-3 comment="false" id="0" x="0" y="0"/>
+                                                                <get-val-501-12 comment="false" id="1" x="0" y="0"/>
+                                                            </str-combine>
+                                                        </set-val-501-3>
+                                                    </group>
+                                                    <is-special-down comment="false" id="0" x="0" y="0">
+                                                        <int id="0" val="0"/>
+                                                    </is-special-down>
+                                                </if>
+                                                <else comment="false" x="70" y="743">
+                                                    <group eventID="-1" id="-1">
+                                                        <set-val-501-3 comment="false" x="81" y="763">
+                                                            <str-combine comment="false" id="0" x="0" y="0">
+                                                                <get-val-501-3 comment="false" id="0" x="0" y="0"/>
+                                                                <str-toupperlower comment="false" id="1" x="0" y="0">
+                                                                    <get-val-501-12 comment="false" id="0" x="0" y="0"/>
+                                                                    <int id="1" val="1"/>
+                                                                </str-toupperlower>
+                                                            </str-combine>
+                                                        </set-val-501-3>
+                                                    </group>
+                                                </else>
+                                            </group>
+                                            <custom-589 comment="false" id="0" x="0" y="0">
+                                                <get-val-501-12 comment="false" id="0" x="0" y="0"/>
+                                            </custom-589>
+                                        </else-if>
+                                        <else-if comment="false" x="59" y="830">
+                                            <group eventID="-1" id="-1">
+                                                <set-val-501-3 comment="false" x="70" y="860">
+                                                    <str-combine comment="false" id="0" x="0" y="0">
+                                                        <get-val-501-3 comment="false" id="0" x="0" y="0"/>
+                                                        <custom-590 comment="false" id="1" x="0" y="0">
+                                                            <get-val-501-12 comment="false" id="0" x="0" y="0"/>
+                                                        </custom-590>
+                                                    </str-combine>
+                                                </set-val-501-3>
+                                            </group>
+                                            <custom-587 comment="false" id="0" x="0" y="0">
+                                                <get-val-501-12 comment="false" id="0" x="0" y="0"/>
+                                            </custom-587>
+                                        </else-if>
+                                    </group>
+                                    <less comment="false" id="0" x="0" y="0">
+                                        <str-length comment="false" id="0" x="0" y="0">
+                                            <get-val-501-3 comment="false" id="0" x="0" y="0"/>
+                                        </str-length>
+                                        <get-val-501-14 comment="false" id="1" x="0" y="0"/>
+                                    </less>
+                                </else-if>
+                            </group>
+                            <custom-551 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                    </group>
+                    <get-val-501-1 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <collide comment="false" x="15" y="971">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group eventID="-1" id="3">
+        <draw comment="false" x="15" y="1044">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="1069">
+                    <group eventID="-1" id="-1">
+                        <set-font-new comment="false" x="37" y="1102">
+                            <FONT eid="var" id="0" vid="8"/>
+                        </set-font-new>
+                    </group>
+                    <value comment="false" id="0" x="0" y="0">
+                        <int id="0" val="8"/>
+                        <int id="1" val="0"/>
+                    </value>
+                </if>
+                <set-font-color comment="false" x="26" y="1141">
+                    <color id="0" vid="9"/>
+                </set-font-color>
+                <draw-text comment="false" x="26" y="1168">
+                    <get-val-501-3 comment="false" id="0" x="0" y="0"/>
+                    <get-val-501-7 comment="false" id="1" x="0" y="0"/>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <get-wh comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="3"/>
+                        </get-wh>
+                        <div comment="false" id="1" x="0" y="0">
+                            <get-font-height comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="2"/>
+                        </div>
+                    </minus>
+                </draw-text>
+                <if comment="false" x="26" y="1206">
+                    <group eventID="-1" id="-1">
+                        <draw-text comment="false" x="37" y="1236">
+                            <int id="0" val="|"/>
+                            <plus comment="false" id="1" x="0" y="0">
+                                <get-val-501-7 comment="false" id="0" x="0" y="0"/>
+                                <get-font-width comment="false" id="1" x="0" y="0">
+                                    <get-val-501-3 comment="false" id="0" x="0" y="0"/>
+                                </get-font-width>
+                            </plus>
+                            <minus comment="false" id="2" x="0" y="0">
+                                <get-wh comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="3"/>
+                                </get-wh>
+                                <div comment="false" id="1" x="0" y="0">
+                                    <get-font-height comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="2"/>
+                                </div>
+                            </minus>
+                        </draw-text>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <get-val-501-1 comment="false" id="0" x="0" y="0"/>
+                        <get-val-501-10 comment="false" id="1" x="0" y="0"/>
+                    </and>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

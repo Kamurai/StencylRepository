@@ -1,0 +1,2 @@
+global.user=Kamurai
+global.password=a8bcf1e392f88785828f2fe700e19cb349cf8293

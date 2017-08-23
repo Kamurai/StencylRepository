@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <draw comment="false" x="15" y="961">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="113">
+                    <group eventID="-1" id="-1">
+                        <shout comment="false" x="37" y="146">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-473-10 comment="false" id="1" x="0" y="0"/>
+                        </shout>
+                    </group>
+                    <mousestate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                    </mousestate>
+                </if>
+                <if comment="false" x="26" y="190">
+                    <group eventID="-1" id="-1">
+                        <shout comment="false" x="37" y="223">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-473-9 comment="false" id="1" x="0" y="0"/>
+                        </shout>
+                    </group>
+                    <mousestate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                    </mousestate>
+                </if>
+                <if comment="false" x="26" y="267">
+                    <group eventID="-1" id="-1">
+                        <shout comment="false" x="37" y="300">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-473-8 comment="false" id="1" x="0" y="0"/>
+                        </shout>
+                    </group>
+                    <mousestate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="2"/>
+                    </mousestate>
+                </if>
+                <if comment="false" x="26" y="344">
+                    <group eventID="-1" id="-1">
+                        <shout comment="false" x="37" y="377">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-473-16 comment="false" id="1" x="0" y="0"/>
+                        </shout>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="0"/>
+                    </amousestate>
+                </if>
+                <if comment="false" x="26" y="421">
+                    <group eventID="-1" id="-1">
+                        <shout comment="false" x="37" y="454">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-473-17 comment="false" id="1" x="0" y="0"/>
+                        </shout>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="1"/>
+                    </amousestate>
+                </if>
+                <if comment="false" x="26" y="498">
+                    <group eventID="-1" id="-1">
+                        <shout comment="false" x="37" y="531">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-473-18 comment="false" id="1" x="0" y="0"/>
+                        </shout>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="2"/>
+                    </amousestate>
+                </if>
+                <set-val-473-11 comment="false" x="26" y="575">
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="3"/>
+                    </amousestate>
+                </set-val-473-11>
+                <if comment="false" x="26" y="608">
+                    <group eventID="-1" id="-1">
+                        <shout comment="false" x="37" y="633">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-473-12 comment="false" id="1" x="0" y="0"/>
+                        </shout>
+                    </group>
+                    <get-val-473-11 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <if comment="false" x="26" y="677">
+                    <group eventID="-1" id="-1">
+                        <shout comment="false" x="37" y="712">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-473-13 comment="false" id="1" x="0" y="0"/>
+                        </shout>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <not comment="false" id="0" x="0" y="0">
+                            <get-val-473-14 comment="false" id="0" x="0" y="0"/>
+                        </not>
+                        <get-val-473-11 comment="false" id="1" x="0" y="0"/>
+                    </and>
+                </if>
+                <if comment="false" x="26" y="756">
+                    <group eventID="-1" id="-1">
+                        <shout comment="false" x="37" y="791">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-473-15 comment="false" id="1" x="0" y="0"/>
+                        </shout>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <not comment="false" id="0" x="0" y="0">
+                            <get-val-473-11 comment="false" id="0" x="0" y="0"/>
+                        </not>
+                        <get-val-473-14 comment="false" id="1" x="0" y="0"/>
+                    </and>
+                </if>
+                <set-val-473-14 comment="false" x="26" y="835">
+                    <get-val-473-11 comment="false" id="0" x="0" y="0"/>
+                </set-val-473-14>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="3">
+        <collide comment="false" x="15" y="888">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group id="-1"/>
+</groups>

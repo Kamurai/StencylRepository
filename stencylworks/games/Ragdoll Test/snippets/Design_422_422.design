@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <draw comment="false" x="15" y="247">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="1">
+        <collide comment="false" x="15" y="174">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group eventID="-1" id="2">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <set-val-422-4 comment="false" x="26" y="40">
+                    <getanim comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                    </getanim>
+                </set-val-422-4>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="3">
+        <receive-message comment="false" x="15" y="320">
+            <group eventID="-1" id="-1">
+                <setanim comment="false" x="26" y="350">
+                    <ACTOR eid="this" id="0"/>
+                    <get-val-422-1 comment="false" id="1" x="0" y="0"/>
+                </setanim>
+            </group>
+            <get-val-422-2 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group eventID="-1" id="4">
+        <step comment="false" x="15" y="101">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="5">
+        <receive-message comment="false" x="15" y="410">
+            <group eventID="-1" id="-1">
+                <setanim comment="false" x="26" y="440">
+                    <ACTOR eid="this" id="0"/>
+                    <get-val-422-4 comment="false" id="1" x="0" y="0"/>
+                </setanim>
+            </group>
+            <get-val-422-3 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group id="-1"/>
+</groups>

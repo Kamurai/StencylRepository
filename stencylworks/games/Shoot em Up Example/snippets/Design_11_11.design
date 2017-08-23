@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1"/>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="88">
+<group id="-1"/>
+</step>
+</group>
+<group id="2">
+<collide comment="false" x="15" y="161">
+<group id="-1">
+<comment-long comment="false" x="26" y="186">
+<int id="0" val="This tells the coin that the player group has collided with it and it plays a sound then disappears from the scene."/>
+</comment-long>
+<if comment="false" x="26" y="266">
+<group id="-1">
+<play-sound3 comment="false" x="37" y="304">
+<SOUND eid="437" id="0"/>
+</play-sound3>
+<die comment="false" x="37" y="331">
+<ACTOR eid="this" id="0"/>
+</die>
+</group>
+<eq comment="false" id="0" x="0" y="0">
+<collision-shape-group comment="false" id="0" x="0" y="0"/>
+<pick-group comment="false" id="1" x="0" y="0">
+<int id="0" val="0"/>
+</pick-group>
+</eq>
+</if>
+</group>
+</collide>
+</group>
+<group id="3">
+<draw comment="false" x="15" y="398">
+<group id="-1"/>
+</draw>
+</group>
+<group id="-1"/>
+</groups>

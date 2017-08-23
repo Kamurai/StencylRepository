@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <draw comment="false" x="15" y="489">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="113">
+                    <group eventID="-1" id="-1">
+                        <custom-663 comment="false" x="37" y="146">
+                            <int id="0" val="Actor to Follow == null"/>
+                            <get-item comment="false" id="1" x="0" y="0">
+                                <int id="0" val="[this]"/>
+                                <int id="1" val="0"/>
+                            </get-item>
+                        </custom-663>
+                        <disable-snippet comment="false" x="37" y="171"/>
+                        <stop comment="false" x="37" y="191"/>
+                    </group>
+                    <value comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <int id="1" val="1"/>
+                    </value>
+                </if>
+                <if comment="false" x="26" y="223">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="256">
+                            <group eventID="-1" id="-1">
+                                <camera-follow comment="false" x="48" y="286">
+                                    <ACTOR eid="var" id="0" vid="1"/>
+                                </camera-follow>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-459-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Any Direction"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="325">
+                            <group eventID="-1" id="-1">
+                                <custom-code comment="false" x="48" y="355">
+                                    <int id="0" val="scene.cameraFollow(_ActortoFollow, true, false);"/>
+                                </custom-code>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-459-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Only Horizontal"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="387">
+                            <group eventID="-1" id="-1">
+                                <custom-code comment="false" x="48" y="417">
+                                    <int id="0" val="scene.cameraFollow(_ActortoFollow, false, true);"/>
+                                </custom-code>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-459-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Only Vertical"/>
+                            </eq>
+                        </if>
+                    </group>
+                    <custom-487 comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="1"/>
+                    </custom-487>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group id="-1"/>
+</groups>

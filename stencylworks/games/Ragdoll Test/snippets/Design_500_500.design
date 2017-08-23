@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <draw comment="false" x="15" y="306">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="93">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="118">
+                    <group eventID="-1" id="-1">
+                        <set-val-500-16 comment="false" x="37" y="148">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-500-16>
+                        <say-this comment="false" x="37" y="173">
+                            <int id="0" val="Check"/>
+                        </say-this>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <get-val-500-16 comment="false" id="0" x="0" y="0"/>
+                        <get-val-500-5 comment="false" id="1" x="0" y="0"/>
+                    </and>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <set-val-500-16 comment="false" x="26" y="40">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-500-16>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="3">
+        <collide comment="false" x="15" y="233">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group eventID="-1" id="4">
+        <receive-message comment="false" x="15" y="379">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="404">
+                    <group eventID="-1" id="-1">
+                        <custom-663 comment="false" x="37" y="437">
+                            <int id="0" val="Radio Region == null"/>
+                            <get-item comment="false" id="1" x="0" y="0">
+                                <int id="0" val="[this]"/>
+                                <int id="1" val="0"/>
+                            </get-item>
+                        </custom-663>
+                        <stop comment="false" x="37" y="462"/>
+                    </group>
+                    <value comment="false" id="0" x="0" y="0">
+                        <int id="0" val="11"/>
+                        <int id="1" val="1"/>
+                    </value>
+                </if>
+                <set-val-493-5 comment="false" x="26" y="494">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-493-5>
+                <shout comment="false" x="26" y="519">
+                    <ACTOR eid="this" id="0"/>
+                    <get-val-500-13 comment="false" id="1" x="0" y="0"/>
+                </shout>
+                <actors-in-region comment="false" x="26" y="551">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="578">
+                            <group eventID="-1" id="-1">
+                                <say comment="false" x="48" y="626">
+                                    <actor-in-region comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="Radio Button Behavior"/>
+                                    <int id="2" val="Uncheck"/>
+                                </say>
+                            </group>
+                            <and comment="false" id="0" x="0" y="0">
+                                <noteq comment="false" id="0" x="0" y="0">
+                                    <custom-524 comment="false" id="0" x="0" y="0">
+                                        <actor-in-region comment="false" id="0" x="0" y="0"/>
+                                    </custom-524>
+                                    <custom-524 comment="false" id="1" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                    </custom-524>
+                                </noteq>
+                                <has-snippet comment="false" id="1" x="0" y="0">
+                                    <actor-in-region comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="Radio Button Behavior"/>
+                                </has-snippet>
+                            </and>
+                        </if>
+                    </group>
+                    <REGION eid="var" id="0" vid="11"/>
+                </actors-in-region>
+            </group>
+            <int id="0" val="Check"/>
+        </receive-message>
+    </group>
+    <group eventID="-1" id="5">
+        <receive-message comment="false" x="15" y="710">
+            <group eventID="-1" id="-1">
+                <set-val-493-5 comment="false" x="26" y="735">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-493-5>
+                <shout comment="false" x="26" y="760">
+                    <ACTOR eid="this" id="0"/>
+                    <get-val-500-14 comment="false" id="1" x="0" y="0"/>
+                </shout>
+            </group>
+            <int id="0" val="Uncheck"/>
+        </receive-message>
+    </group>
+    <group eventID="-1" id="6">
+        <receive-message comment="false" x="15" y="820">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="850">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="883">
+                            <group eventID="-1" id="-1">
+                                <say-this comment="false" x="48" y="913">
+                                    <int id="0" val="Check"/>
+                                </say-this>
+                            </group>
+                            <not comment="false" id="0" x="0" y="0">
+                                <get-val-493-5 comment="false" id="0" x="0" y="0"/>
+                            </not>
+                        </if>
+                    </group>
+                    <value comment="false" id="0" x="0" y="0">
+                        <int id="0" val="11"/>
+                        <int id="1" val="0"/>
+                    </value>
+                </if>
+                <else comment="false" x="26" y="957">
+                    <group eventID="-1" id="-1"/>
+                </else>
+            </group>
+            <get-val-500-15 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group id="-1"/>
+</groups>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <set-val-525-1 comment="false" x="26" y="40">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-525-1>
+                <set-val-525-5 comment="false" x="26" y="65">
+                    <create-list comment="false" id="0" x="0" y="0"/>
+                </set-val-525-5>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="118">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="143">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="168">
+                            <group eventID="-1" id="-1">
+                                <custom-710 comment="false" x="48" y="201">
+                                    <get-item comment="false" id="0" x="0" y="0">
+                                        <get-val-525-5 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="0"/>
+                                    </get-item>
+                                    <get-item comment="false" id="1" x="0" y="0">
+                                        <int id="0" val="[this]"/>
+                                        <int id="1" val="0"/>
+                                    </get-item>
+                                </custom-710>
+                            </group>
+                            <mousestate comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                            </mousestate>
+                        </if>
+                        <if comment="false" x="37" y="243">
+                            <group eventID="-1" id="-1">
+                                <custom-708 comment="false" x="48" y="276">
+                                    <get-item comment="false" id="0" x="0" y="0">
+                                        <get-val-525-5 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="0"/>
+                                    </get-item>
+                                    <get-item comment="false" id="1" x="0" y="0">
+                                        <int id="0" val="[this]"/>
+                                        <int id="1" val="0"/>
+                                    </get-item>
+                                </custom-708>
+                                <clear-list comment="false" x="48" y="306">
+                                    <get-val-525-5 comment="false" id="0" x="0" y="0"/>
+                                </clear-list>
+                                <set-val-525-1 comment="false" x="48" y="331">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-val-525-1>
+                                <set-game-att comment="false" x="48" y="356">
+                                    <int id="0" val="Grabbed"/>
+                                    <false comment="false" id="1" x="0" y="0"/>
+                                </set-game-att>
+                            </group>
+                            <mousestate comment="false" id="0" x="0" y="0">
+                                <int id="0" val="2"/>
+                            </mousestate>
+                        </if>
+                    </group>
+                    <get-val-525-1 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <else comment="false" x="26" y="405">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="425">
+                            <group eventID="-1" id="-1">
+                                <if comment="false" x="48" y="455">
+                                    <group eventID="-1" id="-1">
+                                        <custom-706 comment="false" x="59" y="488">
+                                            <ACTOR eid="this" id="0"/>
+                                            <get-item comment="false" id="1" x="0" y="0">
+                                                <int id="0" val="[this]"/>
+                                                <int id="1" val="0"/>
+                                            </get-item>
+                                        </custom-706>
+                                        <add-list comment="false" x="59" y="520">
+                                            <get-val-525-5 comment="false" id="0" x="0" y="0"/>
+                                            <custom-714 comment="false" id="1" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <int id="0" val="[this]"/>
+                                                    <int id="1" val="0"/>
+                                                </get-item>
+                                            </custom-714>
+                                        </add-list>
+                                        <custom-719 comment="false" x="59" y="550">
+                                            <int id="0" val="maxForce"/>
+                                            <get-val-525-4 comment="false" id="1" x="0" y="0"/>
+                                            <custom-714 comment="false" id="2" x="0" y="0">
+                                                <get-item comment="false" id="0" x="0" y="0">
+                                                    <int id="0" val="[this]"/>
+                                                    <int id="1" val="0"/>
+                                                </get-item>
+                                            </custom-714>
+                                        </custom-719>
+                                        <set-val-525-1 comment="false" x="59" y="580">
+                                            <true comment="false" id="0" x="0" y="0"/>
+                                        </set-val-525-1>
+                                        <set-game-att comment="false" x="59" y="605">
+                                            <int id="0" val="Grabbed"/>
+                                            <true comment="false" id="1" x="0" y="0"/>
+                                        </set-game-att>
+                                    </group>
+                                    <amousestate comment="false" id="0" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                        <int id="1" val="1"/>
+                                    </amousestate>
+                                </if>
+                            </group>
+                            <not comment="false" id="0" x="0" y="0">
+                                <get-game-att comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="Grabbed"/>
+                                </get-game-att>
+                            </not>
+                        </if>
+                    </group>
+                </else>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <collide comment="false" x="15" y="694">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group eventID="-1" id="3">
+        <draw comment="false" x="15" y="767">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

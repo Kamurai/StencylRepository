@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" format="1.0" gravx="-0.0" gravy="0.0" height="416" id="5" name="Stage 05" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="448">
+    <layers>
+        <layer color="100,168,234" id="0" name="Layer 0" order="0"/>
+    </layers>
+    <color-bg blue="0" green="51" red="0"/>
+    <backgrounds/>
+    <foregrounds/>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors/>
+    <snippets>
+        <s enabled="true" id="0">
+            <prop id="1" list="0" val="Stage 5"/>
+            <prop id="2" list="0" val="160"/>
+            <prop id="3" list="0" val="384"/>
+        </s>
+    </snippets>
+    <terrain/>
+</scene>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1">
+<if comment="false" x="26" y="40">
+<group id="-1">
+<set-val-95-1 comment="false" x="37" y="65">
+<get-game-val-3 comment="false" id="0" x="0" y="0"/>
+</set-val-95-1>
+<set-val-95-6 comment="false" x="37" y="90">
+<get-val-95-1 comment="false" id="0" x="0" y="0"/>
+</set-val-95-6>
+</group>
+<get-game-val-4 comment="false" id="0" x="0" y="0"/>
+</if>
+<else-if comment="false" x="26" y="127">
+<group id="-1">
+<set-val-95-1 comment="false" x="37" y="157">
+<get-val-95-6 comment="false" id="0" x="0" y="0"/>
+</set-val-95-1>
+<set-val-95-6 comment="false" x="37" y="182">
+<get-val-95-1 comment="false" id="0" x="0" y="0"/>
+</set-val-95-6>
+</group>
+<not comment="false" id="0" x="0" y="0">
+<get-game-val-4 comment="false" id="0" x="0" y="0"/>
+</not>
+</else-if>
+</group>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="247">
+<group id="-1">
+<set-val-95-6 comment="false" x="26" y="272">
+<get-val-95-1 comment="false" id="0" x="0" y="0"/>
+</set-val-95-6>
+<set-game-val-3 comment="false" x="26" y="297">
+<get-val-95-6 comment="false" id="0" x="0" y="0"/>
+</set-game-val-3>
+</group>
+</step>
+</group>
+<group id="2">
+<draw comment="false" x="15" y="350">
+<group id="-1"/>
+</draw>
+</group>
+<group id="3">
+<receive-message comment="false" x="15" y="423">
+<group id="-1">
+<increment comment="false" x="26" y="448">
+<int id="0" val="1"/>
+<get-val-95-2 comment="false" id="1" x="0" y="0"/>
+</increment>
+<set-val-95-6 comment="false" x="26" y="480">
+<get-val-95-1 comment="false" id="0" x="0" y="0"/>
+</set-val-95-6>
+</group>
+<int id="0" val="addPointsA"/>
+</receive-message>
+</group>
+<group id="4">
+<receive-message comment="false" x="15" y="533">
+<group id="-1">
+<increment comment="false" x="26" y="558">
+<int id="0" val="1"/>
+<get-val-95-3 comment="false" id="1" x="0" y="0"/>
+</increment>
+<set-val-95-6 comment="false" x="26" y="590">
+<get-val-95-1 comment="false" id="0" x="0" y="0"/>
+</set-val-95-6>
+</group>
+<int id="0" val="addPointsB"/>
+</receive-message>
+</group>
+<group id="5">
+<receive-message comment="false" x="15" y="643">
+<group id="-1">
+<increment comment="false" x="26" y="668">
+<int id="0" val="1"/>
+<get-val-95-4 comment="false" id="1" x="0" y="0"/>
+</increment>
+<set-val-95-6 comment="false" x="26" y="700">
+<get-val-95-1 comment="false" id="0" x="0" y="0"/>
+</set-val-95-6>
+</group>
+<int id="0" val="addPointsC"/>
+</receive-message>
+</group>
+<group id="6"/>
+<group id="7">
+<receive-message comment="false" x="15" y="753">
+<group id="-1">
+<increment comment="false" x="26" y="778">
+<int id="0" val="1"/>
+<get-val-95-7 comment="false" id="1" x="0" y="0"/>
+</increment>
+<set-val-95-6 comment="false" x="26" y="810">
+<get-val-95-1 comment="false" id="0" x="0" y="0"/>
+</set-val-95-6>
+</group>
+<int id="0" val="addPointsD"/>
+</receive-message>
+</group>
+<group id="-1"/>
+</groups>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <snippet attachedevent="false" class="scripts.Design_5_5_DoonKeyPress" desc="Performs the specified action when the given key is pressed." description="Performs the specified action when the given key is pressed." design="true" drawOrder="0" id="5" language="" name="Do on Key Press" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <text default="" desc="Message that's sent." dropdown="" fullname="Action to Perform" hidden="false" id="1" name="action" order="0"/>
+        <control default="" desc="" dropdown="" fullname="Key" hidden="false" id="2" name="_Key" order="2"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="1"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_84_84" desc="If player ship is destroyed, reload scene after time. Attaches to Player Ship." description="If player ship is destroyed, reload scene after time. Attaches to Player Ship." design="true" drawOrder="0" id="84" language="" name="Player Defeat" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_87_87" desc="Sends the specified message Periodically." description="Sends the specified message Periodically." design="true" drawOrder="0" id="87" language="" name="Do Periodically" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <text default="message" desc="The message to broadcast." dropdown="" fullname="Message" hidden="false" id="2" name="message" order="0"/>
+        <number default="0" desc="Send message every?" dropdown="" fullname="Interval" hidden="false" id="3" name="_Interval" order="2"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="1"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_93_93_DieinPit" desc="Actors that go beyond the bottom of the screen will be removed." description="Actors that go beyond the bottom of the screen will be removed." design="true" drawOrder="0" id="93" language="" name="Die off Screen Below" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_92_92_Alwayssimulate" desc="This behavior allows an Actor to simulate, or stay alive while off screen." description="This behavior allows an Actor to simulate, or stay alive while off screen." design="true" drawOrder="0" id="92" language="" name="Always Simulate" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_95_95_ScoreCalculatorv2b" desc="Instructions&lt;br&gt;&lt;br&gt;&#10;1 - Attach this to a Starting Scene.&lt;br&gt;" description="Instructions&lt;br&gt;&lt;br&gt;&#10;1 - Attach this to a Starting Scene.&lt;br&gt;" design="true" drawOrder="0" id="95" language="" name="Score Calculator v2b" oid="-1" package="" scenespecific="false" shared="false" type="scene">
+        <number default="0.0" desc="The current score. Used to store the last value the scoring attribute was set to." dropdown="" fullname="CurrentScore" hidden="true" id="1" name="CurrentScore" order="0"/>
+        <number default="200" desc="Default&lt;br&gt;200" dropdown="" fullname="PointsA" hidden="false" id="2" name="_PointsA" order="3"/>
+        <number default="400" desc="Default&lt;br&gt;400" dropdown="" fullname="PointsB" hidden="false" id="3" name="_PointsB" order="4"/>
+        <number default="800" desc="Default&lt;br&gt;800" dropdown="" fullname="PointsC" hidden="false" id="4" name="PointsC" order="5"/>
+        <number default="0.0" desc="The local version of the Game Attribute &quot;SCORE&quot;. Used to keep this Behavior from requiring a lot of setup for users who download it, on its own, from Forge." dropdown="" fullname="LocalScore" hidden="true" id="6" name="_LocalScore" order="1"/>
+        <number default="1600" desc="Default&lt;br&gt;1600" dropdown="" fullname="PointsD" hidden="false" id="7" name="_PointsD" order="6"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_94_94_RecycleWhenOffScreen" desc="This is an alternate version of the &quot;Die When Off Screen&quot; Behavior that applies to Actors created with the &quot;Create Recycled Actor&quot; block instead of the &quot;Create Actor&quot; block. This is designed to work with recycling Actors (such as bullets) in order to improve overall game performance." description="This is an alternate version of the &quot;Die When Off Screen&quot; Behavior that applies to Actors created with the &quot;Create Recycled Actor&quot; block instead of the &quot;Create Actor&quot; block. This is designed to work with recycling Actors (such as bullets) in order to improve overall game performance." design="true" drawOrder="0" id="94" language="" name="Recycle When Off Screen" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_89_89_ExplodeonDeath" desc="Spawns actors and sends them in random directions when the actor dies." description="Spawns actors and sends them in random directions when the actor dies." design="true" drawOrder="0" id="89" language="" name="Explode on Death" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <number default="10.0" desc="" dropdown="" fullname="Number of Actors to Create" hidden="false" id="1" name="_NumberofActorstoCreate" order="2"/>
+        <number default="1.0" desc="" dropdown="" fullname="Explosion Force" hidden="false" id="2" name="_ExplosionForce" order="3"/>
+        <actortype default="169" desc="" dropdown="" fullname="Actor to Create" hidden="false" id="3" name="_ActortoCreate" order="1"/>
+        <number default="5.0" desc="" dropdown="" fullname="Number of Second Actors to Create" hidden="false" id="5" name="_NumberofSecondActorstoCreate" order="5"/>
+        <actortype default="169" desc="" dropdown="" fullname="Second Actor to Create" hidden="false" id="6" name="_SecondActortoCreate" order="4"/>
+        <number default="0.7" desc="" dropdown="" fullname="Explosion Force of Second Actors" hidden="false" id="7" name="_ExplosionForceofSecondActors" order="6"/>
+        <sound default="15" desc="" dropdown="" fullname="Sound to Play" hidden="false" id="8" name="_SoundtoPlay" order="7"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="healthDepleted" enabled="true" id="1" name="event-custom" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_90_90_PositionLimiter" desc="Prevents it from going through the walls since it's a kinematic actor." description="Prevents it from going through the walls since it's a kinematic actor." design="true" drawOrder="0" id="90" language="" name="Position Limiter" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_102_102_MoveInandStop" desc="This moves the boss into the top of the screen then stops at the top after entering" description="This moves the boss into the top of the screen then stops at the top after entering" design="true" drawOrder="0" id="102" language="" name="Move In and Stop" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <number default="20" desc="How fast does the boss move into the level? Default is 20." dropdown="" fullname="Move in Speed" hidden="false" id="1" name="_MoveinSpeed" order="1"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_103_103" desc="If Enemy Boss is destroyed we load the next scene after time. Attaches to Enemy Boss Ship." description="If Enemy Boss is destroyed we load the next scene after time. Attaches to Enemy Boss Ship." design="true" drawOrder="0" id="103" language="" name="Boss Defeated" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <number default="0" desc="How long do we wait before the screen switches to another?" dropdown="" fullname="Wait Time" hidden="false" id="1" name="_WaitTime" order="1"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_100_100_ActorSpawn" desc="This behavior spawns Enemy Actors at certain times throughout the level." description="This behavior spawns Enemy Actors at certain times throughout the level." design="true" drawOrder="0" id="100" language="" name="Spawns Actors" oid="-1" package="" scenespecific="false" shared="false" type="scene">
+        <actortype default="159" desc="First Actor Type to spawn." dropdown="" fullname="Actor Type 1" hidden="false" id="1" name="_ActorType1" order="0"/>
+        <actortype default="219" desc="Second Actor Type to spawn." dropdown="" fullname="Actor Type 2" hidden="false" id="2" name="_ActorType2" order="1"/>
+        <actortype default="52" desc="This type will be spawned after all other enemy types have been created in the sceen." dropdown="" fullname="Boss Actor Type" hidden="false" id="3" name="_BossActorType" order="2"/>
+        <boolean default="false" desc="" dropdown="" fullname="Draw Boss Message" hidden="true" id="4" name="_DrawBossMessage" order="3"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_101_101_ActorSpawned" desc="This will start moving the created Actor into the level at a random speed between &lt;b&gt;First Random Number&lt;/b&gt; and &lt;b&gt;Second random Number.&lt;br&gt;&lt;br&gt;&lt;/b&gt;Stick to possitive numbers for moving down the screen." description="This will start moving the created Actor into the level at a random speed between &lt;b&gt;First Random Number&lt;/b&gt; and &lt;b&gt;Second random Number.&lt;br&gt;&lt;br&gt;&lt;/b&gt;Stick to possitive numbers for moving down the screen." design="true" drawOrder="0" id="101" language="" name="Start Random Speed" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <number default="15" desc="The first random number.&lt;br&gt;&lt;b&gt;Be sure this number is smaller than the second." dropdown="" fullname="First Random Number" hidden="false" id="1" name="_FirstRandomNumber" order="1"/>
+        <number default="25" desc="The second random number.&lt;br&gt;&lt;b&gt;Be sure this number is larger than the first." dropdown="" fullname="Second Random Number" hidden="false" id="2" name="_SecondRandomNumber" order="2"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_99_99_4WayControl" desc="Allows the player to move in ONLY 4 directions. UP DOWN LEFT RIGHT." description="Allows the player to move in ONLY 4 directions. UP DOWN LEFT RIGHT." design="true" drawOrder="0" id="99" language="" name="4 Way Control" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <animation default="" desc="" dropdown="" fullname="Up Animation" hidden="false" id="1" name="animUp" order="9"/>
+        <animation default="" desc="" dropdown="" fullname="Down Animation" hidden="false" id="2" name="animDown" order="10"/>
+        <animation default="" desc="" dropdown="" fullname="Left Animation" hidden="false" id="3" name="animLeft" order="12"/>
+        <animation default="" desc="" dropdown="" fullname="Right Animation" hidden="false" id="4" name="animRight" order="14"/>
+        <control default="" desc="" dropdown="" fullname="Up Control" hidden="false" id="5" name="controlUp" order="4"/>
+        <control default="" desc="" dropdown="" fullname="Down Control" hidden="false" id="6" name="controlDown" order="5"/>
+        <control default="" desc="" dropdown="" fullname="Left Control" hidden="false" id="7" name="controlLeft" order="6"/>
+        <control default="" desc="" dropdown="" fullname="Right Control" hidden="false" id="8" name="controlRight" order="7"/>
+        <number default="0.0" desc="" dropdown="Up=1&#10;Down=2&#10;Left=3&#10;Right=4" fullname="Initial Direction" hidden="false" id="9" name="dir" order="0"/>
+        <number default="5" desc="How fast it reaches top speed." dropdown="" fullname="Acceleration" hidden="false" id="10" name="accel" order="1"/>
+        <number default="20" desc="The fastest it will move." dropdown="" fullname="Top Speed" hidden="false" id="11" name="topSpeed" order="2"/>
+        <number default="0.8" desc="How quickly it loses speed when the key's let go." dropdown="" fullname="Slowdown Rate" hidden="false" id="12" name="decel" order="3"/>
+        <animation default="" desc="" dropdown="" fullname="Up Animation (Idle)" hidden="false" id="13" name="ianimUp" order="8"/>
+        <animation default="" desc="" dropdown="" fullname="Down Animation (Idle)" hidden="false" id="14" name="ianimDown" order="10"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <animation default="" desc="" dropdown="" fullname="Left Animation (Idle)" hidden="false" id="15" name="ianimLeft" order="11"/>
+        <boolean default="true" desc="Check this if you want this actor to be controlled by the player." dropdown="" fullname="Player Controlled?" hidden="false" id="17" name="player" order="0"/>
+        <animation default="" desc="" dropdown="" fullname="Right Animation (Idle)" hidden="false" id="16" name="ianimRight" order="13"/>
+        <boolean default="false" desc="" dropdown="" fullname="pressedRight" hidden="true" id="19" name="pressedRight" order="0"/>
+        <boolean default="false" desc="" dropdown="" fullname="pressedLeft" hidden="true" id="18" name="pressedLeft" order="0"/>
+        <boolean default="false" desc="" dropdown="" fullname="pressedDown" hidden="true" id="21" name="pressedDown" order="0"/>
+        <boolean default="false" desc="" dropdown="" fullname="pressedUp" hidden="true" id="20" name="pressedUp" order="0"/>
+        <number default="1" desc="Speed below which we display the &quot;idle&quot; animation." dropdown="" fullname="Idle Threshold" hidden="false" id="22" name="idleSpeed" order="2"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_36_36_BackandForth" desc="Moves the actor back and forth using relative positioning. Differs from Patrol in that this doesn't reverse direction when hitting a wall - this stays within the bounds that it's assigned." description="Moves the actor back and forth using relative positioning. Differs from Patrol in that this doesn't reverse direction when hitting a wall - this stays within the bounds that it's assigned." design="true" drawOrder="0" id="36" language="" name="Back and Forth" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <number default="0" desc="Relative to the starting point." dropdown="" fullname="Max Position" hidden="false" id="1" name="max" order="1"/>
+        <number default="0" desc="Relative to the starting point. (10 would be 10 pixels to the left/up)" dropdown="" fullname="Min Position" hidden="false" id="2" name="min" order="0"/>
+        <number default="0" desc="In seconds. From end point to end point." dropdown="" fullname="Duration" hidden="false" id="4" name="period" order="3"/>
+        <boolean default="false" desc="" dropdown="" fullname="state" hidden="true" id="5" name="state" order="0"/>
+        <number default="0" desc="" dropdown="" fullname="startX" hidden="true" id="6" name="startX" order="0"/>
+        <number default="0" desc="" dropdown="" fullname="startY" hidden="true" id="7" name="startY" order="0"/>
+        <number default="0" desc="" dropdown="" fullname="endX" hidden="true" id="8" name="endX" order="0"/>
+        <number default="0" desc="" dropdown="" fullname="endY" hidden="true" id="9" name="endY" order="0"/>
+        <text default="h" desc="Horizontal or Vertical?" dropdown="Horizontal=h&#10;Vertical =v" fullname="Direction" hidden="false" id="10" name="dir" order="5"/>
+        <number default="0" desc="" dropdown="" fullname="startDelay" hidden="true" id="11" name="startDelay" order="0"/>
+        <boolean default="false" desc="" dropdown="" fullname="Random Start Delay?" hidden="false" id="12" name="randomStart" order="0"/>
+        <boolean default="false" desc="Default starting direction is to the right or down, depending on the Horizontal or Vertical selection.  Check this box to reverse the starting direction." dropdown="" fullname="Reverse Start Direction" hidden="false" id="14" name="reverseStart" order="0"/>
+        <number default="0.0" desc="Amount of time to delay between each cycle in seconds." dropdown="" fullname="Delay Between Cycles" hidden="false" id="15" name="betweenDelay" order="0"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <boolean default="false" desc="" dropdown="" fullname="waiting" hidden="true" id="17" name="waiting" order="0"/>
+        <number default="0.0" desc="" dropdown="" fullname="step" hidden="true" id="16" name="step" order="0"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_96_96_ScoreDetectorv2b" desc="This Behavior sends a message to the Score Calculator Behavior when enemies are destroyed. You must attach this Behaviorto Actors that you want to award points to the Player and increase the Score value. Also note that the letter you select for an Actor with this Behavior will award a number of points equal to the amount you specify in the Score Calculator Behavior.&lt;br&gt;&lt;br&gt;NOTE&lt;br&gt;Checking more than one box per actor will add each of those points specified together." description="This Behavior sends a message to the Score Calculator Behavior when enemies are destroyed. You must attach this Behaviorto Actors that you want to award points to the Player and increase the Score value. Also note that the letter you select for an Actor with this Behavior will award a number of points equal to the amount you specify in the Score Calculator Behavior.&lt;br&gt;&lt;br&gt;NOTE&lt;br&gt;Checking more than one box per actor will add each of those points specified together." design="true" drawOrder="0" id="96" language="" name="Score Detector v2b" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <boolean default="false" desc="Selecting this will award the point value set in the Score Calculator." dropdown="" fullname="PointsA" hidden="false" id="2" name="_PointsA" order="1"/>
+        <boolean default="false" desc="Selecting this will award the point value set in the Score Calculator." dropdown="" fullname="PointsB" hidden="false" id="3" name="_PointsB" order="2"/>
+        <boolean default="false" desc="Selecting this will award the point value set in the Score Calculator." dropdown="" fullname="PointsC" hidden="false" id="4" name="_PointsC" order="3"/>
+        <boolean default="false" desc="Selecting this will award the point value set in the Score Calculator." dropdown="" fullname="PointsD" hidden="false" id="5" name="_PointsD" order="4"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_37_37_InflictsDamage" desc="Allows this actor to damage another actor through a collision." description="Allows this actor to damage another actor through a collision." design="true" drawOrder="0" id="37" language="" name="Inflicts Damage" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <number default="0.0" desc="Amount of damage to inflct." dropdown="" fullname="Damage Given" hidden="false" id="1" name="damage" order="0"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_97_97_ScoreDrawer" desc="Draws score at given position using font." description="Draws score at given position using font." design="true" drawOrder="0" id="97" language="" name="Score Drawer" oid="-1" package="" scenespecific="false" shared="false" type="scene">
+        <font default="" desc="" dropdown="" fullname="Font to Use" hidden="false" id="1" name="font" order="1"/>
+        <game-attribute default="" desc="Specify the game attribute that is tracking the score." dropdown="" fullname="Score Attribute" hidden="false" id="2" name="score" order="2"/>
+        <number default="-1" desc="Minimum number of digits - can be used to display leading zeroes. Use -1 to disable this feature." dropdown="" fullname="Minimum Digits" hidden="false" id="5" name="totalDigits" order="3"/>
+        <text default="" desc="" dropdown="" fullname="temp" hidden="true" id="6" name="temp" order="0"/>
+        <number default="0.0" desc="Where to draw the number Horizontally" dropdown="" fullname="X Position" hidden="false" id="7" name="_XPosition" order="4"/>
+        <number default="0" desc="Where to draw the number Vertically" dropdown="" fullname="Y Position" hidden="false" id="8" name="_YPosition" order="5"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_43_43_KillonCollision" desc="Attach this to an Actor that needs to die when it collides with something. In this case, it will kill the Bullet when firing into boss aliens." description="Attach this to an Actor that needs to die when it collides with something. In this case, it will kill the Bullet when firing into boss aliens." design="true" drawOrder="0" id="43" language="" name="Kill on Collision" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_2" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="108" language="" name="SceneEvents_2" oid="-1" package="scripts." sceneid="2" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_40_40_Health" desc="Gives actor the notion of Health." description="Gives actor the notion of Health." design="true" drawOrder="0" id="40" language="" name="Health" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <number default="0.0" desc="Decrements by this amount if the colliding actor did not specify a damage amount." dropdown="" fullname="Default Damage" hidden="false" id="1" name="defaultDmg" order="7"/>
+        <number default="0" desc="" dropdown="" fullname="cacheDmg" hidden="true" id="2" name="cacheDmg" order="4"/>
+        <number default="0" desc="Current health of this actor." dropdown="" fullname="currHealth" hidden="true" id="4" name="currHealth" order="3"/>
+        <number default="0.0" desc="Upper bound for health." dropdown="" fullname="Max Health" hidden="false" id="5" name="maxHealth" order="6"/>
+        <number default="0.0" desc="Starting amount of health. Can't exceed max health." dropdown="" fullname="Initial Health" hidden="false" id="6" name="initHealth" order="5"/>
+        <actor default="" desc="Don't let the same actor cause multiple damages to happen." dropdown="" fullname="actorCache" hidden="true" id="7" name="actorCache" order="2"/>
+        <boolean default="false" desc="Make this actor die when its health reaches or falls below 0." dropdown="" fullname="Die When Health is Depleted?" hidden="false" id="8" name="dieOnDepletedHealth" order="8"/>
+        <boolean default="false" desc="" dropdown="" fullname="Is Invincible?" hidden="false" id="9" name="isInvincible" order="1"/>
+        <boolean default="false" desc="" dropdown="" fullname="Temporarily Invulnerable?" hidden="true" id="10" name="isTempInvulnerable" order="0"/>
+        <number default="0" desc="The amount of time the Actor will be invulnerable after being hit.&#10;&lt;br&gt;&lt;br&gt;&#10;Value of 0 (zero) means that the Actor will never become invulnerable.&#10;&lt;br&gt;&#10;Value &gt; 0 means that the Actor will be invulernable for that many seconds." dropdown="" fullname="Temporary Invulnerability Time" hidden="false" id="11" name="tempInvulnerabilityTime" order="9"/>
+        <number default="0" desc="The amount of time to wait before the Actor can be hit by the same Actor it just collided with. &lt;br&gt;&lt;br&gt;&#10;Value of 0 (zero) means that the Actor can't collide with the same actor twice, unless it collides with another actor first.&#10;&lt;br&gt;&#10;Value &gt; 0 means that a collision with the same Actor can not occur for that many seconds." dropdown="" fullname="Collide With Same Actor After" hidden="false" id="12" name="sameActorCollideAfter" order="10"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="11"/>
+        <blocks>
+            <receiver blockID="72" id="1"/>
+            <receiver blockID="76" id="2"/>
+            <receiver blockID="71" id="3"/>
+            <receiver blockID="75" id="4"/>
+            <receiver blockID="77" id="5"/>
+            <receiver blockID="73" id="6"/>
+            <receiver blockID="74" id="7"/>
+        </blocks>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_9" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="109" language="" name="ActorEvents_9" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_41_41_FlickerwhenHit" desc="Show a little flicker effect when this actor takes damage and plays a hit enemy sound. Must be used with Health to happen." description="Show a little flicker effect when this actor takes damage and plays a hit enemy sound. Must be used with Health to happen." design="true" drawOrder="0" id="41" language="" name="Hit Enemy Effect" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <number default="0.12" desc="How long the effect should last." dropdown="" fullname="Duration" hidden="false" id="1" name="duration" order="0"/>
+        <sound default="" desc="this is a short sound to play when the players ammo hits the target." dropdown="" fullname="Hit Sound" hidden="false" id="2" name="_HitSound" order="2"/>
+        <color default="255,0,0,255" desc="" dropdown="" fullname="Tint Color" hidden="false" id="3" name="_TintColor" order="3"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="1"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_106_106" desc="" description="" design="true" drawOrder="0" id="106" language="" name="Draw Ending" oid="-1" package="" scenespecific="false" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_1" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="107" language="" name="ActorEvents_1" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_104_104_DrawTitle" desc="" description="" design="true" drawOrder="0" id="104" language="" name="Draw Title" oid="-1" package="" scenespecific="false" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_105_105_CannotExitScreen" desc="Prevents the actor from going beyond the screen's bounds." description="Prevents the actor from going beyond the screen's bounds." design="true" drawOrder="0" id="105" language="" name="Cannot Exit Screen" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_56_56_FireLaser" desc="Fires a bullet (specify what actor this is) in the direction that the actor is facing with a Y offset." description="Fires a bullet (specify what actor this is) in the direction that the actor is facing with a Y offset." design="true" drawOrder="0" id="56" language="" name="Fire Laser" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <text default="" desc="The trigger that will cause the shot to fire." dropdown="" fullname="Triggering Message" hidden="false" id="1" name="trigger" order="6"/>
+        <number default="0.0" desc="How fast the spawned actor should move. Stick to positive numbers." dropdown="" fullname="Speed" hidden="false" id="2" name="speed" order="5"/>
+        <actor default="" desc="" dropdown="" fullname="spawned" hidden="true" id="3" name="spawned" order="4"/>
+        <actortype default="" desc="Choose which type of bullet you would like to fire." dropdown="" fullname="Bullet" hidden="false" id="4" name="bullet" order="1"/>
+        <number default="0.0" desc="Which way does the shooter face by default?" dropdown="North=90&#10;North East=45&#10;East=0&#10;South East=315&#10;South=270&#10;South West=225&#10;West=180&#10;North West=135" fullname="Inital Shooter Angle" hidden="false" id="5" name="shooterangle" order="3"/>
+        <number default="0.0" desc="Which way does the bullet face by default?" dropdown="North=90&#10;North East=45&#10;East=0&#10;South East=315&#10;South=270&#10;South West=225&#10;West=180&#10;North West=135" fullname="Inital Bullet Angle" hidden="false" id="6" name="bulletangle" order="2"/>
+        <sound default="" desc="The sound you would like played when the shot is fired." dropdown="" fullname="Sound to Play" hidden="false" id="7" name="sound" order="0"/>
+        <number default="0" desc="The Y-axis offset. This should be set based on the size of the bullet being fired." dropdown="" fullname="Y Offset" hidden="false" id="8" name="YOffset" order="8"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="7"/>
+        <blocks/>
+        <events/>
+    </snippet>
+</pack>

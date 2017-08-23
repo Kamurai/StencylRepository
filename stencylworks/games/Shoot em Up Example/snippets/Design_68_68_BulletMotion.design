@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<draw comment="false" x="15" y="399">
+<group id="-1"/>
+</draw>
+</group>
+<group id="1">
+<step comment="false" x="15" y="167">
+<group id="-1">
+<set-val-68-3 comment="false" x="26" y="192">
+<plus comment="false" id="0" x="0" y="0">
+<get-val-68-3 comment="false" id="0" x="0" y="0"/>
+<get-val-68-1 comment="false" id="1" x="0" y="0"/>
+</plus>
+</set-val-68-3>
+<if comment="false" x="26" y="222">
+<group id="-1">
+<recycle comment="false" x="37" y="252">
+<ACTOR eid="this" id="0"/>
+</recycle>
+</group>
+<less comment="false" id="0" x="0" y="0">
+<get-val-68-2 comment="false" id="0" x="0" y="0"/>
+<get-val-68-3 comment="false" id="1" x="0" y="0"/>
+</less>
+</if>
+</group>
+</step>
+</group>
+<group id="2">
+<init comment="false" x="15" y="15">
+<group id="-1">
+<comment-short comment="false" x="26" y="40">
+<int id="0" val="Original Behavior by Katana"/>
+</comment-short>
+<set-val-68-3 comment="false" x="26" y="60">
+<int id="0" val="0"/>
+</set-val-68-3>
+<setvel comment="false" x="26" y="80">
+<ACTOR eid="this" id="0"/>
+<get-val-68-4 comment="false" id="1" x="0" y="0"/>
+<get-val-68-1 comment="false" id="2" x="0" y="0"/>
+</setvel>
+<ignore-screen-tolerance comment="false" x="26" y="112">
+<ACTOR eid="this" id="0"/>
+</ignore-screen-tolerance>
+</group>
+</init>
+</group>
+<group id="3">
+<collide comment="false" x="15" y="319">
+<group id="-1">
+<recycle comment="false" x="26" y="344">
+<ACTOR eid="this" id="0"/>
+</recycle>
+</group>
+</collide>
+</group>
+<group id="-1"/>
+</groups>

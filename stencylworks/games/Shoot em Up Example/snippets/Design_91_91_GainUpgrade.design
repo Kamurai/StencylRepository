@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1"/>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="88">
+<group id="-1"/>
+</step>
+</group>
+<group id="2">
+<collide comment="false" x="15" y="161">
+<group id="-1">
+<if comment="false" x="26" y="186">
+<group id="-1">
+<set-game-val-5 comment="false" x="37" y="224">
+<true comment="false" id="0" x="0" y="0"/>
+</set-game-val-5>
+<play-sound3 comment="false" x="37" y="249">
+<SOUND eid="192" id="0"/>
+</play-sound3>
+<setanim comment="false" x="37" y="276">
+<ACTOR eid="lastcollided" id="0"/>
+<int id="1" val="playerMainR"/>
+</setanim>
+<if comment="false" x="37" y="303">
+<group id="-1">
+<disable-snippet2 comment="false" x="48" y="333">
+<ACTOR eid="lastcollided" id="0"/>
+<int id="1" val="Fire Bullet One At a Time"/>
+</disable-snippet2>
+<enable-snippet comment="false" x="48" y="360">
+<ACTOR eid="lastcollided" id="0"/>
+<int id="1" val="Fire Bullet"/>
+</enable-snippet>
+</group>
+<eq comment="false" id="0" x="0" y="0">
+<get-game-val-5 comment="false" id="0" x="0" y="0"/>
+<true comment="false" id="1" x="0" y="0"/>
+</eq>
+</if>
+<die comment="false" x="37" y="399">
+<ACTOR eid="this" id="0"/>
+</die>
+</group>
+<eq comment="false" id="0" x="0" y="0">
+<collision-shape-group comment="false" id="0" x="0" y="0"/>
+<pick-group comment="false" id="1" x="0" y="0">
+<int id="0" val="0"/>
+</pick-group>
+</eq>
+</if>
+</group>
+</collide>
+</group>
+<group id="3">
+<draw comment="false" x="15" y="439">
+<group id="-1"/>
+</draw>
+</group>
+<group id="-1"/>
+</groups>

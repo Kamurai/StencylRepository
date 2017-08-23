@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="60" y="40">
+            <group eventID="-1" id="-1">
+                <anchor-screen comment="false" x="71" y="65">
+                    <ACTOR eid="this" id="0"/>
+                </anchor-screen>
+                <set-xy comment="false" x="71" y="92">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <get-val-2-2 comment="false" id="2" x="0" y="0"/>
+                </set-xy>
+                <set-xy comment="false" x="71" y="124">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="1"/>
+                    <get-val-2-3 comment="false" id="2" x="0" y="0"/>
+                </set-xy>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="58" y="202">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="69" y="227">
+                    <group eventID="-1" id="-1">
+                        <set-val-2-4 comment="false" x="80" y="260">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-xy>
+                        </set-val-2-4>
+                        <set-val-2-1 comment="false" x="80" y="293">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-2-1>
+                        <set-val-2-5 comment="false" x="80" y="318">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-xy>
+                        </set-val-2-5>
+                    </group>
+                    <began-dragged-released-touch comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                    </began-dragged-released-touch>
+                </if>
+                <if comment="false" x="69" y="363">
+                    <group eventID="-1" id="-1">
+                        <set-val-2-1 comment="false" x="80" y="396">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-2-1>
+                    </group>
+                    <began-dragged-released-touch comment="false" id="0" x="0" y="0">
+                        <int id="0" val="2"/>
+                    </began-dragged-released-touch>
+                </if>
+                <if comment="false" x="69" y="433">
+                    <group eventID="-1" id="-1">
+                        <set-xy comment="false" x="80" y="458">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <touch-drag-release comment="false" id="2" x="0" y="0">
+                                <int id="0" val="1"/>
+                                <int id="1" val="0"/>
+                            </touch-drag-release>
+                        </set-xy>
+                    </group>
+                    <get-val-2-1 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <collide comment="false" x="80" y="587">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group eventID="-1" id="3">
+        <draw comment="false" x="74" y="712">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="5">
+        <set-dxy comment="false" x="521" y="464">
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="0"/>
+            <touch-drag-release comment="false" id="2" x="0" y="0">
+                <int id="0" val="1"/>
+                <int id="1" val="0"/>
+            </touch-drag-release>
+        </set-dxy>
+    </group>
+    <group id="-1"/>
+</groups>

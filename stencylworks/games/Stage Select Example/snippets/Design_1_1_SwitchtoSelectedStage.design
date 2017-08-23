@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group id="0">
+        <init comment="false" x="15" y="15">
+            <group id="-1"/>
+        </init>
+    </group>
+    <group id="1">
+        <step comment="false" x="15" y="88">
+            <group id="-1">
+                <if comment="false" x="26" y="113">
+                    <group id="-1">
+                        <play-sound4 comment="false" x="37" y="146">
+                            <int id="0" val="0"/>
+                            <SOUND eid="var" id="1" vid="9"/>
+                        </play-sound4>
+                        <scene-enabledisable-snippet comment="false" x="37" y="173">
+                            <int id="0" val="1"/>
+                            <int id="1" val="Switch to Selected Stage"/>
+                        </scene-enabledisable-snippet>
+                        <dolater comment="false" x="37" y="200">
+                            <group id="-1">
+                                <scene-change3 comment="false" x="48" y="220">
+                                    <SCENE eid="var" id="0" vid="10"/>
+                                    <int id="1" val="0"/>
+                                    <get-val-1-18 comment="false" id="2" x="0" y="0"/>
+                                    <int id="3" val="1"/>
+                                    <get-val-1-19 comment="false" id="4" x="0" y="0"/>
+                                </scene-change3>
+                            </group>
+                            <int id="0" val="1"/>
+                        </dolater>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="1"/>
+                        <int id="1" val="1"/>
+                    </amousestate>
+                </if>
+                <if comment="false" x="26" y="276">
+                    <group id="-1">
+                        <play-sound4 comment="false" x="37" y="309">
+                            <int id="0" val="0"/>
+                            <SOUND eid="var" id="1" vid="9"/>
+                        </play-sound4>
+                        <scene-enabledisable-snippet comment="false" x="37" y="336">
+                            <int id="0" val="1"/>
+                            <int id="1" val="Switch to Selected Stage"/>
+                        </scene-enabledisable-snippet>
+                        <dolater comment="false" x="37" y="363">
+                            <group id="-1">
+                                <scene-change3 comment="false" x="48" y="383">
+                                    <SCENE eid="var" id="0" vid="11"/>
+                                    <int id="1" val="0"/>
+                                    <get-val-1-18 comment="false" id="2" x="0" y="0"/>
+                                    <int id="3" val="1"/>
+                                    <get-val-1-19 comment="false" id="4" x="0" y="0"/>
+                                </scene-change3>
+                            </group>
+                            <int id="0" val="1"/>
+                        </dolater>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="2"/>
+                        <int id="1" val="1"/>
+                    </amousestate>
+                </if>
+                <if comment="false" x="26" y="439">
+                    <group id="-1">
+                        <play-sound4 comment="false" x="37" y="472">
+                            <int id="0" val="0"/>
+                            <SOUND eid="var" id="1" vid="9"/>
+                        </play-sound4>
+                        <scene-enabledisable-snippet comment="false" x="37" y="499">
+                            <int id="0" val="1"/>
+                            <int id="1" val="Switch to Selected Stage"/>
+                        </scene-enabledisable-snippet>
+                        <dolater comment="false" x="37" y="526">
+                            <group id="-1">
+                                <scene-change3 comment="false" x="48" y="546">
+                                    <SCENE eid="var" id="0" vid="12"/>
+                                    <int id="1" val="0"/>
+                                    <get-val-1-18 comment="false" id="2" x="0" y="0"/>
+                                    <int id="3" val="1"/>
+                                    <get-val-1-19 comment="false" id="4" x="0" y="0"/>
+                                </scene-change3>
+                            </group>
+                            <int id="0" val="1"/>
+                        </dolater>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="3"/>
+                        <int id="1" val="1"/>
+                    </amousestate>
+                </if>
+                <if comment="false" x="26" y="602">
+                    <group id="-1">
+                        <play-sound4 comment="false" x="37" y="635">
+                            <int id="0" val="0"/>
+                            <SOUND eid="var" id="1" vid="9"/>
+                        </play-sound4>
+                        <scene-enabledisable-snippet comment="false" x="37" y="662">
+                            <int id="0" val="1"/>
+                            <int id="1" val="Switch to Selected Stage"/>
+                        </scene-enabledisable-snippet>
+                        <dolater comment="false" x="37" y="689">
+                            <group id="-1">
+                                <scene-change3 comment="false" x="48" y="709">
+                                    <SCENE eid="var" id="0" vid="13"/>
+                                    <int id="1" val="0"/>
+                                    <get-val-1-18 comment="false" id="2" x="0" y="0"/>
+                                    <int id="3" val="1"/>
+                                    <get-val-1-19 comment="false" id="4" x="0" y="0"/>
+                                </scene-change3>
+                            </group>
+                            <int id="0" val="1"/>
+                        </dolater>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="4"/>
+                        <int id="1" val="1"/>
+                    </amousestate>
+                </if>
+                <if comment="false" x="26" y="765">
+                    <group id="-1">
+                        <play-sound4 comment="false" x="37" y="798">
+                            <int id="0" val="0"/>
+                            <SOUND eid="var" id="1" vid="9"/>
+                        </play-sound4>
+                        <scene-enabledisable-snippet comment="false" x="37" y="825">
+                            <int id="0" val="1"/>
+                            <int id="1" val="Switch to Selected Stage"/>
+                        </scene-enabledisable-snippet>
+                        <dolater comment="false" x="37" y="852">
+                            <group id="-1">
+                                <scene-change3 comment="false" x="48" y="872">
+                                    <SCENE eid="var" id="0" vid="14"/>
+                                    <int id="1" val="0"/>
+                                    <get-val-1-18 comment="false" id="2" x="0" y="0"/>
+                                    <int id="3" val="1"/>
+                                    <get-val-1-19 comment="false" id="4" x="0" y="0"/>
+                                </scene-change3>
+                            </group>
+                            <int id="0" val="1"/>
+                        </dolater>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="5"/>
+                        <int id="1" val="1"/>
+                    </amousestate>
+                </if>
+                <if comment="false" x="26" y="928">
+                    <group id="-1">
+                        <play-sound4 comment="false" x="37" y="961">
+                            <int id="0" val="0"/>
+                            <SOUND eid="var" id="1" vid="9"/>
+                        </play-sound4>
+                        <scene-enabledisable-snippet comment="false" x="37" y="988">
+                            <int id="0" val="1"/>
+                            <int id="1" val="Switch to Selected Stage"/>
+                        </scene-enabledisable-snippet>
+                        <dolater comment="false" x="37" y="1015">
+                            <group id="-1">
+                                <scene-change3 comment="false" x="48" y="1035">
+                                    <SCENE eid="var" id="0" vid="15"/>
+                                    <int id="1" val="0"/>
+                                    <get-val-1-18 comment="false" id="2" x="0" y="0"/>
+                                    <int id="3" val="1"/>
+                                    <get-val-1-19 comment="false" id="4" x="0" y="0"/>
+                                </scene-change3>
+                            </group>
+                            <int id="0" val="1"/>
+                        </dolater>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="6"/>
+                        <int id="1" val="1"/>
+                    </amousestate>
+                </if>
+                <if comment="false" x="26" y="1091">
+                    <group id="-1">
+                        <play-sound4 comment="false" x="37" y="1124">
+                            <int id="0" val="0"/>
+                            <SOUND eid="var" id="1" vid="9"/>
+                        </play-sound4>
+                        <scene-enabledisable-snippet comment="false" x="37" y="1151">
+                            <int id="0" val="1"/>
+                            <int id="1" val="Switch to Selected Stage"/>
+                        </scene-enabledisable-snippet>
+                        <dolater comment="false" x="37" y="1178">
+                            <group id="-1">
+                                <scene-change3 comment="false" x="48" y="1198">
+                                    <SCENE eid="var" id="0" vid="16"/>
+                                    <int id="1" val="0"/>
+                                    <get-val-1-18 comment="false" id="2" x="0" y="0"/>
+                                    <int id="3" val="1"/>
+                                    <get-val-1-19 comment="false" id="4" x="0" y="0"/>
+                                </scene-change3>
+                            </group>
+                            <int id="0" val="1"/>
+                        </dolater>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="7"/>
+                        <int id="1" val="1"/>
+                    </amousestate>
+                </if>
+                <if comment="false" x="26" y="1254">
+                    <group id="-1">
+                        <play-sound4 comment="false" x="37" y="1287">
+                            <int id="0" val="0"/>
+                            <SOUND eid="var" id="1" vid="9"/>
+                        </play-sound4>
+                        <scene-enabledisable-snippet comment="false" x="37" y="1314">
+                            <int id="0" val="1"/>
+                            <int id="1" val="Switch to Selected Stage"/>
+                        </scene-enabledisable-snippet>
+                        <dolater comment="false" x="37" y="1341">
+                            <group id="-1">
+                                <scene-change3 comment="false" x="48" y="1361">
+                                    <SCENE eid="var" id="0" vid="17"/>
+                                    <int id="1" val="0"/>
+                                    <get-val-1-18 comment="false" id="2" x="0" y="0"/>
+                                    <int id="3" val="1"/>
+                                    <get-val-1-19 comment="false" id="4" x="0" y="0"/>
+                                </scene-change3>
+                            </group>
+                            <int id="0" val="1"/>
+                        </dolater>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="8"/>
+                        <int id="1" val="1"/>
+                    </amousestate>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group id="2">
+        <draw comment="false" x="15" y="1445">
+            <group id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

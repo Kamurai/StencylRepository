@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="40">
+                    <int id="0" val="_Filter = [new flash.filters.BlurFilter()];"/>
+                </custom-code>
+                <say-this comment="false" x="26" y="60">
+                    <int id="0" val="updateParameters"/>
+                </say-this>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="108">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="181">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="206">
+                    <group eventID="-1" id="-1">
+                        <code-long comment="false" x="37" y="231">
+                            <int id="0" val="import flash.display.Bitmap;&#10;&#10;var bitmap = new Bitmap();&#10;bitmap.bitmapData = FlxG.buffer;&#10;bitmap.filters = [_Filter[0]];&#10;&#10;FlxG.buffer.draw(bitmap);"/>
+                        </code-long>
+                    </group>
+                    <get-val-421-1 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="-1" id="3">
+        <receive-message comment="false" x="15" y="431">
+            <group eventID="-1" id="-1">
+                <set-val-421-1 comment="false" x="26" y="461">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-421-1>
+                <if comment="false" x="26" y="486">
+                    <group eventID="-1" id="-1">
+                        <dolater comment="false" x="37" y="516">
+                            <group eventID="-1" id="-1">
+                                <say-this comment="false" x="48" y="548">
+                                    <get-val-421-21 comment="false" id="0" x="0" y="0"/>
+                                </say-this>
+                            </group>
+                            <get-val-421-18 comment="false" id="0" x="0" y="0"/>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </dolater>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-val-421-20 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </if>
+            </group>
+            <get-val-421-5 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group eventID="-1" id="4">
+        <receive-message comment="false" x="15" y="625">
+            <group eventID="-1" id="-1">
+                <set-val-421-1 comment="false" x="26" y="655">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-421-1>
+            </group>
+            <get-val-421-21 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group eventID="-1" id="5">
+        <receive-message comment="false" x="15" y="708">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="733">
+                    <int id="0" val="var filter = _Filter[0];&#10;filter.blurX = _BlurX;&#10;filter.blurY = _BlurY;&#10;filter.quality = _Quality;"/>
+                </code-long>
+            </group>
+            <int id="0" val="updateParameters"/>
+        </receive-message>
+    </group>
+    <group id="-1"/>
+</groups>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<draw comment="false" x="15" y="437">
+<group id="-1"/>
+</draw>
+</group>
+<group id="1">
+<step comment="false" x="15" y="88">
+<group id="-1">
+<if comment="false" x="26" y="113">
+<group id="-1">
+<if comment="false" x="37" y="138">
+<group id="-1">
+<shout comment="false" x="48" y="171">
+<ACTOR eid="this" id="0"/>
+<get-val-4-1 comment="false" id="1" x="0" y="0"/>
+</shout>
+</group>
+<amousep comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<ACTOR eid="this" id="1"/>
+</amousep>
+</if>
+</group>
+<get-val-4-2 comment="false" id="0" x="0" y="0"/>
+</if>
+<else comment="false" x="26" y="227">
+<group id="-1">
+<if comment="false" x="37" y="247">
+<group id="-1">
+<shout comment="false" x="48" y="280">
+<ACTOR eid="this" id="0"/>
+<get-val-4-1 comment="false" id="1" x="0" y="0"/>
+</shout>
+</group>
+<mousep comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+</mousep>
+</if>
+</group>
+</else>
+</group>
+</step>
+</group>
+<group id="2">
+<init comment="false" x="15" y="15">
+<group id="-1"/>
+</init>
+</group>
+<group id="3">
+<collide comment="false" x="15" y="364">
+<group id="-1"/>
+</collide>
+</group>
+<group id="-1"/>
+</groups>

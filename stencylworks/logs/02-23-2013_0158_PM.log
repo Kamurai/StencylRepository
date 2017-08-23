@@ -1,0 +1,1565 @@
+
+
+
+[LOG] Mirroring logs to the standard output...
+[LOG] Current Working Directory: C:\Program Files (x86)\Stencyl
+[LOG] Reading... global
+[LOG] LANGUAGE WARNING: Empty Line.
+[LOG] Finished reading lang/en/global.lang
+[LOG] Reading... prefs
+[LOG] Finished reading lang/en/prefs.lang
+[LOG] Reading... gamedg
+[LOG] Finished reading lang/en/gamedg.lang
+[LOG] Reading... spritedg
+[LOG] Finished reading lang/en/spritedg.lang
+[LOG] Reading... tset
+[LOG] Finished reading lang/en/tset.lang
+[LOG] Reading... actor
+[LOG] Finished reading lang/en/actor.lang
+[LOG] Reading... scene
+[LOG] Finished reading lang/en/scene.lang
+[LOG] Reading... snippet
+[LOG] Finished reading lang/en/snippet.lang
+[LOG] Reading... blocks
+[LOG] Finished reading lang/en/blocks.lang
+[LOG] Reading... blockhelp
+[LOG] Finished reading lang/en/blockhelp.lang
+[LOG] Initializing Stencyl
+[LOG] Failed to load Growl library
+[LOG] Activated: Welcome Center
+[LOG] Checking workspace writability and location: C:\Users\Kamurai/AppData/Roaming/Stencyl/temp
+[LOG] Response: user::
+[LOG] Logged in as: Kamurai
+[LOG] Usergroup: Registered
+[ERR] Attempting to log in
+[LOG] Connected to StencylTalk as: kamurai@stencyl.com/stencyl-1361645903691
+[LOG] Refreshing friends list
+[LOG] 200
+[LOG] http://www.stencyl.com/sw/updater/getVersions/stencylworksBeta
+[LOG] HTTP/1.1 200 OK
+<r>
+<server status = '200' version = '1beta' time = '1299439687' />	<version required="true" build="502" name="2.2.0" month="06" day="22" year="12" />
+	<version required="true" build="501" name="2.1.0" month="05" day="25" year="12" />
+	<version required="true" build="500" name="2.0.0" month="04" day="20" year="12" />
+	<version required="false" build="415" name="1.4.1" month="01" day="23" year="12" />
+	<version required="false" build="414" name="1.4.0" month="01" day="22" year="12" />
+	<version required="false" build="413" name="1.3.4" month="12" day="19" year="11" />
+	<version required="false" build="412" name="1.3.3" month="12" day="14" year="11" />
+	<version required="false" build="411" name="1.3.2" month="12" day="12" year="11" />
+	<version required="false" build="410" name="1.3.1" month="12" day="10" year="11" />
+	<version required="false" build="409" name="1.3.0" month="12" day="09" year="11" />
+	<version required="false" build="408" name="1.2.1" month="10" day="27" year="11" />
+	<version required="false" build="407" name="1.2.0" month="10" day="26" year="11" />
+	<version required="false" build="406" name="1.1.1" month="09" day="13" year="11" />
+	<version required="false" build="405" name="1.1.0" month="09" day="08" year="11" />
+	<version required="false" build="404" name="1.0.4" month="07" day="23" year="11" />
+	<version required="false" build="403" name="1.0.3" month="07" day="21" year="11" />
+	<version required="false" build="402" name="1.0.2" month="06" day="30" year="11" />
+	<version required="false" build="401" name="1.0.1" month="05" day="31" year="11" />
+	<version required="false" build="400" name="1.0.0" month="05" day="18" year="11" />
+	<version required="false" build="399" name="0.9.9" month="05" day="18" year="11" />
+</r>
+[ERR] Could not delete file: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts
+[ERR] Could not delete file: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\game
+[LOG] Initializing... 7 : Ball
+[LOG] Initializing... 6 : Ball
+[LOG] Initializing... 31 : bricks
+[LOG] Initializing... 32 : Bricks
+[LOG] Initializing... 30 : Flash
+[LOG] Initializing... 29 : Flash
+[LOG] Initializing... 2 : Green Block
+[LOG] Initializing... 20 : Hit1
+[LOG] Initializing... 19 : Hit2
+[LOG] Initializing... 18 : Hit3
+[LOG] Initializing... 5 : Paddle
+[LOG] Initializing... 4 : Paddle
+[LOG] Initializing... 26 : Red Block
+[LOG] Initializing... 27 : Unbreakable
+[LOG] Initializing... 25 : Unbreakable
+[LOG] Initializing... 3 : Unbreakable
+[LOG] Initializing... 24 : Yellow Block
+[LOG] Loading Sound 19
+[LOG] Loading Sound 18
+[LOG] Loading Sound 20
+[LOG] Reading header for Scene: 1 ()
+[LOG] From: scenes\1.xml
+[LOG] Reading header for Scene: 1 ()
+[LOG] From: scenes\1.xml
+[LOG] Activated: Dashboard
+[ERR] Could not delete file: C:\Users\Kamurai\AppData\Local\Temp\stencyl6009182550371249745\sandbox\build\code
+[LOG] Reading header for Scene: 1 ()
+[LOG] From: scenes\1.xml
+[LOG] Took 2014ms
+[LOG] C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\resources\14-0.png
+[LOG] C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\resources\15.png
+[LOG] C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\resources\23.mp3
+[LOG] C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\resources\28.png
+[LOG] Could not parse: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\resources\data.xml.bak
+[LOG] Loading Closed Resource: Level
+[LOG] Reading header for Scene: 1 (Level)
+[LOG] From: scenes\1.xml
+[LOG] Brush Changed
+[LOG] Missing: sactor.ispaused
+[LOG] Activated: Level
+[LOG] Open Took 3752ms
+[LOG] Total Took 3931ms
+[LOG] Toggle Animations
+[LOG] Checking if no items: null
+[LOG] Working with Actors and/or Tiles
+[ERR] Initial Direction
+[ERR] We are looking for 0.0
+[ERR] looking for: 0
+[ERR] {0=stencyl.core.engine.snippet.SnippetInstance@7cd80e, 5=stencyl.core.engine.snippet.SnippetInstance@4c89a4, -1=stencyl.core.engine.snippet.SnippetInstance@e07658}
+[ERR] {19=false, 18=false, 7=left, 8=right, 9=3, 11=33, 12=0, 2147483647=thisactor}
+[ERR] Name: topSpeed
+[ERR] Val: 33
+[ERR] {19=false, 18=false, 7=left, 8=right, 9=3, 11=33, 12=0, 2147483647=thisactor}
+[ERR] looking for: 0
+[ERR] {0=stencyl.core.engine.snippet.SnippetInstance@7cd80e, 5=stencyl.core.engine.snippet.SnippetInstance@4c89a4, -1=stencyl.core.engine.snippet.SnippetInstance@e07658}
+[ERR] {19=false, 18=false, 7=left, 8=right, 9=3, 11=33, 12=0, 2147483647=thisactor}
+[ERR] Name: decel
+[ERR] Val: 0
+[ERR] {19=false, 18=false, 7=left, 8=right, 9=3, 11=33, 12=0, 2147483647=thisactor}
+[ERR] looking for: 0
+[ERR] {0=stencyl.core.engine.snippet.SnippetInstance@7cd80e, 5=stencyl.core.engine.snippet.SnippetInstance@4c89a4, -1=stencyl.core.engine.snippet.SnippetInstance@e07658}
+[ERR] {19=false, 18=false, 7=left, 8=right, 9=3, 11=33, 12=0, 2147483647=thisactor}
+[ERR] Name: actor
+[ERR] Val: thisactor
+[ERR] {19=false, 18=false, 7=left, 8=right, 9=3, 11=33, 12=0, 2147483647=thisactor}
+[LOG] Field Count: 5
+[ERR] looking for: 5
+[ERR] {0=stencyl.core.engine.snippet.SnippetInstance@7cd80e, 5=stencyl.core.engine.snippet.SnippetInstance@4c89a4, -1=stencyl.core.engine.snippet.SnippetInstance@e07658}
+[ERR] {2147483647=thisactor}
+[ERR] Name: actor
+[ERR] Val: thisactor
+[ERR] {2147483647=thisactor}
+[LOG] Field Count: 0
+[LOG] Case 1: Select New Object (Nothing Previously Selected).
+[LOG] Checking if no items: [X,Y: 318, 448 0.0 1 ]
+[LOG] Translating selection: [X,Y: 318, 448 0.0 1 ] by (-1,0)
+[LOG] Deselect
+[LOG] Clear Selection
+[ERR] Saving Snippet: Position Limiter
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: 2 Way Control
+[ERR] Instance Value: false
+[ERR] Instance Value: false
+[ERR] Value: left
+[ERR] Instance Value: left
+[ERR] Value: right
+[ERR] Instance Value: right
+[ERR] Value: Left
+[ERR] Instance Value: 3
+[ERR] Instance Value: 33
+[ERR] Instance Value: 0
+[ERR] Instance Value: thisactor
+[LOG] Inspecting Group...
+[LOG] Translating selection: 1 [X,Y: 317, 448 0.0 1 ] by (1,0)
+[LOG] Deselect
+[LOG] Clear Selection
+[ERR] Saving Snippet: Position Limiter
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: 2 Way Control
+[ERR] Instance Value: false
+[ERR] Instance Value: false
+[ERR] Value: left
+[ERR] Instance Value: left
+[ERR] Value: right
+[ERR] Instance Value: right
+[ERR] Value: Left
+[ERR] Instance Value: 3
+[ERR] Instance Value: 33
+[ERR] Instance Value: 0
+[ERR] Instance Value: thisactor
+[LOG] Inspecting Group...
+[LOG] Checking if no items: 1 [X,Y: 318, 448 0.0 1 ]
+[LOG] Deselect
+[LOG] Clear Selection
+[ERR] Saving Snippet: Position Limiter
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: 2 Way Control
+[ERR] Instance Value: false
+[ERR] Instance Value: false
+[ERR] Value: left
+[ERR] Instance Value: left
+[ERR] Value: right
+[ERR] Instance Value: right
+[ERR] Value: Left
+[ERR] Instance Value: 3
+[ERR] Instance Value: 33
+[ERR] Instance Value: 0
+[ERR] Instance Value: thisactor
+[LOG] Case 2A: Nothing selected.
+[LOG] Start Rubberband.
+[LOG] End Rubberband Selection.
+[LOG] Toggle Animations
+[LOG] Save in place.
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\game.xml to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\game.xml.bak
+[LOG] Writing out local resources.
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\resources\data.xml to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\resources\data.xml.bak
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Skip writing out Background.
+[LOG] Mark background as clean (disk).
+[LOG] Mark tileset as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[LOG] Mark actor's sprite as clean (disk).
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[LOG] Writing out scenes.
+[LOG] Saving thumbnail: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\scenes\1.png
+[LOG] Writing terrain.
+[LOG] Num Tiles: 48
+[LOG] Coverage: 14.285715%
+[LOG] Segments: (2,2)
+[LOG] Using Quad Space
+[LOG] Combine took: 22ms
+[LOG] Terrain processing took: 0ms
+[LOG] Reading header for Scene: 1 ()
+[LOG] From: scenes\1.xml
+[LOG] Writing out Scene Level
+[LOG] Copying over snippets.
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\list.xml to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\list.xml.bak
+[LOG] Copy from opened to disk: SceneEvents_1
+[LOG] Copied to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\snippets\SceneEvents_1.design
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\snippets\SceneEvents_1.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_0_0_4WayControl.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_0_0_4WayControl.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_1_1_BouncingBall.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_1_1_BouncingBall.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_2_2_BlockGotHit.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_2_2_BlockGotHit.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_3_3_FallinPItandDie.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_3_3_FallinPItandDie.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_5_5_PositionLimiter.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_5_5_PositionLimiter.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_6_6_FadeOutandDieafterTime.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_6_6_FadeOutandDieafterTime.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\SceneEvents_1.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\SceneEvents_1.design
+[LOG] Adding: get-val-0-19
+[LOG] Adding: set-val-0-19
+[LOG] Adding: get-val-0-18
+[LOG] Adding: set-val-0-18
+[LOG] Adding: get-val-0-7
+[LOG] Adding: set-val-0-7
+[LOG] Adding: get-val-0-8
+[LOG] Adding: set-val-0-8
+[LOG] Adding: get-val-0-9
+[LOG] Adding: set-val-0-9
+[LOG] Adding: get-val-0-11
+[LOG] Adding: set-val-0-11
+[LOG] Adding: get-val-0-12
+[LOG] Adding: set-val-0-12
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[LOG] Adding: get-val-1-1
+[LOG] Adding: set-val-1-1
+[LOG] Adding: get-val-1-2
+[LOG] Adding: set-val-1-2
+[LOG] Adding: get-val-2-1
+[LOG] Adding: set-val-2-1
+[LOG] Adding: get-val-2-2
+[LOG] Adding: set-val-2-2
+[LOG] Adding: get-val-2-3
+[LOG] Adding: set-val-2-3
+[LOG] Adding: get-val-2-4
+[LOG] Adding: set-val-2-4
+[LOG] Added: draw
+[LOG] Added: draw
+[LOG] Added: set-val-0-9
+[LOG] Added: receive-message
+[LOG] Added: draw
+[LOG] Added: step
+[LOG] Added: comment-short
+[LOG] java.lang.IndexOutOfBoundsException: Index: 3, Size: 3
+[LOG] Added: scene-reload-new
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[LOG] Added: init
+[LOG] Added: collide
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[LOG] Added: if
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: step
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: ignore-screen-tolerance
+[LOG] Added: init
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: die
+[LOG] Added: collide
+[LOG] Writing Design Snippet to C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\preview\scripts\Design_3_3_FallinPItandDie.as
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\preview\scripts\Design_3_3_FallinPItandDie.as
+[LOG] Took 57 ms.
+[LOG] Added: draw
+[ERR] Warning: This kind of block does not exist: SOUND
+[ERR] Reading generic element ID: 20
+[LOG] Added: play-sound4
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTORTYPE
+[ERR] Reading generic element ID: 29
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: create-actor3
+[LOG] Added: if
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-2-1
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[ERR] Warning: This kind of block does not exist: SOUND
+[ERR] Reading generic element ID: 19
+[LOG] Added: play-sound4
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: else-if
+[LOG] Added: if
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] SnippetID: 0
+[LOG] Edit Area ID: 0
+[LOG] Added: set-val-0-18
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-2-1
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: step
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: step
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Added: init
+[LOG] Added: collide
+[LOG] Writing Design Snippet to C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\preview\scripts\Design_5_5_PositionLimiter.as
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\preview\scripts\Design_5_5_PositionLimiter.as
+[LOG] SnippetID: 0
+[LOG] Edit Area ID: 0
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-0-19
+[LOG] Added: receive-message
+[LOG] Took 161 ms.
+[LOG] Adding: get-val-6-1
+[LOG] Adding: set-val-6-1
+[LOG] Adding: get-val-6-2
+[LOG] Adding: set-val-6-2
+[LOG] Added: say-this
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: fadeInOut
+[ERR] Warning: This kind of block does not exist: SOUND
+[ERR] Reading generic element ID: 18
+[LOG] Added: play-sound4
+[LOG] Added: else-if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: die
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Added: setvel
+[LOG] Added: init
+[LOG] Added: collide
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: lastcreated
+[LOG] Select Last Created
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] Added: setav
+[LOG] Writing Design Snippet to C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\preview\scripts\Design_2_2_BlockGotHit.as
+[LOG] Added: comment-long
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\preview\scripts\Design_2_2_BlockGotHit.as
+[LOG] Took 256 ms.
+[LOG] Writing Design Snippet to C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\preview\scripts\SceneEvents_1.as
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\preview\scripts\SceneEvents_1.as
+[LOG] Took 2 ms.
+[LOG] Added: dolater
+[LOG] Added: if
+[LOG] Added: say-this
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: dolater
+[LOG] Added: init
+[LOG] Added: step
+[LOG] Added: collide
+[LOG] Added: draw
+[LOG] Writing Design Snippet to C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\preview\scripts\Design_6_6_FadeOutandDieafterTime.as
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\preview\scripts\Design_6_6_FadeOutandDieafterTime.as
+[LOG] Took 57 ms.
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Added: say-this
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] collision-top
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Language Pack is out of sync with SW. Ignoring parameter index: 1
+[LOG] Added: if
+[LOG] Added: set-dxy
+[LOG] Added: if
+[LOG] Added: else
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] collision-bottom
+[LOG] Language Pack is out of sync with SW. Ignoring parameter index: 1
+[LOG] Added: else-if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: else
+[LOG] Added: step
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: init
+[LOG] Added: set-dxy
+[LOG] Added: draw
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] collision-top
+[LOG] Language Pack is out of sync with SW. Ignoring parameter index: 1
+[LOG] Added: set-dxy
+[LOG] Added: set-val-0-9
+[LOG] Added: receive-message
+[LOG] Writing Design Snippet to C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\preview\scripts\Design_0_0_4WayControl.as
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\preview\scripts\Design_0_0_4WayControl.as
+[LOG] Took 372 ms.
+[LOG] collision-bottom
+[LOG] Language Pack is out of sync with SW. Ignoring parameter index: 1
+[LOG] Added: if
+[LOG] Added: comment-long
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[LOG] collision-left
+[LOG] Language Pack is out of sync with SW. Ignoring parameter index: 1
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[LOG] collision-right
+[LOG] Language Pack is out of sync with SW. Ignoring parameter index: 1
+[LOG] Added: else-if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[LOG] collision-left
+[LOG] Language Pack is out of sync with SW. Ignoring parameter index: 1
+[LOG] collision-right
+[LOG] Language Pack is out of sync with SW. Ignoring parameter index: 1
+[LOG] Added: else-if
+[LOG] Added: break
+[LOG] Added: collision-foreach
+[LOG] Added: collide
+[LOG] Writing Design Snippet to C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\preview\scripts\Design_1_1_BouncingBall.as
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\preview\scripts\Design_1_1_BouncingBall.as
+[LOG] Took 470 ms.
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\favorites.xml
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\prefs\favorites.xml
+[LOG] Done writing game.
+[LOG] Num Files: 14
+[LOG] Num Scene Files: 2
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\preview\scripts\StencylMain.as
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\preview\scripts\Preloader.as
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\preview\scripts\MyAssets.as
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\preview\scripts\MyScripts.as
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\game.xml to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\game\game.xml
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\resources\data.xml to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\game\resources.xml
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\scenes\scenes.xml to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\game\scenes.xml
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\list.xml to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\game\behaviors.xml
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\preloader.png to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\game\preloader.png
+[LOG] Copy directory from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts
+[LOG] Copy Duration: 102
+[LOG] Copy directory from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\resources to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\game\resources
+[LOG] Copy Duration: 141
+[LOG] Copy directory from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\scenes to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\game\scenes
+[LOG] Copy Duration: 12
+[LOG] Save in place.
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\game.xml to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\game.xml.bak
+[LOG] Writing out local resources.
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\resources\data.xml to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\resources\data.xml.bak
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Skip writing out Background.
+[LOG] Mark background as clean (disk).
+[LOG] Mark tileset as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[LOG] Mark actor's sprite as clean (disk).
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[LOG] Writing out scenes.
+[LOG] Saving thumbnail: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\scenes\1.png
+[LOG] Writing terrain.
+[LOG] Num Tiles: 48
+[LOG] Coverage: 14.285715%
+[LOG] Segments: (2,2)
+[LOG] Using Quad Space
+[LOG] Combine took: 10ms
+[LOG] Terrain processing took: 0ms
+[LOG] Reading header for Scene: 1 ()
+[LOG] From: scenes\1.xml
+[LOG] Writing out Scene Level
+[LOG] Copying over snippets.
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\list.xml to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\list.xml.bak
+[LOG] Copy from opened to disk: SceneEvents_1
+[LOG] Copied to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\snippets\SceneEvents_1.design
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\snippets\SceneEvents_1.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_0_0_4WayControl.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_0_0_4WayControl.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_1_1_BouncingBall.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_1_1_BouncingBall.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_2_2_BlockGotHit.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_2_2_BlockGotHit.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_3_3_FallinPItandDie.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_3_3_FallinPItandDie.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_5_5_PositionLimiter.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_5_5_PositionLimiter.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_6_6_FadeOutandDieafterTime.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_6_6_FadeOutandDieafterTime.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\SceneEvents_1.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\SceneEvents_1.design
+[LOG] 2 Way Control is clean (on disk and already copied). Skip.
+[LOG] Bounce off Wall is clean (on disk and already copied). Skip.
+[LOG] Block Got Hit is clean (on disk and already copied). Skip.
+[LOG] Fall in PIt and Die is clean (on disk and already copied). Skip.
+[LOG] Position Limiter is clean (on disk and already copied). Skip.
+[LOG] Fade Out and Die after Time is clean (on disk and already copied). Skip.
+[LOG] Writing Design Snippet to C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\preview\scripts\SceneEvents_1.as
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\preview\scripts\SceneEvents_1.as
+[LOG] Took 3 ms.
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\favorites.xml
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\prefs\favorites.xml
+[LOG] Done writing game.
+[LOG] Num Files: 14
+[LOG] Num Scene Files: 2
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\preview\scripts\StencylMain.as
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\preview\scripts\MyAssets.as
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\game.xml to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\game\game.xml
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\resources\data.xml to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\game\resources.xml
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\scenes\scenes.xml to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\game\scenes.xml
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\list.xml to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\game\behaviors.xml
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\preloader.png to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\game\preloader.png
+[LOG] Copy directory from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts
+[LOG] Copy Duration: 22
+[LOG] Copy directory from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\resources to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\game\resources
+[LOG] Copy Duration: 22
+[LOG] Copy directory from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\scenes to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\game\scenes
+[LOG] Copy Duration: 6
+[LOG] doFlashPreview: blockCall: false
+[LOG] Loading configuration file C:\Program Files (x86)\Stencyl\ext-tools\flex\frameworks\flex-config.xml
+[LOG] Default CSS file not found.
+[LOG] Cannot resolve namespace qualified type 'Menu' in CSS selector 'Menu'
+[LOG] Cannot resolve namespace qualified type 'Panel' in CSS selector 'Panel'
+[LOG] Cannot resolve namespace qualified type 'TitleWindow' in CSS selector 'TitleWindow'
+[LOG] Cannot resolve namespace qualified type 'VideoDisplay' in CSS selector 'VideoDisplay'
+[LOG] Total Time Taken for Preview: 6.354 seconds
+[LOG] PREVIEW OK
+[LOG] Work on Current Layer
+[LOG] Deselect
+[LOG] Clear Selection
+[LOG] Work on All Layers
+[LOG] Deselect
+[LOG] Clear Selection
+[LOG] Checking if no items: 0 
+[LOG] Working with Actors and/or Tiles
+[ERR] looking for: 1
+[ERR] {1=stencyl.core.engine.snippet.SnippetInstance@126b7df, 3=stencyl.core.engine.snippet.SnippetInstance@f1d0a3, -1=stencyl.core.engine.snippet.SnippetInstance@1b8935b}
+[ERR] {1=24, 2=0, 2147483647=thisactor}
+[ERR] Name: actor
+[ERR] Val: thisactor
+[ERR] {1=24, 2=0, 2147483647=thisactor}
+[ERR] looking for: 1
+[ERR] {1=stencyl.core.engine.snippet.SnippetInstance@126b7df, 3=stencyl.core.engine.snippet.SnippetInstance@f1d0a3, -1=stencyl.core.engine.snippet.SnippetInstance@1b8935b}
+[ERR] {1=24, 2=0, 2147483647=thisactor}
+[ERR] Name: _Speed
+[ERR] Val: 24
+[ERR] {1=24, 2=0, 2147483647=thisactor}
+[ERR] looking for: 1
+[ERR] {1=stencyl.core.engine.snippet.SnippetInstance@126b7df, 3=stencyl.core.engine.snippet.SnippetInstance@f1d0a3, -1=stencyl.core.engine.snippet.SnippetInstance@1b8935b}
+[ERR] {1=24, 2=0, 2147483647=thisactor}
+[ERR] Name: _Direction
+[ERR] Val: 0
+[ERR] {1=24, 2=0, 2147483647=thisactor}
+[LOG] Field Count: 1
+[ERR] looking for: 3
+[ERR] {1=stencyl.core.engine.snippet.SnippetInstance@126b7df, 3=stencyl.core.engine.snippet.SnippetInstance@f1d0a3, -1=stencyl.core.engine.snippet.SnippetInstance@1b8935b}
+[ERR] {2147483647=thisactor}
+[ERR] Name: actor
+[ERR] Val: thisactor
+[ERR] {2147483647=thisactor}
+[LOG] Field Count: 0
+[LOG] Case 1: Select New Object (Nothing Previously Selected).
+[LOG] Loading Closed Resource: Ball
+[ERR] looking for: 1
+[ERR] {1=stencyl.core.engine.snippet.SnippetInstance@7e6fb2, 3=stencyl.core.engine.snippet.SnippetInstance@d71aa7}
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[ERR] Name: actor
+[ERR] Val: thisactor
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[ERR] looking for: 1
+[ERR] {1=stencyl.core.engine.snippet.SnippetInstance@7e6fb2, 3=stencyl.core.engine.snippet.SnippetInstance@d71aa7}
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[ERR] Name: _Speed
+[ERR] Val: 20
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[ERR] looking for: 1
+[ERR] {1=stencyl.core.engine.snippet.SnippetInstance@7e6fb2, 3=stencyl.core.engine.snippet.SnippetInstance@d71aa7}
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[ERR] Name: _Direction
+[ERR] Val: 0
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[LOG] Field Count: 1
+[ERR] looking for: 3
+[ERR] {1=stencyl.core.engine.snippet.SnippetInstance@7e6fb2, 3=stencyl.core.engine.snippet.SnippetInstance@d71aa7}
+[ERR] {2147483647=thisactor}
+[ERR] Name: actor
+[ERR] Val: thisactor
+[ERR] {2147483647=thisactor}
+[LOG] Field Count: 0
+[ERR] looking for: 1
+[ERR] {1=stencyl.core.engine.snippet.SnippetInstance@7e6fb2, 3=stencyl.core.engine.snippet.SnippetInstance@d71aa7}
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[ERR] Name: actor
+[ERR] Val: thisactor
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[ERR] looking for: 1
+[ERR] {1=stencyl.core.engine.snippet.SnippetInstance@7e6fb2, 3=stencyl.core.engine.snippet.SnippetInstance@d71aa7}
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[ERR] Name: _Speed
+[ERR] Val: 20
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[ERR] looking for: 1
+[ERR] {1=stencyl.core.engine.snippet.SnippetInstance@7e6fb2, 3=stencyl.core.engine.snippet.SnippetInstance@d71aa7}
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[ERR] Name: _Direction
+[ERR] Val: 0
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[LOG] Field Count: 1
+[ERR] looking for: 3
+[ERR] {1=stencyl.core.engine.snippet.SnippetInstance@7e6fb2, 3=stencyl.core.engine.snippet.SnippetInstance@d71aa7}
+[ERR] {2147483647=thisactor}
+[ERR] Name: actor
+[ERR] Val: thisactor
+[ERR] {2147483647=thisactor}
+[LOG] Field Count: 0
+[LOG] Selected: 1 [X,Y: 0, 0 ]
+[LOG] Activated: Ball
+[LOG] Open Took 1387ms
+[LOG] Total Took 1455ms
+[ERR] Saving Snippet: Bounce off Wall
+[ERR] Instance Value: 20
+[ERR] Instance Value: 0
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Fall in PIt and Die
+[ERR] Instance Value: thisactor
+[LOG] Reading header for Scene: 1 ()
+[LOG] From: scenes\1.xml
+[LOG] Save in place.
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\game.xml to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\game.xml.bak
+[LOG] Writing out local resources.
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\resources\data.xml to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\resources\data.xml.bak
+[LOG] Write PNG out to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\\resources\7-0.png
+[LOG] Mark actor's sprite as clean (disk).
+[ERR] Saving Snippet: Bounce off Wall
+[ERR] Instance Value: 20
+[ERR] Instance Value: 0
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Fall in PIt and Die
+[ERR] Instance Value: thisactor
+[LOG] Reading header for Scene: 1 ()
+[LOG] From: scenes\1.xml
+[LOG] Skip writing out Background.
+[LOG] Mark background as clean (disk).
+[LOG] Mark tileset as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[LOG] Mark actor's sprite as clean (disk).
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[LOG] Writing out scenes.
+[ERR] Saving Snippet: Fall in PIt and Die
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Bounce off Wall
+[ERR] Instance Value: 24
+[ERR] Instance Value: 0
+[ERR] Instance Value: thisactor
+[LOG] Saving thumbnail: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\scenes\1.png
+[LOG] Writing terrain.
+[LOG] Num Tiles: 48
+[LOG] Coverage: 14.285715%
+[LOG] Segments: (2,2)
+[LOG] Using Quad Space
+[LOG] Combine took: 3ms
+[LOG] Terrain processing took: 0ms
+[LOG] Reading header for Scene: 1 ()
+[LOG] From: scenes\1.xml
+[LOG] Writing out Scene Level
+[LOG] Copying over snippets.
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\list.xml to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\list.xml.bak
+[LOG] Copy from opened to disk: ActorEvents_6
+[LOG] Copied to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\snippets\ActorEvents_6.design
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\snippets\ActorEvents_6.design
+[LOG] Copy from opened to disk: SceneEvents_1
+[LOG] Copied to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\snippets\SceneEvents_1.design
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\snippets\SceneEvents_1.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_0_0_4WayControl.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_0_0_4WayControl.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_1_1_BouncingBall.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_1_1_BouncingBall.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_2_2_BlockGotHit.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_2_2_BlockGotHit.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_3_3_FallinPItandDie.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_3_3_FallinPItandDie.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_5_5_PositionLimiter.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_5_5_PositionLimiter.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_6_6_FadeOutandDieafterTime.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_6_6_FadeOutandDieafterTime.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\SceneEvents_1.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\SceneEvents_1.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\ActorEvents_6.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\ActorEvents_6.design
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\favorites.xml
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\prefs\favorites.xml
+[LOG] Done writing game.
+[LOG] Activated: Level
+[LOG] Closed Document: Ball6
+[LOG] Warning: Unable to refresh document.
+[LOG] If you're opening up a code mode snippet, ignore this message unless you think something is wrong.
+[LOG] If you just closed a document, ignore this message.
+[LOG] Loading Closed Resource: Ball
+[ERR] looking for: 1
+[ERR] {1=stencyl.core.engine.snippet.SnippetInstance@7e6fb2, 3=stencyl.core.engine.snippet.SnippetInstance@d71aa7}
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[ERR] Name: actor
+[ERR] Val: thisactor
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[ERR] looking for: 1
+[ERR] {1=stencyl.core.engine.snippet.SnippetInstance@7e6fb2, 3=stencyl.core.engine.snippet.SnippetInstance@d71aa7}
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[ERR] Name: _Speed
+[ERR] Val: 20
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[ERR] looking for: 1
+[ERR] {1=stencyl.core.engine.snippet.SnippetInstance@7e6fb2, 3=stencyl.core.engine.snippet.SnippetInstance@d71aa7}
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[ERR] Name: _Direction
+[ERR] Val: 0
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[LOG] Field Count: 1
+[ERR] looking for: 3
+[ERR] {1=stencyl.core.engine.snippet.SnippetInstance@7e6fb2, 3=stencyl.core.engine.snippet.SnippetInstance@d71aa7}
+[ERR] {2147483647=thisactor}
+[ERR] Name: actor
+[ERR] Val: thisactor
+[ERR] {2147483647=thisactor}
+[LOG] Field Count: 0
+[ERR] looking for: 1
+[ERR] {1=stencyl.core.engine.snippet.SnippetInstance@7e6fb2, 3=stencyl.core.engine.snippet.SnippetInstance@d71aa7}
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[ERR] Name: actor
+[ERR] Val: thisactor
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[ERR] looking for: 1
+[ERR] {1=stencyl.core.engine.snippet.SnippetInstance@7e6fb2, 3=stencyl.core.engine.snippet.SnippetInstance@d71aa7}
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[ERR] Name: _Speed
+[ERR] Val: 20
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[ERR] looking for: 1
+[ERR] {1=stencyl.core.engine.snippet.SnippetInstance@7e6fb2, 3=stencyl.core.engine.snippet.SnippetInstance@d71aa7}
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[ERR] Name: _Direction
+[ERR] Val: 0
+[ERR] {1=20, 2=0, 2147483647=thisactor}
+[LOG] Field Count: 1
+[ERR] looking for: 3
+[ERR] {1=stencyl.core.engine.snippet.SnippetInstance@7e6fb2, 3=stencyl.core.engine.snippet.SnippetInstance@d71aa7}
+[ERR] {2147483647=thisactor}
+[ERR] Name: actor
+[ERR] Val: thisactor
+[ERR] {2147483647=thisactor}
+[LOG] Field Count: 0
+[LOG] Selected: 1 [X,Y: 0, 0 ]
+[LOG] Activated: Ball
+[LOG] Open Took 1262ms
+[LOG] Total Took 1320ms
+[LOG] Loading Closed Resource: Bounce off Wall
+[LOG] Added: draw
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: step
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setvel
+[LOG] Added: init
+[LOG] Added: comment-long
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[LOG] collision-top
+[LOG] Language Pack is out of sync with SW. Ignoring parameter index: 1
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[LOG] collision-bottom
+[LOG] Language Pack is out of sync with SW. Ignoring parameter index: 1
+[LOG] Added: else-if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[LOG] collision-top
+[LOG] Language Pack is out of sync with SW. Ignoring parameter index: 1
+[LOG] collision-bottom
+[LOG] Language Pack is out of sync with SW. Ignoring parameter index: 1
+[LOG] Added: if
+[LOG] Added: comment-long
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[LOG] collision-left
+[LOG] Language Pack is out of sync with SW. Ignoring parameter index: 1
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[LOG] collision-right
+[LOG] Language Pack is out of sync with SW. Ignoring parameter index: 1
+[LOG] Added: else-if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[LOG] collision-left
+[LOG] Language Pack is out of sync with SW. Ignoring parameter index: 1
+[LOG] collision-right
+[LOG] Language Pack is out of sync with SW. Ignoring parameter index: 1
+[LOG] Added: else-if
+[LOG] Added: break
+[LOG] Added: collision-foreach
+[LOG] Added: collide
+[ERR] Verifying Top Level... draw
+[ERR] Result for: draw - false
+[ERR] Verifying Top Level... step
+[ERR] Result for: more - true
+[ERR] Result for: if - false
+[ERR] Result for: more - true
+[ERR] Result for: if - false
+[ERR] Result for: less - true
+[ERR] Result for: if - false
+[ERR] Result for: less - true
+[ERR] Result for: if - false
+[ERR] Result for: step - false
+[ERR] Verifying Top Level... init
+[ERR] Result for: setvel - true
+[ERR] Result for: init - false
+[ERR] Verifying Top Level... collide
+[ERR] Result for: plus - true
+[ERR] Result for: if - false
+[ERR] Result for: minus - true
+[ERR] Result for: else-if - false
+[ERR] Result for: if - false
+[ERR] Result for: plus - true
+[ERR] Result for: if - false
+[ERR] Result for: minus - true
+[ERR] Result for: else-if - false
+[ERR] Result for: else-if - false
+[ERR] Result for: collision-foreach - false
+[ERR] Result for: collide - false
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: step
+[ERR] Verifying Top Level... step
+[ERR] Result for: more - true
+[ERR] Result for: if - false
+[ERR] Result for: more - true
+[ERR] Result for: if - false
+[ERR] Result for: less - true
+[ERR] Result for: if - false
+[ERR] Result for: less - true
+[ERR] Result for: if - false
+[ERR] Result for: step - false
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setvel
+[LOG] Added: init
+[ERR] Verifying Top Level... init
+[ERR] Result for: setvel - true
+[ERR] Result for: init - false
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Added: comment-long
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[LOG] Added: else-if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[LOG] Added: if
+[LOG] Added: comment-long
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[LOG] Added: else-if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[LOG] Added: else-if
+[LOG] Added: break
+[LOG] Added: collision-foreach
+[LOG] Added: collide
+[ERR] Verifying Top Level... collide
+[ERR] Result for: plus - true
+[ERR] Result for: if - false
+[ERR] Result for: minus - true
+[ERR] Result for: else-if - false
+[ERR] Result for: if - false
+[ERR] Result for: plus - true
+[ERR] Result for: if - false
+[ERR] Result for: minus - true
+[ERR] Result for: else-if - false
+[ERR] Result for: else-if - false
+[ERR] Result for: collision-foreach - false
+[ERR] Result for: collide - false
+[LOG] Activated: Bounce off Wall
+[LOG] Open Took 2190ms
+[LOG] Total Took 2337ms
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Reading header for Scene: 1 ()
+[LOG] From: scenes\1.xml
+[LOG] Save in place.
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\game.xml to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\game.xml.bak
+[LOG] Writing out local resources.
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\resources\data.xml to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\resources\data.xml.bak
+[LOG] Write PNG out to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\\resources\7-0.png
+[LOG] Mark actor's sprite as clean (disk).
+[ERR] Saving Snippet: Bounce off Wall
+[ERR] Instance Value: 20
+[ERR] Instance Value: 0
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Fall in PIt and Die
+[ERR] Instance Value: thisactor
+[LOG] Reading header for Scene: 1 ()
+[LOG] From: scenes\1.xml
+[LOG] Skip writing out Background.
+[LOG] Mark background as clean (disk).
+[LOG] Mark tileset as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[LOG] Mark actor's sprite as clean (disk).
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[LOG] Writing out scenes.
+[ERR] Saving Snippet: Fall in PIt and Die
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Bounce off Wall
+[ERR] Instance Value: 24
+[ERR] Instance Value: 0
+[ERR] Instance Value: thisactor
+[LOG] Saving thumbnail: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\scenes\1.png
+[LOG] Writing terrain.
+[LOG] Num Tiles: 48
+[LOG] Coverage: 14.285715%
+[LOG] Segments: (2,2)
+[LOG] Using Quad Space
+[LOG] Combine took: 7ms
+[LOG] Terrain processing took: 0ms
+[LOG] Reading header for Scene: 1 ()
+[LOG] From: scenes\1.xml
+[LOG] Writing out Scene Level
+[LOG] Copying over snippets.
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\list.xml to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\list.xml.bak
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Copy from opened to disk: Bounce off Wall
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Copied to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\snippets\Design_1_1_BouncingBall.design
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\snippets\Design_1_1_BouncingBall.design
+[LOG] Copy from opened to disk: ActorEvents_6
+[LOG] Copied to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\snippets\ActorEvents_6.design
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\snippets\ActorEvents_6.design
+[LOG] Copy from opened to disk: SceneEvents_1
+[LOG] Copied to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\snippets\SceneEvents_1.design
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\snippets\SceneEvents_1.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_0_0_4WayControl.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_0_0_4WayControl.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_1_1_BouncingBall.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_1_1_BouncingBall.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_2_2_BlockGotHit.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_2_2_BlockGotHit.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_3_3_FallinPItandDie.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_3_3_FallinPItandDie.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_5_5_PositionLimiter.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_5_5_PositionLimiter.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\Design_6_6_FadeOutandDieafterTime.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_6_6_FadeOutandDieafterTime.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\SceneEvents_1.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\SceneEvents_1.design
+[LOG] Copy file from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\snippets\ActorEvents_6.design to: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\preview\scripts\ActorEvents_6.design
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\Brick Block\favorites.xml
+[LOG] Write String out as file to: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\prefs\favorites.xml
+[LOG] Done writing game.
+[LOG] Activated: Ball
+[LOG] Closed Document: Bounce off Wall1
+[LOG] Warning: Unable to refresh document.
+[LOG] If you're opening up a code mode snippet, ignore this message unless you think something is wrong.
+[LOG] If you just closed a document, ignore this message.
+[LOG] Attempting to quit out of Stencyl.
+[LOG] Destroying extensions.
+[LOG] Destroying Temporary Sandbox.
+[LOG] Performing final close.
+[LOG] Exiting...

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<collide comment="false" x="15" y="803">
+<group id="-1"/>
+</collide>
+</group>
+<group id="1"/>
+<group id="2">
+<step comment="false" x="15" y="88">
+<group id="-1">
+<comment-long comment="false" x="26" y="113">
+<int id="0" val="Reached the left side. Switch direction."/>
+</comment-long>
+<if comment="false" x="26" y="193">
+<group id="-1">
+<if comment="false" x="37" y="231">
+<group id="-1">
+<set-game-val-2 comment="false" x="48" y="261">
+<true comment="false" id="0" x="0" y="0"/>
+</set-game-val-2>
+<set-game-val-0 comment="false" x="48" y="286">
+<true comment="false" id="0" x="0" y="0"/>
+</set-game-val-0>
+</group>
+<not comment="false" id="0" x="0" y="0">
+<get-game-val-0 comment="false" id="0" x="0" y="0"/>
+</not>
+</if>
+</group>
+<eq comment="false" id="0" x="0" y="0">
+<getx comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getx>
+<int id="1" val="2"/>
+</eq>
+</if>
+<comment-long comment="false" x="26" y="335">
+<int id="0" val="Reached the right side. Switch direction."/>
+</comment-long>
+<if comment="false" x="26" y="415">
+<group id="-1">
+<if comment="false" x="37" y="458">
+<group id="-1">
+<set-game-val-2 comment="false" x="48" y="483">
+<true comment="false" id="0" x="0" y="0"/>
+</set-game-val-2>
+<set-game-val-0 comment="false" x="48" y="508">
+<false comment="false" id="0" x="0" y="0"/>
+</set-game-val-0>
+</group>
+<get-game-val-0 comment="false" id="0" x="0" y="0"/>
+</if>
+</group>
+<eq comment="false" id="0" x="0" y="0">
+<plus comment="false" id="0" x="0" y="0">
+<getx comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getx>
+<getwidth comment="false" id="1" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getwidth>
+</plus>
+<minus comment="false" id="1" x="0" y="0">
+<scenew comment="false" id="0" x="0" y="0"/>
+<int id="1" val="2"/>
+</minus>
+</eq>
+</if>
+<comment-long comment="false" x="26" y="557">
+<int id="0" val="Make the aliens move left or right&#10;at a constant rate."/>
+</comment-long>
+<if comment="false" x="26" y="637">
+<group id="-1">
+<setdx comment="false" x="37" y="662">
+<ACTOR eid="this" id="0"/>
+<get-val-0-2 comment="false" id="1" x="0" y="0"/>
+</setdx>
+</group>
+<get-game-val-0 comment="false" id="0" x="0" y="0"/>
+</if>
+<else comment="false" x="26" y="706">
+<group id="-1">
+<setdx comment="false" x="37" y="726">
+<ACTOR eid="this" id="0"/>
+<neg comment="false" id="1" x="0" y="0">
+<get-val-0-2 comment="false" id="0" x="0" y="0"/>
+</neg>
+</setdx>
+</group>
+</else>
+</group>
+</step>
+</group>
+<group id="3">
+<draw comment="false" x="15" y="876">
+<group id="-1"/>
+</draw>
+</group>
+<group id="4">
+<init comment="false" x="15" y="15">
+<group id="-1"/>
+</init>
+</group>
+<group id="-1"/>
+</groups>

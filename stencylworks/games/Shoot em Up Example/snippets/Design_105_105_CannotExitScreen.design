@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<draw comment="false" x="15" y="568">
+<group id="-1"/>
+</draw>
+</group>
+<group id="1">
+<step comment="false" x="15" y="88">
+<group id="-1">
+<if comment="false" x="26" y="113">
+<group id="-1">
+<setx comment="false" x="37" y="151">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="1"/>
+</setx>
+</group>
+<less comment="false" id="0" x="0" y="0">
+<getx comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getx>
+<int id="1" val="0"/>
+</less>
+</if>
+<if comment="false" x="26" y="190">
+<group id="-1">
+<sety comment="false" x="37" y="228">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="1"/>
+</sety>
+</group>
+<less comment="false" id="0" x="0" y="0">
+<gety comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</gety>
+<int id="1" val="0"/>
+</less>
+</if>
+<if comment="false" x="26" y="267">
+<group id="-1">
+<setx comment="false" x="37" y="310">
+<ACTOR eid="this" id="0"/>
+<minus comment="false" id="1" x="0" y="0">
+<screenw comment="false" id="0" x="0" y="0"/>
+<getwidth comment="false" id="1" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getwidth>
+</minus>
+</setx>
+</group>
+<more comment="false" id="0" x="0" y="0">
+<plus comment="false" id="0" x="0" y="0">
+<getx comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getx>
+<getwidth comment="false" id="1" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getwidth>
+</plus>
+<screenw comment="false" id="1" x="0" y="0"/>
+</more>
+</if>
+<if comment="false" x="26" y="367">
+<group id="-1">
+<sety comment="false" x="37" y="410">
+<ACTOR eid="this" id="0"/>
+<minus comment="false" id="1" x="0" y="0">
+<screenh comment="false" id="0" x="0" y="0"/>
+<getheight comment="false" id="1" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getheight>
+</minus>
+</sety>
+</group>
+<more comment="false" id="0" x="0" y="0">
+<plus comment="false" id="0" x="0" y="0">
+<gety comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</gety>
+<getheight comment="false" id="1" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getheight>
+</plus>
+<screenh comment="false" id="1" x="0" y="0"/>
+</more>
+</if>
+</group>
+</step>
+</group>
+<group id="2">
+<init comment="false" x="15" y="15">
+<group id="-1"/>
+</init>
+</group>
+<group id="3">
+<collide comment="false" x="15" y="495">
+<group id="-1"/>
+</collide>
+</group>
+<group id="-1"/>
+</groups>

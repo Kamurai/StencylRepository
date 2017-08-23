@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1"/>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="88">
+<group id="-1">
+<comment-short comment="false" x="26" y="113">
+<int id="0" val="Sets the number of coins picked up to 0."/>
+</comment-short>
+<set-val-12-1 comment="false" x="26" y="133">
+<int id="0" val="0"/>
+</set-val-12-1>
+<comment-long comment="false" x="26" y="153">
+<int id="0" val="For each Coin Actor Type instance that is killed, we increment by one of those in the scene until all of them are no longer present inside the scene."/>
+</comment-long>
+<actors-of-type3 comment="false" x="26" y="233">
+<group id="-1">
+<increment comment="false" x="37" y="265">
+<int id="0" val="1"/>
+<int id="1" val="1"/>
+</increment>
+</group>
+<get-val-12-8 comment="false" id="0" x="0" y="0"/>
+</actors-of-type3>
+<comment-long comment="false" x="26" y="304">
+<int id="0" val="If the total number of Coin Actor Types placed into the scene is less than or equal to zero, we disable this behavior, play a collected all sound and then switch to the next scene."/>
+</comment-long>
+<if comment="false" x="26" y="384">
+<group id="-1">
+<disable-snippet comment="false" x="37" y="414"/>
+<play-sound3 comment="false" x="37" y="434">
+<SOUND eid="var" id="0" vid="4"/>
+</play-sound3>
+<scene-change3 comment="false" x="37" y="461">
+<SCENE eid="var" id="0" vid="3"/>
+<int id="1" val="0"/>
+<int id="2" val="1.5"/>
+<int id="3" val="1"/>
+<int id="4" val="1.5"/>
+</scene-change3>
+</group>
+<lesseq comment="false" id="0" x="0" y="0">
+<get-val-12-1 comment="false" id="0" x="0" y="0"/>
+<int id="1" val="0"/>
+</lesseq>
+</if>
+</group>
+</step>
+</group>
+<group id="2">
+<draw comment="false" x="15" y="528">
+<group id="-1"/>
+</draw>
+</group>
+<group id="-1"/>
+</groups>

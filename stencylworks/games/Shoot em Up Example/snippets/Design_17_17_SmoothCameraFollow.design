@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<collide comment="false" x="17" y="376">
+<group id="-1"/>
+</collide>
+</group>
+<group id="1">
+<step comment="false" x="15" y="122">
+<group id="-1">
+<if comment="false" x="26" y="147">
+<group id="-1">
+<moveTo comment="false" x="37" y="185">
+<ACTOR eid="var" id="0" vid="1"/>
+<getx comment="false" id="1" x="0" y="0">
+<ACTOR eid="var" id="0" vid="2"/>
+</getx>
+<gety comment="false" id="2" x="0" y="0">
+<ACTOR eid="var" id="0" vid="2"/>
+</gety>
+<get-val-17-3 comment="false" id="3" x="0" y="0"/>
+<int id="4" val="0"/>
+</moveTo>
+<camera-follow comment="false" x="37" y="225">
+<ACTOR eid="var" id="0" vid="1"/>
+</camera-follow>
+</group>
+<and comment="false" id="0" x="0" y="0">
+<isalive comment="false" id="0" x="0" y="0">
+<ACTOR eid="var" id="0" vid="2"/>
+</isalive>
+<hasvalue comment="false" id="1" x="0" y="0">
+<int id="0" val="2"/>
+</hasvalue>
+</and>
+</if>
+</group>
+</step>
+</group>
+<group id="2">
+<draw comment="false" x="15" y="292">
+<group id="-1"/>
+</draw>
+</group>
+<group id="3">
+<init comment="false" x="15" y="15">
+<group id="-1">
+<create-actor2 comment="false" x="26" y="40">
+<ACTORTYPE eid="var" id="0" vid="4"/>
+<int id="1" val="0"/>
+<int id="2" val="0"/>
+<int id="3" val="0"/>
+</create-actor2>
+<set-val-17-1 comment="false" x="26" y="67">
+<ACTOR eid="lastcreated" id="0"/>
+</set-val-17-1>
+</group>
+</init>
+</group>
+<group id="-1"/>
+</groups>

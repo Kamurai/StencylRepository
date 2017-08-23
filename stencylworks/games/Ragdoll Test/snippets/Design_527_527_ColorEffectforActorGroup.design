@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <set-val-527-22 comment="false" x="26" y="40">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-527-22>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="93">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="118">
+                    <group eventID="-1" id="-1">
+                        <set-val-527-22 comment="false" x="37" y="143">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-527-22>
+                        <if comment="false" x="37" y="168">
+                            <group eventID="-1" id="-1">
+                                <say-this comment="false" x="48" y="193">
+                                    <get-val-527-17 comment="false" id="0" x="0" y="0"/>
+                                </say-this>
+                            </group>
+                            <get-val-527-16 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                    </group>
+                    <get-val-527-22 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="270">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="3">
+        <receive-message comment="false" x="15" y="343">
+            <group eventID="-1" id="-1">
+                <set-val-527-16 comment="false" x="26" y="373">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-527-16>
+                <actors-in-group comment="false" x="26" y="398">
+                    <group eventID="-1" id="-1">
+                        <clear-filter comment="false" x="37" y="425">
+                            <actor-in-group comment="false" id="0" x="0" y="0"/>
+                        </clear-filter>
+                        <if comment="false" x="37" y="457">
+                            <group eventID="-1" id="-1">
+                                <apply-filter comment="false" x="48" y="482">
+                                    <actor-in-group comment="false" id="0" x="0" y="0"/>
+                                    <filter-grayscale comment="false" id="1" x="0" y="0"/>
+                                </apply-filter>
+                            </group>
+                            <get-val-527-1 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <if comment="false" x="37" y="526">
+                            <group eventID="-1" id="-1">
+                                <apply-filter comment="false" x="48" y="551">
+                                    <actor-in-group comment="false" id="0" x="0" y="0"/>
+                                    <filter-negative comment="false" id="1" x="0" y="0"/>
+                                </apply-filter>
+                            </group>
+                            <get-val-527-2 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <if comment="false" x="37" y="595">
+                            <group eventID="-1" id="-1">
+                                <apply-filter comment="false" x="48" y="620">
+                                    <actor-in-group comment="false" id="0" x="0" y="0"/>
+                                    <filter-sepia comment="false" id="1" x="0" y="0"/>
+                                </apply-filter>
+                            </group>
+                            <get-val-527-3 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <if comment="false" x="37" y="664">
+                            <group eventID="-1" id="-1">
+                                <apply-filter comment="false" x="48" y="689">
+                                    <actor-in-group comment="false" id="0" x="0" y="0"/>
+                                    <filter-tint comment="false" id="1" x="0" y="0">
+                                        <color id="0" vid="6"/>
+                                        <get-val-527-4 comment="false" id="1" x="0" y="0"/>
+                                    </filter-tint>
+                                </apply-filter>
+                            </group>
+                            <get-val-527-5 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <if comment="false" x="37" y="746">
+                            <group eventID="-1" id="-1">
+                                <apply-filter comment="false" x="48" y="771">
+                                    <actor-in-group comment="false" id="0" x="0" y="0"/>
+                                    <filter-hsb comment="false" id="1" x="0" y="0">
+                                        <get-val-527-6 comment="false" id="0" x="0" y="0"/>
+                                    </filter-hsb>
+                                </apply-filter>
+                            </group>
+                            <get-val-527-7 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <if comment="false" x="37" y="820">
+                            <group eventID="-1" id="-1">
+                                <apply-filter comment="false" x="48" y="845">
+                                    <actor-in-group comment="false" id="0" x="0" y="0"/>
+                                    <filter-sat comment="false" id="1" x="0" y="0">
+                                        <get-val-527-8 comment="false" id="0" x="0" y="0"/>
+                                    </filter-sat>
+                                </apply-filter>
+                            </group>
+                            <get-val-527-9 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <if comment="false" x="37" y="894">
+                            <group eventID="-1" id="-1">
+                                <apply-filter comment="false" x="48" y="919">
+                                    <actor-in-group comment="false" id="0" x="0" y="0"/>
+                                    <filter-bright comment="false" id="1" x="0" y="0">
+                                        <get-val-527-10 comment="false" id="0" x="0" y="0"/>
+                                    </filter-bright>
+                                </apply-filter>
+                            </group>
+                            <get-val-527-11 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <if comment="false" x="37" y="968">
+                            <group eventID="-1" id="-1">
+                                <apply-filter comment="false" x="48" y="993">
+                                    <actor-in-group comment="false" id="0" x="0" y="0"/>
+                                    <custom-720 comment="false" id="1" x="0" y="0">
+                                        <int id="0" val="50"/>
+                                    </custom-720>
+                                </apply-filter>
+                            </group>
+                            <get-val-527-20 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                    </group>
+                    <GROUP eid="var" id="0" vid="21"/>
+                </actors-in-group>
+            </group>
+            <get-val-527-17 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group eventID="-1" id="4">
+        <receive-message comment="false" x="15" y="1082">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="1112">
+                    <group eventID="-1" id="-1">
+                        <set-val-527-16 comment="false" x="37" y="1137">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-527-16>
+                        <actors-in-group comment="false" x="37" y="1162">
+                            <group eventID="-1" id="-1">
+                                <clear-filter comment="false" x="48" y="1189">
+                                    <actor-in-group comment="false" id="0" x="0" y="0"/>
+                                </clear-filter>
+                            </group>
+                            <GROUP eid="var" id="0" vid="21"/>
+                        </actors-in-group>
+                    </group>
+                    <get-val-527-16 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+            <get-val-527-13 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group id="-1"/>
+</groups>

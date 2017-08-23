@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<draw comment="false" x="15" y="502">
+<group id="-1"/>
+</draw>
+</group>
+<group id="1">
+<step comment="false" x="15" y="211">
+<group id="-1">
+<if comment="false" x="26" y="236">
+<group id="-1">
+<if comment="false" x="37" y="274">
+<group id="-1">
+<custom-code comment="false" x="48" y="299">
+<int id="0" val="scene.cameraFollow(toFollow, true, false);"/>
+</custom-code>
+</group>
+<get-val-18-2 comment="false" id="0" x="0" y="0"/>
+</if>
+<if comment="false" x="37" y="331">
+<group id="-1">
+<custom-code comment="false" x="48" y="356">
+<int id="0" val="scene.cameraFollow(toFollow, false, true);"/>
+</custom-code>
+</group>
+<get-val-18-3 comment="false" id="0" x="0" y="0"/>
+</if>
+<if comment="false" x="37" y="388">
+<group id="-1">
+<camera-follow comment="false" x="48" y="423">
+<ACTOR eid="var" id="0" vid="1"/>
+</camera-follow>
+</group>
+<not comment="false" id="0" x="0" y="0">
+<or comment="false" id="0" x="0" y="0">
+<get-val-18-2 comment="false" id="0" x="0" y="0"/>
+<get-val-18-3 comment="false" id="1" x="0" y="0"/>
+</or>
+</not>
+</if>
+</group>
+<and comment="false" id="0" x="0" y="0">
+<hasvalue comment="false" id="0" x="0" y="0">
+<int id="0" val="1"/>
+</hasvalue>
+<isalive comment="false" id="1" x="0" y="0">
+<ACTOR eid="var" id="0" vid="1"/>
+</isalive>
+</and>
+</if>
+</group>
+</step>
+</group>
+<group id="2">
+<init comment="false" x="15" y="15">
+<group id="-1">
+<if comment="false" x="26" y="40">
+<group id="-1">
+<camera-follow comment="false" x="37" y="78">
+<ACTOR eid="var" id="0" vid="1"/>
+</camera-follow>
+</group>
+<and comment="false" id="0" x="0" y="0">
+<hasvalue comment="false" id="0" x="0" y="0">
+<int id="0" val="1"/>
+</hasvalue>
+<isalive comment="false" id="1" x="0" y="0">
+<ACTOR eid="var" id="0" vid="1"/>
+</isalive>
+</and>
+</if>
+<set-val-18-4 comment="false" x="26" y="117">
+<getx comment="false" id="0" x="0" y="0">
+<ACTOR eid="var" id="0" vid="1"/>
+</getx>
+</set-val-18-4>
+<set-val-18-5 comment="false" x="26" y="150">
+<gety comment="false" id="0" x="0" y="0">
+<ACTOR eid="var" id="0" vid="1"/>
+</gety>
+</set-val-18-5>
+</group>
+</init>
+</group>
+<group id="-1"/>
+</groups>

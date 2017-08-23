@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0"/>
+<group id="1">
+<draw comment="false" x="15" y="234">
+<group id="-1"/>
+</draw>
+</group>
+<group id="2"/>
+<group id="3">
+<step comment="false" x="15" y="88">
+<group id="-1"/>
+</step>
+</group>
+<group id="4">
+<collide comment="false" x="15" y="161">
+<group id="-1"/>
+</collide>
+</group>
+<group id="5">
+<receive-message comment="false" x="15" y="307">
+<group id="-1">
+<create-actor2 comment="false" x="26" y="337">
+<ACTORTYPE eid="var" id="0" vid="4"/>
+<getxc comment="false" id="1" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getxc>
+<getyc comment="false" id="2" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getyc>
+<int id="3" val="0"/>
+</create-actor2>
+<setx comment="false" x="26" y="377">
+<ACTOR eid="lastcreated" id="0"/>
+<minus comment="false" id="1" x="0" y="0">
+<getx comment="false" id="0" x="0" y="0">
+<ACTOR eid="lastcreated" id="0"/>
+</getx>
+<div comment="false" id="1" x="0" y="0">
+<getwidth comment="false" id="0" x="0" y="0">
+<ACTOR eid="lastcreated" id="0"/>
+</getwidth>
+<int id="1" val="2"/>
+</div>
+</minus>
+</setx>
+<sety comment="false" x="26" y="427">
+<ACTOR eid="lastcreated" id="0"/>
+<minus comment="false" id="1" x="0" y="0">
+<gety comment="false" id="0" x="0" y="0">
+<ACTOR eid="lastcreated" id="0"/>
+</gety>
+<div comment="false" id="1" x="0" y="0">
+<getheight comment="false" id="0" x="0" y="0">
+<ACTOR eid="lastcreated" id="0"/>
+</getheight>
+<int id="1" val="2"/>
+</div>
+</minus>
+</sety>
+<setangle comment="false" x="26" y="477">
+<ACTOR eid="lastcreated" id="0"/>
+<minus comment="false" id="1" x="0" y="0">
+<plus comment="false" id="0" x="0" y="0">
+<getdir comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getdir>
+<get-val-70-5 comment="false" id="1" x="0" y="0"/>
+</plus>
+<get-val-70-6 comment="false" id="1" x="0" y="0"/>
+</minus>
+</setangle>
+<setvel comment="false" x="26" y="527">
+<ACTOR eid="lastcreated" id="0"/>
+<minus comment="false" id="1" x="0" y="0">
+<plus comment="false" id="0" x="0" y="0">
+<getdir comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getdir>
+<get-val-70-5 comment="false" id="1" x="0" y="0"/>
+</plus>
+<int id="1" val="180"/>
+</minus>
+<get-val-70-2 comment="false" id="2" x="0" y="0"/>
+</setvel>
+<create-actor2 comment="false" x="26" y="577">
+<ACTORTYPE eid="var" id="0" vid="4"/>
+<getxc comment="false" id="1" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getxc>
+<getyc comment="false" id="2" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getyc>
+<int id="3" val="0"/>
+</create-actor2>
+<say comment="false" x="26" y="617">
+<ACTOR eid="this" id="0"/>
+<int id="1" val=""/>
+<int id="2" val="changeAnimationToLeft"/>
+</say>
+<setx comment="false" x="26" y="644">
+<ACTOR eid="lastcreated" id="0"/>
+<minus comment="false" id="1" x="0" y="0">
+<getx comment="false" id="0" x="0" y="0">
+<ACTOR eid="lastcreated" id="0"/>
+</getx>
+<div comment="false" id="1" x="0" y="0">
+<getwidth comment="false" id="0" x="0" y="0">
+<ACTOR eid="lastcreated" id="0"/>
+</getwidth>
+<int id="1" val="2"/>
+</div>
+</minus>
+</setx>
+<sety comment="false" x="26" y="694">
+<ACTOR eid="lastcreated" id="0"/>
+<minus comment="false" id="1" x="0" y="0">
+<gety comment="false" id="0" x="0" y="0">
+<ACTOR eid="lastcreated" id="0"/>
+</gety>
+<div comment="false" id="1" x="0" y="0">
+<getheight comment="false" id="0" x="0" y="0">
+<ACTOR eid="lastcreated" id="0"/>
+</getheight>
+<int id="1" val="2"/>
+</div>
+</minus>
+</sety>
+<setangle comment="false" x="26" y="744">
+<ACTOR eid="lastcreated" id="0"/>
+<minus comment="false" id="1" x="0" y="0">
+<plus comment="false" id="0" x="0" y="0">
+<getdir comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getdir>
+<get-val-70-10 comment="false" id="1" x="0" y="0"/>
+</plus>
+<get-val-70-8 comment="false" id="1" x="0" y="0"/>
+</minus>
+</setangle>
+<setvel comment="false" x="26" y="794">
+<ACTOR eid="lastcreated" id="0"/>
+<minus comment="false" id="1" x="0" y="0">
+<plus comment="false" id="0" x="0" y="0">
+<getdir comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getdir>
+<get-val-70-10 comment="false" id="1" x="0" y="0"/>
+</plus>
+<int id="1" val="180"/>
+</minus>
+<get-val-70-2 comment="false" id="2" x="0" y="0"/>
+</setvel>
+<create-actor2 comment="false" x="26" y="844">
+<ACTORTYPE eid="var" id="0" vid="4"/>
+<getxc comment="false" id="1" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getxc>
+<getyc comment="false" id="2" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getyc>
+<int id="3" val="0"/>
+</create-actor2>
+<say comment="false" x="26" y="884">
+<ACTOR eid="this" id="0"/>
+<int id="1" val=""/>
+<int id="2" val="changeAnimationToRight"/>
+</say>
+<setx comment="false" x="26" y="911">
+<ACTOR eid="lastcreated" id="0"/>
+<minus comment="false" id="1" x="0" y="0">
+<getx comment="false" id="0" x="0" y="0">
+<ACTOR eid="lastcreated" id="0"/>
+</getx>
+<div comment="false" id="1" x="0" y="0">
+<getwidth comment="false" id="0" x="0" y="0">
+<ACTOR eid="lastcreated" id="0"/>
+</getwidth>
+<int id="1" val="2"/>
+</div>
+</minus>
+</setx>
+<sety comment="false" x="26" y="961">
+<ACTOR eid="lastcreated" id="0"/>
+<minus comment="false" id="1" x="0" y="0">
+<gety comment="false" id="0" x="0" y="0">
+<ACTOR eid="lastcreated" id="0"/>
+</gety>
+<div comment="false" id="1" x="0" y="0">
+<getheight comment="false" id="0" x="0" y="0">
+<ACTOR eid="lastcreated" id="0"/>
+</getheight>
+<int id="1" val="2"/>
+</div>
+</minus>
+</sety>
+<setangle comment="false" x="26" y="1011">
+<ACTOR eid="lastcreated" id="0"/>
+<minus comment="false" id="1" x="0" y="0">
+<plus comment="false" id="0" x="0" y="0">
+<getdir comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getdir>
+<get-val-70-11 comment="false" id="1" x="0" y="0"/>
+</plus>
+<get-val-70-9 comment="false" id="1" x="0" y="0"/>
+</minus>
+</setangle>
+<setvel comment="false" x="26" y="1061">
+<ACTOR eid="lastcreated" id="0"/>
+<minus comment="false" id="1" x="0" y="0">
+<plus comment="false" id="0" x="0" y="0">
+<getdir comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getdir>
+<get-val-70-11 comment="false" id="1" x="0" y="0"/>
+</plus>
+<int id="1" val="180"/>
+</minus>
+<get-val-70-2 comment="false" id="2" x="0" y="0"/>
+</setvel>
+<play-sound2 comment="false" x="26" y="1111">
+<int id="0" val="7"/>
+</play-sound2>
+</group>
+<get-val-70-1 comment="false" id="0" x="0" y="0"/>
+</receive-message>
+</group>
+<group id="6"/>
+<group id="7">
+<init comment="false" x="15" y="15">
+<group id="-1"/>
+</init>
+</group>
+<group id="-1"/>
+</groups>

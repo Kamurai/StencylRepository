@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <set-val-519-6 comment="false" x="26" y="40">
+                    <create-list comment="false" id="0" x="0" y="0"/>
+                </set-val-519-6>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="93">
+            <group eventID="-1" id="-1">
+                <clear-list comment="false" x="26" y="118">
+                    <get-val-519-6 comment="false" id="0" x="0" y="0"/>
+                </clear-list>
+                <clear-list comment="false" x="26" y="143">
+                    <get-val-519-1 comment="false" id="0" x="0" y="0"/>
+                </clear-list>
+                <custom-code comment="false" x="26" y="168">
+                    <int id="0" val="getTerrainOnScreen(CheckTerrain);"/>
+                </custom-code>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="216">
+            <group eventID="-1" id="-1">
+                <set-stroke-color2 comment="false" x="26" y="241">
+                    <int id="0" val="3"/>
+                </set-stroke-color2>
+                <set-thickness comment="false" x="26" y="268">
+                    <get-val-519-2 comment="false" id="0" x="0" y="0"/>
+                </set-thickness>
+                <if comment="false" x="26" y="293">
+                    <group eventID="-1" id="-1">
+                        <set-color2 comment="false" x="37" y="318">
+                            <int id="0" val="4"/>
+                        </set-color2>
+                    </group>
+                    <get-val-519-5 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <for-each comment="false" x="26" y="357">
+                    <group eventID="-1" id="-1">
+                        <code-long comment="false" x="37" y="382">
+                            <int id="0" val="g.translateToActor(item);&#10;var fixtureList:Array = new Array();&#10;&#10;for(var fixture:b2Fixture = item.getBody().GetFixtureList(); fixture != null; fixture = fixture.GetNext())&#10;{&#10;&#9;fixtureList.push(fixture);&#10;}&#10;&#10;for each(var f:b2Fixture in fixtureList)&#10;{ &#10;&#9;var poly:b2Shape = f.GetShape();&#10;&#10;&#9;if(poly instanceof b2CircleShape)&#10;&#9;{&#10;&#9;&#9;if(_Fill)&#10;&#9;&#9;{&#10;&#9;&#9;&#9;var pos:V2 = item.getBody().GetLocalCenter();&#10;&#9;&#9;&#9;g.fillCircle(GameState.toPixelUnits(pos.x + poly.m_radius), GameState.toPixelUnits(pos.y + poly.m_radius), GameState.toPixelUnits(poly.m_radius));&#10;&#9;&#9;}&#10;&#9;&#9;else&#10;&#9;&#9;{&#10;&#9;&#9;&#9;var pos:V2 = item.getBody().GetLocalCenter();&#10;&#9;&#9;&#9;g.drawCircle(GameState.toPixelUnits(pos.x + poly.m_radius), GameState.toPixelUnits(pos.y + poly.m_radius), GameState.toPixelUnits(poly.m_radius));&#10;&#9;&#9;}&#10;&#9;}&#10;&#10;&#9;if(poly instanceof b2PolygonShape)&#10;&#9;{&#10;&#9;&#9;var center:V2 = item.getBody().GetLocalCenter();&#10;&#9;     &#10;&#9;&#9;var verts:Vector.&amp;lt;V2&amp;gt; = (poly as b2PolygonShape).m_vertices;&#10;&#9;&#9;var newVerts:Vector.&amp;lt;V2&amp;gt; = new Vector.&amp;lt;V2&amp;gt;();&#10;&#9;&#9;if(_Fill) g.beginFillPolygon();&#10;&#9;&#9;else g.beginDrawPolygon();&#10;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;for each(var v:V2 in verts)&#10;&#9;&#9;{&#10;&#9;&#9;&#9;g.addPointToPolygon(Math.round(GameState.toPixelUnits(v.x) + (item.getWidth()/2)), Math.round(GameState.toPixelUnits(v.y) + (item.getHeight()/2)));&#10;&#9;&#9;}&#10;&#10;&#9;&#9;g.endDrawingPolygon();&#10;&#9;}&#10;}&#9;&#10;"/>
+                        </code-long>
+                    </group>
+                    <get-val-519-6 comment="false" id="0" x="0" y="0"/>
+                </for-each>
+            </group>
+        </draw>
+    </group>
+    <group eventID="-1" id="3">
+        <receiver-1-659 comment="false" x="15" y="612">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="642">
+                    <int id="0" val="_DrawList.push(__Target);"/>
+                </custom-code>
+            </group>
+            <get-byobval-519-1-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-1-659>
+    </group>
+    <group id="-1"/>
+</groups>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <collide comment="false" x="15" y="161">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group eventID="-1" id="3">
+        <draw comment="false" x="15" y="234">
+            <group eventID="-1" id="-1">
+                <set-thickness comment="false" x="26" y="259">
+                    <get-val-510-1 comment="false" id="0" x="0" y="0"/>
+                </set-thickness>
+                <set-stroke-color comment="false" x="26" y="284">
+                    <color id="0" vid="2"/>
+                </set-stroke-color>
+                <draw-line comment="false" x="26" y="311">
+                    <get-wh comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="2"/>
+                    </get-wh>
+                    <get-wh comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="3"/>
+                    </get-wh>
+                    <plus comment="false" id="2" x="0" y="0">
+                        <get-wh comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="2"/>
+                        </get-wh>
+                        <times comment="false" id="1" x="0" y="0">
+                            <trig-master comment="false" id="0" x="0" y="0">
+                                <int id="0" val="1"/>
+                                <to-degreesradians comment="false" id="1" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                    <getdir comment="false" id="1" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                    </getdir>
+                                </to-degreesradians>
+                            </trig-master>
+                            <get-wh comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="2"/>
+                            </get-wh>
+                        </times>
+                    </plus>
+                    <plus comment="false" id="3" x="0" y="0">
+                        <get-wh comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="3"/>
+                        </get-wh>
+                        <times comment="false" id="1" x="0" y="0">
+                            <trig-master comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                                <to-degreesradians comment="false" id="1" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                    <getdir comment="false" id="1" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                    </getdir>
+                                </to-degreesradians>
+                            </trig-master>
+                            <get-wh comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="2"/>
+                            </get-wh>
+                        </times>
+                    </plus>
+                </draw-line>
+            </group>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<draw comment="false" x="15" y="510">
+<group id="-1"/>
+</draw>
+</group>
+<group id="1">
+<step comment="false" x="15" y="88">
+<group id="-1">
+<set-val-103-5 comment="false" x="26" y="113">
+<div comment="false" id="0" x="0" y="0">
+<times comment="false" id="0" x="0" y="0">
+<int id="0" val="6.28"/>
+<int id="1" val="0.001"/>
+</times>
+<as-number comment="false" id="1" x="0" y="0">
+<actor-get-prop comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Speed"/>
+</actor-get-prop>
+</as-number>
+</div>
+</set-val-103-5>
+<set-val-103-6 comment="false" x="26" y="156">
+<times comment="false" id="0" x="0" y="0">
+<get-val-103-7 comment="false" id="0" x="0" y="0"/>
+<get-val-103-5 comment="false" id="1" x="0" y="0"/>
+</times>
+</set-val-103-6>
+<setx comment="false" x="26" y="186">
+<ACTOR eid="this" id="0"/>
+<plus comment="false" id="1" x="0" y="0">
+<as-number comment="false" id="0" x="0" y="0">
+<actor-get-prop comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Center (X)"/>
+</actor-get-prop>
+</as-number>
+<times comment="false" id="1" x="0" y="0">
+<trig-master comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-103-6 comment="false" id="1" x="0" y="0"/>
+</trig-master>
+<as-number comment="false" id="1" x="0" y="0">
+<actor-get-prop comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Radius"/>
+</actor-get-prop>
+</as-number>
+</times>
+</plus>
+</setx>
+<sety comment="false" x="26" y="241">
+<ACTOR eid="this" id="0"/>
+<plus comment="false" id="1" x="0" y="0">
+<as-number comment="false" id="0" x="0" y="0">
+<actor-get-prop comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Center (Y)"/>
+</actor-get-prop>
+</as-number>
+<times comment="false" id="1" x="0" y="0">
+<trig-master comment="false" id="0" x="0" y="0">
+<int id="0" val="1"/>
+<get-val-103-6 comment="false" id="1" x="0" y="0"/>
+</trig-master>
+<as-number comment="false" id="1" x="0" y="0">
+<actor-get-prop comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Radius"/>
+</actor-get-prop>
+</as-number>
+</times>
+</plus>
+</sety>
+<increment comment="false" x="26" y="296">
+<int id="0" val="7"/>
+<int id="1" val="1"/>
+</increment>
+</group>
+</step>
+</group>
+<group id="2">
+<init comment="false" x="15" y="15">
+<group id="-1"/>
+</init>
+</group>
+<group id="3">
+<collide comment="false" x="15" y="437">
+<group id="-1"/>
+</collide>
+</group>
+<group id="-1"/>
+</groups>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="-1" id="-1">
+                        <say-this comment="false" x="37" y="65">
+                            <get-val-437-3 comment="false" id="0" x="0" y="0"/>
+                        </say-this>
+                    </group>
+                    <get-val-437-8 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="130">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <collide comment="false" x="15" y="203">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group eventID="-1" id="3">
+        <draw comment="false" x="15" y="276">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="4">
+        <receive-message comment="false" x="15" y="349">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="379">
+                    <group eventID="-1" id="-1">
+                        <fadeInOut comment="false" x="37" y="409">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <get-val-437-2 comment="false" id="2" x="0" y="0"/>
+                            <int id="3" val="0"/>
+                        </fadeInOut>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-437-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="In"/>
+                    </eq>
+                </if>
+                <else-if comment="false" x="26" y="453">
+                    <group eventID="-1" id="-1">
+                        <fadeInOut comment="false" x="37" y="483">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <get-val-437-2 comment="false" id="2" x="0" y="0"/>
+                            <int id="3" val="0"/>
+                        </fadeInOut>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-437-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="Out"/>
+                    </eq>
+                </else-if>
+                <if comment="false" x="26" y="527">
+                    <group eventID="-1" id="-1">
+                        <dolater comment="false" x="37" y="557">
+                            <group eventID="-1" id="-1">
+                                <say-this comment="false" x="48" y="589">
+                                    <get-val-437-7 comment="false" id="0" x="0" y="0"/>
+                                </say-this>
+                            </group>
+                            <get-val-437-2 comment="false" id="0" x="0" y="0"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-val-437-6 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </if>
+            </group>
+            <get-val-437-3 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group eventID="-1" id="5">
+        <receive-message comment="false" x="15" y="666">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="696">
+                    <group eventID="-1" id="-1">
+                        <fadeInOut comment="false" x="37" y="726">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <get-val-437-9 comment="false" id="2" x="0" y="0"/>
+                            <int id="3" val="0"/>
+                        </fadeInOut>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-437-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="In"/>
+                    </eq>
+                </if>
+                <else-if comment="false" x="26" y="770">
+                    <group eventID="-1" id="-1">
+                        <fadeInOut comment="false" x="37" y="800">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <get-val-437-9 comment="false" id="2" x="0" y="0"/>
+                            <int id="3" val="0"/>
+                        </fadeInOut>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-437-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="Out"/>
+                    </eq>
+                </else-if>
+            </group>
+            <get-val-437-7 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group id="-1"/>
+</groups>

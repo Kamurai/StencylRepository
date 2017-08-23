@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1">
+<create-actor2 comment="false" x="26" y="40">
+<ACTORTYPE eid="var" id="0" vid="4"/>
+<div comment="false" id="1" x="0" y="0">
+<screenw comment="false" id="0" x="0" y="0"/>
+<int id="1" val="2"/>
+</div>
+<minus comment="false" id="2" x="0" y="0">
+<sceneh comment="false" id="0" x="0" y="0"/>
+<div comment="false" id="1" x="0" y="0">
+<screenh comment="false" id="0" x="0" y="0"/>
+<int id="1" val="2"/>
+</div>
+</minus>
+<int id="3" val="0"/>
+</create-actor2>
+<set-val-20-1 comment="false" x="26" y="82">
+<ACTOR eid="lastcreated" id="0"/>
+</set-val-20-1>
+<dolater comment="false" x="26" y="109">
+<group id="-1">
+<moveTo comment="false" x="37" y="134">
+<ACTOR eid="var" id="0" vid="1"/>
+<get-val-20-5 comment="false" id="1" x="0" y="0"/>
+<get-val-20-6 comment="false" id="2" x="0" y="0"/>
+<get-val-20-3 comment="false" id="3" x="0" y="0"/>
+<int id="4" val="0"/>
+</moveTo>
+</group>
+<get-val-20-7 comment="false" id="0" x="0" y="0"/>
+</dolater>
+</group>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="201">
+<group id="-1">
+<camera-follow comment="false" x="26" y="226">
+<ACTOR eid="var" id="0" vid="1"/>
+</camera-follow>
+</group>
+</step>
+</group>
+<group id="2">
+<collide comment="false" x="15" y="359">
+<group id="-1"/>
+</collide>
+</group>
+<group id="3">
+<draw comment="false" x="15" y="281">
+<group id="-1"/>
+</draw>
+</group>
+<group id="-1"/>
+</groups>

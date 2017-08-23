@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1">
+<actors-of-type3 comment="false" x="26" y="40">
+<group id="-1">
+<increment comment="false" x="37" y="67">
+<int id="0" val="5"/>
+<int id="1" val="1"/>
+</increment>
+</group>
+<ACTORTYPE eid="38" id="0"/>
+</actors-of-type3>
+<set-game-val-2 comment="false" x="26" y="106">
+<get-val-52-5 comment="false" id="0" x="0" y="0"/>
+</set-game-val-2>
+<set-game-val-3 comment="false" x="26" y="131">
+<false comment="false" id="0" x="0" y="0"/>
+</set-game-val-3>
+</group>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="184">
+<group id="-1">
+<set-game-val-2 comment="false" x="26" y="209">
+<get-val-52-5 comment="false" id="0" x="0" y="0"/>
+</set-game-val-2>
+<if comment="false" x="26" y="234">
+<group id="-1">
+<scene-change3 comment="false" x="37" y="264">
+<SCENE eid="4" id="0"/>
+<int id="1" val="0"/>
+<int id="2" val="2"/>
+<int id="3" val="1"/>
+<int id="4" val="2"/>
+</scene-change3>
+</group>
+<eq comment="false" id="0" x="0" y="0">
+<get-game-val-2 comment="false" id="0" x="0" y="0"/>
+<int id="1" val="0"/>
+</eq>
+</if>
+</group>
+</step>
+</group>
+<group id="2">
+<collide comment="false" x="15" y="331">
+<group id="-1"/>
+</collide>
+</group>
+<group id="3">
+<draw comment="false" x="15" y="404">
+<group id="-1"/>
+</draw>
+</group>
+<group id="4">
+<receiver-1-89 comment="false" x="15" y="477">
+<group id="-1">
+<if comment="false" x="26" y="507">
+<group id="-1">
+<scene-say comment="false" x="37" y="532">
+<int id="0" val="Score Calculator V2"/>
+<int id="1" val="addPointsToScoreA"/>
+</scene-say>
+</group>
+<get-val-52-2 comment="false" id="0" x="0" y="0"/>
+</if>
+<if comment="false" x="26" y="564">
+<group id="-1">
+<scene-say comment="false" x="37" y="589">
+<int id="0" val="Score Calculator V2"/>
+<int id="1" val="addPointsToScoreB"/>
+</scene-say>
+</group>
+<get-val-52-3 comment="false" id="0" x="0" y="0"/>
+</if>
+<if comment="false" x="26" y="621">
+<group id="-1">
+<scene-say comment="false" x="37" y="646">
+<int id="0" val="Score Calculator V2"/>
+<int id="1" val="addPointsToScoreC"/>
+</scene-say>
+</group>
+<get-val-52-4 comment="false" id="0" x="0" y="0"/>
+</if>
+<if comment="false" x="26" y="678">
+<group id="-1">
+<scene-say comment="false" x="37" y="698">
+<int id="0" val="Score Calculator V2"/>
+<int id="1" val="addPointsToScoreC"/>
+</scene-say>
+</group>
+<int id="0" val=""/>
+</if>
+<if comment="false" x="26" y="730">
+<group id="-1">
+<scene-say comment="false" x="37" y="750">
+<int id="0" val="Score Calculator V2"/>
+<int id="1" val="addPointsToScoreC"/>
+</scene-say>
+</group>
+<int id="0" val=""/>
+</if>
+</group>
+<get-byobval-52-405-0 comment="false" id="0" x="0" y="0"/>
+</receiver-1-89>
+</group>
+<group id="5">
+<receive-message comment="false" x="443" y="378">
+<group id="-1">
+<decrement comment="false" x="454" y="403">
+<int id="0" val="5"/>
+<int id="1" val="1"/>
+</decrement>
+</group>
+<int id="0" val="healthDepleted"/>
+</receive-message>
+</group>
+<group id="-1"/>
+</groups>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="-1" id="-1">
+                        <custom-code comment="false" x="37" y="70">
+                            <int id="0" val="FlxG.setDisableConsole(true);"/>
+                        </custom-code>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-val-479-2 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </if>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="130">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="155">
+                    <group eventID="-1" id="-1">
+                        <set-val-479-2 comment="false" x="37" y="188">
+                            <not comment="false" id="0" x="0" y="0">
+                                <get-val-479-2 comment="false" id="0" x="0" y="0"/>
+                            </not>
+                        </set-val-479-2>
+                        <if comment="false" x="37" y="218">
+                            <group eventID="-1" id="-1">
+                                <custom-code comment="false" x="48" y="243">
+                                    <int id="0" val="FlxG.setDisableConsole(false);"/>
+                                </custom-code>
+                                <print comment="false" x="48" y="263">
+                                    <int id="0" val="Console enabled"/>
+                                </print>
+                            </group>
+                            <get-val-479-2 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <else comment="false" x="37" y="295">
+                            <group eventID="-1" id="-1">
+                                <print comment="false" x="48" y="315">
+                                    <int id="0" val="Console disabled"/>
+                                </print>
+                                <custom-code comment="false" x="48" y="335">
+                                    <int id="0" val="FlxG.setDisableConsole(true);"/>
+                                </custom-code>
+                            </group>
+                        </else>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <CONTROL eid="var" id="1" vid="3"/>
+                    </keystate>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="407">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

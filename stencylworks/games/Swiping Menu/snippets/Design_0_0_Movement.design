@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="60" y="40">
+            <group eventID="-1" id="-1">
+                <set-xy comment="false" x="71" y="65">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                </set-xy>
+                <ignore-screen-tolerance comment="false" x="71" y="92">
+                    <ACTOR eid="this" id="0"/>
+                </ignore-screen-tolerance>
+                <toggle-image comment="false" x="71" y="119">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="1"/>
+                </toggle-image>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="70" y="186">
+            <group eventID="-1" id="-1">
+                <camera-follow comment="false" x="81" y="211">
+                    <ACTOR eid="this" id="0"/>
+                </camera-follow>
+                <comment-long comment="false" x="81" y="238">
+                    <int id="0" val="Basic touch controls based on Jon&amp;#039;s Pan Camera behavior."/>
+                </comment-long>
+                <comment-long comment="false" x="81" y="318">
+                    <int id="0" val="Snaping behaviors. These only activate if the camera helper actor is with in the ranges. This is meant to mimic the snapping behavior of the standard iOS spring board."/>
+                </comment-long>
+                <comment-long comment="false" x="81" y="398">
+                    <int id="0" val="Flash and iOS are separated because I had to compenstate for the helper object to get the exact center, but it only needs to be done for Flash."/>
+                </comment-long>
+                <do-ios comment="false" x="81" y="478">
+                    <group eventID="-1" id="-1">
+                        <comment-short comment="false" x="92" y="498">
+                            <int id="0" val="iOS is separated to lock out potential inputs from multiple touches."/>
+                        </comment-short>
+                        <if comment="false" x="92" y="518">
+                            <group eventID="-1" id="-1">
+                                <set-val-0-1 comment="false" x="103" y="556">
+                                    <plus comment="false" id="0" x="0" y="0">
+                                        <touch-drag-release comment="false" id="0" x="0" y="0">
+                                            <int id="0" val="0"/>
+                                            <int id="1" val="0"/>
+                                        </touch-drag-release>
+                                        <screen-xy comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="0"/>
+                                        </screen-xy>
+                                    </plus>
+                                </set-val-0-1>
+                            </group>
+                            <and comment="false" id="0" x="0" y="0">
+                                <began-dragged-released-touch comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                </began-dragged-released-touch>
+                                <eq comment="false" id="1" x="0" y="0">
+                                    <num-touches comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                </eq>
+                            </and>
+                        </if>
+                        <if comment="false" x="92" y="611">
+                            <group eventID="-1" id="-1">
+                                <set-xy comment="false" x="103" y="649">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <plus comment="false" id="2" x="0" y="0">
+                                        <minus comment="false" id="0" x="0" y="0">
+                                            <get-val-0-1 comment="false" id="0" x="0" y="0"/>
+                                            <touch-drag-release comment="false" id="1" x="0" y="0">
+                                                <int id="0" val="1"/>
+                                                <int id="1" val="0"/>
+                                            </touch-drag-release>
+                                        </minus>
+                                        <div comment="false" id="1" x="0" y="0">
+                                            <screen-wh comment="false" id="0" x="0" y="0">
+                                                <int id="0" val="0"/>
+                                            </screen-wh>
+                                            <int id="1" val="2"/>
+                                        </div>
+                                    </plus>
+                                </set-xy>
+                            </group>
+                            <and comment="false" id="0" x="0" y="0">
+                                <began-dragged-released-touch comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                </began-dragged-released-touch>
+                                <eq comment="false" id="1" x="0" y="0">
+                                    <num-touches comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                </eq>
+                            </and>
+                        </if>
+                    </group>
+                </do-ios>
+                <do-flash comment="false" x="81" y="728">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="92" y="748">
+                            <group eventID="-1" id="-1">
+                                <set-val-0-1 comment="false" x="103" y="781">
+                                    <plus comment="false" id="0" x="0" y="0">
+                                        <touch-drag-release comment="false" id="0" x="0" y="0">
+                                            <int id="0" val="0"/>
+                                            <int id="1" val="0"/>
+                                        </touch-drag-release>
+                                        <screen-xy comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="0"/>
+                                        </screen-xy>
+                                    </plus>
+                                </set-val-0-1>
+                            </group>
+                            <began-dragged-released-touch comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                            </began-dragged-released-touch>
+                        </if>
+                        <if comment="false" x="92" y="831">
+                            <group eventID="-1" id="-1">
+                                <set-xy comment="false" x="103" y="864">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <plus comment="false" id="2" x="0" y="0">
+                                        <minus comment="false" id="0" x="0" y="0">
+                                            <get-val-0-1 comment="false" id="0" x="0" y="0"/>
+                                            <touch-drag-release comment="false" id="1" x="0" y="0">
+                                                <int id="0" val="1"/>
+                                                <int id="1" val="0"/>
+                                            </touch-drag-release>
+                                        </minus>
+                                        <div comment="false" id="1" x="0" y="0">
+                                            <screen-wh comment="false" id="0" x="0" y="0">
+                                                <int id="0" val="0"/>
+                                            </screen-wh>
+                                            <int id="1" val="2"/>
+                                        </div>
+                                    </plus>
+                                </set-xy>
+                            </group>
+                            <began-dragged-released-touch comment="false" id="0" x="0" y="0">
+                                <int id="0" val="1"/>
+                            </began-dragged-released-touch>
+                        </if>
+                    </group>
+                </do-flash>
+                <if comment="false" x="81" y="938">
+                    <group eventID="-1" id="-1">
+                        <do-flash comment="false" x="92" y="971">
+                            <group eventID="-1" id="-1">
+                                <comment-short comment="false" x="103" y="991">
+                                    <int id="0" val="Less than between One and Two"/>
+                                </comment-short>
+                                <if comment="false" x="103" y="1011">
+                                    <group eventID="-1" id="-1">
+                                        <comment-short comment="false" x="114" y="1049">
+                                            <int id="0" val="Center of One"/>
+                                        </comment-short>
+                                        <moveToBy comment="false" x="114" y="1069">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="1"/>
+                                            <minus comment="false" id="2" x="0" y="0">
+                                                <int id="0" val="240"/>
+                                                <get-wh comment="false" id="1" x="0" y="0">
+                                                    <ACTOR eid="this" id="0"/>
+                                                    <int id="1" val="2"/>
+                                                </get-wh>
+                                            </minus>
+                                            <int id="3" val="0"/>
+                                            <int id="4" val="0.5"/>
+                                            <int id="5" val="9"/>
+                                        </moveToBy>
+                                    </group>
+                                    <less comment="false" id="0" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="2"/>
+                                        </get-xy>
+                                        <int id="1" val="480"/>
+                                    </less>
+                                </if>
+                                <comment-short comment="false" x="103" y="1126">
+                                    <int id="0" val="Greater than between One and Two but Less than between Two and Three"/>
+                                </comment-short>
+                                <if comment="false" x="103" y="1146">
+                                    <group eventID="-1" id="-1">
+                                        <comment-short comment="false" x="114" y="1189">
+                                            <int id="0" val="Center of Two"/>
+                                        </comment-short>
+                                        <moveToBy comment="false" x="114" y="1209">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="1"/>
+                                            <minus comment="false" id="2" x="0" y="0">
+                                                <int id="0" val="720"/>
+                                                <get-wh comment="false" id="1" x="0" y="0">
+                                                    <ACTOR eid="this" id="0"/>
+                                                    <int id="1" val="2"/>
+                                                </get-wh>
+                                            </minus>
+                                            <int id="3" val="0"/>
+                                            <int id="4" val="0.5"/>
+                                            <int id="5" val="9"/>
+                                        </moveToBy>
+                                    </group>
+                                    <and comment="false" id="0" x="0" y="0">
+                                        <more comment="false" id="0" x="0" y="0">
+                                            <get-xy comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="this" id="0"/>
+                                                <int id="1" val="2"/>
+                                            </get-xy>
+                                            <int id="1" val="480"/>
+                                        </more>
+                                        <less comment="false" id="1" x="0" y="0">
+                                            <get-xy comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="this" id="0"/>
+                                                <int id="1" val="2"/>
+                                            </get-xy>
+                                            <int id="1" val="960"/>
+                                        </less>
+                                    </and>
+                                </if>
+                                <comment-short comment="false" x="103" y="1266">
+                                    <int id="0" val="Greater than between Two and Three"/>
+                                </comment-short>
+                                <if comment="false" x="103" y="1286">
+                                    <group eventID="-1" id="-1">
+                                        <comment-short comment="false" x="114" y="1324">
+                                            <int id="0" val="Center of Three"/>
+                                        </comment-short>
+                                        <moveToBy comment="false" x="114" y="1344">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="1"/>
+                                            <minus comment="false" id="2" x="0" y="0">
+                                                <int id="0" val="1200"/>
+                                                <get-wh comment="false" id="1" x="0" y="0">
+                                                    <ACTOR eid="this" id="0"/>
+                                                    <int id="1" val="2"/>
+                                                </get-wh>
+                                            </minus>
+                                            <int id="3" val="0"/>
+                                            <int id="4" val="0.5"/>
+                                            <int id="5" val="9"/>
+                                        </moveToBy>
+                                    </group>
+                                    <more comment="false" id="0" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="2"/>
+                                        </get-xy>
+                                        <int id="1" val="960"/>
+                                    </more>
+                                </if>
+                            </group>
+                        </do-flash>
+                        <do-ios comment="false" x="92" y="1413">
+                            <group eventID="-1" id="-1">
+                                <comment-short comment="false" x="103" y="1433">
+                                    <int id="0" val="Less than between One and Two"/>
+                                </comment-short>
+                                <if comment="false" x="103" y="1453">
+                                    <group eventID="-1" id="-1">
+                                        <comment-short comment="false" x="114" y="1491">
+                                            <int id="0" val="Center of One"/>
+                                        </comment-short>
+                                        <moveToBy comment="false" x="114" y="1511">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="1"/>
+                                            <int id="2" val="240"/>
+                                            <int id="3" val="0"/>
+                                            <int id="4" val="0.5"/>
+                                            <int id="5" val="9"/>
+                                        </moveToBy>
+                                    </group>
+                                    <less comment="false" id="0" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="2"/>
+                                        </get-xy>
+                                        <int id="1" val="480"/>
+                                    </less>
+                                </if>
+                                <comment-short comment="false" x="103" y="1550">
+                                    <int id="0" val="Greater than between One and Two but Less than between Two and Three"/>
+                                </comment-short>
+                                <if comment="false" x="103" y="1570">
+                                    <group eventID="-1" id="-1">
+                                        <comment-short comment="false" x="114" y="1613">
+                                            <int id="0" val="Center of Two"/>
+                                        </comment-short>
+                                        <moveToBy comment="false" x="114" y="1633">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="1"/>
+                                            <int id="2" val="720"/>
+                                            <int id="3" val="0"/>
+                                            <int id="4" val="0.5"/>
+                                            <int id="5" val="9"/>
+                                        </moveToBy>
+                                    </group>
+                                    <and comment="false" id="0" x="0" y="0">
+                                        <more comment="false" id="0" x="0" y="0">
+                                            <get-xy comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="this" id="0"/>
+                                                <int id="1" val="2"/>
+                                            </get-xy>
+                                            <int id="1" val="480"/>
+                                        </more>
+                                        <less comment="false" id="1" x="0" y="0">
+                                            <get-xy comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="this" id="0"/>
+                                                <int id="1" val="2"/>
+                                            </get-xy>
+                                            <int id="1" val="960"/>
+                                        </less>
+                                    </and>
+                                </if>
+                                <comment-short comment="false" x="103" y="1672">
+                                    <int id="0" val="Greater than between Two and Three"/>
+                                </comment-short>
+                                <if comment="false" x="103" y="1692">
+                                    <group eventID="-1" id="-1">
+                                        <comment-short comment="false" x="114" y="1730">
+                                            <int id="0" val="Center of Three"/>
+                                        </comment-short>
+                                        <moveToBy comment="false" x="114" y="1750">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="1"/>
+                                            <int id="2" val="1200"/>
+                                            <int id="3" val="0"/>
+                                            <int id="4" val="0.5"/>
+                                            <int id="5" val="9"/>
+                                        </moveToBy>
+                                    </group>
+                                    <more comment="false" id="0" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="2"/>
+                                        </get-xy>
+                                        <int id="1" val="960"/>
+                                    </more>
+                                </if>
+                            </group>
+                        </do-ios>
+                    </group>
+                    <began-dragged-released-touch comment="false" id="0" x="0" y="0">
+                        <int id="0" val="2"/>
+                    </began-dragged-released-touch>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <collide comment="false" x="1002" y="323">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group eventID="-1" id="3">
+        <draw comment="false" x="1006" y="253">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="4">
+        <if comment="false" x="932" y="98">
+            <group eventID="-1" id="-1"/>
+            <int id="0" val=""/>
+        </if>
+        <if comment="false" x="932" y="150">
+            <group eventID="-1" id="-1"/>
+            <int id="0" val=""/>
+        </if>
+    </group>
+    <group id="-1"/>
+</groups>

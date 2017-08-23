@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="-1" id="-1">
+                        <enable-tile-wire comment="false" x="37" y="65">
+                            <color id="0" vid="1"/>
+                        </enable-tile-wire>
+                    </group>
+                    <get-val-259-2 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="132">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="157">
+                    <group eventID="-1" id="-1">
+                        <set-val-259-2 comment="false" x="37" y="190">
+                            <not comment="false" id="0" x="0" y="0">
+                                <get-val-259-2 comment="false" id="0" x="0" y="0"/>
+                            </not>
+                        </set-val-259-2>
+                        <if comment="false" x="37" y="220">
+                            <group eventID="-1" id="-1">
+                                <enable-tile-wire comment="false" x="48" y="245">
+                                    <color id="0" vid="1"/>
+                                </enable-tile-wire>
+                            </group>
+                            <get-val-259-2 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <else comment="false" x="37" y="284">
+                            <group eventID="-1" id="-1">
+                                <disable-tile-wire comment="false" x="48" y="304"/>
+                            </group>
+                        </else>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <CONTROL eid="var" id="1" vid="3"/>
+                    </keystate>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="376">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

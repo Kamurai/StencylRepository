@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="32" extheight="448" extwidth="704" extx="-32" exty="-32" format="2.1" gravx="-0.0" gravy="0.0" height="384" id="5" name="menu" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <layer color="100,168,234" id="0" name="Layer 0" order="0"/>
+    </layers>
+    <color-bg blue="255" green="255" red="255"/>
+    <backgrounds>
+        <ref id="42"/>
+    </backgrounds>
+    <foregrounds/>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="3" c="false" group="3" id="2" name="Player 3" sx="1.0" sy="1.0" x="224" y="160" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="32" name="Box 4" sx="1.0" sy="1.0" x="288" y="160" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="38" name="platfotm 2 5" sx="2.4375" sy="2.15625" x="530" y="37" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="3" id="38" name="platfotm 2 6" sx="2.4375" sy="2.21875" x="531" y="281" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain/>
+</scene>

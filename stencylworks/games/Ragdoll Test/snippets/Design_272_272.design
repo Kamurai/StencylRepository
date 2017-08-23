@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <set-val-272-2 comment="false" x="26" y="40">
+                    <get-val-272-1 comment="false" id="0" x="0" y="0"/>
+                </set-val-272-2>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="93">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <collide comment="false" x="15" y="166">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="191">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="221">
+                            <group eventID="-1" id="-1">
+                                <set-val-272-6 comment="false" x="48" y="254">
+                                    <as-number comment="false" id="0" x="0" y="0">
+                                        <get-attribute comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="lastcollided" id="0"/>
+                                            <int id="1" val="Deals Custom Damage"/>
+                                            <int id="2" val="Damage"/>
+                                        </get-attribute>
+                                    </as-number>
+                                </set-val-272-6>
+                            </group>
+                            <has-snippet comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="lastcollided" id="0"/>
+                                <int id="1" val="Deals Custom Damage"/>
+                            </has-snippet>
+                        </if>
+                        <else comment="false" x="37" y="304">
+                            <group eventID="-1" id="-1">
+                                <set-val-272-6 comment="false" x="48" y="324">
+                                    <get-val-272-5 comment="false" id="0" x="0" y="0"/>
+                                </set-val-272-6>
+                            </group>
+                        </else>
+                        <if comment="false" x="37" y="361">
+                            <group eventID="-1" id="-1">
+                                <custom-664 comment="false" x="48" y="391">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="Damage Taken: "/>
+                                        <get-val-272-6 comment="false" id="1" x="0" y="0"/>
+                                    </str-combine>
+                                    <get-item comment="false" id="1" x="0" y="0">
+                                        <int id="0" val="[this]"/>
+                                        <int id="1" val="0"/>
+                                    </get-item>
+                                </custom-664>
+                                <incdec comment="false" x="48" y="421">
+                                    <int id="0" val="2"/>
+                                    <int id="1" val="1"/>
+                                    <get-val-272-6 comment="false" id="2" x="0" y="0"/>
+                                </incdec>
+                                <shout comment="false" x="48" y="453">
+                                    <ACTOR eid="this" id="0"/>
+                                    <get-val-272-4 comment="false" id="1" x="0" y="0"/>
+                                </shout>
+                                <set-val-272-9 comment="false" x="48" y="485">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-val-272-9>
+                                <dolater comment="false" x="48" y="510">
+                                    <group eventID="-1" id="-1">
+                                        <if comment="false" x="59" y="542">
+                                            <group eventID="-1" id="-1">
+                                                <set-val-272-9 comment="false" x="70" y="575">
+                                                    <false comment="false" id="0" x="0" y="0"/>
+                                                </set-val-272-9>
+                                            </group>
+                                            <isalive comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="this" id="0"/>
+                                            </isalive>
+                                        </if>
+                                    </group>
+                                    <get-val-272-8 comment="false" id="0" x="0" y="0"/>
+                                    <ACTOR eid="this" id="2"/>
+                                </dolater>
+                            </group>
+                            <more comment="false" id="0" x="0" y="0">
+                                <get-val-272-6 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </more>
+                        </if>
+                        <if comment="false" x="37" y="636">
+                            <group eventID="-1" id="-1">
+                                <shout comment="false" x="48" y="666">
+                                    <ACTOR eid="this" id="0"/>
+                                    <get-val-272-3 comment="false" id="1" x="0" y="0"/>
+                                </shout>
+                                <if comment="false" x="48" y="698">
+                                    <group eventID="-1" id="-1">
+                                        <custom-664 comment="false" x="59" y="728">
+                                            <int id="0" val="Recycle Self"/>
+                                            <get-item comment="false" id="1" x="0" y="0">
+                                                <int id="0" val="[this]"/>
+                                                <int id="1" val="0"/>
+                                            </get-item>
+                                        </custom-664>
+                                        <recycle comment="false" x="59" y="753">
+                                            <ACTOR eid="this" id="0"/>
+                                        </recycle>
+                                    </group>
+                                    <eq comment="false" id="0" x="0" y="0">
+                                        <get-val-272-7 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="Recycle Self"/>
+                                    </eq>
+                                </if>
+                                <else-if comment="false" x="48" y="792">
+                                    <group eventID="-1" id="-1">
+                                        <custom-664 comment="false" x="59" y="822">
+                                            <int id="0" val="Kill Self"/>
+                                            <get-item comment="false" id="1" x="0" y="0">
+                                                <int id="0" val="[this]"/>
+                                                <int id="1" val="0"/>
+                                            </get-item>
+                                        </custom-664>
+                                        <die comment="false" x="59" y="847">
+                                            <ACTOR eid="this" id="0"/>
+                                        </die>
+                                    </group>
+                                    <eq comment="false" id="0" x="0" y="0">
+                                        <get-val-272-7 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="Kill Self"/>
+                                    </eq>
+                                </else-if>
+                            </group>
+                            <lesseq comment="false" id="0" x="0" y="0">
+                                <get-val-272-2 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </lesseq>
+                        </if>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-val-272-9 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </if>
+            </group>
+        </collide>
+    </group>
+    <group eventID="-1" id="3">
+        <draw comment="false" x="15" y="908">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

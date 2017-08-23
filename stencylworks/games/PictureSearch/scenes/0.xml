@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="0" extheight="448" extwidth="704" extx="-32" exty="-32" format="2.1" gravx="-0.0" gravy="0.0" height="384" id="0" name="Play" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <layer color="100,168,234" id="0" name="Objects" order="1"/>
+    </layers>
+    <color-bg blue="255" green="255" red="255"/>
+    <backgrounds/>
+    <foregrounds/>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="23" c="false" group="3" id="39" name="Bkgrd_Grid 23" sx="1.0" sy="1.0" x="0" y="7" z="0"/>
+        <actor a="0.0" aid="22" c="false" group="3" id="41" name="Controller 22" sx="1.0" sy="1.0" x="567" y="0" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain/>
+</scene>

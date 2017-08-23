@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1"/>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="88">
+<group id="-1"/>
+</step>
+</group>
+<group id="2">
+<collide comment="false" x="15" y="161">
+<group id="-1"/>
+</collide>
+</group>
+<group id="3">
+<draw comment="false" x="15" y="234">
+<group id="-1"/>
+</draw>
+</group>
+<group id="4">
+<receive-message comment="false" x="15" y="307">
+<group id="-1">
+<if comment="false" x="26" y="337">
+<group id="-1">
+<repeat comment="false" x="37" y="370">
+<group id="-1">
+<create-actor3 comment="false" x="48" y="395">
+<ACTORTYPE eid="var" id="0" vid="1"/>
+<getxc comment="false" id="1" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getxc>
+<plus comment="false" id="2" x="0" y="0">
+<getyc comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getyc>
+<get-val-61-14 comment="false" id="1" x="0" y="0"/>
+</plus>
+<int id="3" val="0"/>
+</create-actor3>
+<setx comment="false" x="48" y="440">
+<ACTOR eid="lastcreated" id="0"/>
+<minus comment="false" id="1" x="0" y="0">
+<getx comment="false" id="0" x="0" y="0">
+<ACTOR eid="lastcreated" id="0"/>
+</getx>
+<div comment="false" id="1" x="0" y="0">
+<getwidth comment="false" id="0" x="0" y="0">
+<ACTOR eid="lastcreated" id="0"/>
+</getwidth>
+<int id="1" val="2"/>
+</div>
+</minus>
+</setx>
+<sety comment="false" x="48" y="490">
+<ACTOR eid="lastcreated" id="0"/>
+<minus comment="false" id="1" x="0" y="0">
+<gety comment="false" id="0" x="0" y="0">
+<ACTOR eid="lastcreated" id="0"/>
+</gety>
+<div comment="false" id="1" x="0" y="0">
+<getheight comment="false" id="0" x="0" y="0">
+<ACTOR eid="lastcreated" id="0"/>
+</getheight>
+<int id="1" val="2"/>
+</div>
+</minus>
+</sety>
+<setangle comment="false" x="48" y="540">
+<ACTOR eid="lastcreated" id="0"/>
+<minus comment="false" id="1" x="0" y="0">
+<plus comment="false" id="0" x="0" y="0">
+<getdir comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getdir>
+<get-val-61-6 comment="false" id="1" x="0" y="0"/>
+</plus>
+<get-val-61-9 comment="false" id="1" x="0" y="0"/>
+</minus>
+</setangle>
+<setvel comment="false" x="48" y="590">
+<ACTOR eid="lastcreated" id="0"/>
+<minus comment="false" id="1" x="0" y="0">
+<minus comment="false" id="0" x="0" y="0">
+<getdir comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getdir>
+<get-val-61-6 comment="false" id="1" x="0" y="0"/>
+</minus>
+<int id="1" val="360"/>
+</minus>
+<get-val-61-10 comment="false" id="2" x="0" y="0"/>
+</setvel>
+<increment comment="false" x="48" y="640">
+<int id="0" val="6"/>
+<get-val-61-7 comment="false" id="1" x="0" y="0"/>
+</increment>
+</group>
+<get-val-61-4 comment="false" id="0" x="0" y="0"/>
+</repeat>
+<set-val-61-6 comment="false" x="37" y="684">
+<get-val-61-12 comment="false" id="0" x="0" y="0"/>
+</set-val-61-6>
+</group>
+<isalive comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</isalive>
+</if>
+</group>
+<get-val-61-3 comment="false" id="0" x="0" y="0"/>
+</receive-message>
+</group>
+<group id="-1"/>
+</groups>

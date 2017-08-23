@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group id="0">
+        <init comment="false" x="15" y="15">
+            <group id="-1">
+                <set-val-305-2 comment="false" x="26" y="40">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-305-2>
+            </group>
+        </init>
+    </group>
+    <group id="1">
+        <step comment="false" x="15" y="93">
+            <group id="-1">
+                <if comment="false" x="26" y="118">
+                    <group id="-1">
+                        <set-val-305-2 comment="false" x="37" y="143">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-305-2>
+                        <dolater comment="false" x="37" y="168">
+                            <group id="-1">
+                                <custom-401 comment="false" x="48" y="200">
+                                    <get-val-305-1 comment="false" id="0" x="0" y="0"/>
+                                </custom-401>
+                                <scene-shout comment="false" x="48" y="225">
+                                    <get-val-305-1 comment="false" id="0" x="0" y="0"/>
+                                </scene-shout>
+                            </group>
+                            <get-val-305-3 comment="false" id="0" x="0" y="0"/>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </dolater>
+                    </group>
+                    <get-val-305-2 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group id="2">
+        <draw comment="false" x="15" y="302">
+            <group id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

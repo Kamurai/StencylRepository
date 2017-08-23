@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="40">
+                    <int id="0" val="}&#10;private static var keys:Array;&#10;private static var letters:Array;&#10;private static var numbers:Array;&#10;{"/>
+                </code-long>
+                <code-long comment="false" x="26" y="200">
+                    <int id="0" val="keys = new Array();&#10;keys[&amp;quot;A&amp;quot;] = &amp;quot;A&amp;quot;;&#10;//keys[&amp;quot;ALT&amp;quot;] = &amp;quot;Alt&amp;quot;;&#10;//keys[&amp;quot;BACKSLASH&amp;quot;] = &amp;quot;Backslash&amp;quot;;&#10;keys[&amp;quot;BACKSPACE&amp;quot;] = &amp;quot;Backspace&amp;quot;;&#10;keys[&amp;quot;B&amp;quot;] = &amp;quot;B&amp;quot;;&#10;keys[&amp;quot;C&amp;quot;] = &amp;quot;C&amp;quot;;&#10;//keys[&amp;quot;CAPSLOCK&amp;quot;] = &amp;quot;Capslock&amp;quot;;&#10;keys[&amp;quot;COMMA&amp;quot;] = &amp;quot;,&amp;quot;;&#10;keys[&amp;quot;CONTROL&amp;quot;] = &amp;quot;Ctrl&amp;quot;;&#10;keys[&amp;quot;D&amp;quot;] = &amp;quot;D&amp;quot;;&#10;keys[&amp;quot;DELETE&amp;quot;] = &amp;quot;Delete&amp;quot;;&#10;keys[&amp;quot;DOWN&amp;quot;] = &amp;quot;Down Arrow&amp;quot;;&#10;keys[&amp;quot;E&amp;quot;] = &amp;quot;E&amp;quot;;&#10;keys[&amp;quot;EIGHT&amp;quot;] = &amp;quot;8&amp;quot;;&#10;keys[&amp;quot;ENTER&amp;quot;] = &amp;quot;Enter&amp;quot;;&#10;//keys[&amp;quot;ESCAPE&amp;quot;] = &amp;quot;Escape&#10;keys[&amp;quot;F&amp;quot;] = &amp;quot;F&amp;quot;;&#10;keys[&amp;quot;F1&amp;quot;] = &amp;quot;F1&amp;quot;;&#10;keys[&amp;quot;F10&amp;quot;] = &amp;quot;F10&amp;quot;;&#10;keys[&amp;quot;F11&amp;quot;] = &amp;quot;F11&amp;quot;;&#10;keys[&amp;quot;F12&amp;quot;] = &amp;quot;F12&amp;quot;;&#10;keys[&amp;quot;F2&amp;quot;] = &amp;quot;F2&amp;quot;;&#10;keys[&amp;quot;F3&amp;quot;] = &amp;quot;F3&amp;quot;;&#10;keys[&amp;quot;F4&amp;quot;] = &amp;quot;F4&amp;quot;;&#10;keys[&amp;quot;F5&amp;quot;] = &amp;quot;F5&amp;quot;;&#10;keys[&amp;quot;F6&amp;quot;] = &amp;quot;F6&amp;quot;;&#10;keys[&amp;quot;F7&amp;quot;] = &amp;quot;F7&amp;quot;;&#10;keys[&amp;quot;F8&amp;quot;] = &amp;quot;F8&amp;quot;;&#10;keys[&amp;quot;F9&amp;quot;] = &amp;quot;F9&amp;quot;;&#10;keys[&amp;quot;FIVE&amp;quot;] = &amp;quot;5&amp;quot;;&#10;keys[&amp;quot;FOUR&amp;quot;] = &amp;quot;4&amp;quot;;&#10;keys[&amp;quot;G&amp;quot;] = &amp;quot;G&amp;quot;;&#10;keys[&amp;quot;H&amp;quot;] = &amp;quot;H&amp;quot;;&#10;keys[&amp;quot;I&amp;quot;] = &amp;quot;I&amp;quot;;&#10;keys[&amp;quot;J&amp;quot;] = &amp;quot;J&amp;quot;;&#10;keys[&amp;quot;K&amp;quot;] = &amp;quot;K&amp;quot;;&#10;keys[&amp;quot;LBRACKET&amp;quot;] = &amp;quot;[&amp;quot;;&#10;keys[&amp;quot;LEFT&amp;quot;] = &amp;quot;Left Arrow&amp;quot;;&#10;keys[&amp;quot;L&amp;quot;] = &amp;quot;L&amp;quot;;&#10;//keys[&amp;quot;MINUS&amp;quot;] = &amp;quot;-&amp;quot;;&#10;keys[&amp;quot;M&amp;quot;] = &amp;quot;M&amp;quot;;&#10;keys[&amp;quot;NINE&amp;quot;] = &amp;quot;9&amp;quot;;&#10;keys[&amp;quot;N&amp;quot;] = &amp;quot;N&amp;quot;;&#10;keys[&amp;quot;NUMPADEIGHT&amp;quot;] = &amp;quot;Numpad 8&amp;quot;;&#10;keys[&amp;quot;NUMPADFIVE&amp;quot;] = &amp;quot;Numpad 5&amp;quot;;&#10;keys[&amp;quot;NUMPADFOUR&amp;quot;] = &amp;quot;Numpad 4&amp;quot;;&#10;keys[&amp;quot;NUMPADMINUS&amp;quot;] = &amp;quot;Numpad -&amp;quot;;&#10;keys[&amp;quot;NUMPADNINE&amp;quot;] = &amp;quot;Numpad 9&amp;quot;;&#10;keys[&amp;quot;NUMPADONE&amp;quot;] = &amp;quot;Numpad 1&amp;quot;;&#10;keys[&amp;quot;NUMPADPERIOD&amp;quot;] = &amp;quot;Numpad .&amp;quot;;&#10;keys[&amp;quot;NUMPADPLUS&amp;quot;] = &amp;quot;Numpad +&amp;quot;;&#10;keys[&amp;quot;NUMPADSEVEN&amp;quot;] = &amp;quot;Numpad 7&amp;quot;;&#10;keys[&amp;quot;NUMPADSIX&amp;quot;] = &amp;quot;Numpad 6&amp;quot;;&#10;keys[&amp;quot;NUMPADSLASH&amp;quot;] = &amp;quot;Numpad /&amp;quot;;&#10;keys[&amp;quot;NUMPADTHREE&amp;quot;] = &amp;quot;Numpad 3&amp;quot;;&#10;keys[&amp;quot;NUMPADTWO&amp;quot;] = &amp;quot;Numpad 2&amp;quot;;&#10;//keys[&amp;quot;NUMPADZERO&amp;quot;] = &amp;quot;Numpad 0&amp;quot;;&#10;keys[&amp;quot;ONE&amp;quot;] = &amp;quot;1&amp;quot;;&#10;keys[&amp;quot;O&amp;quot;] = &amp;quot;O&amp;quot;;&#10;keys[&amp;quot;PERIOD&amp;quot;] = &amp;quot;.&amp;quot;;&#10;//keys[&amp;quot;PLUS&amp;quot;] = &amp;quot;+&amp;quot;;&#10;keys[&amp;quot;P&amp;quot;] = &amp;quot;P&amp;quot;;&#10;keys[&amp;quot;Q&amp;quot;] = &amp;quot;Q&amp;quot;;&#10;keys[&amp;quot;QUOTE&amp;quot;] = &amp;quot;&amp;#039;&amp;quot;;&#10;keys[&amp;quot;RBRACKET&amp;quot;] = &amp;quot;]&amp;quot;;&#10;keys[&amp;quot;RIGHT&amp;quot;] = &amp;quot;Right Arrow&amp;quot;;&#10;keys[&amp;quot;R&amp;quot;] = &amp;quot;R&amp;quot;;&#10;keys[&amp;quot;SEMICOLON&amp;quot;] = &amp;quot;;&amp;quot;;&#10;keys[&amp;quot;SEVEN&amp;quot;] = &amp;quot;7&amp;quot;;&#10;//keys[&amp;quot;SHIFT&amp;quot;] = &amp;quot;Shift&amp;quot;;&#10;keys[&amp;quot;SIX&amp;quot;] = &amp;quot;6&amp;quot;;&#10;keys[&amp;quot;SLASH&amp;quot;] = &amp;quot;/&amp;quot;;&#10;keys[&amp;quot;SPACE&amp;quot;] = &amp;quot;Space&amp;quot;;&#10;keys[&amp;quot;S&amp;quot;] = &amp;quot;S&amp;quot;;&#10;keys[&amp;quot;THREE&amp;quot;] = &amp;quot;3&amp;quot;;&#10;keys[&amp;quot;T&amp;quot;] = &amp;quot;T&amp;quot;;&#10;keys[&amp;quot;TWO&amp;quot;] = &amp;quot;2&amp;quot;;&#10;keys[&amp;quot;UP&amp;quot;] = &amp;quot;Up Arrow&amp;quot;;&#10;keys[&amp;quot;U&amp;quot;] = &amp;quot;U&amp;quot;;&#10;keys[&amp;quot;V&amp;quot;] = &amp;quot;V&amp;quot;;&#10;keys[&amp;quot;W&amp;quot;] = &amp;quot;W&amp;quot;;&#10;keys[&amp;quot;X&amp;quot;] = &amp;quot;X&amp;quot;;&#10;keys[&amp;quot;Y&amp;quot;] = &amp;quot;Y&amp;quot;;&#10;keys[&amp;quot;ZERO&amp;quot;] = &amp;quot;0&amp;quot;;&#10;keys[&amp;quot;Z&amp;quot;] = &amp;quot;Z&amp;quot;;&#10;&#10;&#10;&#10;"/>
+                </code-long>
+                <code-long comment="false" x="26" y="360">
+                    <int id="0" val="letters = new Array();&#10;letters[&amp;quot;A&amp;quot;] = &amp;quot;A&amp;quot;;&#10;letters[&amp;quot;B&amp;quot;] = &amp;quot;B&amp;quot;;&#10;letters[&amp;quot;C&amp;quot;] = &amp;quot;C&amp;quot;;&#10;letters[&amp;quot;D&amp;quot;] = &amp;quot;D&amp;quot;;&#10;letters[&amp;quot;E&amp;quot;] = &amp;quot;E&amp;quot;;&#10;letters[&amp;quot;F&amp;quot;] = &amp;quot;F&amp;quot;;&#10;letters[&amp;quot;G&amp;quot;] = &amp;quot;G&amp;quot;;&#10;letters[&amp;quot;H&amp;quot;] = &amp;quot;H&amp;quot;;&#10;letters[&amp;quot;I&amp;quot;] = &amp;quot;I&amp;quot;;&#10;letters[&amp;quot;J&amp;quot;] = &amp;quot;J&amp;quot;;&#10;letters[&amp;quot;K&amp;quot;] = &amp;quot;K&amp;quot;;&#10;letters[&amp;quot;L&amp;quot;] = &amp;quot;L&amp;quot;;&#10;letters[&amp;quot;M&amp;quot;] = &amp;quot;M&amp;quot;;&#10;letters[&amp;quot;N&amp;quot;] = &amp;quot;N&amp;quot;;&#10;letters[&amp;quot;O&amp;quot;] = &amp;quot;O&amp;quot;;&#10;letters[&amp;quot;P&amp;quot;] = &amp;quot;P&amp;quot;;&#10;letters[&amp;quot;Q&amp;quot;] = &amp;quot;Q&amp;quot;;&#10;letters[&amp;quot;R&amp;quot;] = &amp;quot;R&amp;quot;;&#10;letters[&amp;quot;S&amp;quot;] = &amp;quot;S&amp;quot;;&#10;letters[&amp;quot;T&amp;quot;] = &amp;quot;T&amp;quot;;&#10;letters[&amp;quot;U&amp;quot;] = &amp;quot;U&amp;quot;;&#10;letters[&amp;quot;V&amp;quot;] = &amp;quot;V&amp;quot;;&#10;letters[&amp;quot;W&amp;quot;] = &amp;quot;W&amp;quot;;&#10;letters[&amp;quot;X&amp;quot;] = &amp;quot;X&amp;quot;;&#10;letters[&amp;quot;Y&amp;quot;] = &amp;quot;Y&amp;quot;;&#10;letters[&amp;quot;Z&amp;quot;] = &amp;quot;Z&amp;quot;;"/>
+                </code-long>
+                <code-long comment="false" x="26" y="520">
+                    <int id="0" val="numbers = new Array();&#10;numbers[&amp;quot;ZERO&amp;quot;] = &amp;quot;0&amp;quot;;&#10;numbers[&amp;quot;ONE&amp;quot;] = &amp;quot;1&amp;quot;;&#10;numbers[&amp;quot;TWO&amp;quot;] = &amp;quot;2&amp;quot;;&#10;numbers[&amp;quot;THREE&amp;quot;] = &amp;quot;3&amp;quot;;&#10;numbers[&amp;quot;FOUR&amp;quot;] = &amp;quot;4&amp;quot;;&#10;numbers[&amp;quot;FIVE&amp;quot;] = &amp;quot;5&amp;quot;;&#10;numbers[&amp;quot;SIX&amp;quot;] = &amp;quot;6&amp;quot;;&#10;numbers[&amp;quot;SEVEN&amp;quot;] = &amp;quot;7&amp;quot;;&#10;numbers[&amp;quot;EIGHT&amp;quot;] = &amp;quot;8&amp;quot;;&#10;numbers[&amp;quot;NINE&amp;quot;] = &amp;quot;9&amp;quot;;"/>
+                </code-long>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="708">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="781">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="3">
+        <receiver-1-548 comment="false" x="15" y="854">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="879">
+                    <int id="0" val="for (var key in keys)&#10;{&#10;&#9;if (FlxG.keys.justPressed(key))&#10;&#9;{&#10;&#9;&#9;return key;&#10;&#9;}&#10;}&#10;return null;"/>
+                </code-long>
+            </group>
+        </receiver-1-548>
+    </group>
+    <group eventID="-1" id="6">
+        <receiver-4-551 comment="false" x="15" y="1067">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="1092">
+                    <int id="0" val="for (var key in keys)&#10;{&#10;&#9;if (FlxG.keys.justPressed(key))&#10;&#9;{&#10;&#9;&#9;return true;&#10;&#9;}&#10;}&#10;return false;"/>
+                </code-long>
+            </group>
+        </receiver-4-551>
+    </group>
+    <group eventID="-1" id="10">
+        <receiver-12-587 comment="false" x="15" y="1280">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="1310">
+                    <int id="0" val="return numbers[__key] != null;"/>
+                </custom-code>
+            </group>
+            <get-byobval-496-587-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-12-587>
+    </group>
+    <group eventID="-1" id="12">
+        <receiver-14-589 comment="false" x="15" y="1358">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="1388">
+                    <int id="0" val="return letters[__key] != null;"/>
+                </custom-code>
+            </group>
+            <get-byobval-496-589-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-14-589>
+    </group>
+    <group eventID="-1" id="13">
+        <receiver-15-590 comment="false" x="15" y="1436">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="1466">
+                    <int id="0" val="return keys[__key];"/>
+                </custom-code>
+            </group>
+            <get-byobval-496-590-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-15-590>
+    </group>
+    <group id="-1"/>
+</groups>

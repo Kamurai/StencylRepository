@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <snippet attachedevent="false" class="scripts.Design_516_516_CollisionShapeBlocks" desc="" description="" design="true" drawOrder="0" id="516" language="" name="Collision Shape Blocks" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <blocks>
+            <receiver blockID="649" id="1"/>
+            <receiver blockID="621" id="2"/>
+            <receiver blockID="647" id="3"/>
+            <receiver blockID="646" id="4"/>
+            <receiver blockID="648" id="5"/>
+            <receiver blockID="650" id="6"/>
+            <receiver blockID="645" id="7"/>
+            <receiver blockID="651" id="8"/>
+            <receiver blockID="652" id="9"/>
+            <receiver blockID="651" id="10"/>
+        </blocks>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_441_441" desc="" description="" design="true" drawOrder="0" id="441" language="" name="Caption" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <font default="" desc="" dropdown="" fullname="Font" hidden="false" id="1" name="_Font" order="8"/>
+        <color default="" desc="" dropdown="" fullname="Color" hidden="false" id="2" name="_Color" order="9"/>
+        <boolean default="true" desc="" dropdown="" fullname="Show" hidden="false" id="3" name="_Show" order="4"/>
+        <text default="Caption" desc="" dropdown="" fullname="Text" hidden="false" id="4" name="_Text" order="7"/>
+        <number default="0" desc="" dropdown="" fullname="X-Offset" hidden="false" id="5" name="_XOffset" order="12"/>
+        <number default="0" desc="" dropdown="" fullname="Y-Offset" hidden="false" id="6" name="_YOffset" order="13"/>
+        <text default="" desc="" dropdown="" fullname="Show Trigger" hidden="false" id="7" name="_ShowTrigger" order="5"/>
+        <text default="" desc="" dropdown="" fullname="Hide Trigger" hidden="false" id="8" name="_HideTrigger" order="6"/>
+        <boolean default="true" desc="" dropdown="" fullname="Center X" hidden="false" id="9" name="_CenterX" order="10"/>
+        <boolean default="true" desc="" dropdown="" fullname="Center Y" hidden="false" id="10" name="_CenterY" order="11"/>
+        <number default="0.0" desc="" dropdown="" fullname="X" hidden="true" id="11" name="_X" order="1"/>
+        <number default="0.0" desc="" dropdown="" fullname="Y" hidden="true" id="12" name="_Y" order="2"/>
+        <boolean default="false" desc="" dropdown="" fullname="Hide Sprite" hidden="false" id="13" name="_HideSprite" order="15"/>
+        <boolean default="false" desc="" dropdown="" fullname="Anchor to Screen" hidden="false" id="14" name="_AnchortoScreen" order="14"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <boolean default="false" desc="" dropdown="" fullname="Start" hidden="true" id="15" name="_Start" order="3"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_517_517_SceneDoonKeyEvents" desc="" description="" design="true" drawOrder="0" id="517" language="" name="Scene Do on Key Events" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <text default="[Key] Key Down" desc="" dropdown="" fullname="Key Down Message" hidden="false" id="1" name="_KeyDownMessage" order="4"/>
+        <text default="[Key] Key Released" desc="" dropdown="" fullname="Key Released Message" hidden="false" id="3" name="_KeyReleasedMessage" order="6"/>
+        <text default="[Key] Key Pressed" desc="" dropdown="" fullname="Key Pressed Message" hidden="false" id="4" name="_KeyPressedMessage" order="5"/>
+        <control default="" desc="" dropdown="" fullname="Control" hidden="false" id="6" name="_Control" order="1"/>
+        <text default="" desc="" dropdown="" fullname="Message" hidden="true" id="8" name="_Message" order="2"/>
+        <blocks>
+            <receiver blockID="412" id="1"/>
+        </blocks>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_518_518_ReloadScene" desc="" description="" design="true" drawOrder="0" id="518" language="" name="Reload Scene" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <text default="" desc="" dropdown="" fullname="Trigger" hidden="false" id="3" name="_Trigger" order="0"/>
+        <number default="0.5" desc="" dropdown="" fullname="Fade Out Seconds" hidden="false" id="4" name="_FadeOutSeconds" order="1"/>
+        <number default="0.5" desc="" dropdown="" fullname="Fade In Seconds" hidden="false" id="5" name="_FadeInSeconds" order="2"/>
+        <color default="" desc="" dropdown="" fullname="Color" hidden="false" id="6" name="_Color" order="3"/>
+        <blocks>
+            <ureceiver blockID="0" id="1"/>
+            <receiver blockID="293" id="2"/>
+        </blocks>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_519_519_UserInputBlocks" desc="" description="" design="true" drawOrder="0" id="519" language="" name="User Input Blocks" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <blocks>
+            <receiver blockID="654" id="1"/>
+            <receiver blockID="549" id="2"/>
+            <receiver blockID="550" id="3"/>
+            <receiver blockID="653" id="4"/>
+            <receiver blockID="552" id="5"/>
+            <receiver blockID="553" id="6"/>
+            <receiver blockID="556" id="7"/>
+            <receiver blockID="557" id="8"/>
+            <receiver blockID="558" id="9"/>
+            <ureceiver blockID="0" id="10"/>
+            <receiver blockID="586" id="11"/>
+            <receiver blockID="655" id="12"/>
+            <receiver blockID="588" id="13"/>
+            <receiver blockID="656" id="14"/>
+            <receiver blockID="657" id="15"/>
+        </blocks>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_474_474" desc="" description="" design="true" drawOrder="0" id="474" language="" name="Button Behavior" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <text default="Button Clicked" desc="" dropdown="" fullname="Button Clicked Message" hidden="false" id="4" name="_ButtonClickedMessage" order="2"/>
+        <boolean default="false" desc="" dropdown="" fullname="Enabled" hidden="false" id="5" name="_Enabled" order="1"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks>
+            <receiver blockID="293" id="1"/>
+        </blocks>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_513_513_ChangeCollisionShapes" desc="" description="" design="true" drawOrder="0" id="513" language="" name="Change Collision Shapes" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <text default="" desc="" dropdown="" fullname="Grow Trigger" hidden="false" id="1" name="_GrowTrigger" order="2"/>
+        <text default="" desc="" dropdown="" fullname="Shrink Trigger" hidden="false" id="2" name="_ShrinkTrigger" order="3"/>
+        <text default="" desc="" dropdown="" fullname="Remove Trigger" hidden="false" id="3" name="_RemoveTrigger" order="4"/>
+        <text default="" desc="" dropdown="" fullname="Add Circle Trigger" hidden="false" id="4" name="_AddCircleTrigger" order="5"/>
+        <text default="" desc="" dropdown="" fullname="Add Rect Trigger" hidden="false" id="5" name="_AddRectTrigger" order="6"/>
+        <actor default="" desc="" dropdown="" fullname="Target Actor" hidden="false" id="6" name="_TargetActor" order="1"/>
+        <actor default="" desc="" dropdown="" fullname="Radius Field" hidden="false" id="7" name="_RadiusField" order="7"/>
+        <actor default="" desc="" dropdown="" fullname="Width Field" hidden="false" id="8" name="_WidthField" order="8"/>
+        <actor default="" desc="" dropdown="" fullname="Height Field" hidden="false" id="9" name="_HeightField" order="9"/>
+        <number default="0" desc="" dropdown="" fullname="Radius" hidden="true" id="10" name="_Radius" order="10"/>
+        <number default="0" desc="" dropdown="" fullname="Width" hidden="true" id="11" name="_Width" order="11"/>
+        <number default="0" desc="" dropdown="" fullname="Height" hidden="true" id="12" name="_Height" order="12"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_514_514" desc="" description="" design="true" drawOrder="0" id="514" language="" name="Number Field Behavior" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <boolean default="false" desc="" dropdown="" fullname="Wait for Input" hidden="true" id="1" name="_WaitforInput" order="1"/>
+        <number default="0.0" desc="" dropdown="" fullname="X" hidden="true" id="2" name="_X" order="2"/>
+        <text default="" desc="" dropdown="" fullname="Text" hidden="true" id="3" name="_Text" order="7"/>
+        <number default="0.0" desc="" dropdown="" fullname="Y" hidden="true" id="5" name="_Y" order="3"/>
+        <number default="4.0" desc="" dropdown="" fullname="Left Padding" hidden="false" id="7" name="_LeftPadding" order="12"/>
+        <font default="" desc="" dropdown="" fullname="Font" hidden="false" id="8" name="_Font" order="9"/>
+        <color default="0,0,0,255" desc="" dropdown="" fullname="Color" hidden="false" id="9" name="_Color" order="10"/>
+        <boolean default="false" desc="" dropdown="" fullname="Show Cursor" hidden="true" id="10" name="_ShowCursor" order="4"/>
+        <number default="0.5" desc="" dropdown="" fullname="Cursor Blink Time" hidden="false" id="11" name="_CursorBlinkTime" order="13"/>
+        <text default="" desc="" dropdown="" fullname="Pressed Key" hidden="true" id="12" name="_PressedKey" order="5"/>
+        <text default="" desc="" dropdown="" fullname="Space" hidden="true" id="13" name="_Space" order="6"/>
+        <number default="12.0" desc="" dropdown="" fullname="Maximum Digits" hidden="false" id="14" name="_MaximumDigits" order="11"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <number default="0" desc="" dropdown="" fullname="Number" hidden="false" id="15" name="_Number" order="8"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_473_473" desc="" description="" design="true" drawOrder="0" id="473" language="" name="Do on Mouse Events" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <text default="Mouse Pressed on Self" desc="" dropdown="" fullname="Mouse Pressed on Self Message" hidden="false" id="17" name="_MousePressedonSelfMessage" order="4"/>
+        <text default="Mouse Down on Self" desc="" dropdown="" fullname="Mouse Down on Self Message" hidden="false" id="16" name="_MouseDownonSelfMessage" order="3"/>
+        <text default="Mouse Released on Self" desc="" dropdown="" fullname="Mouse Released on Self Message" hidden="false" id="18" name="_MouseReleasedonSelfMessage" order="5"/>
+        <text default="Mouse Released" desc="" dropdown="" fullname="Mouse Released Message" hidden="false" id="8" name="_MouseReleasedMessage" order="8"/>
+        <text default="Mouse Pressed" desc="" dropdown="" fullname="Mouse Pressed Message" hidden="false" id="9" name="_MousePressedMessage" order="7"/>
+        <text default="Mouse Down" desc="" dropdown="" fullname="Mouse Down Message" hidden="false" id="10" name="_MouseDownMessage" order="6"/>
+        <boolean default="false" desc="" dropdown="" fullname="Is Over" hidden="true" id="11" name="_IsOver" order="1"/>
+        <text default="Mouse Over" desc="" dropdown="" fullname="Mouse Over Message" hidden="false" id="12" name="_MouseOverMessage" order="9"/>
+        <text default="Mouse Enter" desc="" dropdown="" fullname="Mouse Enter Message" hidden="false" id="13" name="_MouseEnterMessage" order="10"/>
+        <boolean default="false" desc="" dropdown="" fullname="Was Over" hidden="true" id="14" name="_WasOver" order="2"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <text default="Mouse Leave" desc="" dropdown="" fullname="Mouse Leave Message" hidden="false" id="15" name="_MouseLeaveMessage" order="11"/>
+        <blocks>
+            <receiver blockID="293" id="1"/>
+        </blocks>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_515_515_DragandDrop" desc="" description="" design="true" drawOrder="0" id="515" language="" name="Drag and Drop" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <boolean default="false" desc="" dropdown="" fullname="Grabbed" hidden="true" id="1" name="_Grabbed" order="1"/>
+        <number default="0" desc="The distance between the actor's origin and where the mouse grabbed it on the X axis." dropdown="" fullname="X Offset" hidden="true" id="2" name="_XOffset" order="2"/>
+        <number default="0" desc="The distance between the actor's origin and where the mouse grabbed in on the Y axis." dropdown="" fullname="Y Offset" hidden="true" id="3" name="_YOffset" order="3"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_503_503" desc="" description="" design="true" drawOrder="0" id="503" language="" name="Switch Animations" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <animation default="" desc="" dropdown="" fullname="Animation 1" hidden="false" id="2" name="_Animation1" order="2"/>
+        <animation default="" desc="" dropdown="" fullname="Animation 2" hidden="false" id="3" name="_Animation2" order="4"/>
+        <text default="" desc="" dropdown="" fullname="Trigger 1" hidden="false" id="4" name="_Trigger1" order="1"/>
+        <text default="" desc="" dropdown="" fullname="Trigger 2" hidden="false" id="5" name="_Trigger2" order="3"/>
+        <text default="" desc="" dropdown="" fullname="Trigger 3" hidden="false" id="6" name="_Trigger3" order="5"/>
+        <animation default="" desc="" dropdown="" fullname="Animation 3" hidden="false" id="7" name="_Animation3" order="6"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_17" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="520" language="" name="SceneEvents_17" oid="-1" package="scripts." sceneid="17" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_597" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="521" language="" name="ActorEvents_597" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_628" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="522" language="" name="ActorEvents_628" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_404_404" desc="" description="" design="true" drawOrder="0" id="404" language="" name="Cannot Exit Screen" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <number default="0.0" desc="" dropdown="" fullname="Bottom" hidden="true" id="2" name="_Bottom" order="2"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_259_259" desc="" description="" design="true" drawOrder="0" id="259" language="" name="Debug Drawing" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <color default="255,204,0,255" desc="" dropdown="" fullname="Color" hidden="false" id="1" name="_Color" order="2"/>
+        <boolean default="false" desc="" dropdown="" fullname="Enabled" hidden="false" id="2" name="_Enabled" order="0"/>
+        <control default="" desc="" dropdown="" fullname="Toggle Key" hidden="false" id="3" name="_ToggleKey" order="1"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_429_429" desc="" description="" design="true" drawOrder="0" id="429" language="" name="Glow" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <list default="list" desc="" dropdown="" fullname="Filter" hidden="true" id="3" name="_Filter" order="1"/>
+        <number default="1.0" desc="" dropdown="" fullname="Alpha" hidden="false" id="5" name="_Alpha" order="8"/>
+        <number default="8.0" desc="" dropdown="" fullname="Blur X" hidden="false" id="6" name="_BlurX" order="9"/>
+        <number default="8.0" desc=" " dropdown="" fullname="Blur Y" hidden="false" id="7" name="_BlurY" order="10"/>
+        <color default="255,255,0,255" desc="" dropdown="" fullname="Color" hidden="false" id="8" name="_Color" order="7"/>
+        <boolean default="false" desc="" dropdown="" fullname="Inner" hidden="false" id="9" name="_Inner" order="13"/>
+        <boolean default="true" desc="" dropdown="" fullname="Knockout" hidden="false" id="10" name="_Knockout" order="14"/>
+        <text default="1" desc="" dropdown="1=1&#10;2=2&#10;3=3" fullname="Quality" hidden="false" id="11" name="_Quality" order="12"/>
+        <number default="2.0" desc="" dropdown="" fullname="Strength" hidden="false" id="12" name="_Strength" order="11"/>
+        <text default="" desc="" dropdown="" fullname="Trigger" hidden="false" id="13" name="_Trigger" order="3"/>
+        <number default="1.0" desc="" dropdown="" fullname="Duration" hidden="false" id="15" name="_Duration" order="6"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <boolean default="true" desc="" dropdown="" fullname="Permanent" hidden="false" id="17" name="_Permanent" order="5"/>
+        <boolean default="false" desc="" dropdown="" fullname="Enabled" hidden="false" id="16" name="_Enabled" order="2"/>
+        <text default="" desc="" dropdown="" fullname="Disable Trigger" hidden="false" id="18" name="_DisableTrigger" order="4"/>
+        <blocks/>
+        <events/>
+    </snippet>
+</pack>

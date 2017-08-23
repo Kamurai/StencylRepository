@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="161">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="3">
+        <receiver-6-401 comment="false" x="15" y="234">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="264">
+                    <int id="0" val="print(&amp;quot;Scene: &amp;quot; + __Message);"/>
+                </custom-code>
+            </group>
+            <get-byobval-448-401-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-6-401>
+    </group>
+    <group eventID="-1" id="4">
+        <receiver-12-407 comment="false" x="15" y="312">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="342">
+                    <int id="0" val="print(__Actor + &amp;quot; (&amp;quot; + __Actor.ID + &amp;quot;): &amp;quot; + __Message);"/>
+                </custom-code>
+            </group>
+            <get-byobval-448-407-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-448-407-1 comment="false" id="1" x="0" y="0"/>
+        </receiver-12-407>
+    </group>
+    <group eventID="-1" id="5">
+        <receiver-15-421 comment="false" x="15" y="390">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="420">
+                    <int id="0" val="print(&amp;quot;WARNING Scene: &amp;quot; + __Message);"/>
+                </custom-code>
+            </group>
+            <get-byobval-448-421-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-15-421>
+    </group>
+    <group eventID="-1" id="6">
+        <receiver-16-422 comment="false" x="15" y="468">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="498">
+                    <int id="0" val="print(&amp;quot;WARNING &amp;quot; + __Actor + &amp;quot; (&amp;quot; + __Actor.ID + &amp;quot;): &amp;quot; + __Message);"/>
+                </custom-code>
+            </group>
+            <get-byobval-448-422-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-448-422-1 comment="false" id="1" x="0" y="0"/>
+        </receiver-16-422>
+    </group>
+    <group id="-1"/>
+</groups>

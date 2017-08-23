@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1"/>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="88">
+<group id="-1">
+<set-val-13-1 comment="false" x="26" y="113">
+<int id="0" val="0"/>
+</set-val-13-1>
+<actors-in-group comment="false" x="26" y="133">
+<group id="-1">
+<increment comment="false" x="37" y="166">
+<int id="0" val="1"/>
+<int id="1" val="1"/>
+</increment>
+</group>
+<pick-group comment="false" id="0" x="0" y="0">
+<int id="0" val="4"/>
+</pick-group>
+</actors-in-group>
+<if comment="false" x="26" y="205">
+<group id="-1">
+<disable-snippet2 comment="false" x="37" y="235">
+<ACTOR eid="var" id="0" vid="2"/>
+<int id="1" val="2 Way Movement"/>
+</disable-snippet2>
+<disable-snippet2 comment="false" x="37" y="262">
+<ACTOR eid="var" id="0" vid="2"/>
+<int id="1" val="Fire Bullet One At a Time"/>
+</disable-snippet2>
+<disable-snippet comment="false" x="37" y="289"/>
+<play-sound3 comment="false" x="37" y="309">
+<SOUND eid="var" id="0" vid="4"/>
+</play-sound3>
+<scene-change3 comment="false" x="37" y="336">
+<SCENE eid="var" id="0" vid="3"/>
+<int id="1" val="0"/>
+<int id="2" val="0.2"/>
+<int id="3" val="1"/>
+<int id="4" val="0.2"/>
+</scene-change3>
+</group>
+<lesseq comment="false" id="0" x="0" y="0">
+<get-val-12-1 comment="false" id="0" x="0" y="0"/>
+<int id="1" val="0"/>
+</lesseq>
+</if>
+</group>
+</step>
+</group>
+<group id="2">
+<draw comment="false" x="15" y="403">
+<group id="-1"/>
+</draw>
+</group>
+<group id="-1"/>
+</groups>

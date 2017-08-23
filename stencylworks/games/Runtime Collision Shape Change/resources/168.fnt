@@ -1,0 +1,16 @@
+#
+#Mon Dec 19 12:41:02 CET 2011
+monospace=false
+monospace.numerals=false
+style=plain
+tracking=0
+color=\#ffffff
+shadow.y=0
+family=Monospaced
+shadow.x=0
+shadow.color=\#000000
+gradient.offset=0
+shadow.blur=0
+stroke.size=0
+antialias=true
+size=14

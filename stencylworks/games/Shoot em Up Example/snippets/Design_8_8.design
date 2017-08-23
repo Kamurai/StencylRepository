@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<step comment="false" x="15" y="88">
+<group id="-1">
+<set-val-8-1 comment="false" x="26" y="113">
+<minus comment="false" id="0" x="0" y="0">
+<plus comment="false" id="0" x="0" y="0">
+<screenx comment="false" id="0" x="0" y="0"/>
+<mousex comment="false" id="1" x="0" y="0"/>
+</plus>
+<getxc comment="false" id="1" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getxc>
+</minus>
+</set-val-8-1>
+<set-val-8-2 comment="false" x="26" y="151">
+<minus comment="false" id="0" x="0" y="0">
+<plus comment="false" id="0" x="0" y="0">
+<screeny comment="false" id="0" x="0" y="0"/>
+<mousey comment="false" id="1" x="0" y="0"/>
+</plus>
+<getyc comment="false" id="1" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getyc>
+</minus>
+</set-val-8-2>
+<set-val-8-3 comment="false" x="26" y="189">
+<to-degrees comment="false" id="0" x="0" y="0">
+<atan2 comment="false" id="0" x="0" y="0">
+<get-val-8-2 comment="false" id="0" x="0" y="0"/>
+<get-val-8-1 comment="false" id="1" x="0" y="0"/>
+</atan2>
+</to-degrees>
+</set-val-8-3>
+<setangle comment="false" x="26" y="224">
+<ACTOR eid="this" id="0"/>
+<plus comment="false" id="1" x="0" y="0">
+<get-val-8-3 comment="false" id="0" x="0" y="0"/>
+<get-val-8-4 comment="false" id="1" x="0" y="0"/>
+</plus>
+</setangle>
+</group>
+</step>
+</group>
+<group id="1">
+<draw comment="false" x="15" y="362">
+<group id="-1"/>
+</draw>
+</group>
+<group id="3">
+<collide comment="false" x="15" y="289">
+<group id="-1"/>
+</collide>
+</group>
+<group id="4">
+<init comment="false" x="15" y="15">
+<group id="-1"/>
+</init>
+</group>
+<group id="-1"/>
+</groups>

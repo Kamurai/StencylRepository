@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1">
+<create-actor3 comment="false" x="26" y="40">
+<ACTORTYPE eid="var" id="0" vid="1"/>
+<get-val-23-2 comment="false" id="1" x="0" y="0"/>
+<get-val-23-3 comment="false" id="2" x="0" y="0"/>
+<int id="3" val="0"/>
+</create-actor3>
+<camera-follow comment="false" x="26" y="72">
+<ACTOR eid="lastcreated" id="0"/>
+</camera-follow>
+</group>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="11" y="136">
+<group id="-1"/>
+</step>
+</group>
+<group id="2">
+<draw comment="false" x="2" y="280">
+<group id="-1"/>
+</draw>
+</group>
+<group id="-1"/>
+</groups>

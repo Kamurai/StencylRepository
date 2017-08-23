@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<game accelFramerate="0" adsPosition="0" aheight="512" airCert="" airPass="" appName="My Game" appType="0" author="" authorURL="" autoRotate="false" awidth="416" backgroundColor="-16764058" barBackgroundColor="-39424" barColor="-256" barHeight="8" barLocation="0" barOffsetX="0" barOffsetXPhone="0" barOffsetXTablet="0" barOffsetY="-120" barOffsetYPhone="0" barOffsetYTablet="0" barScalePhone="1.0" barScaleTablet="2.0" barWidth="148" borderColor="-65536" borderThickness="3" bundleID="com.yourcompany.gamename" bundleVersion="1.0" checksum="none" cpmID="" cws-desc="" cws-icon128="" cws-icon16="" cws-name="" cws-version="" default="3" defaultFramerate="30" desc="Wip Space Invaders meets Galaga or something game project." deviceOS="5.1" engine="30" format="2.0" gameid="-1" height="512" kit="false" lockURL="" mochi="" multitouch="true" name="Shoot em Up Example" ngID="" ngKey="" onlineID="60044" orientation="0" preloaderstyle="0" products="" projectType="" scale="1.0" showAds="false" simulatorOS="5.1" splashStyle="0" swfHeight="0" swfWidth="0" swfX="0" swfY="0" swfloc="" thumbstickStyle="0" useGlossyIcon="false" width="416">
+    <folders>
+        <group desc="" id="0" name="Enemies" type="actor">
+            <r id="219"/>
+            <r id="159"/>
+            <r id="52"/>
+        </group>
+        <group desc="" id="1" name="Ammo" type="actor">
+            <r id="9"/>
+            <r id="177"/>
+            <r id="107"/>
+        </group>
+        <group desc="" id="2" name="Explosions" type="actor">
+            <r id="169"/>
+        </group>
+    </folders>
+    <packs>
+        <pack desc="Includes 3 main behaviors that allow your game to award points.&lt;br&gt;&#10;Score Drawer - Score Detector - Score Calculator&lt;br&gt;&lt;br&gt;&#10;&lt;b&gt;Before Downloading&lt;/b&gt;&lt;br&gt;&#10;1 - Create a &lt;b&gt;Boolean&lt;/b&gt;Game Attribute called &quot;gameStart&quot;&lt;br&gt;&#10;2 - Create a &lt;b&gt;Number&lt;/b&gt;Game Attribute called &quot;Score&quot;" id="0" name="Scoring Support" oid="-1" resources="" snippets="96,97,95"/>
+    </packs>
+    <groups>
+        <group desc="" id="4" name="Alien"/>
+        <group desc="" id="5" name="Player Projectile"/>
+        <group desc="Asteroids that can't be killed." id="6" name="Asteroids Big"/>
+        <group desc="Asteroids can be killed." id="7" name="Asteroids Small"/>
+        <group desc="" id="8" name="Enemy Projectile"/>
+        <group desc="" id="9" name="Start Actor"/>
+        <group desc="" id="10" name="Help Actor"/>
+        <group desc="" id="11" name="Point Pickups"/>
+        <group desc="This group is for setting collected weapon upgrades." id="12" name="Upgrades"/>
+        <group desc="Smart Deployment of Enemies that will leave the screen after thet do their duty." id="13" name="Alien AI"/>
+        <group desc="Set Player to this when no bullets should hurt." id="14" name="No Collision"/>
+    </groups>
+    <cgroups>
+        <cgroup g1="12" g2="5"/>
+        <cgroup g1="12" g2="0"/>
+        <cgroup g1="1" g2="3"/>
+        <cgroup g1="1" g2="0"/>
+        <cgroup g1="6" g2="5"/>
+        <cgroup g1="6" g2="0"/>
+        <cgroup g1="5" g2="10"/>
+        <cgroup g1="5" g2="9"/>
+        <cgroup g1="5" g2="7"/>
+        <cgroup g1="5" g2="13"/>
+        <cgroup g1="5" g2="4"/>
+        <cgroup g1="0" g2="11"/>
+        <cgroup g1="0" g2="7"/>
+        <cgroup g1="0" g2="13"/>
+        <cgroup g1="0" g2="4"/>
+        <cgroup g1="0" g2="8"/>
+    </cgroups>
+    <input>
+        <key id="0" keyname="RIGHT" name="Move Right" vk="39" vks="39"/>
+        <key id="1" keyname="Q" name="Exit" vk="81" vks="81"/>
+        <key id="2" keyname="X" name="Fire1" vk="88" vks="88"/>
+        <key id="3" keyname="Z" name="Fire2" vk="90" vks="90"/>
+        <key id="4" keyname="UP" name="Move Up" vk="38" vks="38"/>
+        <key id="5" keyname="LEFT" name="Move Left" vk="37" vks="37"/>
+        <key id="6" keyname="DOWN" name="Move Down" vk="40" vks="40"/>
+    </input>
+    <attcats>
+        <cat id="0" name="Scoring"/>
+        <cat id="1" name="Game"/>
+        <cat id="2" name="Pickups"/>
+        <cat id="3" name="Extra Ships"/>
+        <cat id="-1" name="Default"/>
+    </attcats>
+    <props/>
+    <attributes>
+        <bool cid="-1" id="0" name="Move Right" save="true" value="true"/>
+        <bool cid="2" id="5" name="weaponUpgrade" save="true" value="false"/>
+        <bool cid="1" id="4" name="gameStarted" save="true" value="false"/>
+        <number cid="3" id="9" name="Current Ship" save="true" value="0.0"/>
+        <bool cid="-1" id="2" name="Slide and Increase Speed" save="true" value="false"/>
+        <number cid="0" id="3" name="Score" save="true" value="0.0"/>
+        <bool cid="3" id="8" name="First Level" save="true" value="false"/>
+        <number cid="3" id="6" name="Ship Count" save="true" value="0.0"/>
+    </attributes>
+    <collisions>
+        <poly id="1" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="2" name="Tri 45R" pts="0.0,0.0#0.0,1.0#1.0,1.0"/>
+        <poly id="3" name="Tri 45L" pts="1.0,0.0#0.0,1.0#1.0,1.0"/>
+        <poly id="4" name="Tri 45R Inv" pts="0.0,0.0#0.0,1.0#1.0,0.0"/>
+        <poly id="5" name="Tri 45L Inv" pts="0.0,0.0#1.0,1.0#1.0,0.0"/>
+        <poly id="6" name="Tri 30R" pts="0.0,1.0#1.0,1.0#1.0,0.5"/>
+        <poly id="7" name="Tri 30L" pts="0.0,0.5#0.0,1.0#1.0,1.0"/>
+        <poly id="8" name="Tri 30-2R" pts="0.0,0.5#0.0,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="9" name="Tri 30-2L" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.5"/>
+        <poly id="10" name="Tri 30R Inv" pts="0.0,0.0#1.0,0.5#1.0,0.0"/>
+        <poly id="11" name="Tri 30L Inv" pts="0.0,0.0#0.0,0.5#1.0,0.0"/>
+        <poly id="12" name="Tri 30-2R Inv" pts="0.0,0.0#0.0,0.5#1.0,1.0#1.0,0.0"/>
+        <poly id="13" name="Tri 30-2L Inv" pts="0.0,0.0#0.0,1.0#1.0,0.5#1.0,0.0"/>
+        <poly id="14" name="Tri 60R" pts="0.5,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="15" name="Tri 60L" pts="0.0,0.0#0.0,1.0#0.5,1.0"/>
+        <poly id="17" name="Tri 60-2L" pts="0.0,0.0#0.0,1.0#1.0,1.0#0.5,0.0"/>
+        <poly id="16" name="Tri 60-2R" pts="0.5,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="19" name="Tri 60L Inv" pts="0.0,0.0#0.0,1.0#0.5,0.0"/>
+        <poly id="18" name="Tri 60R Inv" pts="0.5,0.0#1.0,1.0#1.0,0.0"/>
+        <poly id="21" name="Tri 60-2L Inv" pts="0.0,0.0#0.0,1.0#0.5,1.0#1.0,0.0"/>
+        <poly id="20" name="Tri 60-2R Inv" pts="0.0,0.0#0.5,1.0#1.0,1.0#1.0,0.0"/>
+    </collisions>
+    <atlases>
+        <atlas dirty="true" id="0" members="1,9,52,107,159,169,177,219,215,218" name="Main Atlas (Default)" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="4" members="" name="Atlas 5" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="5" members="" name="Atlas 6" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="6" members="" name="Atlas 7" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="7" members="" name="Atlas 8" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="8" members="" name="Atlas 9" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="9" members="" name="Atlas 10" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="10" members="" name="Atlas 11" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="11" members="" name="Atlas 12" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="12" members="" name="Atlas 13" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="13" members="" name="Atlas 14" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="14" members="" name="Atlas 15" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="15" members="" name="Atlas 16" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="17" members="" name="Atlas 18" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="16" members="" name="Atlas 17" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="19" members="" name="Atlas 20" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="18" members="" name="Atlas 19" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="21" members="" name="Atlas 22" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="20" members="" name="Atlas 21" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="23" members="" name="Atlas 24" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="22" members="" name="Atlas 23" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="25" members="" name="Atlas 26" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="24" members="" name="Atlas 25" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="27" members="" name="Atlas 28" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="26" members="" name="Atlas 27" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="29" members="" name="Atlas 30" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="28" members="" name="Atlas 29" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="31" members="" name="Atlas 32" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="30" members="" name="Atlas 31" pvr="false" resize="0" start="true" target="0"/>
+    </atlases>
+    <libraries/>
+</game>

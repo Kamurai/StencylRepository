@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="161">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="3">
+        <receiver-1-548 comment="false" x="15" y="234">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="259">
+                    <int id="0" val="for (var key in Keymap())&#10;{&#10;&#9;if (FlxG.keys.justPressed(key))&#10;&#9;{&#10;&#9;&#9;return key;&#10;&#9;}&#10;}&#10;return null;"/>
+                </code-long>
+            </group>
+        </receiver-1-548>
+    </group>
+    <group eventID="-1" id="4">
+        <receiver-4-551 comment="false" x="15" y="447">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="472">
+                    <int id="0" val="for (var key in Keymap())&#10;{&#10;&#9;if (FlxG.keys.justPressed(key))&#10;&#9;{&#10;&#9;&#9;return true;&#10;&#9;}&#10;}&#10;return false;"/>
+                </code-long>
+            </group>
+        </receiver-4-551>
+    </group>
+    <group eventID="-1" id="5">
+        <receiver-5-552 comment="false" x="15" y="660">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="685">
+                    <int id="0" val="var keymap = new Array();&#10;keymap[&amp;quot;A&amp;quot;] = &amp;quot;A&amp;quot;;&#10;//keymap[&amp;quot;ALT&amp;quot;] = &amp;quot;Alt&amp;quot;;&#10;//keymap[&amp;quot;BACKSLASH&amp;quot;] = &amp;quot;Backslash&amp;quot;;&#10;keymap[&amp;quot;BACKSPACE&amp;quot;] = &amp;quot;Backspace&amp;quot;;&#10;keymap[&amp;quot;B&amp;quot;] = &amp;quot;B&amp;quot;;&#10;keymap[&amp;quot;C&amp;quot;] = &amp;quot;C&amp;quot;;&#10;//keymap[&amp;quot;CAPSLOCK&amp;quot;] = &amp;quot;Capslock&amp;quot;;&#10;keymap[&amp;quot;COMMA&amp;quot;] = &amp;quot;,&amp;quot;;&#10;keymap[&amp;quot;CONTROL&amp;quot;] = &amp;quot;Ctrl&amp;quot;;&#10;keymap[&amp;quot;D&amp;quot;] = &amp;quot;D&amp;quot;;&#10;keymap[&amp;quot;DELETE&amp;quot;] = &amp;quot;Delete&amp;quot;;&#10;keymap[&amp;quot;DOWN&amp;quot;] = &amp;quot;Down Arrow&amp;quot;;&#10;keymap[&amp;quot;E&amp;quot;] = &amp;quot;E&amp;quot;;&#10;keymap[&amp;quot;EIGHT&amp;quot;] = &amp;quot;8&amp;quot;;&#10;keymap[&amp;quot;ENTER&amp;quot;] = &amp;quot;Enter&amp;quot;;&#10;//keymap[&amp;quot;ESCAPE&amp;quot;] = &amp;quot;Escape&#10;keymap[&amp;quot;F&amp;quot;] = &amp;quot;F&amp;quot;;&#10;keymap[&amp;quot;F1&amp;quot;] = &amp;quot;F1&amp;quot;;&#10;keymap[&amp;quot;F10&amp;quot;] = &amp;quot;F10&amp;quot;;&#10;keymap[&amp;quot;F11&amp;quot;] = &amp;quot;F11&amp;quot;;&#10;keymap[&amp;quot;F12&amp;quot;] = &amp;quot;F12&amp;quot;;&#10;keymap[&amp;quot;F2&amp;quot;] = &amp;quot;F2&amp;quot;;&#10;keymap[&amp;quot;F3&amp;quot;] = &amp;quot;F3&amp;quot;;&#10;keymap[&amp;quot;F4&amp;quot;] = &amp;quot;F4&amp;quot;;&#10;keymap[&amp;quot;F5&amp;quot;] = &amp;quot;F5&amp;quot;;&#10;keymap[&amp;quot;F6&amp;quot;] = &amp;quot;F6&amp;quot;;&#10;keymap[&amp;quot;F7&amp;quot;] = &amp;quot;F7&amp;quot;;&#10;keymap[&amp;quot;F8&amp;quot;] = &amp;quot;F8&amp;quot;;&#10;keymap[&amp;quot;F9&amp;quot;] = &amp;quot;F9&amp;quot;;&#10;keymap[&amp;quot;FIVE&amp;quot;] = &amp;quot;5&amp;quot;;&#10;keymap[&amp;quot;FOUR&amp;quot;] = &amp;quot;4&amp;quot;;&#10;keymap[&amp;quot;G&amp;quot;] = &amp;quot;G&amp;quot;;&#10;keymap[&amp;quot;H&amp;quot;] = &amp;quot;H&amp;quot;;&#10;keymap[&amp;quot;I&amp;quot;] = &amp;quot;I&amp;quot;;&#10;keymap[&amp;quot;J&amp;quot;] = &amp;quot;J&amp;quot;;&#10;keymap[&amp;quot;K&amp;quot;] = &amp;quot;K&amp;quot;;&#10;keymap[&amp;quot;LBRACKET&amp;quot;] = &amp;quot;[&amp;quot;;&#10;keymap[&amp;quot;LEFT&amp;quot;] = &amp;quot;Left Arrow&amp;quot;;&#10;keymap[&amp;quot;L&amp;quot;] = &amp;quot;L&amp;quot;;&#10;//keymap[&amp;quot;MINUS&amp;quot;] = &amp;quot;-&amp;quot;;&#10;keymap[&amp;quot;M&amp;quot;] = &amp;quot;M&amp;quot;;&#10;keymap[&amp;quot;NINE&amp;quot;] = &amp;quot;9&amp;quot;;&#10;keymap[&amp;quot;N&amp;quot;] = &amp;quot;N&amp;quot;;&#10;keymap[&amp;quot;NUMPADEIGHT&amp;quot;] = &amp;quot;Numpad 8&amp;quot;;&#10;keymap[&amp;quot;NUMPADFIVE&amp;quot;] = &amp;quot;Numpad 5&amp;quot;;&#10;keymap[&amp;quot;NUMPADFOUR&amp;quot;] = &amp;quot;Numpad 4&amp;quot;;&#10;keymap[&amp;quot;NUMPADMINUS&amp;quot;] = &amp;quot;Numpad -&amp;quot;;&#10;keymap[&amp;quot;NUMPADNINE&amp;quot;] = &amp;quot;Numpad 9&amp;quot;;&#10;keymap[&amp;quot;NUMPADONE&amp;quot;] = &amp;quot;Numpad 1&amp;quot;;&#10;keymap[&amp;quot;NUMPADPERIOD&amp;quot;] = &amp;quot;Numpad .&amp;quot;;&#10;keymap[&amp;quot;NUMPADPLUS&amp;quot;] = &amp;quot;Numpad +&amp;quot;;&#10;keymap[&amp;quot;NUMPADSEVEN&amp;quot;] = &amp;quot;Numpad 7&amp;quot;;&#10;keymap[&amp;quot;NUMPADSIX&amp;quot;] = &amp;quot;Numpad 6&amp;quot;;&#10;keymap[&amp;quot;NUMPADSLASH&amp;quot;] = &amp;quot;Numpad /&amp;quot;;&#10;keymap[&amp;quot;NUMPADTHREE&amp;quot;] = &amp;quot;Numpad 3&amp;quot;;&#10;keymap[&amp;quot;NUMPADTWO&amp;quot;] = &amp;quot;Numpad 2&amp;quot;;&#10;//keymap[&amp;quot;NUMPADZERO&amp;quot;] = &amp;quot;Numpad 0&amp;quot;;&#10;keymap[&amp;quot;ONE&amp;quot;] = &amp;quot;1&amp;quot;;&#10;keymap[&amp;quot;O&amp;quot;] = &amp;quot;O&amp;quot;;&#10;keymap[&amp;quot;PERIOD&amp;quot;] = &amp;quot;.&amp;quot;;&#10;//keymap[&amp;quot;PLUS&amp;quot;] = &amp;quot;+&amp;quot;;&#10;keymap[&amp;quot;P&amp;quot;] = &amp;quot;P&amp;quot;;&#10;keymap[&amp;quot;Q&amp;quot;] = &amp;quot;Q&amp;quot;;&#10;keymap[&amp;quot;QUOTE&amp;quot;] = &amp;quot;&amp;#039;&amp;quot;;&#10;keymap[&amp;quot;RBRACKET&amp;quot;] = &amp;quot;]&amp;quot;;&#10;keymap[&amp;quot;RIGHT&amp;quot;] = &amp;quot;Right Arrow&amp;quot;;&#10;keymap[&amp;quot;R&amp;quot;] = &amp;quot;R&amp;quot;;&#10;keymap[&amp;quot;SEMICOLON&amp;quot;] = &amp;quot;;&amp;quot;;&#10;keymap[&amp;quot;SEVEN&amp;quot;] = &amp;quot;7&amp;quot;;&#10;//keymap[&amp;quot;SHIFT&amp;quot;] = &amp;quot;Shift&amp;quot;;&#10;keymap[&amp;quot;SIX&amp;quot;] = &amp;quot;6&amp;quot;;&#10;keymap[&amp;quot;SLASH&amp;quot;] = &amp;quot;/&amp;quot;;&#10;keymap[&amp;quot;SPACE&amp;quot;] = &amp;quot;Space&amp;quot;;&#10;keymap[&amp;quot;S&amp;quot;] = &amp;quot;S&amp;quot;;&#10;keymap[&amp;quot;THREE&amp;quot;] = &amp;quot;3&amp;quot;;&#10;keymap[&amp;quot;T&amp;quot;] = &amp;quot;T&amp;quot;;&#10;keymap[&amp;quot;TWO&amp;quot;] = &amp;quot;2&amp;quot;;&#10;keymap[&amp;quot;UP&amp;quot;] = &amp;quot;Up Arrow&amp;quot;;&#10;keymap[&amp;quot;U&amp;quot;] = &amp;quot;U&amp;quot;;&#10;keymap[&amp;quot;V&amp;quot;] = &amp;quot;V&amp;quot;;&#10;keymap[&amp;quot;W&amp;quot;] = &amp;quot;W&amp;quot;;&#10;keymap[&amp;quot;X&amp;quot;] = &amp;quot;X&amp;quot;;&#10;keymap[&amp;quot;Y&amp;quot;] = &amp;quot;Y&amp;quot;;&#10;keymap[&amp;quot;ZERO&amp;quot;] = &amp;quot;0&amp;quot;;&#10;keymap[&amp;quot;Z&amp;quot;] = &amp;quot;Z&amp;quot;;&#10;return keymap;"/>
+                </code-long>
+            </group>
+        </receiver-5-552>
+    </group>
+    <group eventID="-1" id="9">
+        <receiver-11-586 comment="false" x="15" y="873">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="898">
+                    <int id="0" val="var keymap = new Array();&#10;keymap[&amp;quot;ZERO&amp;quot;] = &amp;quot;0&amp;quot;;&#10;keymap[&amp;quot;ONE&amp;quot;] = &amp;quot;1&amp;quot;;&#10;keymap[&amp;quot;TWO&amp;quot;] = &amp;quot;2&amp;quot;;&#10;keymap[&amp;quot;THREE&amp;quot;] = &amp;quot;3&amp;quot;;&#10;keymap[&amp;quot;FOUR&amp;quot;] = &amp;quot;4&amp;quot;;&#10;keymap[&amp;quot;FIVE&amp;quot;] = &amp;quot;5&amp;quot;;&#10;keymap[&amp;quot;SIX&amp;quot;] = &amp;quot;6&amp;quot;;&#10;keymap[&amp;quot;SEVEN&amp;quot;] = &amp;quot;7&amp;quot;;&#10;keymap[&amp;quot;EIGHT&amp;quot;] = &amp;quot;8&amp;quot;;&#10;keymap[&amp;quot;NINE&amp;quot;] = &amp;quot;9&amp;quot;;&#10;return keymap;"/>
+                </code-long>
+            </group>
+        </receiver-11-586>
+    </group>
+    <group eventID="-1" id="10">
+        <receiver-12-587 comment="false" x="15" y="1086">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="1116">
+                    <int id="0" val="return NumberKeymap()[__key] != null;"/>
+                </custom-code>
+            </group>
+            <get-byobval-496-587-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-12-587>
+    </group>
+    <group eventID="-1" id="11">
+        <receiver-13-588 comment="false" x="15" y="1164">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="1189">
+                    <int id="0" val="var keymap = new Array();&#10;keymap[&amp;quot;A&amp;quot;] = &amp;quot;A&amp;quot;;&#10;keymap[&amp;quot;B&amp;quot;] = &amp;quot;B&amp;quot;;&#10;keymap[&amp;quot;C&amp;quot;] = &amp;quot;C&amp;quot;;&#10;keymap[&amp;quot;D&amp;quot;] = &amp;quot;D&amp;quot;;&#10;keymap[&amp;quot;E&amp;quot;] = &amp;quot;E&amp;quot;;&#10;keymap[&amp;quot;F&amp;quot;] = &amp;quot;F&amp;quot;;&#10;keymap[&amp;quot;G&amp;quot;] = &amp;quot;G&amp;quot;;&#10;keymap[&amp;quot;H&amp;quot;] = &amp;quot;H&amp;quot;;&#10;keymap[&amp;quot;I&amp;quot;] = &amp;quot;I&amp;quot;;&#10;keymap[&amp;quot;J&amp;quot;] = &amp;quot;J&amp;quot;;&#10;keymap[&amp;quot;K&amp;quot;] = &amp;quot;K&amp;quot;;&#10;keymap[&amp;quot;L&amp;quot;] = &amp;quot;L&amp;quot;;&#10;keymap[&amp;quot;M&amp;quot;] = &amp;quot;M&amp;quot;;&#10;keymap[&amp;quot;N&amp;quot;] = &amp;quot;N&amp;quot;;&#10;keymap[&amp;quot;O&amp;quot;] = &amp;quot;O&amp;quot;;&#10;keymap[&amp;quot;P&amp;quot;] = &amp;quot;P&amp;quot;;&#10;keymap[&amp;quot;Q&amp;quot;] = &amp;quot;Q&amp;quot;;&#10;keymap[&amp;quot;R&amp;quot;] = &amp;quot;R&amp;quot;;&#10;keymap[&amp;quot;S&amp;quot;] = &amp;quot;S&amp;quot;;&#10;keymap[&amp;quot;T&amp;quot;] = &amp;quot;T&amp;quot;;&#10;keymap[&amp;quot;U&amp;quot;] = &amp;quot;U&amp;quot;;&#10;keymap[&amp;quot;V&amp;quot;] = &amp;quot;V&amp;quot;;&#10;keymap[&amp;quot;W&amp;quot;] = &amp;quot;W&amp;quot;;&#10;keymap[&amp;quot;X&amp;quot;] = &amp;quot;X&amp;quot;;&#10;keymap[&amp;quot;Y&amp;quot;] = &amp;quot;Y&amp;quot;;&#10;keymap[&amp;quot;Z&amp;quot;] = &amp;quot;Z&amp;quot;;&#10;return keymap;"/>
+                </code-long>
+            </group>
+        </receiver-13-588>
+    </group>
+    <group eventID="-1" id="12">
+        <receiver-14-589 comment="false" x="15" y="1377">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="1407">
+                    <int id="0" val="return LetterKeymap()[__key] != null;"/>
+                </custom-code>
+            </group>
+            <get-byobval-496-589-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-14-589>
+    </group>
+    <group eventID="-1" id="13">
+        <receiver-15-590 comment="false" x="15" y="1455">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="1485">
+                    <int id="0" val="return Keymap()[__key];"/>
+                </custom-code>
+            </group>
+            <get-byobval-496-590-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-15-590>
+    </group>
+    <group id="-1"/>
+</groups>

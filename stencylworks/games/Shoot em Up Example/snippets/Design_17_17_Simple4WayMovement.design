@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1"/>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="88">
+<group id="-1">
+<comment-short comment="false" x="26" y="113">
+<int id="0" val="Holding the Up key moves the player up at a speed of 12 and plays the Up animation."/>
+</comment-short>
+<if comment="false" x="26" y="133">
+<group id="-1">
+<setdy comment="false" x="37" y="166">
+<ACTOR eid="this" id="0"/>
+<get-val-17-5 comment="false" id="1" x="0" y="0"/>
+</setdy>
+<setanim comment="false" x="37" y="198">
+<ACTOR eid="this" id="0"/>
+<get-val-17-1 comment="false" id="1" x="0" y="0"/>
+</setanim>
+</group>
+<keydownnew comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<int id="1" val="0"/>
+</keydownnew>
+</if>
+<comment-short comment="false" x="26" y="242">
+<int id="0" val="Otherwise, if the Up key is released, the player will stop."/>
+</comment-short>
+<else-if comment="false" x="26" y="262">
+<group id="-1">
+<setdy comment="false" x="37" y="295">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="0"/>
+</setdy>
+</group>
+<keyrelease comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<int id="1" val="0"/>
+</keyrelease>
+</else-if>
+<comment-short comment="false" x="26" y="334">
+<int id="0" val="Same function as the Up key, but for the other directional keys"/>
+</comment-short>
+<if comment="false" x="26" y="354">
+<group id="-1">
+<setdx comment="false" x="37" y="387">
+<ACTOR eid="this" id="0"/>
+<get-val-17-6 comment="false" id="1" x="0" y="0"/>
+</setdx>
+<setanim comment="false" x="37" y="419">
+<ACTOR eid="this" id="0"/>
+<get-val-17-2 comment="false" id="1" x="0" y="0"/>
+</setanim>
+</group>
+<keydownnew comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<int id="1" val="1"/>
+</keydownnew>
+</if>
+<else-if comment="false" x="26" y="463">
+<group id="-1">
+<setdx comment="false" x="37" y="496">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="0"/>
+</setdx>
+</group>
+<keyrelease comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<int id="1" val="1"/>
+</keyrelease>
+</else-if>
+<if comment="false" x="26" y="535">
+<group id="-1">
+<setdy comment="false" x="37" y="568">
+<ACTOR eid="this" id="0"/>
+<get-val-17-7 comment="false" id="1" x="0" y="0"/>
+</setdy>
+<setanim comment="false" x="37" y="600">
+<ACTOR eid="this" id="0"/>
+<get-val-17-3 comment="false" id="1" x="0" y="0"/>
+</setanim>
+</group>
+<keydownnew comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<int id="1" val="3"/>
+</keydownnew>
+</if>
+<else-if comment="false" x="26" y="644">
+<group id="-1">
+<setdy comment="false" x="37" y="677">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="0"/>
+</setdy>
+</group>
+<keyrelease comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<int id="1" val="3"/>
+</keyrelease>
+</else-if>
+<if comment="false" x="26" y="716">
+<group id="-1">
+<setdx comment="false" x="37" y="749">
+<ACTOR eid="this" id="0"/>
+<get-val-17-8 comment="false" id="1" x="0" y="0"/>
+</setdx>
+<setanim comment="false" x="37" y="781">
+<ACTOR eid="this" id="0"/>
+<get-val-17-4 comment="false" id="1" x="0" y="0"/>
+</setanim>
+</group>
+<keydownnew comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<int id="1" val="2"/>
+</keydownnew>
+</if>
+<else-if comment="false" x="26" y="825">
+<group id="-1">
+<setdx comment="false" x="37" y="858">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="0"/>
+</setdx>
+</group>
+<keyrelease comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<int id="1" val="2"/>
+</keyrelease>
+</else-if>
+</group>
+</step>
+</group>
+<group id="2">
+<collide comment="false" x="15" y="925">
+<group id="-1"/>
+</collide>
+</group>
+<group id="3">
+<draw comment="false" x="15" y="998">
+<group id="-1"/>
+</draw>
+</group>
+<group id="-1"/>
+</groups>

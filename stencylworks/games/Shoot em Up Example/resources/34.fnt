@@ -1,0 +1,16 @@
+#
+#Wed Nov 10 15:22:33 CST 2010
+monospace=true
+monospace.numerals=false
+style=plain
+tracking=24
+color=\#ffff00
+shadow.y=0
+family=Adore64.ttf
+shadow.x=0
+gradient.offset=0
+shadow.blur=0
+chars=0-9
+stroke.size=0
+antialias=false
+size=23

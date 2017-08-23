@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <collide comment="false" x="15" y="161">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group eventID="-1" id="3">
+        <draw comment="false" x="15" y="234">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="4">
+        <receive-message comment="false" x="15" y="307">
+            <group eventID="-1" id="-1">
+                <set-val-502-2 comment="false" x="26" y="337">
+                    <custom-602 comment="false" id="0" x="0" y="0"/>
+                </set-val-502-2>
+                <set-val-502-11 comment="false" x="26" y="362">
+                    <get-attribute comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="3"/>
+                        <int id="1" val="Text Field Behavior"/>
+                        <int id="2" val="_Text"/>
+                    </get-attribute>
+                </set-val-502-11>
+                <if comment="false" x="26" y="395">
+                    <group eventID="-1" id="-1">
+                        <set-val-502-2 comment="false" x="37" y="425">
+                            <str-combine comment="false" id="0" x="0" y="0">
+                                <get-val-502-2 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Hello! "/>
+                            </str-combine>
+                        </set-val-502-2>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-502-11 comment="false" id="0" x="0" y="0"/>
+                        <custom-602 comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <else comment="false" x="26" y="467">
+                    <group eventID="-1" id="-1">
+                        <set-val-502-2 comment="false" x="37" y="487">
+                            <str-combine comment="false" id="0" x="0" y="0">
+                                <get-val-502-2 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Hello! My name is "/>
+                            </str-combine>
+                        </set-val-502-2>
+                        <set-val-502-2 comment="false" x="37" y="517">
+                            <str-combine comment="false" id="0" x="0" y="0">
+                                <get-val-502-2 comment="false" id="0" x="0" y="0"/>
+                                <get-val-502-11 comment="false" id="1" x="0" y="0"/>
+                            </str-combine>
+                        </set-val-502-2>
+                        <set-val-502-2 comment="false" x="37" y="547">
+                            <str-combine comment="false" id="0" x="0" y="0">
+                                <get-val-502-2 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val=". "/>
+                            </str-combine>
+                        </set-val-502-2>
+                    </group>
+                </else>
+                <set-val-502-2 comment="false" x="26" y="589">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <get-val-502-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="I&amp;#039;m a "/>
+                    </str-combine>
+                </set-val-502-2>
+                <actors-in-region comment="false" x="26" y="619">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="646">
+                            <group eventID="-1" id="-1">
+                                <set-val-502-2 comment="false" x="48" y="684">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <get-val-502-2 comment="false" id="0" x="0" y="0"/>
+                                        <get-attribute comment="false" id="1" x="0" y="0">
+                                            <actor-in-region comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="Caption"/>
+                                            <int id="2" val="_Text"/>
+                                        </get-attribute>
+                                    </str-combine>
+                                </set-val-502-2>
+                                <custom-code comment="false" x="48" y="727">
+                                    <int id="0" val="break;"/>
+                                </custom-code>
+                            </group>
+                            <get-attribute comment="false" id="0" x="0" y="0">
+                                <actor-in-region comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Radio Button Behavior"/>
+                                <int id="2" val="_Checked"/>
+                            </get-attribute>
+                        </if>
+                    </group>
+                    <REGION eid="var" id="0" vid="5"/>
+                </actors-in-region>
+                <set-val-502-2 comment="false" x="26" y="771">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <get-val-502-2 comment="false" id="0" x="0" y="0"/>
+                        <custom-601 comment="false" id="1" x="0" y="0"/>
+                    </str-combine>
+                </set-val-502-2>
+                <actors-in-region comment="false" x="26" y="801">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="828">
+                            <group eventID="-1" id="-1">
+                                <set-val-502-2 comment="false" x="48" y="866">
+                                    <str-combine comment="false" id="0" x="0" y="0">
+                                        <get-val-502-2 comment="false" id="0" x="0" y="0"/>
+                                        <str-toupperlower comment="false" id="1" x="0" y="0">
+                                            <get-attribute comment="false" id="0" x="0" y="0">
+                                                <actor-in-region comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val="Caption"/>
+                                                <int id="2" val="_Text"/>
+                                            </get-attribute>
+                                            <int id="1" val="1"/>
+                                        </str-toupperlower>
+                                    </str-combine>
+                                </set-val-502-2>
+                                <custom-code comment="false" x="48" y="922">
+                                    <int id="0" val="break;"/>
+                                </custom-code>
+                            </group>
+                            <get-attribute comment="false" id="0" x="0" y="0">
+                                <actor-in-region comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Radio Button Behavior"/>
+                                <int id="2" val="_Checked"/>
+                            </get-attribute>
+                        </if>
+                    </group>
+                    <REGION eid="var" id="0" vid="4"/>
+                </actors-in-region>
+                <set-val-502-9 comment="false" x="26" y="966">
+                    <get-attribute comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="6"/>
+                        <int id="1" val="Checkbox Behavior"/>
+                        <int id="2" val="_Checked"/>
+                    </get-attribute>
+                </set-val-502-9>
+                <set-val-502-10 comment="false" x="26" y="999">
+                    <get-attribute comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="7"/>
+                        <int id="1" val="Checkbox Behavior"/>
+                        <int id="2" val="_Checked"/>
+                    </get-attribute>
+                </set-val-502-10>
+                <if comment="false" x="26" y="1032">
+                    <group eventID="-1" id="-1">
+                        <set-val-502-2 comment="false" x="37" y="1062">
+                            <str-combine comment="false" id="0" x="0" y="0">
+                                <get-val-502-2 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val=" and I like cheese and nuts!"/>
+                            </str-combine>
+                        </set-val-502-2>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <get-val-502-9 comment="false" id="0" x="0" y="0"/>
+                        <get-val-502-10 comment="false" id="1" x="0" y="0"/>
+                    </and>
+                </if>
+                <else-if comment="false" x="26" y="1104">
+                    <group eventID="-1" id="-1">
+                        <set-val-502-2 comment="false" x="37" y="1129">
+                            <str-combine comment="false" id="0" x="0" y="0">
+                                <get-val-502-2 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val=" and I like cheese!"/>
+                            </str-combine>
+                        </set-val-502-2>
+                    </group>
+                    <get-val-502-9 comment="false" id="0" x="0" y="0"/>
+                </else-if>
+                <else-if comment="false" x="26" y="1171">
+                    <group eventID="-1" id="-1">
+                        <set-val-502-2 comment="false" x="37" y="1196">
+                            <str-combine comment="false" id="0" x="0" y="0">
+                                <get-val-502-2 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val=" and I like nuts!"/>
+                            </str-combine>
+                        </set-val-502-2>
+                    </group>
+                    <get-val-502-10 comment="false" id="0" x="0" y="0"/>
+                </else-if>
+                <else comment="false" x="26" y="1238">
+                    <group eventID="-1" id="-1">
+                        <set-val-502-2 comment="false" x="37" y="1258">
+                            <str-combine comment="false" id="0" x="0" y="0">
+                                <get-val-502-2 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="."/>
+                            </str-combine>
+                        </set-val-502-2>
+                    </group>
+                </else>
+                <set-attribute comment="false" x="26" y="1300">
+                    <ACTOR eid="var" id="0" vid="8"/>
+                    <int id="1" val="Text Box Behavior"/>
+                    <int id="2" val="_Text"/>
+                    <get-val-502-2 comment="false" id="3" x="0" y="0"/>
+                </set-attribute>
+                <say comment="false" x="26" y="1332">
+                    <ACTOR eid="var" id="0" vid="8"/>
+                    <int id="1" val="Text Box Behavior"/>
+                    <int id="2" val="updateParameters"/>
+                </say>
+            </group>
+            <get-val-502-1 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group id="-1"/>
+</groups>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <draw comment="false" x="15" y="1019">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="2">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1">
+                <set-val-464-20 comment="false" x="26" y="113">
+                    <lesseq comment="false" id="0" x="0" y="0">
+                        <abs comment="false" id="0" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                        </abs>
+                        <get-val-464-19 comment="false" id="1" x="0" y="0"/>
+                    </lesseq>
+                </set-val-464-20>
+                <set-val-464-21 comment="false" x="26" y="156">
+                    <lesseq comment="false" id="0" x="0" y="0">
+                        <abs comment="false" id="0" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-dxy>
+                        </abs>
+                        <get-val-464-19 comment="false" id="1" x="0" y="0"/>
+                    </lesseq>
+                </set-val-464-21>
+                <if comment="false" x="26" y="199">
+                    <group eventID="-1" id="-1">
+                        <set-val-464-17 comment="false" x="37" y="229">
+                            <getanim comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                            </getanim>
+                        </set-val-464-17>
+                        <if comment="false" x="37" y="262">
+                            <group eventID="-1" id="-1">
+                                <setanim comment="false" x="48" y="292">
+                                    <ACTOR eid="this" id="0"/>
+                                    <get-val-464-13 comment="false" id="1" x="0" y="0"/>
+                                </setanim>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-464-17 comment="false" id="0" x="0" y="0"/>
+                                <get-val-464-1 comment="false" id="1" x="0" y="0"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="336">
+                            <group eventID="-1" id="-1">
+                                <setanim comment="false" x="48" y="366">
+                                    <ACTOR eid="this" id="0"/>
+                                    <get-val-464-14 comment="false" id="1" x="0" y="0"/>
+                                </setanim>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-464-17 comment="false" id="0" x="0" y="0"/>
+                                <get-val-464-2 comment="false" id="1" x="0" y="0"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="410">
+                            <group eventID="-1" id="-1">
+                                <setanim comment="false" x="48" y="440">
+                                    <ACTOR eid="this" id="0"/>
+                                    <get-val-464-15 comment="false" id="1" x="0" y="0"/>
+                                </setanim>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-464-17 comment="false" id="0" x="0" y="0"/>
+                                <get-val-464-3 comment="false" id="1" x="0" y="0"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="484">
+                            <group eventID="-1" id="-1">
+                                <setanim comment="false" x="48" y="514">
+                                    <ACTOR eid="this" id="0"/>
+                                    <get-val-464-16 comment="false" id="1" x="0" y="0"/>
+                                </setanim>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-464-17 comment="false" id="0" x="0" y="0"/>
+                                <get-val-464-4 comment="false" id="1" x="0" y="0"/>
+                            </eq>
+                        </if>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <get-val-464-20 comment="false" id="0" x="0" y="0"/>
+                        <get-val-464-21 comment="false" id="1" x="0" y="0"/>
+                    </and>
+                </if>
+                <if comment="false" x="26" y="570">
+                    <group eventID="-1" id="-1">
+                        <setanim comment="false" x="37" y="613">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-464-1 comment="false" id="1" x="0" y="0"/>
+                        </setanim>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <or comment="false" id="0" x="0" y="0">
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-464-18 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Up/Down"/>
+                            </eq>
+                            <get-val-464-20 comment="false" id="1" x="0" y="0"/>
+                        </or>
+                        <less comment="false" id="1" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-dxy>
+                            <neg comment="false" id="1" x="0" y="0">
+                                <get-val-464-19 comment="false" id="0" x="0" y="0"/>
+                            </neg>
+                        </less>
+                    </and>
+                </if>
+                <if comment="false" x="26" y="657">
+                    <group eventID="-1" id="-1">
+                        <setanim comment="false" x="37" y="700">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-464-2 comment="false" id="1" x="0" y="0"/>
+                        </setanim>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <or comment="false" id="0" x="0" y="0">
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-464-18 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Up/Down"/>
+                            </eq>
+                            <get-val-464-20 comment="false" id="1" x="0" y="0"/>
+                        </or>
+                        <more comment="false" id="1" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-dxy>
+                            <get-val-464-19 comment="false" id="1" x="0" y="0"/>
+                        </more>
+                    </and>
+                </if>
+                <if comment="false" x="26" y="744">
+                    <group eventID="-1" id="-1">
+                        <setanim comment="false" x="37" y="787">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-464-3 comment="false" id="1" x="0" y="0"/>
+                        </setanim>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <less comment="false" id="0" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <neg comment="false" id="1" x="0" y="0">
+                                <get-val-464-19 comment="false" id="0" x="0" y="0"/>
+                            </neg>
+                        </less>
+                        <or comment="false" id="1" x="0" y="0">
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-464-18 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Left/Right"/>
+                            </eq>
+                            <get-val-464-21 comment="false" id="1" x="0" y="0"/>
+                        </or>
+                    </and>
+                </if>
+                <if comment="false" x="26" y="831">
+                    <group eventID="-1" id="-1">
+                        <setanim comment="false" x="37" y="874">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-464-4 comment="false" id="1" x="0" y="0"/>
+                        </setanim>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <more comment="false" id="0" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <get-val-464-19 comment="false" id="1" x="0" y="0"/>
+                        </more>
+                        <or comment="false" id="1" x="0" y="0">
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-464-18 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Left/Right"/>
+                            </eq>
+                            <get-val-464-21 comment="false" id="1" x="0" y="0"/>
+                        </or>
+                    </and>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="3">
+        <collide comment="false" x="15" y="946">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group id="-1"/>
+</groups>

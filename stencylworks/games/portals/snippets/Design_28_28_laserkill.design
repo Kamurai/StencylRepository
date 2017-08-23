@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-collide-typetotype comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <die comment="false" x="26" y="47">
+                    <first-actor comment="false" id="0" x="0" y="0"/>
+                </die>
+                <scene-reload-new comment="false" x="26" y="79">
+                    <int id="0" val="0"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="0"/>
+                    <int id="3" val="1"/>
+                </scene-reload-new>
+            </group>
+            <ACTORTYPE eid="2" id="0"/>
+            <ACTORTYPE eid="46" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-collide-typetotype comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <die comment="false" x="26" y="47">
+                    <first-actor comment="false" id="0" x="0" y="0"/>
+                </die>
+                <scene-reload-new comment="false" x="26" y="79">
+                    <int id="0" val="0"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="0"/>
+                    <int id="3" val="1"/>
+                </scene-reload-new>
+            </group>
+            <ACTORTYPE eid="32" id="0"/>
+            <ACTORTYPE eid="46" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

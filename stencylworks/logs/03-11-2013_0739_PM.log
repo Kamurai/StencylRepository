@@ -1,0 +1,813 @@
+
+
+
+[LOG] Mirroring logs to the standard output...
+[LOG] Current Working Directory: C:\Program Files (x86)\Stencyl
+[LOG] Reading... global
+[LOG] LANGUAGE WARNING: Empty Line.
+[LOG] Finished reading lang/en/global.lang
+[LOG] Reading... prefs
+[LOG] Finished reading lang/en/prefs.lang
+[LOG] Reading... gamedg
+[LOG] Finished reading lang/en/gamedg.lang
+[LOG] Reading... spritedg
+[LOG] Finished reading lang/en/spritedg.lang
+[LOG] Reading... tset
+[LOG] Finished reading lang/en/tset.lang
+[LOG] Reading... actor
+[LOG] Finished reading lang/en/actor.lang
+[LOG] Reading... scene
+[LOG] Finished reading lang/en/scene.lang
+[LOG] Reading... snippet
+[LOG] Finished reading lang/en/snippet.lang
+[LOG] Reading... blocks
+[LOG] Finished reading lang/en/blocks.lang
+[LOG] Reading... blockhelp
+[LOG] Finished reading lang/en/blockhelp.lang
+[LOG] Initializing Stencyl
+[LOG] Failed to load Growl library
+[LOG] Activated: Welcome Center
+[LOG] Checking workspace writability and location: C:\Users\Kamurai/AppData/Roaming/Stencyl/temp
+[LOG] Response: user::
+[LOG] Logged in as: Kamurai
+[LOG] Usergroup: Registered
+[ERR] Attempting to log in
+[LOG] Connected to StencylTalk as: kamurai@stencyl.com/stencyl-1363045181079
+[LOG] Refreshing friends list
+[LOG] 200
+[LOG] http://www.stencyl.com/sw/updater/getVersions/stencylworksBeta
+[LOG] HTTP/1.1 200 OK
+<r>
+<server status = '200' version = '1beta' time = '1299439687' />	<version required="true" build="502" name="2.2.0" month="06" day="22" year="12" />
+	<version required="true" build="501" name="2.1.0" month="05" day="25" year="12" />
+	<version required="true" build="500" name="2.0.0" month="04" day="20" year="12" />
+	<version required="false" build="415" name="1.4.1" month="01" day="23" year="12" />
+	<version required="false" build="414" name="1.4.0" month="01" day="22" year="12" />
+	<version required="false" build="413" name="1.3.4" month="12" day="19" year="11" />
+	<version required="false" build="412" name="1.3.3" month="12" day="14" year="11" />
+	<version required="false" build="411" name="1.3.2" month="12" day="12" year="11" />
+	<version required="false" build="410" name="1.3.1" month="12" day="10" year="11" />
+	<version required="false" build="409" name="1.3.0" month="12" day="09" year="11" />
+	<version required="false" build="408" name="1.2.1" month="10" day="27" year="11" />
+	<version required="false" build="407" name="1.2.0" month="10" day="26" year="11" />
+	<version required="false" build="406" name="1.1.1" month="09" day="13" year="11" />
+	<version required="false" build="405" name="1.1.0" month="09" day="08" year="11" />
+	<version required="false" build="404" name="1.0.4" month="07" day="23" year="11" />
+	<version required="false" build="403" name="1.0.3" month="07" day="21" year="11" />
+	<version required="false" build="402" name="1.0.2" month="06" day="30" year="11" />
+	<version required="false" build="401" name="1.0.1" month="05" day="31" year="11" />
+	<version required="false" build="400" name="1.0.0" month="05" day="18" year="11" />
+	<version required="false" build="399" name="0.9.9" month="05" day="18" year="11" />
+</r>
+[LOG] Loading scene-specific snippet. SceneID: 1
+[LOG] Initializing... 7 : Ball
+[LOG] Initializing... 6 : Ball
+[LOG] Initializing... 31 : bricks
+[LOG] Initializing... 32 : Bricks
+[LOG] Initializing... 30 : Flash
+[LOG] Initializing... 29 : Flash
+[LOG] Initializing... 2 : Green Block
+[LOG] Initializing... 20 : Hit1
+[LOG] Initializing... 19 : Hit2
+[LOG] Initializing... 18 : Hit3
+[LOG] Initializing... 5 : Paddle
+[LOG] Initializing... 4 : Paddle
+[LOG] Initializing... 26 : Red Block
+[LOG] Initializing... 27 : Unbreakable
+[LOG] Initializing... 25 : Unbreakable
+[LOG] Initializing... 3 : Unbreakable
+[LOG] Initializing... 24 : Yellow Block
+[LOG] Loading Sound 19
+[LOG] Loading Sound 18
+[LOG] Loading Sound 20
+[LOG] Reading header for Scene: 1 ()
+[LOG] From: scenes\1.xml
+[LOG] Reading header for Scene: 1 ()
+[LOG] From: scenes\1.xml
+[LOG] Activated: Dashboard
+[ERR] Could not delete file: C:\Users\Kamurai\AppData\Local\Temp\stencyl7537810648399060398\sandbox\build\code
+[LOG] Reading header for Scene: 1 ()
+[LOG] From: scenes\1.xml
+[LOG] Took 1747ms
+[LOG] C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\resources\14-0.png
+[LOG] C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\resources\15.png
+[LOG] C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\resources\23.mp3
+[LOG] C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\resources\28.png
+[LOG] Could not parse: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games\Brick Block\resources\data.xml.bak
+[LOG] Action: Close Game
+[LOG] Resetting workspace.
+[LOG] Missing: sactor.ispaused
+[LOG] Missing: sactor.ispaused
+[LOG] Activated: Welcome Center
+[LOG] Activated: StencylForge
+[LOG] Visiting: forge://listing/game/
+[LOG] Visiting: forge://listing/pack/
+[LOG] <resources>
+	<resource id="60044" title="Shoot em Up Example" name="Stencyl" description="A simple shoot-em-up example game." downloads="10626" reviews="51" comments="14" rating="4.11765" depends="" type="game" date="2012-04-16" private="f" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="59820" title="Scoring Example Game" name="Epic428" description="This example tries to give you an idea of how to add scoring to your game. Simply click the P Balls to score." downloads="4184" reviews="8" comments="9" rating="4.625" depends="" type="game" date="2012-04-14" private="f" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="48818" title="Ragdoll Test" name="captaincomic" description="== Ragdoll Test v1.1 ==&lt;br&gt;&lt;br&gt;The Ragdoll is created using Revolute Joints. The mouse interaction is done with Mouse Joints.&lt;br&gt;Only for Flash (not for iOS).&lt;br&gt;&lt;br&gt;Uses Graph Paper Background by Ceric.&lt;br&gt;&lt;br&gt;" downloads="8293" reviews="65" comments="29" rating="4.4" depends="" type="game" date="2012-01-18" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="48328" title="Swiping Menu" name="Dizko" description="This is a swiping menu template design for iOS games. (Landscape)&lt;br&gt;**Updated to fix a small bug with possible multi-touch input." downloads="4944" reviews="26" comments="18" rating="4.5" depends="" type="game" date="2012-01-16" private="f" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="42450" title="Eye Candy Pack Showcase" name="captaincomic" description="This is a showcase for the Eye Candy Pack.&lt;br&gt;&lt;br&gt;Check out the Eye Candy Pack description for details.&lt;br&gt;&lt;br&gt;It demonstrates how to use the following effects: &lt;br&gt;Apply Effect, Bevel, Blur, Drop Shadow, Glow, Screen Displacement, Screen Blur, Explode to Fragments, Explode to Actors of Type, Fade, Grow, Screen Flash, Switch Animation, Reload Scene, Update Shadow with Lightsource, and Shadow Manager" downloads="7196" reviews="38" comments="17" rating="4.71053" depends="" type="game" date="2011-11-25" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="22320" title="Cutscene Example Game" name="Greg" description="Example game utilizing an upcoming Cutscene Resource Pack.  The scenes in the game show how the sensor Actors can be utilized to create a wide range of scripted events. " downloads="6999" reviews="38" comments="18" rating="4.78947" depends="" type="game" date="2011-06-22" private="0" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="60045" title="Maze Game" name="Stencyl" description="Simple maze game. Includes 4 Way Movement, a Switch Scene behavior and a switch behavior for opening up inaccessible  locations in the maze." downloads="8842" reviews="41" comments="30" rating="3.78049" depends="" type="game" date="2011-05-30" private="0" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="24283" title="Asteroids" name="Ceric" description="A simple tutorial game for new users." downloads="2866" reviews="14" comments="8" rating="3.28571" depends="" type="game" date="2011-05-29" private="0" featured="1" metadata="" license="1" preview="t" url="" />
+</resources>
+[LOG] Download Took 477ms
+[LOG] Total Took 526ms
+[LOG] <resources>
+	<resource id="59312" title="Where did all the packs go" name="Jon" description="Starting in Stencyl 2.0, we now include many of the behaviors previously found in packs.  To eliminate confusion, we've taken most of the resource packs down. &lt;br&gt;&lt;br&gt;To find these behaviors, go to any Actor or Scene and open the dialog that lets you select a Behavior. You will see dozens of our pre-bundled behaviors in that dialog now.&lt;br&gt;&lt;br&gt;&lt;br&gt;For more information, visit Stencylpedia &gt; Chapter 2 &gt; Our Behaviors or click - VIEW DOCUMENTATION - on the left of this text." downloads="357" reviews="5" comments="4" rating="4.2" depends="" type="pack" date="2012-04-09" private="f" featured="1" metadata="" license="1" preview="f" url="http://www.stencyl.com/help/view/pre-shipped-behaviors/" />
+	<resource id="45755" title="GUI Widgets Pack" name="captaincomic" description="GUI Widgets v1.2&lt;br&gt;Only for Flash (not for iOS)&lt;br&gt;Includes Actors and Behaviors to create the following GUI widgets:&lt;br&gt;* Button&lt;br&gt;* Checkbox&lt;br&gt;* Radio Button&lt;br&gt;* Text Field (allows user to input text)&lt;br&gt;* Number Field (allows user to input numbers)&lt;br&gt;* Text Box (scrollable text)&lt;br&gt;* Change Control Button (allows user to customize controls)&lt;br&gt;&lt;br&gt;Also includes some Global Custom Blocks&lt;br&gt;* Blocks to change controls, &lt;br&gt;* Blocks to check if any key was pressed / get the pressed key&lt;br&gt;* Block to get actor ID&lt;br&gt;* Blocks to get width and height of an actor type (of the default animation)&lt;br&gt;* Blocks for an empty string and for the space character&lt;br&gt;* and some more" downloads="1826" reviews="9" comments="6" rating="4.88889" depends="45723,45724,45725,45726,45727,45728,45729,45730,45731,45732,45733,45734,45735,45736,45737,45738,45739,45740,45741,45742,45743,45744,45745,45746,45747,45748,45749,45750,45751,45752,45753,45754" type="pack" date="2012-01-10" private="f" featured="1" metadata="" license="0" preview="f" url="" />
+	<resource id="34584" title="Exploding Actor" name="coleislazy" description="Attach Explode Actor behavior to the actor you want to explode, then use a messaging block to [tell [actor] to explode for behavior Explode Actor].&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;IMPORTANT: I can't update the behavior for some reason. If you are having problems, open up the Explode Actor behavior and go to lin 56. Replace  getActorType(7) with getActorTypeByName(&quot;Gib&quot;). That should do the trick!" downloads="4573" reviews="40" comments="27" rating="4.25" depends="34580,34581,34582,34583" type="pack" date="2011-10-05" private="f" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="33607" title="Platformer Movement" name="Greg" description="This pack contains the core movement Behaviors from the Jump and Run Kit:&lt;br&gt;Walking&lt;br&gt;Running&lt;br&gt;Ducking&lt;br&gt;Jumping&lt;br&gt;Falling&lt;br&gt;Air Jumping&lt;br&gt;Wall Jumping&lt;br&gt;Wall Sliding&lt;br&gt;Ground Pound&lt;br&gt;Animation Manager&lt;br&gt;On Ground" downloads="9719" reviews="37" comments="13" rating="4.18919" depends="33595,33596,33597,33598,33599,33600,33601,33602,33603,33604,33605,33606" type="pack" date="2011-08-11" private="0" featured="1" metadata="" license="1" preview="f" url="" />
+	<resource id="32395" title="Text Box Pack" name="Sunflower" description="The main part of this pack is Text Box behavior - it contains a set of functions which allow you to control text boxes. Don't use INTERNAL blocks: they were made specifically for text splitting function and using them outside it is unnecessary and may cause unexpected effects.&lt;br&gt;&lt;br&gt;If you want to see the typical uses of Text Box functions, you should check Test Box behavior (not Text! T-E-S-T). It should have everything set up, though you may need to choose proper fonts in &lt;b&gt;define as&lt;/b&gt; custom block (&lt;b&gt;default&lt;/b&gt; and &lt;b&gt;u&lt;/b&gt;, &lt;b&gt;n&lt;/b&gt;, &lt;b&gt;d&lt;/b&gt; as black font, rest should be obvious).&lt;br&gt;Initial settings for Text Box behavior:&lt;br&gt;Default Font - any&lt;br&gt;Width: 320&lt;br&gt;Line Height: 16&lt;br&gt;ShowLines: 10&lt;br&gt;HAlign - Center&lt;br&gt;VAlign - Middle&lt;br&gt;Newline: &quot;{NL}&quot;&lt;br&gt;Open Bracket: &quot;[&quot;&lt;br&gt;Close Bracket: &quot;]&quot;&lt;br&gt; (all texts &lt;b&gt;without&lt;/b&gt; quoting signs)&lt;br&gt;&lt;br&gt;Also, be aware that this system ISN'T idiot-proof. Specifically, it may not work properly when you use different formats in a single word (one part may go to next line) or you use a word too long for the text box. However, such cases will happen quite rarely (if at all) and can be resolved easily by proper placing of newlines; if you need to have these cases taken into account automatically, anyway, you should look deeper into Text Box behavior, especially the rightmost part of its design!&lt;br&gt;&lt;br&gt;Also, all fonts used for testing purposes are included. You just need to place actor with both included behaviors somewhere in the empty scene and enjoy the testing.&lt;br&gt;&lt;br&gt;Please post suggestions and questions regarding Text Box in &lt;b&gt;Resources &gt;&gt; Text Box behavior&lt;/b&gt; forums or send me (&lt;b&gt;Sunflower&lt;/b&gt;) a message. Also, giving me credit isn't necessary, but it's appreciated. " downloads="1693" reviews="5" comments="1" rating="5" depends="32389,32390,32391,32392,32393,32394" type="pack" date="2011-07-28" private="f" featured="1" metadata="" license="1" preview="f" url="" />
+	<resource id="31500" title="Customize Controls" name="NobodyX" description="Let players define their own controls." downloads="2797" reviews="11" comments="2" rating="4.18182" depends="31498,31499" type="pack" date="2011-07-16" private="f" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="30842" title="External Sprite Loader" name="niccosw" description="This pack allows sprites to be loaded externally. Presently only one sprite per actor, but future version will hopefully allow animation to be loaded.&lt;br&gt;&lt;br&gt;Instructions: Attach Load Sprite to an Actor. Do NOT attach External Image. Specify the URL in the actor's attributes of the behavior. When the character loads, the sprite will be generated from an external file." downloads="408" reviews="4" comments="5" rating="3.75" depends="30840,30841" type="pack" date="2011-07-12" private="f" featured="1" metadata="" license="1" preview="f" url="" />
+	<resource id="29955" title="Cutscenes" name="Greg" description="Create cutscenes for your game by using a visual approach.  This pack includes a set of triggers that will allow you to instruct your Actors to perform a large number of actions.&lt;br&gt;&lt;br&gt;&lt;br&gt;Click on VIEW DOCUMENTATION on the left to visit the documentation for this Resource Pack or visit http://community.stencyl.com/index.php/topic,165.0.html" downloads="3239" reviews="21" comments="14" rating="4.66667" depends="29923,29924,29925,29926,29927,29928,29929,29930,29931,29932,29933,29934,29935,29936,29937,29938,29939,29940,29941,29942,29943,29944,29945,29946,29947,29948,29949,29950,29951,29952,29953,29954" type="pack" date="2011-07-05" private="0" featured="1" metadata="" license="1" preview="f" url="http://community.stencyl.com/index.php/topic,165.0.html" />
+	<resource id="22790" title="Crash Course Behaviors" name="Stencyl" description="This pack should be used in conjunction with the Crash Course for 1.4.1 and below.&lt;br&gt;&lt;br&gt;&lt;br&gt;This is NOT meant to be used with the new 2.0 Crash Courses on Stencylpedia.&lt;br&gt;&lt;br&gt;&lt;br&gt; If you are looking for the NEW Crash Course on Stencylpedia, click the VIEW DOCUMENTATION link to the LEFT of this text." downloads="22094" reviews="25" comments="13" rating="4.88" depends="22785,22786,22787,22788,22789" type="pack" date="2011-04-15" private="0" featured="1" metadata="" license="1" preview="f" url="http://www.stencyl.com/help/view/crash-course/" />
+	<resource id="22784" title="Cliff Detection" name="Stencyl" description="Prevents actors from walking off cliffs. &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Attach the following 2 behaviors:&lt;br&gt;&lt;br&gt;- Does Not Walk Off Cliffs (Category: Collision)&lt;br&gt;&lt;br&gt;- Patrol (Category: Motion)" downloads="1365" reviews="7" comments="3" rating="3.57143" depends="22780,22781,22782,22783" type="pack" date="2011-04-15" private="0" featured="1" metadata="" license="1" preview="f" url="" />
+	<resource id="22726" title="Platform Pack" name="Stencyl" description="This pack includes what you need for the player to ride platforms.&lt;br&gt;&lt;br&gt;Included&lt;br&gt;&lt;br&gt; - Ride Platforms ( Attached to the Player )&lt;br&gt;&lt;br&gt; - Platform Motion ( Attached to the Platform Actor )&lt;br&gt;&lt;br&gt; - Move then Fall ( Attached to a platform that can fall after time )" downloads="3310" reviews="17" comments="5" rating="3.70588" depends="22723,22724,22725" type="pack" date="2011-04-14" private="0" featured="1" metadata="" license="1" preview="f" url="" />
+</resources>
+[LOG] Download Took 426ms
+[LOG] Total Took 472ms
+[LOG] Download Took 246ms
+[LOG] Download Took 321ms
+[LOG] Download Took 279ms
+[LOG] Download Took 244ms
+[LOG] Download Took 351ms
+[LOG] Download Took 385ms
+[LOG] Download Took 391ms
+[LOG] Download Took 436ms
+[LOG] Download Took 503ms
+[LOG] Download Took 532ms
+[LOG] Download Took 529ms
+[LOG] Visiting: forge://listing/game/
+[LOG] <resources>
+	<resource id="60044" title="Shoot em Up Example" name="Stencyl" description="A simple shoot-em-up example game." downloads="10626" reviews="51" comments="14" rating="4.11765" depends="" type="game" date="2012-04-16" private="f" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="59820" title="Scoring Example Game" name="Epic428" description="This example tries to give you an idea of how to add scoring to your game. Simply click the P Balls to score." downloads="4184" reviews="8" comments="9" rating="4.625" depends="" type="game" date="2012-04-14" private="f" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="48818" title="Ragdoll Test" name="captaincomic" description="== Ragdoll Test v1.1 ==&lt;br&gt;&lt;br&gt;The Ragdoll is created using Revolute Joints. The mouse interaction is done with Mouse Joints.&lt;br&gt;Only for Flash (not for iOS).&lt;br&gt;&lt;br&gt;Uses Graph Paper Background by Ceric.&lt;br&gt;&lt;br&gt;" downloads="8293" reviews="65" comments="29" rating="4.4" depends="" type="game" date="2012-01-18" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="48328" title="Swiping Menu" name="Dizko" description="This is a swiping menu template design for iOS games. (Landscape)&lt;br&gt;**Updated to fix a small bug with possible multi-touch input." downloads="4944" reviews="26" comments="18" rating="4.5" depends="" type="game" date="2012-01-16" private="f" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="42450" title="Eye Candy Pack Showcase" name="captaincomic" description="This is a showcase for the Eye Candy Pack.&lt;br&gt;&lt;br&gt;Check out the Eye Candy Pack description for details.&lt;br&gt;&lt;br&gt;It demonstrates how to use the following effects: &lt;br&gt;Apply Effect, Bevel, Blur, Drop Shadow, Glow, Screen Displacement, Screen Blur, Explode to Fragments, Explode to Actors of Type, Fade, Grow, Screen Flash, Switch Animation, Reload Scene, Update Shadow with Lightsource, and Shadow Manager" downloads="7196" reviews="38" comments="17" rating="4.71053" depends="" type="game" date="2011-11-25" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="22320" title="Cutscene Example Game" name="Greg" description="Example game utilizing an upcoming Cutscene Resource Pack.  The scenes in the game show how the sensor Actors can be utilized to create a wide range of scripted events. " downloads="6999" reviews="38" comments="18" rating="4.78947" depends="" type="game" date="2011-06-22" private="0" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="60045" title="Maze Game" name="Stencyl" description="Simple maze game. Includes 4 Way Movement, a Switch Scene behavior and a switch behavior for opening up inaccessible  locations in the maze." downloads="8842" reviews="41" comments="30" rating="3.78049" depends="" type="game" date="2011-05-30" private="0" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="24283" title="Asteroids" name="Ceric" description="A simple tutorial game for new users." downloads="2866" reviews="14" comments="8" rating="3.28571" depends="" type="game" date="2011-05-29" private="0" featured="1" metadata="" license="1" preview="t" url="" />
+</resources>
+[LOG] Download Took 414ms
+[LOG] Total Took 455ms
+[LOG] Download Took 237ms
+[LOG] Download Took 233ms
+[LOG] Download Took 413ms
+[LOG] Download Took 425ms
+[LOG] Download Took 548ms
+[LOG] Download Took 551ms
+[LOG] Download Took 614ms
+[LOG] Download Took 622ms
+[LOG] Visiting: forge://listing/game/?sort=popular
+[LOG] <resources>
+	<resource id="23254" title="Run and Gun Example Game" name="Stencyl" description="A simple run and gun game similar to Mega Man and Metroid." downloads="11245" reviews="84" comments="42" rating="4.13095" depends="" type="game" date="2011-04-24" private="f" featured="0" metadata="" license="1" preview="t" url="" />
+	<resource id="60044" title="Shoot em Up Example" name="Stencyl" description="A simple shoot-em-up example game." downloads="10626" reviews="51" comments="14" rating="4.11765" depends="" type="game" date="2012-04-16" private="f" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="60045" title="Maze Game" name="Stencyl" description="Simple maze game. Includes 4 Way Movement, a Switch Scene behavior and a switch behavior for opening up inaccessible  locations in the maze." downloads="8842" reviews="41" comments="30" rating="3.78049" depends="" type="game" date="2011-05-30" private="0" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="48818" title="Ragdoll Test" name="captaincomic" description="== Ragdoll Test v1.1 ==&lt;br&gt;&lt;br&gt;The Ragdoll is created using Revolute Joints. The mouse interaction is done with Mouse Joints.&lt;br&gt;Only for Flash (not for iOS).&lt;br&gt;&lt;br&gt;Uses Graph Paper Background by Ceric.&lt;br&gt;&lt;br&gt;" downloads="8293" reviews="65" comments="29" rating="4.4" depends="" type="game" date="2012-01-18" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="42450" title="Eye Candy Pack Showcase" name="captaincomic" description="This is a showcase for the Eye Candy Pack.&lt;br&gt;&lt;br&gt;Check out the Eye Candy Pack description for details.&lt;br&gt;&lt;br&gt;It demonstrates how to use the following effects: &lt;br&gt;Apply Effect, Bevel, Blur, Drop Shadow, Glow, Screen Displacement, Screen Blur, Explode to Fragments, Explode to Actors of Type, Fade, Grow, Screen Flash, Switch Animation, Reload Scene, Update Shadow with Lightsource, and Shadow Manager" downloads="7196" reviews="38" comments="17" rating="4.71053" depends="" type="game" date="2011-11-25" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="22320" title="Cutscene Example Game" name="Greg" description="Example game utilizing an upcoming Cutscene Resource Pack.  The scenes in the game show how the sensor Actors can be utilized to create a wide range of scripted events. " downloads="6999" reviews="38" comments="18" rating="4.78947" depends="" type="game" date="2011-06-22" private="0" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="48328" title="Swiping Menu" name="Dizko" description="This is a swiping menu template design for iOS games. (Landscape)&lt;br&gt;**Updated to fix a small bug with possible multi-touch input." downloads="4944" reviews="26" comments="18" rating="4.5" depends="" type="game" date="2012-01-16" private="f" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="61145" title="Super Angry Mario" name="CrasheR" description="&lt;center&gt;Evil Bowser once again kidnapped Princess Peach and imprisoned her in his castle!&lt;br&gt;&lt;br&gt;Mario, you're the only person who can help her!&lt;br&gt;&lt;br&gt;So go and use your slingshot,&lt;br&gt;&lt;br&gt;to clear his way to Bowser and branches reach to the castle!&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;red&quot;&gt;&lt;font size=&quot;8&quot;&gt;If you have any trouble downloading the game you can get it from my official web.&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Normal Link: http://crasher-mobile.cba.pl/SuperAngryMariopc.html&lt;br&gt;&lt;br&gt;Short link: http://www.alturl.com/q9wtc&lt;/center&gt;" downloads="4414" reviews="20" comments="15" rating="2.95" depends="" type="game" date="2012-04-24" private="f" featured="0" metadata="" license="2" preview="f" url="" />
+	<resource id="59820" title="Scoring Example Game" name="Epic428" description="This example tries to give you an idea of how to add scoring to your game. Simply click the P Balls to score." downloads="4184" reviews="8" comments="9" rating="4.625" depends="" type="game" date="2012-04-14" private="f" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="47185" title="Stick G2" name="Jonatas1992" description="Meu primeiro game usando Stencyl. Somente um teste. Um soh estagio. Sem fim... xD // My first game using Stencyl. Only a test. Only a stage. No end... xD" downloads="3369" reviews="44" comments="28" rating="4.29545" depends="" type="game" date="2012-01-04" private="f" featured="0" metadata="" license="0" preview="t" url="" />
+	<resource id="24283" title="Asteroids" name="Ceric" description="A simple tutorial game for new users." downloads="2866" reviews="14" comments="8" rating="3.28571" depends="" type="game" date="2011-05-29" private="0" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="24109" title="Monster Game" name="HNF" description="This is not finished yet. It is just a demo." downloads="2736" reviews="32" comments="10" rating="3.125" depends="" type="game" date="2011-05-14" private="f" featured="0" metadata="" license="2" preview="t" url="" />
+	<resource id="28311" title="Jump and Run Plus" name="Greg" description="Game to demonstrate the Ledge Hanging ability." downloads="2584" reviews="17" comments="11" rating="4.17647" depends="" type="game" date="2011-06-25" private="f" featured="0" metadata="" license="1" preview="t" url="" />
+	<resource id="52242" title="Tower Defensive Play" name="Morgranth" description="" downloads="2298" reviews="19" comments="10" rating="4.52632" depends="" type="game" date="2012-02-14" private="f" featured="0" metadata="" license="1" preview="t" url="" />
+	<resource id="53963" title="2012_the game" name="alugo" description="help mario save princess peach and stop bowser from destroying the world using a 2012 apocalypse machine! designed by Brody S. and Kevin A." downloads="1915" reviews="13" comments="13" rating="2.23077" depends="" type="game" date="2012-02-28" private="f" featured="0" metadata="" license="1" preview="t" url="" />
+	<resource id="23473" title="Goldmans Adventure" name="Pixel Pusher" description="Mr Wizard King has had his coin collection taken from him, and scatteed all about inside the dungeons. Your goal is to recapture all the coins in each level, conquer the enemies and return the safe box to its rightful owner. The Wizard King." downloads="1681" reviews="7" comments="9" rating="4" depends="" type="game" date="2011-04-29" private="f" featured="0" metadata="" license="1" preview="t" url="" />
+	<resource id="33147" title="Enhanced Packs Test Game" name="Greg" description="This is not meant to be a full game.  It is simply a demo to show how to utilize the new Enhanced Resource Packs.  This requires you to be on the latest preview build of StencylWorks (see forums).&lt;br&gt;&lt;br&gt;&lt;br&gt;Includes the Enhanced Health Pack and the Enhanced Scoring Pack.  " downloads="1589" reviews="7" comments="4" rating="4.85714" depends="" type="game" date="2011-08-05" private="f" featured="0" metadata="" license="1" preview="t" url="" />
+	<resource id="32189" title="RPG test" name="jamesvhyde" description="This is a test of Luyren's &quot;RPG Elements&quot; reource pack." downloads="1568" reviews="9" comments="5" rating="3.88889" depends="" type="game" date="2011-07-27" private="f" featured="0" metadata="" license="0" preview="t" url="" />
+	<resource id="36468" title="Stage Select Example" name="Pixel Pusher" description="Similar to Mega Man's Boss Stage selection screen. You will switch to whichever scene you selected.&lt;br&gt;&lt;br&gt;Uploading if someone can help get selection by using the Arrow keys. Mouse selection is already included." downloads="1553" reviews="5" comments="4" rating="4" depends="" type="game" date="2011-09-13" private="f" featured="0" metadata="" license="1" preview="t" url="" />
+	<resource id="39000" title="Super Mario Bros" name="nmeader" description="" downloads="1550" reviews="13" comments="9" rating="3.76923" depends="" type="game" date="2011-10-20" private="f" featured="0" metadata="" license="2" preview="f" url="" />
+	<resource id="23212" title="Tanks!" name="Rhys" description="Tank sample game showcasing application of mathematics and practical problem solving in stencyl." downloads="1550" reviews="14" comments="9" rating="4.42857" depends="" type="game" date="2011-05-05" private="f" featured="0" metadata="" license="0" preview="t" url="" />
+	<resource id="50930" title="Halo  Part 0ne" name="mrthequad" description="A simple run and gun game. Halo one by mrthequad " downloads="1544" reviews="15" comments="16" rating="3.73333" depends="" type="game" date="2012-03-02" private="f" featured="0" metadata="" license="1" preview="t" url="" />
+	<resource id="23499" title="JnR Addon - Jetpack Demo" name="Greg" description="Sample game to demonstrate Jetpack addon for the Jump and Run kit." downloads="1484" reviews="4" comments="4" rating="4.75" depends="" type="game" date="2011-05-02" private="f" featured="0" metadata="" license="1" preview="t" url="" />
+	<resource id="37762" title="Random Block Game" name="Pepperoni Sugar" description="Options Menu&lt;br&gt;(Hold Shift)&lt;br&gt;(-1 is game default)&lt;br&gt;&lt;br&gt;Click to break a block" downloads="1377" reviews="8" comments="5" rating="3.25" depends="" type="game" date="2011-10-04" private="f" featured="0" metadata="" license="1" preview="t" url="" />
+	<resource id="23491" title="Particles Example" name="Luyren" description="This example game showcases some uses of the particles behavior." downloads="1301" reviews="7" comments="2" rating="4.71429" depends="" type="game" date="2011-04-30" private="f" featured="0" metadata="" license="1" preview="t" url="" />
+	<resource id="23467" title="Pathfinding" name="Epic428" description="Please note: advanced users only should use this. It has not been simplified and contains a lot of code mode behaviors. If you need help in implementing this or want to know more about how it works, please visit my thread on the forums at :&lt;br&gt;&lt;br&gt;http://community.stencyl.com/index.php/topic,543.0.html&lt;br&gt;&lt;br&gt;Here you may ask questions as well as see a link to an example game I posted that shows it in actions!" downloads="1297" reviews="6" comments="3" rating="3.66667" depends="" type="game" date="2011-04-28" private="f" featured="0" metadata="" license="0" preview="t" url="" />
+	<resource id="23425" title="Zolo Quest" name="Rob" description="Zelda-Lolo like puzzle game." downloads="1290" reviews="12" comments="7" rating="3" depends="" type="game" date="2011-04-27" private="f" featured="0" metadata="" license="0" preview="t" url="" />
+	<resource id="23851" title="Behavior Sandbox" name="Jon" description="A template for spawning example games for Forge where they all have a single actor for demonstrating a single behavior." downloads="1287" reviews="4" comments="5" rating="3" depends="" type="game" date="2011-05-06" private="f" featured="0" metadata="" license="1" preview="t" url="http://community.stencyl.com/index.php/topic,679.msg5820.html#msg5820" />
+	<resource id="37221" title="Nyan~!" name="TheHat" description="A simple platformer made fallowing the Crash Course. Nothing is original, most you can find on the Forge. I will probably update it eventually and use it for testing new things. Until then, enjoy simple Nayn pleasures! &lt;br&gt;&lt;br&gt;Includes the Nyan Cat song as background music!" downloads="1272" reviews="9" comments="3" rating="3.66667" depends="" type="game" date="2011-09-27" private="f" featured="0" metadata="" license="1" preview="f" url="" />
+	<resource id="38248" title="ultimate rpg game" name="solleader" description="Apoteosi studio with solleader celebrates the ultimate rpg game made with the collaboration of many artists. This is a beta test 0.0.1" downloads="1266" reviews="6" comments="5" rating="2.66667" depends="" type="game" date="2011-10-11" private="f" featured="0" metadata="" license="1" preview="f" url="" />
+</resources>
+[LOG] Download Took 688ms
+[LOG] Total Took 734ms
+[LOG] Download Took 1ms
+[LOG] Download Took 1ms
+[LOG] Download Took 1ms
+[LOG] Download Took 1ms
+[LOG] Download Took 1ms
+[LOG] Download Took 1ms
+[LOG] Download Took 28ms
+[LOG] Download Took 50ms
+[LOG] Download Took 228ms
+[LOG] Download Took 262ms
+[LOG] Download Took 422ms
+[LOG] Download Took 617ms
+[LOG] Download Took 220ms
+[LOG] Download Took 228ms
+[LOG] Download Took 219ms
+[LOG] Download Took 342ms
+[LOG] Download Took 350ms
+[LOG] Download Took 403ms
+[LOG] Download Took 524ms
+[LOG] Download Took 642ms
+[LOG] Download Took 556ms
+[LOG] Download Took 672ms
+[LOG] Download Took 665ms
+[LOG] Download Took 600ms
+[LOG] Download Took 699ms
+[LOG] Download Took 1013ms
+[LOG] Download Took 620ms
+[LOG] Download Took 774ms
+[LOG] Download Took 1220ms
+[LOG] Download Took 2333ms
+[LOG] Visiting: forge://listing/game/?sort=official
+[LOG] <resources>
+	<resource id="60044" title="Shoot em Up Example" name="Stencyl" description="A simple shoot-em-up example game." downloads="10626" reviews="51" comments="14" rating="4.11765" depends="" type="game" date="2012-04-16" private="f" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="59820" title="Scoring Example Game" name="Epic428" description="This example tries to give you an idea of how to add scoring to your game. Simply click the P Balls to score." downloads="4184" reviews="8" comments="9" rating="4.625" depends="" type="game" date="2012-04-14" private="f" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="48818" title="Ragdoll Test" name="captaincomic" description="== Ragdoll Test v1.1 ==&lt;br&gt;&lt;br&gt;The Ragdoll is created using Revolute Joints. The mouse interaction is done with Mouse Joints.&lt;br&gt;Only for Flash (not for iOS).&lt;br&gt;&lt;br&gt;Uses Graph Paper Background by Ceric.&lt;br&gt;&lt;br&gt;" downloads="8293" reviews="65" comments="29" rating="4.4" depends="" type="game" date="2012-01-18" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="48328" title="Swiping Menu" name="Dizko" description="This is a swiping menu template design for iOS games. (Landscape)&lt;br&gt;**Updated to fix a small bug with possible multi-touch input." downloads="4944" reviews="26" comments="18" rating="4.5" depends="" type="game" date="2012-01-16" private="f" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="42450" title="Eye Candy Pack Showcase" name="captaincomic" description="This is a showcase for the Eye Candy Pack.&lt;br&gt;&lt;br&gt;Check out the Eye Candy Pack description for details.&lt;br&gt;&lt;br&gt;It demonstrates how to use the following effects: &lt;br&gt;Apply Effect, Bevel, Blur, Drop Shadow, Glow, Screen Displacement, Screen Blur, Explode to Fragments, Explode to Actors of Type, Fade, Grow, Screen Flash, Switch Animation, Reload Scene, Update Shadow with Lightsource, and Shadow Manager" downloads="7196" reviews="38" comments="17" rating="4.71053" depends="" type="game" date="2011-11-25" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="22320" title="Cutscene Example Game" name="Greg" description="Example game utilizing an upcoming Cutscene Resource Pack.  The scenes in the game show how the sensor Actors can be utilized to create a wide range of scripted events. " downloads="6999" reviews="38" comments="18" rating="4.78947" depends="" type="game" date="2011-06-22" private="0" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="60045" title="Maze Game" name="Stencyl" description="Simple maze game. Includes 4 Way Movement, a Switch Scene behavior and a switch behavior for opening up inaccessible  locations in the maze." downloads="8842" reviews="41" comments="30" rating="3.78049" depends="" type="game" date="2011-05-30" private="0" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="24283" title="Asteroids" name="Ceric" description="A simple tutorial game for new users." downloads="2866" reviews="14" comments="8" rating="3.28571" depends="" type="game" date="2011-05-29" private="0" featured="1" metadata="" license="1" preview="t" url="" />
+</resources>
+[LOG] Download Took 413ms
+[LOG] Total Took 454ms
+[LOG] Download Took 0ms
+[LOG] Download Took 1ms
+[LOG] Download Took 0ms
+[LOG] Download Took 1ms
+[LOG] Download Took 0ms
+[LOG] Download Took 1ms
+[LOG] Download Took 1ms
+[LOG] Download Took 0ms
+[LOG] Action: Download
+[ERR] Play Now? false
+[ERR] Resetting maps.
+[LOG] Downloading: 60044
+[LOG] Download Type: game
+[LOG] URL: http://static.stencyl.com/forge/assets/60044.zip
+[LOG] 
+[LOG] And the name is: Shoot em Up Example - false
+[LOG] initDownloadedGame
+[LOG] Action: Download
+[ERR] Play Now? false
+[ERR] Resetting maps.
+[LOG] Downloading: 48328
+[LOG] Download Type: game
+[LOG] URL: http://static.stencyl.com/forge/assets/48328.zip
+[LOG] 
+[LOG] And the name is: Swiping Menu - false
+[LOG] initDownloadedGame
+[LOG] Action: Download
+[ERR] Could not delete file: C:\Users\Kamurai\AppData\Local\Temp\stencyl7537810648399060398\forge\48328.zip
+[ERR] Could not delete file: 48328.zip
+[ERR] Play Now? false
+[ERR] Resetting maps.
+[LOG] Downloading: 60044
+[LOG] Download Type: game
+[LOG] URL: http://static.stencyl.com/forge/assets/60044.zip
+[LOG] 
+[LOG] And the name is: Shoot em Up Example - false
+[ERR] Could not delete file: C:\Users\Kamurai\AppData\Local\Temp\stencyl7537810648399060398\forge\48328.zip
+[ERR] Could not delete file: 48328.zip
+[LOG] initDownloadedGame
+[LOG] Rename
+[LOG] Unzipping...
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/FireFight BB.ttf
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/favorites.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/game.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/game.xml.bak
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/ios-icon-half.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/ios-icon.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/ios-splash-half.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/ios-splash.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/ipad-icon-half.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/ipad-icon.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/ipad-splash-half.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/ipad-splash.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/linked/data.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/logo.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/pack-0.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/preloader.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/0.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/10-0.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/10-1.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/108-0.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/114.fnt
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/114.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/130.fnt
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/130.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/133.fnt
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/133.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/134.fnt
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/134.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/149.fnt
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/149.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/15-0.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/15-1.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/15.mp3
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/152.mp3
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/160-0.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/170-0.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/178-0.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/2-0.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/2-1.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/2-2.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/2-3.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/2-4.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/215-0.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/216.fnt
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/216.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/217.fnt
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/217.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/218.fnt
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/218.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/220-0.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/221.fnt
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/221.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/222.fnt
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/222.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/34.fnt
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/34.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/53-0.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/7.mp3
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/79.mp3
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/88.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/9.mp3
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/92.fnt
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/92.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/93.fnt
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/93.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/96.fnt
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/96.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/Adore64.ttf
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/Bangalore.ttf
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/MizuFontAlphabet.ttf
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/Pixelation.ttf
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/data.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/data.xml.bak
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/0.scn
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/0.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/1.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/1.scn
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/1.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/10.scn
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/10.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/11.scn
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/11.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/12.scn
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/12.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/13.scn
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/13.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/14.scn
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/14.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/15.scn
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/15.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/16.scn
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/16.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/17.scn
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/17.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/18.scn
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/18.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/19.scn
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/19.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/2.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/2.scn
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/2.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/20.scn
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/20.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/3.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/3.scn
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/3.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/4.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/4.scn
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/4.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/5.scn
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/5.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/6.scn
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/6.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/7.scn
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/7.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/8.scn
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/8.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/9.scn
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/9.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/scenes.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/0.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/1.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/10.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/100.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/101.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/102.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/103.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/104.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/105.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/106.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/107.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/108.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/109.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/11.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/110.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/12.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/13.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/14.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/15.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/16.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/17.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/18.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/19.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/2.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/20.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/21.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/22.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/23.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/24.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/25.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/26.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/27.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/28.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/29.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/3.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/30.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/31.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/32.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/33.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/34.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/35.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/36.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/37.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/38.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/39.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/4.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/40.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/41.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/42.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/43.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/44.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/45.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/46.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/47.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/48.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/49.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/5.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/50.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/51.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/52.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/53.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/54.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/55.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/56.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/57.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/58.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/59.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/6.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/60.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/61.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/62.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/63.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/64.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/65.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/66.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/67.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/68.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/69.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/7.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/70.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/71.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/72.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/73.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/74.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/75.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/76.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/77.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/78.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/79.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/8.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/80.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/81.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/82.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/83.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/84.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/85.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/86.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/87.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/88.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/89.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/9.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/90.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/91.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/92.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/93.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/94.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/95.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/96.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/97.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/98.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/99.png
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/ActorEvents_1.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_0_0.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_0_0_AlienMovement.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_0_0_PlayerDefeat.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_100_100.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_100_100_ActorSpawn.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_100_100_SpawnActor1.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_101_101_ActorSpawned.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_102_102_MoveInandStop.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_103_103.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_103_103_OrbitActor.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_104_104.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_104_104_CreateSatellite.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_104_104_DrawTitle.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_105_105.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_105_105_CannotExitScreen.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_105_105_CircularMotion.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_106_106.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_106_106_CannotExitScreen.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_107_107.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_107_107_AsteroidsMovement.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_108_108.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_108_108_4WayMovement.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_109_109.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_109_109_Patrol.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_10_10.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_10_10_DoafterDelay.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_10_10_HitEnemyEffect.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_10_10_PositionLimiter.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_110_110.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_110_110_BackandForth.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_11_11.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_11_11_PickupCoin.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_11_11_ScoreDetectorV2.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_11_11_SwitchAnimation.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_12_12.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_12_12_CollectallCoins.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_12_12_FireLaser.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_12_12_SpawnActor.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_13_13.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_13_13_DoPeriodically.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_14_14.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_14_14_BackgroundMusic.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_14_14_InflictsDamage.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_14_14_TransitionFadein.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_15_15.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_15_15_Ammo.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_15_15_AsteroidsScrolling.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_15_15_DieWhenOffScreen.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_16_16.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_16_16_AsteroidBehavior.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_16_16_BurstFire.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_16_16_KillonCollision.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_17_17.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_17_17_AsteroidSpawn.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_17_17_LivesCounter.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_17_17_Simple4WayMovement.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_17_17_SmoothCameraFollow.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_18_18.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_18_18_BlockSpawner.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_18_18_CameraFollowPlayer.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_18_18_Health.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_18_18_LivesDetector.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_19_19.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_19_19_AutoScrollSimple.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_19_19_CannotExitScrollingScreen.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_19_19_ShowLivesHUD.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_1_1.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_1_1_DieWhenHit.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_1_1_FireBulletOneAtaTime.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_20_20.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_20_20_AutoScrollVerticalScrolling.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_21_21.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_21_21_CannotExitScreen.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_22_22.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_22_22_4WayMovementAdvanced.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_22_22_CircularMotion.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_23_23.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_23_23_CannotExitScreen.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_23_23_CreatePlayerActor.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_23_23_SmoothCameraFollow.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_24_24.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_24_24_AsteroidsMovement.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_24_24_AutoScrollVerticalScrolling.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_24_24_CameraFollowPlayer.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_24_24_MoveCamera.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_25_25.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_25_25_4WayMovement.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_25_25_AutoScrollSimple.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_25_25_CameraFollowPlayer.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_25_25_CameraFollowShip.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_25_25_SmoothCameraFollow.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_26_26.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_26_26_CameraFollowPlayer.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_26_26_Patrol.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_26_26_SpinActor.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_27_27.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_27_27_AutoScrollSimple.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_27_27_BackandForth.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_27_27_SmoothCameraFollow.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_28_28.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_28_28_CameraFollowPlayer.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_28_28_InflictsDamage.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_29_29.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_29_29_AutoScrollSimple.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_29_29_ShowHealthBar.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_2_2.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_2_2_CannotExitScreen.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_2_2_ExplodeonDeath.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_30_30.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_30_30_AutoScrollVerticalScrolling.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_30_30_SpawnActoruponDeath.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_31_31.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_31_31_CircularMotion.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_31_31_Health.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_32_32.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_32_32_CannotExitScreen.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_32_32_FlickerwhenHit.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_33_33.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_33_33_AsteroidsMovement.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_34_34.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_34_34_4WayMovement.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_35_35.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_35_35_Patrol.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_36_36.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_36_36_BackandForth.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_37_37.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_37_37_InflictsDamage.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_38_38.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_38_38_ShowHealthBar.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_39_39.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_39_39_SpawnActoruponDeath.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_3_3.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_3_3_DieAfterTime.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_3_3_HealthExtra.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_40_40.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_40_40_Health.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_41_41.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_41_41_FlickerwhenHit.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_42_42.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_43_43_KillonCollision.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_44_44.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_44_44_AnchortoScreen.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_45_45.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_45_45_BackgroundMusic.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_45_45_CannotExitScrollingScreen.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_46_46.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_46_46_4WayControl.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_47_47.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_48_48.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_48_48_Simple4WayMovement.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_49_49.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_49_49_FireBulletOneAtaTime.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_4_4.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_4_4_DoonKeyPress.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_4_4_DoonMousePress.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_50_50.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_51_51.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_51_51_ScoreCalculatorV2.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_52_52.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_52_52_ScoreDetectorV2.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_53_53.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_53_53_ScoreDrawer.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_54_54.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_54_54_ScoreDetectorV2.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_55_55.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_55_55_AwardsPoints.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_55_55_DoPeriodically.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_56_56.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_56_56_FireLaser.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_57_57_BGTitle.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_57_57_PlayTitleRiff.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_57_57_ShortBGMusic.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_58_58_FadeIntoTitle.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_58_58_IntroScreenSwitcher.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_59_59.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_59_59_TEST.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_5_5.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_5_5_DoonKeyPress.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_5_5_FireBullet.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_60_60.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_61_61.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_61_61_BulletWave.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_62_62_IntroShipMovement.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_63_63_IntroDisplay.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_64_64.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_65_65.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_65_65_VoiceAsteroid.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_66_66_DemoDisplay.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_66_66_Display.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_67_67.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_67_67_FireBullet.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_68_68.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_68_68_BulletMotion.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_69_69.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_69_69_DrawText.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_69_69_FourWayScrollingMovementV6.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_69_69_Test.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_6_6.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_6_6_2WayControl.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_6_6_DoPeriodically.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_70_70.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_70_70_ThreeWayShot.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_71_71.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_72_72_EnableMovement.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_72_72_EnableMovmentforAliens.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_72_72_ShowReady.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_73_73_PowerupHandling.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_74_74_PowerupMovement.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_75_75.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_76_76.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_77_77.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_78_78.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_79_79.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_7_7.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_7_7_FireBullet.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_7_7_PositionLimiter.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_80_80_DiveBomb.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_81_81.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_82_82.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_82_82_DisplayHealth.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_83_83.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_83_83_CircularMotion.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_84_84.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_84_84_CannotExitScreen.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_84_84_ShipsDrawer.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_85_85.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_85_85_AsteroidsMovement.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_85_85_ExplodeActor.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_85_85_LivesCounter.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_86_86.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_86_86_4WayMovement.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_86_86_LivesDetector.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_87_87.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_87_87_Patrol.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_87_87_ShowLivesHUD.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_88_88.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_88_88_BackandForth.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_88_88_FourWayScrollingMovementV6.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_88_88_LivesCounter.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_88_88_LivesIcons.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_89_89.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_89_89_ExplodeonDeath.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_89_89_LivesDetector.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_8_8.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_8_8_DieWhenOffScreen.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_8_8_FaceMouse.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_8_8_LivesDetector.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_90_90.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_90_90_GameStart.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_90_90_PositionLimiter.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_90_90_ShowLivesHUD.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_91_91.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_91_91_CannotExitLeftorRight.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_91_91_DisplayHealth.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_91_91_GainUpgrade.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_91_91_LivesIcons.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_92_92_Alwayssimulate.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_92_92_DisablePowerup.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_93_93.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_93_93_DieinPit.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_94_94.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_94_94_RecycleWhenOffScreen.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_95_95.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_95_95_ScoreCalculatorv2b.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_95_95_ShowLivesHUD.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_96_96.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_96_96_ScoreDetectorv2b.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_97_97.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_97_97_ScoreDrawer.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_98_98_DisplayName.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_98_98_SpawnActors.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_99_99.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_99_99_4WayControl.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_99_99_ExtraLife.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_9_9.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_9_9_2WayControl.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_9_9_BackandForth.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/Design_9_9_FollowMouse.design
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/list.xml
+[ERR] Extracting file: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/list.xml.bak
+[ERR] Extracting directory: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/libraries/
+[ERR] Extracting directory: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/libraries/flash/
+[ERR] Extracting directory: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/libraries/ios/
+[ERR] Extracting directory: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/linked/
+[ERR] Extracting directory: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/resources/
+[ERR] Extracting directory: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/scenes/
+[ERR] Extracting directory: C:\Users\Kamurai/AppData/Roaming/Stencyl/stencylworks\games\MooMooPants\/snippets/
+[LOG] Action: View Workspace Folder
+[LOG] Action: View Games Folder
+[LOG] Action: Preferences...
+[LOG] Choose Folder...
+[LOG] The Stencyl workspace is: C:\Users\Kamurai/AppData/Roaming/Stencyl/
+[LOG] The Stencyl workspace is being set to: C:\House\Programming\Stencyl\Workspace\
+[LOG] Copy directory from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\prefs to: C:\House\Programming\Stencyl\Workspace\stencylworks\prefs
+[LOG] Copy Duration: 56
+[LOG] Copy directory from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\games to: C:\House\Programming\Stencyl\Workspace\stencylworks\games
+[LOG] Copy Duration: 1
+[LOG] Copy directory from: C:\Users\Kamurai\AppData\Roaming\Stencyl\stencylworks\logs to: C:\House\Programming\Stencyl\Workspace\stencylworks\logs

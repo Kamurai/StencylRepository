@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1">
+                <set-val-526-6 comment="false" x="26" y="113">
+                    <get-item comment="false" id="0" x="0" y="0">
+                        <int id="0" val="[getAllTerrainRegions()]"/>
+                        <int id="1" val="0"/>
+                    </get-item>
+                </set-val-526-6>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="166">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="191">
+                    <group eventID="-1" id="-1">
+                        <set-color2 comment="false" x="37" y="216">
+                            <int id="0" val="4"/>
+                        </set-color2>
+                        <set-thickness comment="false" x="37" y="243">
+                            <int id="0" val="1"/>
+                        </set-thickness>
+                        <set-stroke-color2 comment="false" x="37" y="263">
+                            <int id="0" val="4"/>
+                        </set-stroke-color2>
+                        <for-each comment="false" x="37" y="290">
+                            <group eventID="-1" id="-1">
+                                <code-long comment="false" x="48" y="315">
+                                    <int id="0" val="var position:V2 = item.getBody().GetPosition();&#10;&#10;for(var fixture:b2Fixture = item.getBody().GetFixtureList(); fixture != null; fixture = fixture.GetNext())&#10;{&#10;&#9;var shape:b2Shape = fixture.GetShape();&#10;&#9;&#10;&#9;if(shape instanceof b2CircleShape)&#10;&#9;{&#10;&#9;&#9;g.fillCircle(GameState.toPixelUnits(position.x), GameState.toPixelUnits(position.y), GameState.toPixelUnits(shape.m_radius));&#10;&#9;}&#10;&#9;else if(shape instanceof b2PolygonShape)&#10;&#9;{&#10;&#9;&#9;var polygon:b2PolygonShape = shape as b2PolygonShape;&#10;&#9;&#9;var vertices:Vector.&amp;lt;V2&amp;gt; = polygon.m_vertices;&#10;&#9;&#9;&#10;&#9;&#9;g.beginFillPolygon();&#10;&#9;&#9;for each(var vertex:V2 in vertices)&#10;&#9;&#9;{&#10;&#9;&#9;&#9;g.addPointToPolygon(GameState.toPixelUnits(position.x + vertex.x), GameState.toPixelUnits(position.y + vertex.y));&#10;&#9;&#9;}&#10;&#9;&#9;g.endDrawingPolygon();&#10;&#9;}&#10;}&#9;&#10;"/>
+                                </code-long>
+                            </group>
+                            <get-val-526-6 comment="false" id="0" x="0" y="0"/>
+                        </for-each>
+                    </group>
+                    <get-val-526-5 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <if comment="false" x="26" y="499">
+                    <group eventID="-1" id="-1">
+                        <set-thickness comment="false" x="37" y="524">
+                            <get-val-526-2 comment="false" id="0" x="0" y="0"/>
+                        </set-thickness>
+                        <set-stroke-color2 comment="false" x="37" y="549">
+                            <int id="0" val="3"/>
+                        </set-stroke-color2>
+                        <for-each comment="false" x="37" y="576">
+                            <group eventID="-1" id="-1">
+                                <code-long comment="false" x="48" y="601">
+                                    <int id="0" val="var position:V2 = item.getBody().GetPosition();&#10;&#10;for(var fixture:b2Fixture = item.getBody().GetFixtureList(); fixture != null; fixture = fixture.GetNext())&#10;{&#10;&#9;var shape:b2Shape = fixture.GetShape();&#10;&#10;&#9;if(shape instanceof b2CircleShape)&#10;&#9;{&#10;&#9;&#9;g.drawCircle(GameState.toPixelUnits(position.x + shape.m_radius), GameState.toPixelUnits(position.y + shape.m_radius), GameState.toPixelUnits(shape.m_radius));&#10;&#9;}&#10;&#9;else if(shape instanceof b2PolygonShape)&#10;&#9;{&#10;&#9;&#9;var polygon:b2PolygonShape = shape as b2PolygonShape;&#10;&#9;&#9;var vertices:Vector.&amp;lt;V2&amp;gt; = polygon.m_vertices;&#10;&#9;&#9;&#10;&#9;&#9;g.beginDrawPolygon();&#10;&#9;&#9;for each(var vertex:V2 in vertices)&#10;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;&#9;&#9;g.addPointToPolygon(GameState.toPixelUnits(position.x + vertex.x), GameState.toPixelUnits(position.y + vertex.y));&#10;&#9;&#9;}&#10;&#9;&#9;g.endDrawingPolygon();&#10;&#9;}&#10;}&#9;&#10;"/>
+                                </code-long>
+                            </group>
+                            <get-val-526-6 comment="false" id="0" x="0" y="0"/>
+                        </for-each>
+                    </group>
+                    <get-val-526-7 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

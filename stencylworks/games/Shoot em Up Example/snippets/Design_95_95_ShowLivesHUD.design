@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1">
+<create-actor3 comment="false" x="26" y="40">
+<ACTORTYPE eid="199" id="0"/>
+<get-val-95-7 comment="false" id="1" x="0" y="0"/>
+<get-val-95-8 comment="false" id="2" x="0" y="0"/>
+<int id="3" val="0"/>
+</create-actor3>
+</group>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="100">
+<group id="-1">
+<if comment="false" x="26" y="125">
+<group id="-1">
+<set-val-95-2 comment="false" x="37" y="150">
+<as-number comment="false" id="0" x="0" y="0">
+<scene-get-attribute comment="false" id="0" x="0" y="0">
+<int id="0" val="Lives Counter"/>
+<int id="1" val="CurrentLives"/>
+</scene-get-attribute>
+</as-number>
+</set-val-95-2>
+<set-val-95-3 comment="false" x="37" y="180">
+<as-number comment="false" id="0" x="0" y="0">
+<scene-get-attribute comment="false" id="0" x="0" y="0">
+<int id="0" val="Lives Counter"/>
+<int id="1" val="MaxLives"/>
+</scene-get-attribute>
+</as-number>
+</set-val-95-3>
+</group>
+<scene-has-snippet comment="false" id="0" x="0" y="0">
+<int id="0" val="Lives Counter"/>
+</scene-has-snippet>
+</if>
+<if comment="false" x="26" y="222">
+<group id="-1">
+<set-val-95-3 comment="false" x="37" y="252">
+<int id="0" val="1"/>
+</set-val-95-3>
+</group>
+<eq comment="false" id="0" x="0" y="0">
+<get-val-95-3 comment="false" id="0" x="0" y="0"/>
+<int id="1" val="0"/>
+</eq>
+</if>
+</group>
+</step>
+</group>
+<group id="2">
+<draw comment="false" x="15" y="312">
+<group id="-1">
+<set-val-95-2 comment="false" x="26" y="337">
+<as-number comment="false" id="0" x="0" y="0">
+<scene-get-attribute comment="false" id="0" x="0" y="0">
+<int id="0" val="Lives Counter"/>
+<int id="1" val="CurrentLives"/>
+</scene-get-attribute>
+</as-number>
+</set-val-95-2>
+<set-font-new comment="false" x="26" y="367">
+<FONT eid="var" id="0" vid="4"/>
+</set-font-new>
+<draw-text comment="false" x="26" y="394">
+<tostring comment="false" id="0" x="0" y="0">
+<roundnew comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-95-2 comment="false" id="1" x="0" y="0"/>
+</roundnew>
+</tostring>
+<get-val-95-5 comment="false" id="1" x="0" y="0"/>
+<get-val-95-6 comment="false" id="2" x="0" y="0"/>
+</draw-text>
+<draw-text comment="false" x="26" y="437">
+<int id="0" val="="/>
+<minus comment="false" id="1" x="0" y="0">
+<get-val-95-5 comment="false" id="0" x="0" y="0"/>
+<int id="1" val="18"/>
+</minus>
+<get-val-95-6 comment="false" id="2" x="0" y="0"/>
+</draw-text>
+</group>
+</draw>
+</group>
+<group id="-1"/>
+</groups>

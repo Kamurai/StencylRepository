@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="0" y="4">
+            <group eventID="1" id="-1">
+                <set-game-val-0 comment="false" x="11" y="29">
+                    <int id="0" val="0"/>
+                </set-game-val-0>
+                <repeat comment="false" x="11" y="49">
+                    <group eventID="1" id="-1">
+                        <add-list comment="false" x="22" y="74">
+                            <get-val-21-2 comment="false" id="0" x="0" y="0"/>
+                            <randint comment="false" id="1" x="0" y="0">
+                                <int id="0" val="1"/>
+                                <int id="1" val="19"/>
+                            </randint>
+                        </add-list>
+                        <for-each comment="false" x="22" y="99">
+                            <group eventID="1" id="-1">
+                                <if comment="false" x="33" y="124">
+                                    <group eventID="1" id="-1">
+                                        <continue comment="false" x="44" y="159"/>
+                                    </group>
+                                    <eq comment="false" id="0" x="0" y="0">
+                                        <get-item comment="false" id="0" x="0" y="0">
+                                            <get-val-21-2 comment="false" id="0" x="0" y="0"/>
+                                            <loopindex comment="false" id="1" x="0" y="0"/>
+                                        </get-item>
+                                        <for-each-item comment="false" id="1" x="0" y="0"/>
+                                    </eq>
+                                </if>
+                            </group>
+                            <get-val-21-2 comment="false" id="0" x="0" y="0"/>
+                        </for-each>
+                    </group>
+                    <int id="0" val="5"/>
+                </repeat>
+                <repeat comment="false" x="11" y="215">
+                    <group eventID="1" id="-1">
+                        <if comment="false" x="22" y="240">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="33" y="270">
+                                    <ACTORTYPE eid="13" id="0"/>
+                                    <int id="1" val="20"/>
+                                    <int id="2" val="20"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <loopindex comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </eq>
+                        </if>
+                        <else-if comment="false" x="22" y="309">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="33" y="339">
+                                    <ACTORTYPE eid="31" id="0"/>
+                                    <int id="1" val="40"/>
+                                    <int id="2" val="40"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <loopindex comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="2"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="22" y="378">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="33" y="408">
+                                    <ACTORTYPE eid="15" id="0"/>
+                                    <int id="1" val="60"/>
+                                    <int id="2" val="60"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <loopindex comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="3"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="22" y="447">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="33" y="477">
+                                    <ACTORTYPE eid="37" id="0"/>
+                                    <int id="1" val="80"/>
+                                    <int id="2" val="80"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <loopindex comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="4"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="22" y="516">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="33" y="546">
+                                    <ACTORTYPE eid="33" id="0"/>
+                                    <int id="1" val="100"/>
+                                    <int id="2" val="100"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <loopindex comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="5"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="22" y="585">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="33" y="615">
+                                    <ACTORTYPE eid="5" id="0"/>
+                                    <int id="1" val="140"/>
+                                    <int id="2" val="100"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <loopindex comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="6"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="22" y="654">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="33" y="684">
+                                    <ACTORTYPE eid="29" id="0"/>
+                                    <int id="1" val="180"/>
+                                    <int id="2" val="100"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <loopindex comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="7"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="22" y="723">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="33" y="753">
+                                    <ACTORTYPE eid="25" id="0"/>
+                                    <int id="1" val="220"/>
+                                    <int id="2" val="100"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <loopindex comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="8"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="22" y="792">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="33" y="822">
+                                    <ACTORTYPE eid="17" id="0"/>
+                                    <int id="1" val="260"/>
+                                    <int id="2" val="100"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <loopindex comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="9"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="22" y="861">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="33" y="891">
+                                    <ACTORTYPE eid="3" id="0"/>
+                                    <int id="1" val="300"/>
+                                    <int id="2" val="100"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <loopindex comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="10"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="22" y="930">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="33" y="960">
+                                    <ACTORTYPE eid="21" id="0"/>
+                                    <int id="1" val="340"/>
+                                    <int id="2" val="100"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <loopindex comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="11"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="22" y="999">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="33" y="1029">
+                                    <ACTORTYPE eid="1" id="0"/>
+                                    <int id="1" val="380"/>
+                                    <int id="2" val="100"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <loopindex comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="12"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="22" y="1068">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="33" y="1098">
+                                    <ACTORTYPE eid="11" id="0"/>
+                                    <int id="1" val="420"/>
+                                    <int id="2" val="100"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <loopindex comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="13"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="22" y="1137">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="33" y="1167">
+                                    <ACTORTYPE eid="27" id="0"/>
+                                    <int id="1" val="460"/>
+                                    <int id="2" val="100"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <loopindex comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="14"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="22" y="1206">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="33" y="1236">
+                                    <ACTORTYPE eid="7" id="0"/>
+                                    <int id="1" val="500"/>
+                                    <int id="2" val="100"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <loopindex comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="15"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="22" y="1275">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="33" y="1305">
+                                    <ACTORTYPE eid="35" id="0"/>
+                                    <int id="1" val="540"/>
+                                    <int id="2" val="100"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <loopindex comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="16"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="22" y="1344">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="33" y="1374">
+                                    <ACTORTYPE eid="9" id="0"/>
+                                    <int id="1" val="580"/>
+                                    <int id="2" val="100"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <loopindex comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="17"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="22" y="1413">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="33" y="1443">
+                                    <ACTORTYPE eid="23" id="0"/>
+                                    <int id="1" val="620"/>
+                                    <int id="2" val="100"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <loopindex comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="18"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="22" y="1482">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="33" y="1512">
+                                    <ACTORTYPE eid="19" id="0"/>
+                                    <int id="1" val="660"/>
+                                    <int id="2" val="100"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <loopindex comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="19"/>
+                            </eq>
+                        </else-if>
+                    </group>
+                    <int id="0" val="5"/>
+                </repeat>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="1">
+        <set-val-21-2 comment="false" x="939" y="439">
+            <int id="0" val=""/>
+        </set-val-21-2>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

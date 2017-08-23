@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <set-val-442-1 comment="false" x="26" y="40">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-442-1>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="93">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="118">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="143">
+                            <group eventID="-1" id="-1">
+                                <set-xy comment="false" x="48" y="176">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <plus comment="false" id="2" x="0" y="0">
+                                        <mousexy comment="false" id="0" x="0" y="0">
+                                            <int id="0" val="0"/>
+                                            <int id="1" val="0"/>
+                                        </mousexy>
+                                        <get-val-442-2 comment="false" id="1" x="0" y="0"/>
+                                    </plus>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="221">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                    <plus comment="false" id="2" x="0" y="0">
+                                        <mousexy comment="false" id="0" x="0" y="0">
+                                            <int id="0" val="0"/>
+                                            <int id="1" val="1"/>
+                                        </mousexy>
+                                        <get-val-442-3 comment="false" id="1" x="0" y="0"/>
+                                    </plus>
+                                </set-xy>
+                                <if comment="false" x="48" y="266">
+                                    <group eventID="-1" id="-1">
+                                        <say comment="false" x="59" y="299">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="Cannot Exit Scene"/>
+                                            <int id="2" val="update"/>
+                                        </say>
+                                    </group>
+                                    <has-snippet comment="false" id="0" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                        <int id="1" val="Cannot Exit Scene"/>
+                                    </has-snippet>
+                                </if>
+                                <if comment="false" x="48" y="338">
+                                    <group eventID="-1" id="-1">
+                                        <say comment="false" x="59" y="371">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="Cannot Exit Screen"/>
+                                            <int id="2" val="update"/>
+                                        </say>
+                                    </group>
+                                    <has-snippet comment="false" id="0" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                        <int id="1" val="Cannot Exit Screen"/>
+                                    </has-snippet>
+                                </if>
+                            </group>
+                            <mousestate comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                            </mousestate>
+                        </if>
+                        <if comment="false" x="37" y="422">
+                            <group eventID="-1" id="-1">
+                                <set-val-442-1 comment="false" x="48" y="455">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-val-442-1>
+                            </group>
+                            <mousestate comment="false" id="0" x="0" y="0">
+                                <int id="0" val="2"/>
+                            </mousestate>
+                        </if>
+                    </group>
+                    <get-val-442-1 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <else comment="false" x="26" y="504">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="524">
+                            <group eventID="-1" id="-1">
+                                <set-val-442-2 comment="false" x="48" y="557">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="0"/>
+                                        </get-xy>
+                                        <mousexy comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="0"/>
+                                            <int id="1" val="0"/>
+                                        </mousexy>
+                                    </minus>
+                                </set-val-442-2>
+                                <set-val-442-3 comment="false" x="48" y="595">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="1"/>
+                                        </get-xy>
+                                        <mousexy comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="1"/>
+                                            <int id="1" val="1"/>
+                                        </mousexy>
+                                    </minus>
+                                </set-val-442-3>
+                                <set-val-442-1 comment="false" x="48" y="633">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-val-442-1>
+                            </group>
+                            <amousestate comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="1"/>
+                            </amousestate>
+                        </if>
+                    </group>
+                </else>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <collide comment="false" x="15" y="710">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group eventID="-1" id="3">
+        <draw comment="false" x="15" y="783">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

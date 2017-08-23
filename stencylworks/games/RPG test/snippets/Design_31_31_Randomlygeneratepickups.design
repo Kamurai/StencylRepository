@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group id="0">
+        <init comment="false" x="15" y="15">
+            <group id="-1">
+                <scene-say comment="false" x="26" y="40">
+                    <int id="0" val="Randomly generate pickups"/>
+                    <int id="1" val="generatepickup"/>
+                </scene-say>
+            </group>
+        </init>
+    </group>
+    <group id="1">
+        <step comment="false" x="15" y="88">
+            <group id="-1"/>
+        </step>
+    </group>
+    <group id="2">
+        <draw comment="false" x="15" y="161">
+            <group id="-1"/>
+        </draw>
+    </group>
+    <group id="5">
+        <receive-message comment="false" x="15" y="234">
+            <group id="-1">
+                <create-actor3 comment="false" x="26" y="259">
+                    <ACTORTYPE eid="var" id="0" vid="1"/>
+                    <randint comment="false" id="1" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <scene-wh comment="false" id="1" x="0" y="0">
+                            <int id="0" val="0"/>
+                        </scene-wh>
+                    </randint>
+                    <randint comment="false" id="2" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <scene-wh comment="false" id="1" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </scene-wh>
+                    </randint>
+                    <int id="3" val="1"/>
+                </create-actor3>
+                <dolater comment="false" x="26" y="304">
+                    <group id="-1">
+                        <scene-say comment="false" x="37" y="329">
+                            <int id="0" val="Randomly generate pickups"/>
+                            <int id="1" val="generatepickup"/>
+                        </scene-say>
+                    </group>
+                    <get-val-31-2 comment="false" id="0" x="0" y="0"/>
+                </dolater>
+            </group>
+            <int id="0" val="generatepickup"/>
+        </receive-message>
+    </group>
+    <group id="-1"/>
+</groups>

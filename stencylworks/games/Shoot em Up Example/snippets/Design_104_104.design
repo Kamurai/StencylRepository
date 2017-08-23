@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1">
+<create-recycled-actor comment="false" x="26" y="40">
+<ACTORTYPE eid="var" id="0" vid="2"/>
+<getx comment="false" id="1" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getx>
+<gety comment="false" id="2" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</gety>
+<int id="3" val="0"/>
+</create-recycled-actor>
+<set-val-104-1 comment="false" x="26" y="80">
+<ACTOR eid="lastcreated" id="0"/>
+</set-val-104-1>
+<actor-set-prop comment="false" x="26" y="107">
+<get-val-104-1 comment="false" id="0" x="0" y="0"/>
+<int id="1" val="Speed"/>
+<get-val-104-3 comment="false" id="2" x="0" y="0"/>
+</actor-set-prop>
+<actor-set-prop comment="false" x="26" y="139">
+<get-val-104-1 comment="false" id="0" x="0" y="0"/>
+<int id="1" val="Radius"/>
+<get-val-104-4 comment="false" id="2" x="0" y="0"/>
+</actor-set-prop>
+</group>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="186">
+<group id="-1">
+<if comment="false" x="26" y="211">
+<group id="-1">
+<actor-set-prop comment="false" x="37" y="249">
+<get-val-104-1 comment="false" id="0" x="0" y="0"/>
+<int id="1" val="Center (X)"/>
+<getx comment="false" id="2" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getx>
+</actor-set-prop>
+<actor-set-prop comment="false" x="37" y="289">
+<get-val-104-1 comment="false" id="0" x="0" y="0"/>
+<int id="1" val="Center (Y)"/>
+<gety comment="false" id="2" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</gety>
+</actor-set-prop>
+</group>
+<isalive comment="false" id="0" x="0" y="0">
+<get-val-104-1 comment="false" id="0" x="0" y="0"/>
+</isalive>
+</if>
+</group>
+</step>
+</group>
+<group id="2">
+<collide comment="false" x="15" y="369">
+<group id="-1"/>
+</collide>
+</group>
+<group id="3">
+<draw comment="false" x="15" y="442">
+<group id="-1"/>
+</draw>
+</group>
+<group id="-1"/>
+</groups>

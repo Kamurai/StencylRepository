@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <snippet category="9" class="scripts.Design_0_0_StageDisplay" desc="Not required. Simply displays the scene / stage number in which you selected.&lt;br&gt;&lt;br&gt;Pressing R will get back to the selection screen." description="Not required. Simply displays the scene / stage number in which you selected.&lt;br&gt;&lt;br&gt;Pressing R will get back to the selection screen." design="true" drawOrder="0" id="0" name="Stage Display" oid="-1" scenespecific="false" shared="false" type="scene">
+        <text default="" desc="" dropdown="" fullname="Display Number" hidden="false" id="1" name="_DisplayNumber" order="0"/>
+        <number default="160" desc="" dropdown="" fullname="Display Position X" hidden="false" id="2" name="_DisplayPositionX" order="1"/>
+        <number default="384" desc="" dropdown="" fullname="Display Position Y" hidden="false" id="3" name="_DisplayPositionY" order="2"/>
+        <blocks/>
+    </snippet>
+    <snippet category="13" class="scripts.Design_1_1_SwitchtoSelectedStage" desc="Simply switches the scene to the stage number that was clicked on using the mouse." description="Simply switches the scene to the stage number that was clicked on using the mouse." design="true" drawOrder="0" id="1" name="Switch to Selected Stage" oid="-1" scenespecific="false" shared="false" type="scene">
+        <actor default="" desc="Stage 1 Actor Frame" dropdown="" fullname="Stage 1 Actor" hidden="false" id="1" name="_Stage1Actor" order="0"/>
+        <actor default="" desc="Stage 2 Actor Frame" dropdown="" fullname="Stage 2 Actor" hidden="false" id="2" name="_Stage2Actor" order="2"/>
+        <actor default="" desc="Stage 3 Actor Frame" dropdown="" fullname="Stage 3 Actor" hidden="false" id="3" name="_Stage3Actor" order="4"/>
+        <actor default="" desc="Stage 4 Actor Frame" dropdown="" fullname="Stage 4 Actor" hidden="false" id="4" name="_Stage4Actor" order="6"/>
+        <actor default="" desc="Stage 5 Actor Frame" dropdown="" fullname="Stage 5 Actor" hidden="false" id="5" name="_Stage5Actor" order="8"/>
+        <actor default="" desc="Stage 6 Actor Frame" dropdown="" fullname="Stage 6 Actor" hidden="false" id="6" name="_Stage6Actor" order="10"/>
+        <actor default="" desc="Stage 7 Actor Frame" dropdown="" fullname="Stage 7 Actor" hidden="false" id="7" name="_Stage7Actor" order="12"/>
+        <actor default="" desc="Stage 8 Actor Frame" dropdown="" fullname="Stage 8 Actor" hidden="false" id="8" name="_Stage8Actor" order="14"/>
+        <sound default="" desc="The sound played when the stage has been selected." dropdown="" fullname="Selected Sound FX" hidden="false" id="9" name="_SelectedSoundFX" order="16"/>
+        <scene default="" desc="Select Stage One to switch to." dropdown="" fullname="Stage 1" hidden="false" id="10" name="_Stage1" order="1"/>
+        <scene default="" desc="Select Stage Two to switch to." dropdown="" fullname="Stage 2" hidden="false" id="11" name="_Stage2" order="3"/>
+        <scene default="" desc="Select Stage Three to switch to." dropdown="" fullname="Stage 3" hidden="false" id="12" name="_Stage3" order="5"/>
+        <scene default="" desc="Select Stage Four to switch to." dropdown="" fullname="Stage 4" hidden="false" id="13" name="_Stage4" order="7"/>
+        <scene default="" desc="Select Stage Five to switch to." dropdown="" fullname="Stage 5" hidden="false" id="14" name="_Stage5" order="9"/>
+        <scene default="" desc="Select Stage Six to switch to." dropdown="" fullname="Stage 6" hidden="false" id="15" name="_Stage6" order="11"/>
+        <scene default="" desc="Select Stage Eight to switch to." dropdown="" fullname="Stage 8" hidden="false" id="17" name="_Stage8" order="15"/>
+        <scene default="" desc="Select Stage Seven to switch to." dropdown="" fullname="Stage 7" hidden="false" id="16" name="_Stage7" order="13"/>
+        <number default="0" desc="Select how long in seconds the screen will fade IN before switching." dropdown="" fullname="Fade In Time" hidden="false" id="19" name="_FadeInTime" order="18"/>
+        <number default="0" desc="Select how long in seconds the screen will fade OUT before switching." dropdown="" fullname="Fade Out Time" hidden="false" id="18" name="_FadeOutTime" order="17"/>
+        <blocks/>
+    </snippet>
+</pack>
