@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <set-val-515-5 comment="false" x="26" y="40">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-515-5>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="93">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="118">
+                    <group eventID="-1" id="-1">
+                        <set-val-515-5 comment="false" x="37" y="143">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-515-5>
+                        <if comment="false" x="37" y="168">
+                            <group eventID="-1" id="-1">
+                                <shout comment="false" x="48" y="193">
+                                    <ACTOR eid="this" id="0"/>
+                                    <get-val-515-2 comment="false" id="1" x="0" y="0"/>
+                                </shout>
+                            </group>
+                            <get-val-515-3 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <else comment="false" x="37" y="237">
+                            <group eventID="-1" id="-1">
+                                <shout comment="false" x="48" y="257">
+                                    <ACTOR eid="this" id="0"/>
+                                    <get-val-515-1 comment="false" id="1" x="0" y="0"/>
+                                </shout>
+                            </group>
+                        </else>
+                    </group>
+                    <get-val-515-5 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <if comment="false" x="26" y="313">
+                    <group eventID="-1" id="-1">
+                        <shout comment="false" x="37" y="348">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-515-1 comment="false" id="1" x="0" y="0"/>
+                        </shout>
+                        <set-val-515-4 comment="false" x="37" y="380">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-515-4>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <get-val-515-4 comment="false" id="0" x="0" y="0"/>
+                        <not comment="false" id="1" x="0" y="0">
+                            <get-val-515-3 comment="false" id="0" x="0" y="0"/>
+                        </not>
+                    </and>
+                </if>
+                <if comment="false" x="26" y="417">
+                    <group eventID="-1" id="-1">
+                        <shout comment="false" x="37" y="452">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-515-2 comment="false" id="1" x="0" y="0"/>
+                        </shout>
+                        <set-val-515-4 comment="false" x="37" y="484">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-515-4>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <get-val-515-3 comment="false" id="0" x="0" y="0"/>
+                        <not comment="false" id="1" x="0" y="0">
+                            <get-val-515-4 comment="false" id="0" x="0" y="0"/>
+                        </not>
+                    </and>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <collide comment="false" x="15" y="549">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group eventID="-1" id="3">
+        <draw comment="false" x="15" y="622">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="4">
+        <receiver-1-644 comment="false" x="15" y="695">
+            <group eventID="-1" id="-1">
+                <return comment="false" x="26" y="725">
+                    <or comment="false" id="0" x="0" y="0">
+                        <not comment="false" id="0" x="0" y="0">
+                            <has-snippet comment="false" id="0" x="0" y="0">
+                                <get-byobval-515-644-0 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Disable Widget"/>
+                            </has-snippet>
+                        </not>
+                        <get-attribute comment="false" id="1" x="0" y="0">
+                            <get-byobval-515-644-0 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="Disable Widget"/>
+                            <int id="2" val="_Enabled"/>
+                        </get-attribute>
+                    </or>
+                </return>
+            </group>
+            <get-byobval-515-644-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-1-644>
+    </group>
+    <group id="-1"/>
+</groups>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" format="1.0" gravx="-0.0" gravy="20.0" height="640" id="18" name="Ragdoll Scene" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <layer color="100,168,234" id="0" name="Layer 0" order="1"/>
+    </layers>
+    <color-bg blue="255" green="255" red="255"/>
+    <backgrounds>
+        <ref id="429"/>
+    </backgrounds>
+    <foregrounds/>
+    <joints/>
+    <regions/>
+    <terrainRegions>
+        <terrainRegion b="64" g="64" group="1" h="30" id="0" name="Terrain 0" pts="4,638.0,0.0,638.0,30.0,0.0,30.0,0.0,0.0" r="64" type="box" w="638" x="1" y="610"/>
+        <terrainRegion b="64" g="64" group="1" h="187" id="1" name="Terrain 1" pts="4,229.0,423.0,227.0,610.0,200.0,609.0,203.0,424.0" r="64" type="poly" w="29" x="200" y="423"/>
+        <terrainRegion b="64" g="64" group="1" h="254" id="2" name="Terrain 2" pts="13,366.0,558.0,395.0,557.0,394.0,530.0,429.0,530.0,430.0,502.0,494.0,502.0,495.0,428.0,563.0,426.0,564.0,357.0,639.0,357.0,640.0,609.0,368.0,611.0,367.0,582.0" r="64" type="poly" w="274" x="366" y="357"/>
+        <terrainRegion b="64" g="64" group="1" h="606" id="3" name="Terrain 3" pts="4,0.0,0.0,0.0,606.0,1.0,606.0,1.0,0.0" r="64" type="box" w="1" x="0" y="1"/>
+        <terrainRegion b="64" g="64" group="1" h="1" id="4" name="Terrain 4" pts="4,0.0,0.0,0.0,1.0,634.0,1.0,634.0,0.0" r="64" type="box" w="634" x="4" y="0"/>
+        <terrainRegion b="64" g="64" group="1" h="606" id="5" name="Terrain 5" pts="4,0.0,0.0,0.0,606.0,2.0,606.0,2.0,0.0" r="64" type="box" w="2" x="638" y="0"/>
+        <terrainRegion b="64" g="64" group="1" id="6" name="Terrain 6" r="64" rad="60.0" type="circle" x="12" y="164"/>
+    </terrainRegions>
+    <actors>
+        <actor a="0.0" aid="1" c="true" group="3" id="388" sx="1.0" sy="1.0" x="288" y="96" z="0">
+            <snippets>
+                <s enabled="true" id="441">
+                    <prop id="1" list="0" val="168"/>
+                    <prop id="2" list="0" val="0,0,0,255"/>
+                    <prop id="3" list="0" val="true"/>
+                    <prop id="4" list="0" val="Press D to Toggle Debug Drawing"/>
+                    <prop id="5" list="0" val="0"/>
+                    <prop id="6" list="0" val="0"/>
+                    <prop id="7" list="0" val=""/>
+                    <prop id="8" list="0" val=""/>
+                    <prop id="9" list="0" val="true"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="0"/>
+                    <prop id="12" list="0" val="0"/>
+                    <prop id="13" list="0" val="true"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="2" c="true" group="3" id="388" sx="1.0" sy="1.0" x="288" y="128" z="0">
+            <snippets>
+                <s enabled="true" id="441">
+                    <prop id="1" list="0" val="168"/>
+                    <prop id="2" list="0" val="0,0,0,255"/>
+                    <prop id="3" list="0" val="true"/>
+                    <prop id="4" list="0" val="Press R to Reload the Scene"/>
+                    <prop id="5" list="0" val="0"/>
+                    <prop id="6" list="0" val="0"/>
+                    <prop id="7" list="0" val=""/>
+                    <prop id="8" list="0" val=""/>
+                    <prop id="9" list="0" val="true"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="0"/>
+                    <prop id="12" list="0" val="0"/>
+                    <prop id="13" list="0" val="true"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="3" c="true" group="3" id="388" sx="1.0" sy="1.0" x="288" y="64" z="0">
+            <snippets>
+                <s enabled="true" id="441">
+                    <prop id="1" list="0" val="168"/>
+                    <prop id="2" list="0" val="0,0,0,255"/>
+                    <prop id="3" list="0" val="true"/>
+                    <prop id="4" list="0" val="Press G to Toggle Gravity"/>
+                    <prop id="5" list="0" val="0"/>
+                    <prop id="6" list="0" val="0"/>
+                    <prop id="7" list="0" val=""/>
+                    <prop id="8" list="0" val=""/>
+                    <prop id="9" list="0" val="true"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="0"/>
+                    <prop id="12" list="0" val="0"/>
+                    <prop id="13" list="0" val="true"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="4" c="true" group="3" id="388" sx="1.0" sy="1.0" x="288" y="32" z="0">
+            <snippets>
+                <s enabled="true" id="441">
+                    <prop id="1" list="0" val="168"/>
+                    <prop id="2" list="0" val="0,0,0,255"/>
+                    <prop id="3" list="0" val="true"/>
+                    <prop id="4" list="0" val="Drag and Drop the Ragdoll"/>
+                    <prop id="5" list="0" val="0"/>
+                    <prop id="6" list="0" val="0"/>
+                    <prop id="7" list="0" val=""/>
+                    <prop id="8" list="0" val=""/>
+                    <prop id="9" list="0" val="true"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="0"/>
+                    <prop id="12" list="0" val="0"/>
+                    <prop id="13" list="0" val="true"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="5" c="true" group="3" id="388" sx="1.0" sy="1.0" x="288" y="160" z="0">
+            <snippets>
+                <s enabled="true" id="441">
+                    <prop id="1" list="0" val="168"/>
+                    <prop id="2" list="0" val="0,0,0,255"/>
+                    <prop id="3" list="0" val="true"/>
+                    <prop id="4" list="0" val="Press T to Toggle Transparency"/>
+                    <prop id="5" list="0" val="0"/>
+                    <prop id="6" list="0" val="0"/>
+                    <prop id="7" list="0" val=""/>
+                    <prop id="8" list="0" val=""/>
+                    <prop id="9" list="0" val="true"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="0"/>
+                    <prop id="12" list="0" val="0"/>
+                    <prop id="13" list="0" val="true"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="6" c="true" group="3" id="388" sx="1.0" sy="1.0" x="288" y="192" z="0">
+            <snippets>
+                <s enabled="true" id="441">
+                    <prop id="1" list="0" val="168"/>
+                    <prop id="2" list="0" val="0,0,0,255"/>
+                    <prop id="3" list="0" val="true"/>
+                    <prop id="4" list="0" val="Press Space to Spawn a Ragdoll"/>
+                    <prop id="5" list="0" val="0"/>
+                    <prop id="6" list="0" val="0"/>
+                    <prop id="7" list="0" val=""/>
+                    <prop id="8" list="0" val=""/>
+                    <prop id="9" list="0" val="true"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="0"/>
+                    <prop id="12" list="0" val="0"/>
+                    <prop id="13" list="0" val="true"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+    </actors>
+    <snippets>
+        <s enabled="true" id="425">
+            <prop id="3" list="0" val="Reload Key Pressed"/>
+            <prop id="4" list="0" val="0.5"/>
+            <prop id="5" list="0" val="0.5"/>
+            <prop id="6" list="0" val="0,0,0,255"/>
+        </s>
+        <s enabled="true" id="259">
+            <prop id="1" list="0" val="255,153,0,255"/>
+            <prop id="2" list="0" val="false"/>
+            <prop id="3" list="0" val="Debug"/>
+        </s>
+        <s enabled="true" id="187">
+            <prop id="1" list="0" val="Spawn Key Pressed"/>
+            <prop id="2" list="0" val="false"/>
+        </s>
+        <s enabled="true" id="443">
+            <prop id="1" list="0" val="[Key] Key Down"/>
+            <prop id="3" list="0" val="[Key] Key Released"/>
+            <prop id="4" list="0" val="[Key] Key Pressed"/>
+            <prop id="8" list="0" val=""/>
+        </s>
+        <s enabled="true" id="529">
+            <prop id="1" list="0" val="true"/>
+            <prop id="2" list="0" val="State Disabled"/>
+            <prop id="3" list="0" val="State Enabled"/>
+            <prop id="4" list="0" val="Transparency Key Pressed"/>
+            <prop id="5" list="0" val="false"/>
+        </s>
+        <s enabled="true" id="524">
+            <prop id="1" list="0" val="true"/>
+            <prop id="2" list="0" val="Gravity"/>
+            <prop id="3" list="0" val="0"/>
+            <prop id="4" list="0" val="0"/>
+            <prop id="5" list="0" val="true"/>
+        </s>
+        <s enabled="true" id="526">
+            <prop id="2" list="0" val="1.0"/>
+            <prop id="3" list="0" val="0,0,0,255"/>
+            <prop id="4" list="0" val="153,51,0,255"/>
+            <prop id="5" list="0" val="true"/>
+            <prop id="6" list="1" val=""/>
+            <prop id="7" list="0" val="false"/>
+        </s>
+        <s enabled="true" id="527">
+            <prop id="1" list="0" val="false"/>
+            <prop id="2" list="0" val="false"/>
+            <prop id="3" list="0" val="false"/>
+            <prop id="4" list="0" val="100.0"/>
+            <prop id="5" list="0" val="false"/>
+            <prop id="6" list="0" val="90.0"/>
+            <prop id="7" list="0" val="false"/>
+            <prop id="8" list="0" val="50.0"/>
+            <prop id="9" list="0" val="false"/>
+            <prop id="10" list="0" val="50.0"/>
+            <prop id="11" list="0" val="false"/>
+            <prop id="13" list="0" val="State Disabled"/>
+            <prop id="17" list="0" val="State Enabled"/>
+            <prop id="16" list="0" val="false"/>
+            <prop id="19" list="0" val="50.0"/>
+            <prop id="21" list="0" val="9"/>
+            <prop id="20" list="0" val="true"/>
+            <prop id="22" list="0" val="false"/>
+        </s>
+        <s enabled="true" id="521">
+            <prop id="1" list="0" val=""/>
+            <prop id="2" list="0" val="280"/>
+            <prop id="3" list="0" val="64"/>
+            <prop id="4" list="0" val="-1"/>
+            <prop id="5" list="0" val=""/>
+            <prop id="6" list="0" val=""/>
+            <prop id="7" list="0" val=""/>
+            <prop id="8" list="0" val=""/>
+            <prop id="9" list="0" val=""/>
+            <prop id="10" list="0" val=""/>
+            <prop id="11" list="0" val=""/>
+            <prop id="12" list="0" val=""/>
+            <prop id="13" list="0" val=""/>
+            <prop id="14" list="0" val=""/>
+            <prop id="15" list="0" val=""/>
+            <prop id="17" list="0" val=""/>
+            <prop id="16" list="0" val=""/>
+            <prop id="19" list="0" val="Spawn Key Pressed"/>
+            <prop id="18" list="0" val=""/>
+        </s>
+    </snippets>
+    <terrain/>
+</scene>

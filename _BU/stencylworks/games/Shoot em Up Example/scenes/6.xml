@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="2" desc="" format="1.0" gravx="-0.0" gravy="0.0" height="512" id="6" name="Help Screen" revision="" savecount="0" tiled="1" tileh="16" tilew="16" type="standard" width="416">
+<layers>
+<layer color="100,168,234" id="0" name="Front" order="0"/>
+<layer color="0,0,255" id="1" name="Back" order="1"/>
+</layers>
+<color-bg blue="0" green="0" red="0"/>
+<backgrounds>
+<ref id="28"/>
+<ref id="142"/>
+</backgrounds>
+<foregrounds>
+<ref id="32"/>
+</foregrounds>
+<joints/>
+<regions/>
+<terrainRegions/>
+<actors/>
+<snippets>
+<s enabled="true" id="58">
+<prop id="1" val="5"/>
+<prop id="2" val="3"/>
+<prop id="3" val="1.5"/>
+<prop id="4" val="1.5"/>
+</s>
+</snippets>
+<terrain/>
+</scene>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="113">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="143">
+                            <group eventID="-1" id="-1">
+                                <set-val-328-3 comment="false" x="48" y="176">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-val-328-3>
+                                <actors-of-type3 comment="false" x="48" y="201">
+                                    <group eventID="-1" id="-1">
+                                        <if comment="false" x="59" y="228">
+                                            <group eventID="-1" id="-1">
+                                                <set-val-328-3 comment="false" x="70" y="271">
+                                                    <false comment="false" id="0" x="0" y="0"/>
+                                                </set-val-328-3>
+                                                <break comment="false" x="70" y="296"/>
+                                            </group>
+                                            <not comment="false" id="0" x="0" y="0">
+                                                <custom-488 comment="false" id="0" x="0" y="0">
+                                                    <actor-of-type comment="false" id="0" x="0" y="0"/>
+                                                </custom-488>
+                                            </not>
+                                        </if>
+                                    </group>
+                                    <ACTORTYPE eid="var" id="0" vid="4"/>
+                                </actors-of-type3>
+                                <if comment="false" x="48" y="340">
+                                    <group eventID="-1" id="-1">
+                                        <set-val-328-6 comment="false" x="59" y="365">
+                                            <true comment="false" id="0" x="0" y="0"/>
+                                        </set-val-328-6>
+                                        <custom-401 comment="false" x="59" y="390">
+                                            <get-val-328-1 comment="false" id="0" x="0" y="0"/>
+                                        </custom-401>
+                                        <scene-shout comment="false" x="59" y="415">
+                                            <get-val-328-1 comment="false" id="0" x="0" y="0"/>
+                                        </scene-shout>
+                                    </group>
+                                    <get-val-328-3 comment="false" id="0" x="0" y="0"/>
+                                </if>
+                            </group>
+                            <value comment="false" id="0" x="0" y="0">
+                                <int id="0" val="4"/>
+                                <int id="1" val="0"/>
+                            </value>
+                        </if>
+                        <else comment="false" x="37" y="464">
+                            <group eventID="-1" id="-1">
+                                <custom-421 comment="false" x="48" y="484">
+                                    <int id="0" val="&amp;quot;Actor Type&amp;quot; is null in &amp;quot;Scene Do When no Actor of Type Alive&amp;quot;"/>
+                                </custom-421>
+                                <set-val-328-6 comment="false" x="48" y="504">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-val-328-6>
+                            </group>
+                        </else>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-val-328-6 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="581">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

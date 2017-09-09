@@ -12,11 +12,11 @@
         <cgroup g1="1" g2="0"/>
     </cgroups>
     <input>
-        <key id="0" keyname="RIGHT" name="right" vk="39" vks="39"/>
-        <key id="1" keyname="LEFT" name="left" vk="37" vks="37"/>
-        <key id="2" keyname="UP" name="up" vk="38" vks="38"/>
-        <key id="3" keyname="SPACE" name="fire" vk="32" vks="32"/>
-        <key id="4" keyname="DOWN" name="down" vk="40" vks="40"/>
+        <key id="0" keyname="RIGHT" name="right" vk="39"/>
+        <key id="1" keyname="LEFT" name="left" vk="37"/>
+        <key id="2" keyname="UP" name="up" vk="38"/>
+        <key id="3" keyname="SPACE" name="fire" vk="32"/>
+        <key id="4" keyname="DOWN" name="down" vk="40"/>
     </input>
     <attcats>
         <cat id="-1" name="Default"/>

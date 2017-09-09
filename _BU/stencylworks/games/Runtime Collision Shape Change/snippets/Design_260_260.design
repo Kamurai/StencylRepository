@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <set-val-260-3 comment="false" x="26" y="40">
+                    <int id="0" val="1.0"/>
+                </set-val-260-3>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="113">
+                    <group eventID="-1" id="-1">
+                        <set-val-260-3 comment="false" x="37" y="151">
+                            <int id="0" val="1.0"/>
+                        </set-val-260-3>
+                        <custom-code comment="false" x="37" y="171">
+                            <int id="0" val="FlxG.timeScale = _TimeScale;"/>
+                        </custom-code>
+                        <print comment="false" x="37" y="191">
+                            <str-combine comment="false" id="0" x="0" y="0">
+                                <int id="0" val="Time Scale = "/>
+                                <get-val-260-3 comment="false" id="1" x="0" y="0"/>
+                            </str-combine>
+                        </print>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <keystate comment="false" id="0" x="0" y="0">
+                            <int id="0" val="0"/>
+                            <CONTROL eid="var" id="1" vid="4"/>
+                        </keystate>
+                        <noteq comment="false" id="1" x="0" y="0">
+                            <get-val-260-3 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1.0"/>
+                        </noteq>
+                    </and>
+                </if>
+                <if comment="false" x="26" y="233">
+                    <group eventID="-1" id="-1">
+                        <set-val-260-3 comment="false" x="37" y="266">
+                            <times comment="false" id="0" x="0" y="0">
+                                <get-val-260-3 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="2"/>
+                            </times>
+                        </set-val-260-3>
+                        <custom-code comment="false" x="37" y="296">
+                            <int id="0" val="FlxG.timeScale = _TimeScale;"/>
+                        </custom-code>
+                        <print comment="false" x="37" y="316">
+                            <str-combine comment="false" id="0" x="0" y="0">
+                                <int id="0" val="Time Scale = "/>
+                                <get-val-260-3 comment="false" id="1" x="0" y="0"/>
+                            </str-combine>
+                        </print>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <CONTROL eid="var" id="1" vid="1"/>
+                    </keystate>
+                </if>
+                <if comment="false" x="26" y="358">
+                    <group eventID="-1" id="-1">
+                        <set-val-260-3 comment="false" x="37" y="391">
+                            <div comment="false" id="0" x="0" y="0">
+                                <get-val-260-3 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="2"/>
+                            </div>
+                        </set-val-260-3>
+                        <custom-code comment="false" x="37" y="421">
+                            <int id="0" val="FlxG.timeScale = _TimeScale;"/>
+                        </custom-code>
+                        <print comment="false" x="37" y="441">
+                            <str-combine comment="false" id="0" x="0" y="0">
+                                <int id="0" val="Time Scale = "/>
+                                <get-val-260-3 comment="false" id="1" x="0" y="0"/>
+                            </str-combine>
+                        </print>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <CONTROL eid="var" id="1" vid="2"/>
+                    </keystate>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="511">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

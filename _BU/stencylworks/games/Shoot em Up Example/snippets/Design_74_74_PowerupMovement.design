@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1"/>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="122">
+<group id="-1"/>
+</step>
+</group>
+<group id="2">
+<collide comment="false" x="15" y="195">
+<group id="-1"/>
+</collide>
+</group>
+<group id="3">
+<draw comment="false" x="15" y="268">
+<group id="-1"/>
+</draw>
+</group>
+<group id="4">
+<dolater comment="false" x="81" y="571">
+<group id="-1"/>
+<int id="0" val="0.2"/>
+</dolater>
+</group>
+<group id="5">
+<dolater comment="false" x="396" y="191">
+<group id="-1"/>
+<int id="0" val="0.2"/>
+</dolater>
+<setdx comment="false" x="396" y="243">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="45"/>
+</setdx>
+<dolater comment="false" x="396" y="270">
+<group id="-1">
+<setdy comment="false" x="407" y="290">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="-45"/>
+</setdy>
+</group>
+<int id="0" val="0.2"/>
+</dolater>
+</group>
+<group id="-1"/>
+</groups>

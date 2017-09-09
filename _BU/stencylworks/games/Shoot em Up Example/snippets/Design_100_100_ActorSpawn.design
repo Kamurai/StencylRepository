@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1">
+<set-val-100-4 comment="false" x="26" y="40">
+<false comment="false" id="0" x="0" y="0"/>
+</set-val-100-4>
+<comment-short comment="false" x="26" y="65">
+<int id="0" val="The following code will set the Backgrounds scrolling speed to 35"/>
+</comment-short>
+<custom-code comment="false" x="26" y="85">
+<int id="0" val="setScrollSpeedForBackground(0, 35);"/>
+</custom-code>
+<dolater comment="false" x="26" y="105">
+<group id="-1">
+<create-actor3 comment="false" x="37" y="125">
+<get-val-100-1 comment="false" id="0" x="0" y="0"/>
+<randint comment="false" id="1" x="0" y="0">
+<int id="0" val="16"/>
+<int id="1" val="384"/>
+</randint>
+<int id="2" val="-64"/>
+<int id="3" val="0"/>
+</create-actor3>
+<dolater comment="false" x="37" y="157">
+<group id="-1">
+<create-actor3 comment="false" x="48" y="177">
+<get-val-100-1 comment="false" id="0" x="0" y="0"/>
+<randint comment="false" id="1" x="0" y="0">
+<int id="0" val="16"/>
+<int id="1" val="384"/>
+</randint>
+<int id="2" val="-64"/>
+<int id="3" val="0"/>
+</create-actor3>
+<dolater comment="false" x="48" y="209">
+<group id="-1">
+<create-actor3 comment="false" x="59" y="229">
+<get-val-100-1 comment="false" id="0" x="0" y="0"/>
+<randint comment="false" id="1" x="0" y="0">
+<int id="0" val="16"/>
+<int id="1" val="384"/>
+</randint>
+<int id="2" val="-64"/>
+<int id="3" val="0"/>
+</create-actor3>
+<dolater comment="false" x="59" y="261">
+<group id="-1">
+<create-actor3 comment="false" x="70" y="281">
+<get-val-100-1 comment="false" id="0" x="0" y="0"/>
+<randint comment="false" id="1" x="0" y="0">
+<int id="0" val="16"/>
+<int id="1" val="384"/>
+</randint>
+<int id="2" val="-64"/>
+<int id="3" val="0"/>
+</create-actor3>
+<dolater comment="false" x="70" y="313">
+<group id="-1">
+<create-actor3 comment="false" x="81" y="333">
+<get-val-100-2 comment="false" id="0" x="0" y="0"/>
+<randint comment="false" id="1" x="0" y="0">
+<int id="0" val="16"/>
+<int id="1" val="384"/>
+</randint>
+<int id="2" val="-64"/>
+<int id="3" val="0"/>
+</create-actor3>
+<dolater comment="false" x="81" y="365">
+<group id="-1">
+<create-actor3 comment="false" x="92" y="385">
+<get-val-100-2 comment="false" id="0" x="0" y="0"/>
+<randint comment="false" id="1" x="0" y="0">
+<int id="0" val="16"/>
+<int id="1" val="384"/>
+</randint>
+<int id="2" val="-64"/>
+<int id="3" val="0"/>
+</create-actor3>
+<dolater comment="false" x="92" y="417">
+<group id="-1">
+<create-actor3 comment="false" x="103" y="437">
+<get-val-100-2 comment="false" id="0" x="0" y="0"/>
+<randint comment="false" id="1" x="0" y="0">
+<int id="0" val="16"/>
+<int id="1" val="384"/>
+</randint>
+<int id="2" val="-64"/>
+<int id="3" val="0"/>
+</create-actor3>
+<dolater comment="false" x="103" y="469">
+<group id="-1">
+<create-actor3 comment="false" x="114" y="489">
+<get-val-100-2 comment="false" id="0" x="0" y="0"/>
+<randint comment="false" id="1" x="0" y="0">
+<int id="0" val="16"/>
+<int id="1" val="384"/>
+</randint>
+<int id="2" val="-64"/>
+<int id="3" val="0"/>
+</create-actor3>
+</group>
+<int id="0" val="4"/>
+</dolater>
+</group>
+<int id="0" val="2"/>
+</dolater>
+</group>
+<int id="0" val="2"/>
+</dolater>
+</group>
+<int id="0" val="2"/>
+</dolater>
+</group>
+<int id="0" val="2"/>
+</dolater>
+</group>
+<int id="0" val="2"/>
+</dolater>
+</group>
+<int id="0" val="2"/>
+</dolater>
+</group>
+<int id="0" val="2"/>
+</dolater>
+<dolater comment="false" x="26" y="617">
+<group id="-1">
+<set-val-100-4 comment="false" x="37" y="637">
+<true comment="false" id="0" x="0" y="0"/>
+</set-val-100-4>
+</group>
+<int id="0" val="20"/>
+</dolater>
+<dolater comment="false" x="26" y="674">
+<group id="-1">
+<set-val-100-4 comment="false" x="37" y="694">
+<false comment="false" id="0" x="0" y="0"/>
+</set-val-100-4>
+</group>
+<int id="0" val="23"/>
+</dolater>
+<dolater comment="false" x="26" y="731">
+<group id="-1">
+<custom-code comment="false" x="37" y="751">
+<int id="0" val="setScrollSpeedForBackground(0, 10);"/>
+</custom-code>
+<dolater comment="false" x="37" y="771">
+<group id="-1">
+<custom-code comment="false" x="48" y="791">
+<int id="0" val="setScrollSpeedForBackground(0, 6);"/>
+</custom-code>
+</group>
+<int id="0" val="0.2"/>
+</dolater>
+<create-actor3 comment="false" x="37" y="823">
+<get-val-100-3 comment="false" id="0" x="0" y="0"/>
+<int id="1" val="144"/>
+<int id="2" val="-256"/>
+<int id="3" val="0"/>
+</create-actor3>
+</group>
+<int id="0" val="24"/>
+</dolater>
+</group>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="895">
+<group id="-1"/>
+</step>
+</group>
+<group id="2">
+<draw comment="false" x="15" y="968">
+<group id="-1">
+<if comment="false" x="26" y="993">
+<group id="-1">
+<set-font-new comment="false" x="37" y="1018">
+<FONT eid="218" id="0"/>
+</set-font-new>
+<draw-text comment="false" x="37" y="1045">
+<int id="0" val="Enemy Boss is Near"/>
+<div comment="false" id="1" x="0" y="0">
+<scenew comment="false" id="0" x="0" y="0"/>
+<int id="1" val="8"/>
+</div>
+<div comment="false" id="2" x="0" y="0">
+<sceneh comment="false" id="0" x="0" y="0"/>
+<int id="1" val="2"/>
+</div>
+</draw-text>
+</group>
+<get-val-100-4 comment="false" id="0" x="0" y="0"/>
+</if>
+</group>
+</draw>
+</group>
+<group id="3"/>
+<group id="-1"/>
+</groups>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1">
+<dolater comment="false" x="26" y="40">
+<group id="-1">
+<disable-snippet comment="false" x="37" y="60"/>
+<dolater comment="false" x="37" y="80">
+<group id="-1">
+<custom-code comment="false" x="48" y="100">
+<int id="0" val="setScrollSpeedForBackground(256, 0);"/>
+</custom-code>
+<dolater comment="false" x="48" y="120">
+<group id="-1">
+<custom-code comment="false" x="59" y="140">
+<int id="0" val="setScrollSpeedForBackground(512, 0);"/>
+</custom-code>
+</group>
+<int id="0" val="0.2"/>
+</dolater>
+</group>
+<int id="0" val="0.6"/>
+</dolater>
+<push-shove comment="false" x="37" y="184">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="0"/>
+<int id="2" val="512"/>
+<int id="3" val="0"/>
+<int id="4" val="64"/>
+</push-shove>
+<play-sound3 comment="false" x="37" y="211">
+<SOUND eid="var" id="0" vid="2"/>
+</play-sound3>
+</group>
+<int id="0" val="8"/>
+</dolater>
+</group>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="278">
+<group id="-1">
+<if comment="false" x="26" y="303">
+<group id="-1">
+<disable-snippet comment="false" x="37" y="346"/>
+<dolater comment="false" x="37" y="366">
+<group id="-1">
+<custom-code comment="false" x="48" y="386">
+<int id="0" val="setScrollSpeedForBackground(256, 0);"/>
+</custom-code>
+<dolater comment="false" x="48" y="406">
+<group id="-1">
+<custom-code comment="false" x="59" y="426">
+<int id="0" val="setScrollSpeedForBackground(512, 0);"/>
+</custom-code>
+</group>
+<int id="0" val="0.2"/>
+</dolater>
+</group>
+<int id="0" val="0.6"/>
+</dolater>
+<push-shove comment="false" x="37" y="470">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="0"/>
+<int id="2" val="512"/>
+<int id="3" val="0"/>
+<int id="4" val="64"/>
+</push-shove>
+<play-sound3 comment="false" x="37" y="497">
+<SOUND eid="var" id="0" vid="2"/>
+</play-sound3>
+<dolater comment="false" x="37" y="524">
+<group id="-1">
+<scene-change3 comment="false" x="48" y="544">
+<SCENE eid="var" id="0" vid="1"/>
+<int id="1" val="0"/>
+<int id="2" val="1"/>
+<int id="3" val="1"/>
+<int id="4" val="1.5"/>
+</scene-change3>
+</group>
+<int id="0" val="2"/>
+</dolater>
+</group>
+<or comment="false" id="0" x="0" y="0">
+<keypress comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<int id="1" val="5"/>
+</keypress>
+<or comment="false" id="1" x="0" y="0">
+<keypress comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<int id="1" val="4"/>
+</keypress>
+<keypress comment="false" id="1" x="0" y="0">
+<int id="0" val="0"/>
+<int id="1" val="6"/>
+</keypress>
+</or>
+</or>
+</if>
+</group>
+</step>
+</group>
+<group id="2">
+<collide comment="false" x="15" y="623">
+<group id="-1"/>
+</collide>
+</group>
+<group id="3">
+<draw comment="false" x="15" y="696">
+<group id="-1"/>
+</draw>
+</group>
+<group id="-1"/>
+</groups>

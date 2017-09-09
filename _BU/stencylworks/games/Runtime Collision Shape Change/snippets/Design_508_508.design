@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="-1" id="-1">
+                        <custom-421 comment="false" x="37" y="70">
+                            <int id="0" val="Missing Behavior &amp;quot;Get Actors Blocks&amp;quot; for &amp;quot;Draw Orientations&amp;quot;"/>
+                        </custom-421>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <scene-has-snippet comment="false" id="0" x="0" y="0">
+                            <int id="0" val="Get Actors Blocks"/>
+                        </scene-has-snippet>
+                    </not>
+                </if>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="130">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="155">
+                    <group eventID="-1" id="-1">
+                        <set-val-259-2 comment="false" x="37" y="188">
+                            <not comment="false" id="0" x="0" y="0">
+                                <get-val-259-2 comment="false" id="0" x="0" y="0"/>
+                            </not>
+                        </set-val-259-2>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <CONTROL eid="var" id="1" vid="3"/>
+                    </keystate>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="258">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="283">
+                    <group eventID="-1" id="-1">
+                        <set-thickness comment="false" x="37" y="308">
+                            <get-val-508-6 comment="false" id="0" x="0" y="0"/>
+                        </set-thickness>
+                        <set-stroke-color comment="false" x="37" y="333">
+                            <color id="0" vid="5"/>
+                        </set-stroke-color>
+                        <for-each comment="false" x="37" y="360">
+                            <group eventID="-1" id="-1">
+                                <to-local-space comment="false" x="48" y="385">
+                                    <for-each-item comment="false" id="0" x="0" y="0"/>
+                                </to-local-space>
+                                <draw-line comment="false" x="48" y="417">
+                                    <get-wh comment="false" id="0" x="0" y="0">
+                                        <for-each-item comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="2"/>
+                                    </get-wh>
+                                    <get-wh comment="false" id="1" x="0" y="0">
+                                        <for-each-item comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="3"/>
+                                    </get-wh>
+                                    <plus comment="false" id="2" x="0" y="0">
+                                        <get-wh comment="false" id="0" x="0" y="0">
+                                            <for-each-item comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="2"/>
+                                        </get-wh>
+                                        <times comment="false" id="1" x="0" y="0">
+                                            <trig-master comment="false" id="0" x="0" y="0">
+                                                <int id="0" val="1"/>
+                                                <to-degreesradians comment="false" id="1" x="0" y="0">
+                                                    <int id="0" val="1"/>
+                                                    <getdir comment="false" id="1" x="0" y="0">
+                                                        <for-each-item comment="false" id="0" x="0" y="0"/>
+                                                    </getdir>
+                                                </to-degreesradians>
+                                            </trig-master>
+                                            <get-wh comment="false" id="1" x="0" y="0">
+                                                <for-each-item comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val="2"/>
+                                            </get-wh>
+                                        </times>
+                                    </plus>
+                                    <plus comment="false" id="3" x="0" y="0">
+                                        <get-wh comment="false" id="0" x="0" y="0">
+                                            <for-each-item comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="3"/>
+                                        </get-wh>
+                                        <times comment="false" id="1" x="0" y="0">
+                                            <trig-master comment="false" id="0" x="0" y="0">
+                                                <int id="0" val="0"/>
+                                                <to-degreesradians comment="false" id="1" x="0" y="0">
+                                                    <int id="0" val="1"/>
+                                                    <getdir comment="false" id="1" x="0" y="0">
+                                                        <for-each-item comment="false" id="0" x="0" y="0"/>
+                                                    </getdir>
+                                                </to-degreesradians>
+                                            </trig-master>
+                                            <get-wh comment="false" id="1" x="0" y="0">
+                                                <for-each-item comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val="2"/>
+                                            </get-wh>
+                                        </times>
+                                    </plus>
+                                </draw-line>
+                            </group>
+                            <custom-567 comment="false" id="0" x="0" y="0"/>
+                        </for-each>
+                    </group>
+                    <get-val-259-2 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

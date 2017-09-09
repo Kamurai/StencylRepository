@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="161">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="3">
+        <receiver-1-649 comment="false" x="15" y="234">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="264">
+                    <int id="0" val="var body:b2Body = __actor.getBody();&#10;var center:V2 = body.GetLocalCenter();&#10;var i:Number=0;&#10;for(var fixture:b2Fixture = body.GetFixtureList(); fixture != null; fixture = fixture.GetNext())&#10;{&#10;     var shape:b2Shape = fixture.GetShape();&#10;&#10;     if(shape instanceof b2CircleShape)&#10;     {&#10;     &#9;var circle:b2CircleShape = shape as b2CircleShape;&#10;     &#9;&#10;&#9;&#9;circle.m_radius *= __factor;&#10;     }&#10;     else if(shape instanceof b2PolygonShape)&#10;     {&#10;     &#9;var polygon:b2PolygonShape = shape as b2PolygonShape;&#10;&#9;     var vertices:Vector.&amp;lt;V2&amp;gt; = polygon.m_vertices;&#10;&#9;     var newVertices:Vector.&amp;lt;V2&amp;gt; = new Vector.&amp;lt;V2&amp;gt;();&#10;&#10;&#9;     for each(var v:V2 in vertices)&#10;&#9;     {&#10;  &#9;&#9;     newVertices.push(V2.add(center, V2.subtract(v, center).multiplyN(__factor)));&#10;&#9;     }&#10;&#10;          polygon.Set(newVertices);&#10;     }&#10;}&#10;"/>
+                </code-long>
+            </group>
+            <get-byobval-516-620-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-516-620-1 comment="false" id="1" x="0" y="0"/>
+        </receiver-1-649>
+    </group>
+    <group eventID="-1" id="4">
+        <receiver-3-647 comment="false" x="15" y="452">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="482">
+                    <int id="0" val="var body:b2Body = __actor.getBody();&#10;for(var fixture:b2Fixture = body.GetFixtureList(); fixture != null; fixture = fixture.GetNext())&#10;{&#10;&#9;body.DestroyFixture(fixture);&#10;}&#10;"/>
+                </code-long>
+            </group>
+            <get-byobval-516-622-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-3-647>
+    </group>
+    <group eventID="-1" id="5">
+        <receiver-4-646 comment="false" x="15" y="670">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="700">
+                    <int id="0" val="var polygon:b2PolygonShape = new b2PolygonShape();&#10;var vertices:Vector.&amp;lt;V2&amp;gt; = new Vector.&amp;lt;V2&amp;gt;();&#10;__x = GameState.toPhysicalUnits(__x);&#10;__y = GameState.toPhysicalUnits(__y);&#10;__w = GameState.toPhysicalUnits(__w);&#10;__h = GameState.toPhysicalUnits(__h);&#10;vertices.push(new V2(__x - __w/2, __y - __h/2));&#10;vertices.push(new V2(__x + __w/2, __y - __h/2));&#10;vertices.push(new V2(__x + __w/2, __y + __h/2));&#10;vertices.push(new V2(__x - __w/2, __y + __h/2));&#10;polygon.Set(vertices);&#10;var fixture:b2Fixture = __actor.getBody().CreateFixtureShape(polygon, 1);&#10;fixture.SetUserData(__actor);&#10;&#10;&#10;"/>
+                </code-long>
+            </group>
+            <get-byobval-516-623-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-516-623-1 comment="false" id="1" x="0" y="0"/>
+            <get-byobval-516-623-2 comment="false" id="2" x="0" y="0"/>
+            <get-byobval-516-623-3 comment="false" id="3" x="0" y="0"/>
+            <get-byobval-516-623-4 comment="false" id="4" x="0" y="0"/>
+        </receiver-4-646>
+    </group>
+    <group eventID="-1" id="6">
+        <receiver-5-648 comment="false" x="15" y="888">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="918">
+                    <int id="0" val="var circle:b2CircleShape = new b2CircleShape();&#10;circle.m_radius = GameState.toPhysicalUnits(__radius);&#10;circle.m_p.x = GameState.toPhysicalUnits(__x);&#10;circle.m_p.y = GameState.toPhysicalUnits(__y);&#10;var fixture:b2Fixture = __actor.getBody().CreateFixtureShape(circle, 1);&#10;fixture.SetUserData(__actor);"/>
+                </code-long>
+            </group>
+            <get-byobval-516-624-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-516-624-1 comment="false" id="1" x="0" y="0"/>
+            <get-byobval-516-624-2 comment="false" id="2" x="0" y="0"/>
+            <get-byobval-516-624-3 comment="false" id="3" x="0" y="0"/>
+        </receiver-5-648>
+    </group>
+    <group eventID="-1" id="7">
+        <receiver-6-650 comment="false" x="15" y="1106">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="1136">
+                    <int id="0" val="var polygon:b2PolygonShape = new b2PolygonShape();&#10;var vertices:Vector.&amp;lt;V2&amp;gt; = new Vector.&amp;lt;V2&amp;gt;();&#10;__x1 = GameState.toPhysicalUnits(__x1)&#10;__x2 = GameState.toPhysicalUnits(__x2)&#10;__x3 = GameState.toPhysicalUnits(__x3)&#10;__y1 = GameState.toPhysicalUnits(__y1);&#10;__y2 = GameState.toPhysicalUnits(__y2);&#10;__y3 = GameState.toPhysicalUnits(__y3);&#10;vertices.push(new V2(__x1, __y1));&#10;vertices.push(new V2(__x2, __y2));&#10;vertices.push(new V2(__x3, __y3));&#10;polygon.Set(vertices);&#10;var fixture:b2Fixture = __actor.getBody().CreateFixtureShape(polygon, 0);&#10;fixture.SetUserData(__actor);"/>
+                </code-long>
+            </group>
+            <get-byobval-516-625-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-516-625-1 comment="false" id="1" x="0" y="0"/>
+            <get-byobval-516-625-2 comment="false" id="2" x="0" y="0"/>
+            <get-byobval-516-625-3 comment="false" id="3" x="0" y="0"/>
+            <get-byobval-516-625-4 comment="false" id="4" x="0" y="0"/>
+            <get-byobval-516-625-5 comment="false" id="5" x="0" y="0"/>
+            <get-byobval-516-625-6 comment="false" id="6" x="0" y="0"/>
+        </receiver-6-650>
+    </group>
+    <group eventID="-1" id="8">
+        <receiver-7-645 comment="false" x="15" y="1324">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="1354">
+                    <int id="0" val="var last:b2Fixture;&#10;for(var fixture:b2Fixture = __actor.getBody().GetFixtureList(); fixture != null; fixture = fixture.GetNext())&#10;{&#10;&#9;last = fixture;&#10;}&#10;__actor.getBody().DestroyFixture(last);"/>
+                </code-long>
+            </group>
+            <get-byobval-516-640-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-7-645>
+    </group>
+    <group eventID="-1" id="9">
+        <receiver-9-652 comment="false" x="15" y="1542">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="1572">
+                    <int id="0" val="for(var fixture:b2Fixture = __actor.body.GetFixtureList(); fixture != null; fixture = fixture.GetNext())&#10;{&#10;&#9;fixture.SetSensor(false);&#10;}"/>
+                </code-long>
+            </group>
+            <get-byobval-516-642-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-9-652>
+    </group>
+    <group eventID="-1" id="10">
+        <receiver-10-651 comment="false" x="15" y="1760">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="1790">
+                    <int id="0" val="for(var fixture:b2Fixture = __actor.body.GetFixtureList(); fixture != null; fixture = fixture.GetNext())&#10;{&#10;&#9;fixture.SetSensor(true);&#10;}"/>
+                </code-long>
+            </group>
+            <get-byobval-516-643-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-10-651>
+    </group>
+    <group id="-1"/>
+</groups>

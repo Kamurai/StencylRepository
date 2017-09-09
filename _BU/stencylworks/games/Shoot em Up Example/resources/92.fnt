@@ -1,0 +1,15 @@
+#
+#Tue Nov 09 10:17:20 CST 2010
+monospace=true
+monospace.numerals=false
+style=plain
+tracking=5
+color=\#ccffff
+shadow.y=0
+family=SansSerif
+shadow.x=0
+gradient.offset=0
+shadow.blur=0
+stroke.size=0
+antialias=false
+size=23

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <collide comment="false" x="15" y="672">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="231">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="256">
+                    <group eventID="-1" id="-1">
+                        <set-val-302-6 comment="false" x="37" y="281">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-302-6>
+                        <dolater comment="false" x="37" y="306">
+                            <group eventID="-1" id="-1">
+                                <shout comment="false" x="48" y="343">
+                                    <ACTOR eid="this" id="0"/>
+                                    <get-val-302-2 comment="false" id="1" x="0" y="0"/>
+                                </shout>
+                            </group>
+                            <custom-502 comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                                <get-val-302-8 comment="false" id="1" x="0" y="0"/>
+                            </custom-502>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                        <periodic comment="false" x="37" y="387">
+                            <group eventID="-1" id="-1">
+                                <if comment="false" x="48" y="424">
+                                    <group eventID="-1" id="-1">
+                                        <cancel comment="false" x="59" y="462"/>
+                                    </group>
+                                    <not comment="false" id="0" x="0" y="0">
+                                        <custom-487 comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                        </custom-487>
+                                    </not>
+                                </if>
+                                <dolater comment="false" x="48" y="494">
+                                    <group eventID="-1" id="-1">
+                                        <if comment="false" x="59" y="531">
+                                            <group eventID="-1" id="-1">
+                                                <shout comment="false" x="70" y="564">
+                                                    <ACTOR eid="this" id="0"/>
+                                                    <get-val-302-2 comment="false" id="1" x="0" y="0"/>
+                                                </shout>
+                                            </group>
+                                            <custom-487 comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="this" id="0"/>
+                                            </custom-487>
+                                        </if>
+                                    </group>
+                                    <custom-502 comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="0"/>
+                                        <get-val-302-8 comment="false" id="1" x="0" y="0"/>
+                                    </custom-502>
+                                    <ACTOR eid="this" id="2"/>
+                                </dolater>
+                            </group>
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-val-302-8 comment="false" id="0" x="0" y="0"/>
+                                <get-val-302-5 comment="false" id="1" x="0" y="0"/>
+                            </plus>
+                            <ACTOR eid="this" id="2"/>
+                        </periodic>
+                    </group>
+                    <get-val-302-6 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="745">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="3">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="-1" id="-1">
+                        <dolater comment="false" x="37" y="65">
+                            <group eventID="-1" id="-1">
+                                <set-val-302-6 comment="false" x="48" y="97">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-val-302-6>
+                            </group>
+                            <get-val-302-5 comment="false" id="0" x="0" y="0"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                    </group>
+                    <get-val-302-7 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <else comment="false" x="26" y="146">
+                    <group eventID="-1" id="-1">
+                        <set-val-302-6 comment="false" x="37" y="166">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-302-6>
+                    </group>
+                </else>
+            </group>
+        </init>
+    </group>
+    <group id="-1"/>
+</groups>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="-1" id="-1">
+                        <create-actor3 comment="false" x="37" y="73">
+                            <ACTORTYPE eid="var" id="0" vid="23"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0"/>
+                            <int id="3" val="2"/>
+                        </create-actor3>
+                        <set-val-426-27 comment="false" x="37" y="100">
+                            <ACTOR eid="lastcreated" id="0"/>
+                        </set-val-426-27>
+                        <toggle-image comment="false" x="37" y="127">
+                            <ACTOR eid="var" id="0" vid="27"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                        <custom-code comment="false" x="37" y="154">
+                            <int id="0" val="_Filter = [new flash.filters.DisplacementMapFilter()];"/>
+                        </custom-code>
+                        <say-this comment="false" x="37" y="174">
+                            <int id="0" val="updateParameters"/>
+                        </say-this>
+                    </group>
+                    <value comment="false" id="0" x="0" y="0">
+                        <int id="0" val="23"/>
+                        <int id="1" val="0"/>
+                    </value>
+                </if>
+                <else comment="false" x="26" y="206">
+                    <group eventID="-1" id="-1">
+                        <custom-422 comment="false" x="37" y="226">
+                            <int id="0" val="&amp;quot;Map Actor Type is null&amp;quot; in &amp;quot;Displacement&amp;quot;"/>
+                            <ACTOR eid="this" id="1"/>
+                        </custom-422>
+                    </group>
+                </else>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="286">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <collide comment="false" x="15" y="359">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group eventID="-1" id="3">
+        <draw comment="false" x="15" y="432">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="457">
+                    <group eventID="-1" id="-1">
+                        <code-long comment="false" x="37" y="482">
+                            <int id="0" val="import flash.display.Bitmap;&#10;import flash.geom.Matrix;&#10;&#10;var bitmap = new Bitmap();&#10;bitmap.bitmapData = actor.currSprite._framePixels;&#10;bitmap.filters = [_Filter[0]];&#10;&#10;var matrix = new Matrix();&#10;matrix.identity();&#10;matrix.translate(actor.getX() - getScreenX(), actor.getY() - getScreenY());&#10;&#10;FlxG.buffer.draw(bitmap, matrix);"/>
+                        </code-long>
+                    </group>
+                    <get-val-426-16 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="-1" id="4">
+        <receive-message comment="false" x="15" y="682">
+            <group eventID="-1" id="-1">
+                <set-val-426-16 comment="false" x="26" y="712">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-426-16>
+                <if comment="false" x="26" y="737">
+                    <group eventID="-1" id="-1">
+                        <dolater comment="false" x="37" y="767">
+                            <group eventID="-1" id="-1">
+                                <say-this comment="false" x="48" y="799">
+                                    <get-val-426-26 comment="false" id="0" x="0" y="0"/>
+                                </say-this>
+                            </group>
+                            <get-val-426-15 comment="false" id="0" x="0" y="0"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-val-426-25 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </if>
+            </group>
+            <get-val-426-13 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group eventID="-1" id="5">
+        <receive-message comment="false" x="15" y="876">
+            <group eventID="-1" id="-1">
+                <set-val-426-16 comment="false" x="26" y="906">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-426-16>
+            </group>
+            <get-val-426-26 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group eventID="-1" id="6">
+        <receive-message comment="false" x="15" y="959">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="984">
+                    <int id="0" val="import flash.geom.Point;&#10;&#10;var filter = _Filter[0];&#10;filter.alpha = _Alpha;&#10;filter.color = _Color;&#10;filter.componentX = _ComponentX;&#10;filter.componentY = _ComponentY;&#10;filter.mapBitmap = _MapActor.currSprite._framePixels;&#10;filter.mapPoint = new Point(_MapX, _MapY);&#10;filter.mode = _Mode;&#10;filter.scaleX = _ScaleX;&#10;filter.scaleY = _ScaleY;"/>
+                </code-long>
+            </group>
+            <int id="0" val="updateParameters"/>
+        </receive-message>
+    </group>
+    <group id="-1"/>
+</groups>

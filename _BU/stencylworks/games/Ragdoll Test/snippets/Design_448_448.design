@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="161">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="6">
+        <receiver-22-663 comment="false" x="15" y="234">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="264">
+                    <int id="0" val="if (__this instanceof ActorScript)&#10;{&#10;&#9;var actor:Actor = ActorScript(__this).actor;&#10;&#9;print(&amp;quot;[WARN] &amp;quot; + actor + &amp;quot; (&amp;quot; + actor.ID + &amp;quot;) | &amp;quot; + __this.wrapper.name + &amp;quot;: &amp;quot; + __message);&#10;}&#10;else if (__this instanceof SceneScript)&#10;{&#10;&#9;print(&amp;quot;[WARN] &amp;quot; + __this.scene.scene.name + &amp;quot; | &amp;quot; + __this.wrapper.name + &amp;quot;: &amp;quot; + __message);&#10;}&#10;"/>
+                </code-long>
+            </group>
+            <get-byobval-448-663-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-448-663-1 comment="false" id="1" x="0" y="0"/>
+        </receiver-22-663>
+    </group>
+    <group eventID="-1" id="7">
+        <receiver-23-664 comment="false" x="15" y="452">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="482">
+                    <int id="0" val="if (__this instanceof ActorScript)&#10;{&#10;&#9;var actor:Actor = ActorScript(__this).actor;&#10;&#9;print(&amp;quot;[INFO] &amp;quot; + actor + &amp;quot; (&amp;quot; + actor.ID + &amp;quot;) | &amp;quot; + __this.wrapper.name + &amp;quot; &amp;gt; &amp;quot; + __message);&#10;}&#10;else if (__this instanceof SceneScript)&#10;{&#10;&#9;print(&amp;quot;[INFO] &amp;quot; + __this.scene.scene.name + &amp;quot; | &amp;quot; + __this.wrapper.name + &amp;quot; &amp;gt; &amp;quot; + __message);&#10;}&#10;"/>
+                </code-long>
+            </group>
+            <get-byobval-448-664-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-448-664-1 comment="false" id="1" x="0" y="0"/>
+        </receiver-23-664>
+    </group>
+    <group id="-1"/>
+</groups>

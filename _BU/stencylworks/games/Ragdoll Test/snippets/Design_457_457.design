@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="-1" id="-1">
+                        <custom-421 comment="false" x="37" y="73">
+                            <int id="0" val="&amp;quot;Actor&amp;quot; is null in &amp;quot;Scene Do on Mouse Events on Actor&amp;quot;"/>
+                        </custom-421>
+                        <disable-snippet comment="false" x="37" y="93"/>
+                    </group>
+                    <value comment="false" id="0" x="0" y="0">
+                        <int id="0" val="3"/>
+                        <int id="1" val="1"/>
+                    </value>
+                </if>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="153">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="178">
+                    <group eventID="-1" id="-1">
+                        <scene-shout comment="false" x="37" y="211">
+                            <get-val-457-7 comment="false" id="0" x="0" y="0"/>
+                        </scene-shout>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="3"/>
+                        <int id="1" val="0"/>
+                    </amousestate>
+                </if>
+                <if comment="false" x="26" y="248">
+                    <group eventID="-1" id="-1">
+                        <scene-shout comment="false" x="37" y="281">
+                            <get-val-457-8 comment="false" id="0" x="0" y="0"/>
+                        </scene-shout>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="3"/>
+                        <int id="1" val="1"/>
+                    </amousestate>
+                </if>
+                <if comment="false" x="26" y="318">
+                    <group eventID="-1" id="-1">
+                        <scene-shout comment="false" x="37" y="351">
+                            <get-val-457-9 comment="false" id="0" x="0" y="0"/>
+                        </scene-shout>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="3"/>
+                        <int id="1" val="2"/>
+                    </amousestate>
+                </if>
+                <set-val-457-1 comment="false" x="26" y="388">
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="3"/>
+                        <int id="1" val="3"/>
+                    </amousestate>
+                </set-val-457-1>
+                <if comment="false" x="26" y="421">
+                    <group eventID="-1" id="-1">
+                        <scene-shout comment="false" x="37" y="446">
+                            <get-val-457-4 comment="false" id="0" x="0" y="0"/>
+                        </scene-shout>
+                    </group>
+                    <get-val-457-1 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <if comment="false" x="26" y="483">
+                    <group eventID="-1" id="-1">
+                        <scene-shout comment="false" x="37" y="518">
+                            <get-val-457-5 comment="false" id="0" x="0" y="0"/>
+                        </scene-shout>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <not comment="false" id="0" x="0" y="0">
+                            <get-val-457-2 comment="false" id="0" x="0" y="0"/>
+                        </not>
+                        <get-val-457-1 comment="false" id="1" x="0" y="0"/>
+                    </and>
+                </if>
+                <if comment="false" x="26" y="555">
+                    <group eventID="-1" id="-1">
+                        <scene-shout comment="false" x="37" y="590">
+                            <get-val-457-6 comment="false" id="0" x="0" y="0"/>
+                        </scene-shout>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <not comment="false" id="0" x="0" y="0">
+                            <get-val-457-1 comment="false" id="0" x="0" y="0"/>
+                        </not>
+                        <get-val-457-2 comment="false" id="1" x="0" y="0"/>
+                    </and>
+                </if>
+                <set-val-457-2 comment="false" x="26" y="627">
+                    <get-val-457-1 comment="false" id="0" x="0" y="0"/>
+                </set-val-457-2>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="680">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

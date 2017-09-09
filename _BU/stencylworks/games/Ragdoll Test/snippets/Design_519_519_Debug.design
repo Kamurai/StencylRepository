@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="40">
+                    <int id="0" val="}&#10;&#10;public static function dump(obj:*, level:int = 0)&#10;{&#10;&#9;if (level == 0)&#10;&#9;&#9;print(obj);&#10;&#10;&#9;var tabs:String = &amp;quot;\t&amp;quot;;&#10;&#9;for (var i:int = 0; i &amp;lt; level; i++)&#10;&#9;&#9;tabs += &amp;quot;\t&amp;quot;;&#10;&#10;&#9;for (var prop in obj)&#10;&#9;{&#10;&#9;&#9;print(tabs + &amp;quot;[&amp;quot; + prop + &amp;quot;] -&amp;gt; &amp;quot; + obj[prop]);&#10;&#9;&#9;dump(obj[prop], level+1);&#10;&#9;}&#10;//}"/>
+                </code-long>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="228">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="301">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="3">
+        <receiver-1-669 comment="false" x="15" y="374">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="404">
+                    <int id="0" val="dump(__object);"/>
+                </custom-code>
+            </group>
+            <get-byobval-519-669-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-1-669>
+    </group>
+    <group eventID="-1" id="4">
+        <receiver-2-670 comment="false" x="15" y="452">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="482">
+                    <int id="0" val="import flash.utils.describeType;"/>
+                </custom-code>
+                <custom-code comment="false" x="26" y="502">
+                    <int id="0" val="print (describeType(__object));"/>
+                </custom-code>
+            </group>
+            <get-byobval-519-670-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-2-670>
+    </group>
+    <group id="-1">
+        <get-byobval-519-669-0 comment="false" x="0" y="0"/>
+        <get-byobval-519-670-0 comment="false" x="0" y="0"/>
+    </group>
+</groups>

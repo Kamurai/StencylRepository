@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <draw comment="false" x="15" y="715">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="2">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1">
+                <set-val-466-35 comment="false" x="26" y="113">
+                    <int id="0" val="0"/>
+                </set-val-466-35>
+                <set-val-466-36 comment="false" x="26" y="133">
+                    <int id="0" val="0"/>
+                </set-val-466-36>
+                <if comment="false" x="26" y="153">
+                    <group eventID="-1" id="-1">
+                        <incdec comment="false" x="37" y="186">
+                            <int id="0" val="36"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="1"/>
+                        </incdec>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <CONTROL eid="var" id="1" vid="31"/>
+                    </keystate>
+                </if>
+                <if comment="false" x="26" y="225">
+                    <group eventID="-1" id="-1">
+                        <incdec comment="false" x="37" y="258">
+                            <int id="0" val="36"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="1"/>
+                        </incdec>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <CONTROL eid="var" id="1" vid="32"/>
+                    </keystate>
+                </if>
+                <if comment="false" x="26" y="297">
+                    <group eventID="-1" id="-1">
+                        <incdec comment="false" x="37" y="330">
+                            <int id="0" val="35"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="1"/>
+                        </incdec>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <CONTROL eid="var" id="1" vid="33"/>
+                    </keystate>
+                </if>
+                <if comment="false" x="26" y="369">
+                    <group eventID="-1" id="-1">
+                        <incdec comment="false" x="37" y="402">
+                            <int id="0" val="35"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="1"/>
+                        </incdec>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <CONTROL eid="var" id="1" vid="34"/>
+                    </keystate>
+                </if>
+                <set-val-466-37 comment="false" x="26" y="441">
+                    <custom-512 comment="false" id="0" x="0" y="0">
+                        <get-val-466-35 comment="false" id="0" x="0" y="0"/>
+                        <get-val-466-36 comment="false" id="1" x="0" y="0"/>
+                    </custom-512>
+                </set-val-466-37>
+                <if comment="false" x="26" y="471">
+                    <group eventID="-1" id="-1">
+                        <setvel comment="false" x="37" y="501">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0"/>
+                        </setvel>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-466-37 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </eq>
+                </if>
+                <else comment="false" x="26" y="540">
+                    <group eventID="-1" id="-1">
+                        <setvel comment="false" x="37" y="560">
+                            <ACTOR eid="this" id="0"/>
+                            <custom-611 comment="false" id="1" x="0" y="0">
+                                <times comment="false" id="0" x="0" y="0">
+                                    <get-val-466-35 comment="false" id="0" x="0" y="0"/>
+                                    <get-val-466-37 comment="false" id="1" x="0" y="0"/>
+                                </times>
+                                <times comment="false" id="1" x="0" y="0">
+                                    <get-val-466-36 comment="false" id="0" x="0" y="0"/>
+                                    <get-val-466-37 comment="false" id="1" x="0" y="0"/>
+                                </times>
+                            </custom-611>
+                            <get-val-466-11 comment="false" id="2" x="0" y="0"/>
+                        </setvel>
+                    </group>
+                </else>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="3">
+        <collide comment="false" x="15" y="642">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group id="-1"/>
+</groups>

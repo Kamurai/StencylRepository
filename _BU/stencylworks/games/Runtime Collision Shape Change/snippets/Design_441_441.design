@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <set-val-441-15 comment="false" x="26" y="40">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-441-15>
+                <if comment="false" x="26" y="65">
+                    <group eventID="-1" id="-1">
+                        <toggle-image comment="false" x="37" y="90">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                    </group>
+                    <get-val-441-13 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="157">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="182">
+                    <group eventID="-1" id="-1">
+                        <set-val-441-15 comment="false" x="37" y="207">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-441-15>
+                        <if comment="false" x="37" y="232">
+                            <group eventID="-1" id="-1">
+                                <anchor-screen comment="false" x="48" y="257">
+                                    <ACTOR eid="this" id="0"/>
+                                </anchor-screen>
+                            </group>
+                            <get-val-441-14 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                    </group>
+                    <get-val-441-15 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <collide comment="false" x="15" y="336">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group eventID="-1" id="3">
+        <draw comment="false" x="15" y="409">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="434">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="459">
+                            <group eventID="-1" id="-1">
+                                <set-font-new comment="false" x="48" y="492">
+                                    <FONT eid="var" id="0" vid="1"/>
+                                </set-font-new>
+                            </group>
+                            <value comment="false" id="0" x="0" y="0">
+                                <int id="0" val="1"/>
+                                <int id="1" val="0"/>
+                            </value>
+                        </if>
+                        <if comment="false" x="37" y="531">
+                            <group eventID="-1" id="-1">
+                                <set-val-441-11 comment="false" x="48" y="556">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <get-wh comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="2"/>
+                                        </get-wh>
+                                        <div comment="false" id="1" x="0" y="0">
+                                            <get-font-width comment="false" id="0" x="0" y="0">
+                                                <get-val-441-4 comment="false" id="0" x="0" y="0"/>
+                                            </get-font-width>
+                                            <int id="1" val="2"/>
+                                        </div>
+                                    </minus>
+                                </set-val-441-11>
+                            </group>
+                            <get-val-441-9 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <if comment="false" x="37" y="608">
+                            <group eventID="-1" id="-1">
+                                <set-val-441-12 comment="false" x="48" y="633">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <get-wh comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="3"/>
+                                        </get-wh>
+                                        <div comment="false" id="1" x="0" y="0">
+                                            <get-font-height comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="2"/>
+                                        </div>
+                                    </minus>
+                                </set-val-441-12>
+                            </group>
+                            <get-val-441-10 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <set-font-color comment="false" x="37" y="683">
+                            <color id="0" vid="2"/>
+                        </set-font-color>
+                        <to-local-space comment="false" x="37" y="710">
+                            <ACTOR eid="this" id="0"/>
+                        </to-local-space>
+                        <draw-text comment="false" x="37" y="737">
+                            <get-val-441-4 comment="false" id="0" x="0" y="0"/>
+                            <plus comment="false" id="1" x="0" y="0">
+                                <get-val-441-11 comment="false" id="0" x="0" y="0"/>
+                                <get-val-441-5 comment="false" id="1" x="0" y="0"/>
+                            </plus>
+                            <plus comment="false" id="2" x="0" y="0">
+                                <get-val-441-12 comment="false" id="0" x="0" y="0"/>
+                                <get-val-441-6 comment="false" id="1" x="0" y="0"/>
+                            </plus>
+                        </draw-text>
+                    </group>
+                    <get-val-441-3 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="-1" id="4">
+        <receive-message comment="false" x="15" y="807">
+            <group eventID="-1" id="-1">
+                <set-val-441-3 comment="false" x="26" y="837">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-441-3>
+            </group>
+            <get-val-441-7 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group eventID="-1" id="5">
+        <receive-message comment="false" x="15" y="890">
+            <group eventID="-1" id="-1">
+                <set-val-441-3 comment="false" x="26" y="920">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-441-3>
+            </group>
+            <get-val-441-8 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group id="-1"/>
+</groups>

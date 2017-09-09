@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<collide comment="false" x="15" y="161">
+<group id="-1">
+<if comment="false" x="26" y="186">
+<group id="-1">
+<play-sound3 comment="false" x="37" y="224">
+<SOUND eid="var" id="0" vid="2"/>
+</play-sound3>
+</group>
+<eq comment="false" id="0" x="0" y="0">
+<collision-shape-group comment="false" id="0" x="0" y="0"/>
+<pick-group comment="false" id="1" x="0" y="0">
+<int id="0" val="5"/>
+</pick-group>
+</eq>
+</if>
+</group>
+</collide>
+</group>
+<group id="1">
+<receive-message comment="false" x="15" y="364">
+<group id="-1">
+<apply-filter comment="false" x="26" y="389">
+<ACTOR eid="this" id="0"/>
+<filter-tint2 comment="false" id="1" x="0" y="0">
+<int id="0" val="3"/>
+<int id="1" val="70"/>
+</filter-tint2>
+</apply-filter>
+<dolater comment="false" x="26" y="429">
+<group id="-1">
+<clear-filter comment="false" x="37" y="454">
+<ACTOR eid="this" id="0"/>
+</clear-filter>
+</group>
+<get-val-10-1 comment="false" id="0" x="0" y="0"/>
+</dolater>
+</group>
+<int id="0" val="tookDamage"/>
+</receive-message>
+</group>
+<group id="2">
+<step comment="false" x="15" y="88">
+<group id="-1"/>
+</step>
+</group>
+<group id="3">
+<draw comment="false" x="15" y="291">
+<group id="-1"/>
+</draw>
+</group>
+<group id="4">
+<init comment="false" x="15" y="15">
+<group id="-1"/>
+</init>
+</group>
+<group id="-1"/>
+</groups>

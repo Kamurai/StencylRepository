@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="161">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="3">
+        <receiver-1-531 comment="false" x="15" y="234">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="264">
+                    <int id="0" val="return Assets.get().resources[__actortype.spriteID].width;"/>
+                </custom-code>
+            </group>
+            <get-byobval-491-531-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-1-531>
+    </group>
+    <group eventID="-1" id="4">
+        <receiver-2-532 comment="false" x="15" y="312">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="342">
+                    <int id="0" val="return Assets.get().resources[__actortype.spriteID].height;"/>
+                </custom-code>
+            </group>
+            <get-byobval-491-532-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-2-532>
+    </group>
+    <group eventID="-1" id="5">
+        <receiver-6-655 comment="false" x="15" y="390">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="420">
+                    <int id="0" val="return __this.getActorTypeByName(__name);"/>
+                </custom-code>
+            </group>
+            <get-byobval-491-655-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-491-655-1 comment="false" id="1" x="0" y="0"/>
+        </receiver-6-655>
+    </group>
+    <group id="-1"/>
+</groups>

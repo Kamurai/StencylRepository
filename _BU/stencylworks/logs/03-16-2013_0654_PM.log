@@ -1,0 +1,3011 @@
+
+
+
+[LOG] Mirroring logs to the standard output...
+[LOG] Current Working Directory: C:\Program Files (x86)\Stencyl
+[LOG] Reading... global
+[LOG] LANGUAGE WARNING: Empty Line.
+[LOG] Finished reading lang/en/global.lang
+[LOG] Reading... prefs
+[LOG] Finished reading lang/en/prefs.lang
+[LOG] Reading... gamedg
+[LOG] Finished reading lang/en/gamedg.lang
+[LOG] Reading... spritedg
+[LOG] Finished reading lang/en/spritedg.lang
+[LOG] Reading... tset
+[LOG] Finished reading lang/en/tset.lang
+[LOG] Reading... actor
+[LOG] Finished reading lang/en/actor.lang
+[LOG] Reading... scene
+[LOG] Finished reading lang/en/scene.lang
+[LOG] Reading... snippet
+[LOG] Finished reading lang/en/snippet.lang
+[LOG] Reading... blocks
+[LOG] Finished reading lang/en/blocks.lang
+[LOG] Reading... blockhelp
+[LOG] Finished reading lang/en/blockhelp.lang
+[LOG] Initializing Stencyl
+[LOG] Failed to load Growl library
+[LOG] Activated: Welcome Center
+[LOG] Checking workspace writability and location: C:\House\Programming\Stencyl\/temp
+[LOG] Response: user::
+[LOG] Logged in as: Kamurai
+[LOG] Usergroup: Registered
+[ERR] Attempting to log in
+[LOG] Connected to StencylTalk as: kamurai@stencyl.com/stencyl-1363474498121
+[LOG] Refreshing friends list
+[LOG] 200
+[LOG] http://www.stencyl.com/sw/updater/getVersions/stencylworksBeta
+[LOG] HTTP/1.1 200 OK
+<r>
+<server status = '200' version = '1beta' time = '1299439687' />	<version required="true" build="502" name="2.2.0" month="06" day="22" year="12" />
+	<version required="true" build="501" name="2.1.0" month="05" day="25" year="12" />
+	<version required="true" build="500" name="2.0.0" month="04" day="20" year="12" />
+	<version required="false" build="415" name="1.4.1" month="01" day="23" year="12" />
+	<version required="false" build="414" name="1.4.0" month="01" day="22" year="12" />
+	<version required="false" build="413" name="1.3.4" month="12" day="19" year="11" />
+	<version required="false" build="412" name="1.3.3" month="12" day="14" year="11" />
+	<version required="false" build="411" name="1.3.2" month="12" day="12" year="11" />
+	<version required="false" build="410" name="1.3.1" month="12" day="10" year="11" />
+	<version required="false" build="409" name="1.3.0" month="12" day="09" year="11" />
+	<version required="false" build="408" name="1.2.1" month="10" day="27" year="11" />
+	<version required="false" build="407" name="1.2.0" month="10" day="26" year="11" />
+	<version required="false" build="406" name="1.1.1" month="09" day="13" year="11" />
+	<version required="false" build="405" name="1.1.0" month="09" day="08" year="11" />
+	<version required="false" build="404" name="1.0.4" month="07" day="23" year="11" />
+	<version required="false" build="403" name="1.0.3" month="07" day="21" year="11" />
+	<version required="false" build="402" name="1.0.2" month="06" day="30" year="11" />
+	<version required="false" build="401" name="1.0.1" month="05" day="31" year="11" />
+	<version required="false" build="400" name="1.0.0" month="05" day="18" year="11" />
+	<version required="false" build="399" name="0.9.9" month="05" day="18" year="11" />
+</r>
+[LOG] Initializing... 1 : CameraDummy
+[LOG] Initializing... 0 : CamHelper
+[LOG] Initializing... 3 : One
+[LOG] Initializing... 2 : One
+[LOG] Initializing... 7 : Three
+[LOG] Initializing... 6 : Three
+[LOG] Initializing... 5 : Two
+[LOG] Initializing... 4 : Two
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Activated: Dashboard
+[ERR] Could not delete file: C:\Users\Kamurai\AppData\Local\Temp\stencyl8565497301475659128\sandbox\build\code
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Took 1394ms
+[LOG] Could not parse: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\resources\data.xml.bak
+[LOG] Save in place.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\game.xml to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\game.xml.bak
+[LOG] Copy file from: data\ios\inner-joystick@2x.png to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\inner-joystick@2x.png
+[LOG] Copy file from: data\ios\inner-joystick.png to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\inner-joystick.png
+[LOG] Copy file from: data\ios\outer-joystick@2x.png to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\outer-joystick@2x.png
+[LOG] Copy file from: data\ios\outer-joystick.png to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\outer-joystick.png
+[LOG] Writing out local resources.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\resources\data.xml to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\resources\data.xml.bak
+[LOG] Mark actor's sprite as clean (disk).
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Writing out scenes.
+[LOG] Copying over snippets.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\list.xml to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\list.xml.bak
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\Design_0_0_Movement.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\Design_0_0_Movement.design
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\favorites.xml
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\prefs\favorites.xml
+[LOG] Done writing game.
+[LOG] Loading Closed Resource: Menu
+[LOG] Reading header for Scene: 0 (Menu)
+[LOG] From: scenes\0.xml
+[LOG] Brush Changed
+[LOG] Missing: sactor.ispaused
+[LOG] Activated: Menu
+[LOG] Open Took 2735ms
+[LOG] Total Took 2847ms
+[LOG] Brush Changed
+[LOG] Brush Changed
+[LOG] Brush Changed
+[LOG] Brush Changed
+[LOG] Loading Closed Resource: One
+[LOG] Selected: 1 [X,Y: 0, 0 ]
+[LOG] Activated: One
+[LOG] Open Took 1352ms
+[LOG] Total Took 1719ms
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Save in place.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\game.xml to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\game.xml.bak
+[LOG] Copy file from: data\ios\inner-joystick@2x.png to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\inner-joystick@2x.png
+[LOG] Copy file from: data\ios\inner-joystick.png to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\inner-joystick.png
+[LOG] Copy file from: data\ios\outer-joystick@2x.png to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\outer-joystick@2x.png
+[LOG] Copy file from: data\ios\outer-joystick.png to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\outer-joystick.png
+[LOG] Writing out local resources.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\resources\data.xml to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\resources\data.xml.bak
+[LOG] Mark actor's sprite as clean (disk).
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[LOG] Write PNG out to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\\resources\3-0.png
+[LOG] Write PNG out to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\\resources\3-0@2x.png
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Writing out scenes.
+[LOG] Saving thumbnail: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\scenes\0.png
+[LOG] Writing terrain.
+[LOG] Num Tiles: 0
+[LOG] Coverage: 0.0%
+[LOG] Segments: (1,1)
+[LOG] Using Pairwise
+[LOG] Combine took: 1ms
+[LOG] Terrain processing took: 0ms
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Writing out Scene Menu
+[LOG] Copying over snippets.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\list.xml to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\list.xml.bak
+[LOG] Copy from opened to disk: SceneEvents_0
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\SceneEvents_0.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\SceneEvents_0.design
+[LOG] Copy from opened to disk: ActorEvents_2
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_2.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_2.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\Design_0_0_Movement.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\Design_0_0_Movement.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\SceneEvents_0.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_2.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.design
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\favorites.xml
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\prefs\favorites.xml
+[LOG] Done writing game.
+[LOG] Activated: Menu
+[LOG] Closed Document: One2
+[LOG] Warning: Unable to refresh document.
+[LOG] If you're opening up a code mode snippet, ignore this message unless you think something is wrong.
+[LOG] If you just closed a document, ignore this message.
+[LOG] Brush Changed
+[LOG] Brush Changed
+[LOG] Loading Closed Resource: CamHelper
+[ERR] looking for: 0
+[ERR] {0=stencyl.core.engine.snippet.SnippetInstance@120d1c0}
+[ERR] {1=0, 2=0, 3=, 4=, 5=0, 2147483647=thisactor}
+[ERR] Name: actor
+[ERR] Val: thisactor
+[ERR] {1=0, 2=0, 3=, 4=, 5=0, 2147483647=thisactor}
+[ERR] looking for: 0
+[ERR] {0=stencyl.core.engine.snippet.SnippetInstance@120d1c0}
+[ERR] {1=0, 2=0, 3=, 4=, 5=0, 2147483647=thisactor}
+[ERR] Name: _TouchX
+[ERR] Val: 0
+[ERR] {1=0, 2=0, 3=, 4=, 5=0, 2147483647=thisactor}
+[LOG] Field Count: 0
+[ERR] looking for: 0
+[ERR] {0=stencyl.core.engine.snippet.SnippetInstance@120d1c0}
+[ERR] {1=0, 2=0, 3=, 4=, 5=0, 2147483647=thisactor}
+[ERR] Name: actor
+[ERR] Val: thisactor
+[ERR] {1=0, 2=0, 3=, 4=, 5=0, 2147483647=thisactor}
+[ERR] looking for: 0
+[ERR] {0=stencyl.core.engine.snippet.SnippetInstance@120d1c0}
+[ERR] {1=0, 2=0, 3=, 4=, 5=0, 2147483647=thisactor}
+[ERR] Name: _TouchX
+[ERR] Val: 0
+[ERR] {1=0, 2=0, 3=, 4=, 5=0, 2147483647=thisactor}
+[LOG] Field Count: 0
+[LOG] Selected: 1 [X,Y: 0, 0 ]
+[LOG] Activated: CamHelper
+[LOG] Open Took 1421ms
+[LOG] Total Took 1464ms
+[LOG] Activated: Menu
+[LOG] Brush Changed
+[LOG] Brush Changed
+[LOG] Loading Closed Resource: Two
+[LOG] Selected: 1 [X,Y: 0, 0 ]
+[LOG] Brush Changed
+[LOG] Brush Changed
+[LOG] Loading Closed Resource: Three
+[LOG] Selected: 1 [X,Y: 0, 0 ]
+[LOG] Activated: Two
+[LOG] Open Took 1443ms
+[LOG] Total Took 1543ms
+[LOG] Activated: Three
+[LOG] Open Took 1309ms
+[LOG] Total Took 1374ms
+[LOG] Activated: Two
+[LOG] Activated: CamHelper
+[LOG] Activated: Menu
+[LOG] Activated: CamHelper
+[LOG] Activated: Two
+[LOG] Activated: Three
+[LOG] Activated: Menu
+[LOG] Activated: Dashboard
+[LOG] Action: Test Game...
+[LOG] Save in place.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\game.xml to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\game.xml.bak
+[LOG] Copy file from: data\ios\inner-joystick@2x.png to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\inner-joystick@2x.png
+[LOG] Copy file from: data\ios\inner-joystick.png to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\inner-joystick.png
+[LOG] Copy file from: data\ios\outer-joystick@2x.png to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\outer-joystick@2x.png
+[LOG] Copy file from: data\ios\outer-joystick.png to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\outer-joystick.png
+[LOG] Writing out local resources.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\resources\data.xml to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\resources\data.xml.bak
+[LOG] Write PNG out to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\\resources\1-0.png
+[LOG] Write PNG out to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\\resources\1-0@2x.png
+[LOG] Mark actor's sprite as clean (disk).
+[ERR] Saving Snippet: Movement
+[ERR] Instance Value: 0
+[ERR] Instance Value: thisactor
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Write PNG out to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\\resources\7-0.png
+[LOG] Write PNG out to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\\resources\7-0@2x.png
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Write PNG out to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\\resources\5-0.png
+[LOG] Write PNG out to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\\resources\5-0@2x.png
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Writing out scenes.
+[LOG] Saving thumbnail: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\scenes\0.png
+[LOG] Writing terrain.
+[LOG] Num Tiles: 0
+[LOG] Coverage: 0.0%
+[LOG] Segments: (1,1)
+[LOG] Using Pairwise
+[LOG] Combine took: 1ms
+[LOG] Terrain processing took: 0ms
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Writing out Scene Menu
+[LOG] Copying over snippets.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\list.xml to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\list.xml.bak
+[LOG] Copy from opened to disk: ActorEvents_4
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_4.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_4.design
+[LOG] Copy from opened to disk: SceneEvents_0
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\SceneEvents_0.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\SceneEvents_0.design
+[LOG] Copy from opened to disk: ActorEvents_6
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_6.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_6.design
+[LOG] Copy from opened to disk: ActorEvents_0
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_0.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\Design_0_0_Movement.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\Design_0_0_Movement.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\SceneEvents_0.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_2.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_0.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_4.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_4.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_6.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_6.design
+[LOG] Adding: get-val-0-1
+[LOG] Adding: set-val-0-1
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.as
+[LOG] Took 3 ms.
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.as
+[LOG] Took 8 ms.
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_6.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_6.as
+[LOG] Took 2 ms.
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_0.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_0.as
+[LOG] Took 3 ms.
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_4.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_4.as
+[LOG] Took 12 ms.
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: ignore-screen-tolerance
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: toggle-image
+[LOG] Added: init
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: camera-follow
+[LOG] Added: comment-long
+[LOG] Added: comment-long
+[LOG] Added: comment-long
+[LOG] Added: comment-short
+[LOG] Added: set-val-0-1
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[LOG] Added: if
+[LOG] Added: do-ios
+[LOG] Added: set-val-0-1
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[LOG] Added: if
+[LOG] Added: do-flash
+[LOG] Added: comment-short
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: moveToBy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: comment-short
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: moveToBy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: comment-short
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: moveToBy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: do-flash
+[LOG] Added: comment-short
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: moveToBy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: comment-short
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: moveToBy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: comment-short
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: moveToBy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: do-ios
+[LOG] Added: if
+[LOG] Added: step
+[LOG] Added: collide
+[LOG] Added: draw
+[LOG] Added: if
+[LOG] Added: if
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\Design_0_0_Movement.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\Design_0_0_Movement.as
+[LOG] Took 275 ms.
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\favorites.xml
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\prefs\favorites.xml
+[LOG] Done writing game.
+[LOG] Num Files: 4
+[LOG] Num Scene Files: 2
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\StencylMain.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\Preloader.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\MyAssets.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\MyScripts.as
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\game.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\game.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\resources\data.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\resources.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\scenes\scenes.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\scenes.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\list.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\behaviors.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\preloader.png to: C:\House\Programming\Stencyl\stencylworks\preview\game\preloader.png
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets to: C:\House\Programming\Stencyl\stencylworks\preview\scripts
+[LOG] Copy Duration: 118
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\resources to: C:\House\Programming\Stencyl\stencylworks\preview\game\resources
+[LOG] Copy Duration: 18
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\scenes to: C:\House\Programming\Stencyl\stencylworks\preview\game\scenes
+[LOG] Copy Duration: 6
+[LOG] Save in place.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\game.xml to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\game.xml.bak
+[LOG] Copy file from: data\ios\inner-joystick@2x.png to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\inner-joystick@2x.png
+[LOG] Copy file from: data\ios\inner-joystick.png to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\inner-joystick.png
+[LOG] Copy file from: data\ios\outer-joystick@2x.png to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\outer-joystick@2x.png
+[LOG] Copy file from: data\ios\outer-joystick.png to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\outer-joystick.png
+[LOG] Writing out local resources.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\resources\data.xml to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\resources\data.xml.bak
+[LOG] Mark actor's sprite as clean (disk).
+[ERR] Saving Snippet: Movement
+[ERR] Instance Value: 0
+[ERR] Instance Value: thisactor
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Writing out scenes.
+[LOG] Saving thumbnail: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\scenes\0.png
+[LOG] Writing terrain.
+[LOG] Num Tiles: 0
+[LOG] Coverage: 0.0%
+[LOG] Segments: (1,1)
+[LOG] Using Pairwise
+[LOG] Combine took: 1ms
+[LOG] Terrain processing took: 0ms
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Writing out Scene Menu
+[LOG] Copying over snippets.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\list.xml to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\list.xml.bak
+[LOG] Copy from opened to disk: ActorEvents_4
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_4.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_4.design
+[LOG] Copy from opened to disk: SceneEvents_0
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\SceneEvents_0.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\SceneEvents_0.design
+[LOG] Copy from opened to disk: ActorEvents_6
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_6.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_6.design
+[LOG] Copy from opened to disk: ActorEvents_0
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_0.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\Design_0_0_Movement.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\Design_0_0_Movement.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\SceneEvents_0.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_2.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_0.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_4.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_4.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\ActorEvents_6.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_6.design
+[LOG] Movement is clean (on disk and already copied). Skip.
+[LOG] ActorEvents_2 is clean (on disk and already copied). Skip.
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.as
+[LOG] Took 3 ms.
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_6.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_6.as
+[LOG] Took 3 ms.
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_0.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_0.as
+[LOG] Took 2 ms.
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_4.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_4.as
+[LOG] Took 4 ms.
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\favorites.xml
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\prefs\favorites.xml
+[LOG] Done writing game.
+[LOG] Num Files: 4
+[LOG] Num Scene Files: 2
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\StencylMain.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\MyAssets.as
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\game.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\game.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\resources\data.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\resources.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\scenes\scenes.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\scenes.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets\list.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\behaviors.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\preloader.png to: C:\House\Programming\Stencyl\stencylworks\preview\game\preloader.png
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\snippets to: C:\House\Programming\Stencyl\stencylworks\preview\scripts
+[LOG] Copy Duration: 103
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\resources to: C:\House\Programming\Stencyl\stencylworks\preview\game\resources
+[LOG] Copy Duration: 7
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\Swiping Menu\scenes to: C:\House\Programming\Stencyl\stencylworks\preview\game\scenes
+[LOG] Copy Duration: 5
+[LOG] doFlashPreview: blockCall: false
+[LOG] Loading configuration file C:\Program Files (x86)\Stencyl\ext-tools\flex\frameworks\flex-config.xml
+[LOG] Default CSS file not found.
+[LOG] Cannot resolve namespace qualified type 'Menu' in CSS selector 'Menu'
+[LOG] Cannot resolve namespace qualified type 'Panel' in CSS selector 'Panel'
+[LOG] Cannot resolve namespace qualified type 'TitleWindow' in CSS selector 'TitleWindow'
+[LOG] Cannot resolve namespace qualified type 'VideoDisplay' in CSS selector 'VideoDisplay'
+[LOG] Total Time Taken for Preview: 4.427 seconds
+[LOG] PREVIEW OK
+[LOG] Activated: Two
+[LOG] Activated: Three
+[LOG] Closed Document: Two4
+[LOG] Warning: Unable to refresh document.
+[LOG] If you're opening up a code mode snippet, ignore this message unless you think something is wrong.
+[LOG] If you just closed a document, ignore this message.
+[LOG] Activated: CamHelper
+[LOG] Closed Document: Three6
+[LOG] Warning: Unable to refresh document.
+[LOG] If you're opening up a code mode snippet, ignore this message unless you think something is wrong.
+[LOG] If you just closed a document, ignore this message.
+[LOG] Activated: Menu
+[LOG] Closed Document: CamHelper0
+[LOG] Warning: Unable to refresh document.
+[LOG] If you're opening up a code mode snippet, ignore this message unless you think something is wrong.
+[LOG] If you just closed a document, ignore this message.
+[LOG] Activated: Dashboard
+[LOG] Activated: Menu
+[LOG] Brush Changed
+[LOG] Brush Changed
+[LOG] Loading Closed Resource: CamHelper
+[ERR] looking for: 0
+[ERR] {0=stencyl.core.engine.snippet.SnippetInstance@120d1c0}
+[ERR] {1=0, 2=0, 3=, 4=, 5=0, 2147483647=thisactor}
+[ERR] Name: actor
+[ERR] Val: thisactor
+[ERR] {1=0, 2=0, 3=, 4=, 5=0, 2147483647=thisactor}
+[ERR] looking for: 0
+[ERR] {0=stencyl.core.engine.snippet.SnippetInstance@120d1c0}
+[ERR] {1=0, 2=0, 3=, 4=, 5=0, 2147483647=thisactor}
+[ERR] Name: _TouchX
+[ERR] Val: 0
+[ERR] {1=0, 2=0, 3=, 4=, 5=0, 2147483647=thisactor}
+[LOG] Field Count: 0
+[ERR] looking for: 0
+[ERR] {0=stencyl.core.engine.snippet.SnippetInstance@120d1c0}
+[ERR] {1=0, 2=0, 3=, 4=, 5=0, 2147483647=thisactor}
+[ERR] Name: actor
+[ERR] Val: thisactor
+[ERR] {1=0, 2=0, 3=, 4=, 5=0, 2147483647=thisactor}
+[ERR] looking for: 0
+[ERR] {0=stencyl.core.engine.snippet.SnippetInstance@120d1c0}
+[ERR] {1=0, 2=0, 3=, 4=, 5=0, 2147483647=thisactor}
+[ERR] Name: _TouchX
+[ERR] Val: 0
+[ERR] {1=0, 2=0, 3=, 4=, 5=0, 2147483647=thisactor}
+[LOG] Field Count: 0
+[LOG] Selected: 1 [X,Y: 0, 0 ]
+[LOG] Activated: CamHelper
+[LOG] Open Took 1072ms
+[LOG] Total Took 1113ms
+[LOG] Loading Closed Resource: Movement
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: ignore-screen-tolerance
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: toggle-image
+[LOG] Added: init
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: camera-follow
+[LOG] Added: comment-long
+[LOG] Added: comment-long
+[LOG] Added: comment-long
+[LOG] Added: comment-short
+[LOG] Added: set-val-0-1
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[LOG] Added: if
+[LOG] Added: do-ios
+[LOG] Added: set-val-0-1
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[LOG] Added: if
+[LOG] Added: do-flash
+[LOG] Added: comment-short
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: moveToBy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: comment-short
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: moveToBy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: comment-short
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: moveToBy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: do-flash
+[LOG] Added: comment-short
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: moveToBy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: comment-short
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: moveToBy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: comment-short
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: moveToBy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: do-ios
+[LOG] Added: if
+[LOG] Added: step
+[LOG] Added: collide
+[LOG] Added: draw
+[LOG] Added: if
+[LOG] Added: if
+[ERR] Verifying Top Level... init
+[ERR] Result for: set-xy - true
+[ERR] Result for: init - false
+[ERR] Verifying Top Level... step
+[ERR] Result for: comment-short - true
+[ERR] Result for: eq - true
+[ERR] Result for: if - false
+[ERR] Result for: div - true
+[ERR] Result for: eq - true
+[ERR] Result for: if - false
+[ERR] Result for: do-ios - false
+[ERR] Result for: if - false
+[ERR] Result for: div - true
+[ERR] Result for: if - false
+[ERR] Result for: do-flash - false
+[ERR] Result for: comment-short - true
+[ERR] Result for: comment-short - true
+[ERR] Result for: minus - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: less - true
+[ERR] Result for: if - false
+[ERR] Result for: comment-short - true
+[ERR] Result for: comment-short - true
+[ERR] Result for: minus - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: more - true
+[ERR] Result for: less - true
+[ERR] Result for: if - false
+[ERR] Result for: comment-short - true
+[ERR] Result for: comment-short - true
+[ERR] Result for: minus - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: more - true
+[ERR] Result for: if - false
+[ERR] Result for: do-flash - false
+[ERR] Result for: comment-short - true
+[ERR] Result for: comment-short - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: less - true
+[ERR] Result for: if - false
+[ERR] Result for: comment-short - true
+[ERR] Result for: comment-short - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: more - true
+[ERR] Result for: less - true
+[ERR] Result for: if - false
+[ERR] Result for: comment-short - true
+[ERR] Result for: comment-short - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: more - true
+[ERR] Result for: if - false
+[ERR] Result for: do-ios - false
+[ERR] Result for: if - false
+[ERR] Result for: step - false
+[ERR] Verifying Top Level... collide
+[ERR] Result for: collide - false
+[ERR] Verifying Top Level... draw
+[ERR] Result for: draw - false
+[ERR] Verifying Top Level... if
+[ERR] Result for: if - false
+[ERR] Result for: if - false
+[ERR] Verifying Top Level... if
+[ERR] Result for: if - false
+[ERR] Result for: if - false
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: ignore-screen-tolerance
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: toggle-image
+[LOG] Added: init
+[ERR] Verifying Top Level... init
+[ERR] Result for: set-xy - true
+[ERR] Result for: init - false
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: camera-follow
+[LOG] Added: comment-long
+[LOG] Added: comment-long
+[LOG] Added: comment-long
+[LOG] Added: comment-short
+[LOG] Added: set-val-0-1
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[LOG] Added: if
+[LOG] Added: do-ios
+[LOG] Added: set-val-0-1
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[LOG] Added: if
+[LOG] Added: do-flash
+[LOG] Added: comment-short
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: moveToBy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: comment-short
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: moveToBy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: comment-short
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: moveToBy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: do-flash
+[LOG] Added: comment-short
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: moveToBy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: comment-short
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: moveToBy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: comment-short
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: moveToBy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: do-ios
+[LOG] Added: if
+[LOG] Added: step
+[ERR] Verifying Top Level... step
+[ERR] Result for: comment-short - true
+[ERR] Result for: eq - true
+[ERR] Result for: if - false
+[ERR] Result for: div - true
+[ERR] Result for: eq - true
+[ERR] Result for: if - false
+[ERR] Result for: do-ios - false
+[ERR] Result for: if - false
+[ERR] Result for: div - true
+[ERR] Result for: if - false
+[ERR] Result for: do-flash - false
+[ERR] Result for: comment-short - true
+[ERR] Result for: comment-short - true
+[ERR] Result for: minus - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: less - true
+[ERR] Result for: if - false
+[ERR] Result for: comment-short - true
+[ERR] Result for: comment-short - true
+[ERR] Result for: minus - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: more - true
+[ERR] Result for: less - true
+[ERR] Result for: if - false
+[ERR] Result for: comment-short - true
+[ERR] Result for: comment-short - true
+[ERR] Result for: minus - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: more - true
+[ERR] Result for: if - false
+[ERR] Result for: do-flash - false
+[ERR] Result for: comment-short - true
+[ERR] Result for: comment-short - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: less - true
+[ERR] Result for: if - false
+[ERR] Result for: comment-short - true
+[ERR] Result for: comment-short - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: more - true
+[ERR] Result for: less - true
+[ERR] Result for: if - false
+[ERR] Result for: comment-short - true
+[ERR] Result for: comment-short - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: moveToBy - true
+[ERR] Result for: more - true
+[ERR] Result for: if - false
+[ERR] Result for: do-ios - false
+[ERR] Result for: if - false
+[ERR] Result for: step - false
+[LOG] Activated: Movement
+[LOG] Open Took 2060ms
+[LOG] Total Took 2166ms
+[LOG] Action: Close Game
+[LOG] Resetting workspace.
+[LOG] Closed Document: CamHelper0
+[LOG] Warning: Unable to refresh document.
+[LOG] If you're opening up a code mode snippet, ignore this message unless you think something is wrong.
+[LOG] If you just closed a document, ignore this message.
+[LOG] Closed Document: Menu0
+[LOG] Warning: Unable to refresh document.
+[LOG] If you're opening up a code mode snippet, ignore this message unless you think something is wrong.
+[LOG] If you just closed a document, ignore this message.
+[LOG] Activated: Dashboard
+[LOG] Closed Document: Movement0
+[LOG] Warning: Unable to refresh document.
+[LOG] If you're opening up a code mode snippet, ignore this message unless you think something is wrong.
+[LOG] If you just closed a document, ignore this message.
+[LOG] Missing: sactor.ispaused
+[LOG] Activated: Welcome Center
+[LOG] Loading scene-specific snippet. SceneID: 0
+[LOG] Initializing... 3 : Ball
+[LOG] Initializing... 2 : Ball
+[LOG] Initializing... 1 : Wall
+[LOG] Initializing... 0 : Wall
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Activated: Dashboard
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Took 425ms
+[LOG] C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\15.png
+[LOG] C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\7-0.png
+[LOG] Could not parse: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\Ball.png
+[LOG] Could not parse: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\data.xml.bak
+[LOG] Could not parse: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\wall.png
+[LOG] Could not parse: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\Wallb.png
+[LOG] Loading Closed Resource: Play
+[LOG] Reading header for Scene: 0 (Play)
+[LOG] From: scenes\0.xml
+[LOG] Brush Changed
+[LOG] Activated: Play
+[LOG] Open Took 1116ms
+[LOG] Total Took 1193ms
+[LOG] Brush Changed
+[LOG] Brush Changed
+[LOG] Brush Changed
+[LOG] Brush Changed
+[LOG] Loading Closed Resource: Ball
+[LOG] Selected: 1 [X,Y: 0, 0 ]
+[LOG] Adding: get-val-2-1
+[LOG] Adding: set-val-2-1
+[LOG] Adding: get-val-2-2
+[LOG] Adding: set-val-2-2
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: actor-set-prop
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: actor-set-prop
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: event-mouse-enter-exit-actor
+[ERR] Verifying Top Level... event-mouse-enter-exit-actor
+[ERR] Result for: event-mouse-enter-exit-actor - false
+[LOG] Activated: Ball
+[LOG] Open Took 1163ms
+[LOG] Total Took 1208ms
+[LOG] Added: event-mouse-enter-exit-actor
+[LOG] Case 3a: Normal Not First
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] Missing: scene.screenactor.foreach.help
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: actor-set-prop
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: actor-set-prop
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[LOG] Removed: actor-set-prop
+[LOG] Removed: actor-set-prop
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Added: mousexy
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Added: mousexy
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Added: plus
+[LOG] Added: plus
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Removed: mousexy
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Removed: mousexy
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Action: Test Game...
+[LOG] Save in place.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\game.xml to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\game.xml.bak
+[LOG] Copy file from: data\ios\inner-joystick@2x.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\inner-joystick@2x.png
+[LOG] Copy file from: data\ios\inner-joystick.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\inner-joystick.png
+[LOG] Copy file from: data\ios\outer-joystick@2x.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\outer-joystick@2x.png
+[LOG] Copy file from: data\ios\outer-joystick.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\outer-joystick.png
+[LOG] Writing out local resources.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\data.xml to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\data.xml.bak
+[LOG] Write PNG out to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\\resources\3-0.png
+[LOG] Write PNG out to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\\resources\3-0@2x.png
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Writing out scenes.
+[LOG] Saving thumbnail: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\scenes\0.png
+[LOG] Writing terrain.
+[LOG] Num Tiles: 0
+[LOG] Coverage: 0.0%
+[LOG] Segments: (1,1)
+[LOG] Using Pairwise
+[LOG] Combine took: 1ms
+[LOG] Terrain processing took: 0ms
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Writing out Scene Play
+[LOG] Copying over snippets.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\list.xml to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\list.xml.bak
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Copy from opened to disk: ActorEvents_2
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_2.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_2.design
+[LOG] Copy from opened to disk: SceneEvents_0
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\SceneEvents_0.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\SceneEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\SceneEvents_0.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_0.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_2.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.design
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.as
+[LOG] Took 3 ms.
+[ERR] Verifying Top Level... event-mouse-enter-exit-actor
+[ERR] Result for: event-mouse-enter-exit-actor - false
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: actor-set-prop
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_0.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_0.as
+[LOG] Took 2 ms.
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: actor-set-prop
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: event-mouse-enter-exit-actor
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: event-mouse-enter-exit-actor
+[LOG] Added: plus
+[LOG] Added: plus
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.as
+[LOG] Took 91 ms.
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\favorites.xml
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\prefs\favorites.xml
+[LOG] Done writing game.
+[LOG] Num Files: 2
+[LOG] Num Scene Files: 2
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\StencylMain.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\Preloader.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\MyAssets.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\MyScripts.as
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\game.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\game.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\data.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\resources.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\scenes\scenes.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\scenes.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\list.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\behaviors.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\preloader.png to: C:\House\Programming\Stencyl\stencylworks\preview\game\preloader.png
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets to: C:\House\Programming\Stencyl\stencylworks\preview\scripts
+[LOG] Copy Duration: 17
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources to: C:\House\Programming\Stencyl\stencylworks\preview\game\resources
+[LOG] Copy Duration: 19
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\scenes to: C:\House\Programming\Stencyl\stencylworks\preview\game\scenes
+[LOG] Copy Duration: 7
+[LOG] doFlashPreview: blockCall: false
+[LOG] Loading configuration file C:\Program Files (x86)\Stencyl\ext-tools\flex\frameworks\flex-config.xml
+[LOG] Its dependent file, C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.as, has been updated.
+[LOG] The source file or one of the included files has been updated.
+[LOG] The source file or one of the included files has been updated.
+[LOG] The source file no longer exists.
+[LOG] The source file no longer exists.
+[LOG] The source file or one of the included files has been updated.
+[LOG] The source file no longer exists.
+[LOG] Its dependent file, C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.as, has been updated.
+[LOG] The source file or one of the included files has been updated.
+[LOG] The source file or one of the included files has been updated.
+[LOG] The source file or one of the included files has been updated.
+[LOG] Files changed: 10 Files affected: 1
+[LOG] Default CSS file not found.
+[LOG] Cannot resolve namespace qualified type 'Menu' in CSS selector 'Menu'
+[LOG] Cannot resolve namespace qualified type 'Panel' in CSS selector 'Panel'
+[LOG] Cannot resolve namespace qualified type 'TitleWindow' in CSS selector 'TitleWindow'
+[LOG] Cannot resolve namespace qualified type 'VideoDisplay' in CSS selector 'VideoDisplay'
+[LOG] Total Time Taken for Preview: 1.322 seconds
+[LOG] PREVIEW OK
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Added: mousexy
+[LOG] Removed: mousexy
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Added: mousexy
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Added: get-xy
+[LOG] Removed: get-xy
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Removed: mousexy
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Added: mousexy
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Added: get-xy
+[LOG] Removed: get-xy
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Removed: mousexy
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Action: Test Game...
+[LOG] Save in place.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\game.xml to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\game.xml.bak
+[LOG] Copy file from: data\ios\inner-joystick@2x.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\inner-joystick@2x.png
+[LOG] Copy file from: data\ios\inner-joystick.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\inner-joystick.png
+[LOG] Copy file from: data\ios\outer-joystick@2x.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\outer-joystick@2x.png
+[LOG] Copy file from: data\ios\outer-joystick.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\outer-joystick.png
+[LOG] Writing out local resources.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\data.xml to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\data.xml.bak
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Writing out scenes.
+[LOG] Saving thumbnail: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\scenes\0.png
+[LOG] Writing terrain.
+[LOG] Num Tiles: 0
+[LOG] Coverage: 0.0%
+[LOG] Segments: (1,1)
+[LOG] Using Pairwise
+[LOG] Combine took: 0ms
+[LOG] Terrain processing took: 0ms
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Writing out Scene Play
+[LOG] Copying over snippets.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\list.xml to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\list.xml.bak
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Copy from opened to disk: ActorEvents_2
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_2.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_2.design
+[LOG] Copy from opened to disk: SceneEvents_0
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\SceneEvents_0.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\SceneEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\SceneEvents_0.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_0.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_2.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.design
+[LOG] ActorEvents_0 is clean (on disk and already copied). Skip.
+[ERR] Verifying Top Level... event-mouse-enter-exit-actor
+[ERR] Result for: event-mouse-enter-exit-actor - false
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.as
+[LOG] Took 2 ms.
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: actor-set-prop
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: actor-set-prop
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: event-mouse-enter-exit-actor
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: event-mouse-enter-exit-actor
+[LOG] Added: plus
+[LOG] Added: plus
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.as
+[LOG] Took 85 ms.
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\favorites.xml
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\prefs\favorites.xml
+[LOG] Done writing game.
+[LOG] Num Files: 2
+[LOG] Num Scene Files: 2
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\StencylMain.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\MyAssets.as
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\game.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\game.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\data.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\resources.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\scenes\scenes.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\scenes.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\list.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\behaviors.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\preloader.png to: C:\House\Programming\Stencyl\stencylworks\preview\game\preloader.png
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets to: C:\House\Programming\Stencyl\stencylworks\preview\scripts
+[LOG] Copy Duration: 18
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources to: C:\House\Programming\Stencyl\stencylworks\preview\game\resources
+[LOG] Copy Duration: 15
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\scenes to: C:\House\Programming\Stencyl\stencylworks\preview\game\scenes
+[LOG] Copy Duration: 5
+[LOG] doFlashPreview: blockCall: false
+[LOG] Loading configuration file C:\Program Files (x86)\Stencyl\ext-tools\flex\frameworks\flex-config.xml
+[LOG] The source file or one of the included files has been updated.
+[LOG] The source file or one of the included files has been updated.
+[LOG] The source file or one of the included files has been updated.
+[LOG] The source file or one of the included files has been updated.
+[LOG] Files changed: 4 Files affected: 0
+[LOG] Default CSS file not found.
+[LOG] Cannot resolve namespace qualified type 'Menu' in CSS selector 'Menu'
+[LOG] Cannot resolve namespace qualified type 'Panel' in CSS selector 'Panel'
+[LOG] Cannot resolve namespace qualified type 'TitleWindow' in CSS selector 'TitleWindow'
+[LOG] Cannot resolve namespace qualified type 'VideoDisplay' in CSS selector 'VideoDisplay'
+[LOG] Total Time Taken for Preview: 1.213 seconds
+[LOG] PREVIEW OK
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Start dragging from palette to edit area.
+[LOG] Added: set-val-2-1
+[LOG] End dragging from palette to edit area.
+[LOG] Start dragging from palette to edit area.
+[LOG] Added: set-val-2-2
+[LOG] End dragging from palette to edit area.
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Added: minus
+[LOG] Removed: minus
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Added: minus
+[LOG] Removed: minus
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Removed: actor-set-prop
+[LOG] Removed: actor-set-prop
+[LOG] Action: Test Game...
+[LOG] Save in place.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\game.xml to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\game.xml.bak
+[LOG] Copy file from: data\ios\inner-joystick@2x.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\inner-joystick@2x.png
+[LOG] Copy file from: data\ios\inner-joystick.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\inner-joystick.png
+[LOG] Copy file from: data\ios\outer-joystick@2x.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\outer-joystick@2x.png
+[LOG] Copy file from: data\ios\outer-joystick.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\outer-joystick.png
+[LOG] Writing out local resources.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\data.xml to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\data.xml.bak
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Writing out scenes.
+[LOG] Saving thumbnail: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\scenes\0.png
+[LOG] Writing terrain.
+[LOG] Num Tiles: 0
+[LOG] Coverage: 0.0%
+[LOG] Segments: (1,1)
+[LOG] Using Pairwise
+[LOG] Combine took: 1ms
+[LOG] Terrain processing took: 0ms
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Writing out Scene Play
+[LOG] Copying over snippets.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\list.xml to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\list.xml.bak
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Copy from opened to disk: ActorEvents_2
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_2.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_2.design
+[LOG] Copy from opened to disk: SceneEvents_0
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\SceneEvents_0.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\SceneEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\SceneEvents_0.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_0.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_2.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.design
+[LOG] ActorEvents_0 is clean (on disk and already copied). Skip.
+[ERR] Verifying Top Level... event-mouse-enter-exit-actor
+[ERR] Result for: event-mouse-enter-exit-actor - false
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.as
+[LOG] Took 3 ms.
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-2-1
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-2-2
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: event-mouse-enter-exit-actor
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: event-mouse-enter-exit-actor
+[LOG] Added: plus
+[LOG] Added: plus
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.as
+[LOG] Took 97 ms.
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\favorites.xml
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\prefs\favorites.xml
+[LOG] Done writing game.
+[LOG] Num Files: 2
+[LOG] Num Scene Files: 2
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\StencylMain.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\MyAssets.as
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\game.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\game.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\data.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\resources.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\scenes\scenes.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\scenes.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\list.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\behaviors.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\preloader.png to: C:\House\Programming\Stencyl\stencylworks\preview\game\preloader.png
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets to: C:\House\Programming\Stencyl\stencylworks\preview\scripts
+[LOG] Copy Duration: 12
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources to: C:\House\Programming\Stencyl\stencylworks\preview\game\resources
+[LOG] Copy Duration: 15
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\scenes to: C:\House\Programming\Stencyl\stencylworks\preview\game\scenes
+[LOG] Copy Duration: 6
+[LOG] doFlashPreview: blockCall: false
+[LOG] Loading configuration file C:\Program Files (x86)\Stencyl\ext-tools\flex\frameworks\flex-config.xml
+[LOG] The source file or one of the included files has been updated.
+[LOG] The source file or one of the included files has been updated.
+[LOG] The source file or one of the included files has been updated.
+[LOG] The source file or one of the included files has been updated.
+[LOG] Files changed: 4 Files affected: 0
+[LOG] Default CSS file not found.
+[LOG] Cannot resolve namespace qualified type 'Menu' in CSS selector 'Menu'
+[LOG] Cannot resolve namespace qualified type 'Panel' in CSS selector 'Panel'
+[LOG] Cannot resolve namespace qualified type 'TitleWindow' in CSS selector 'TitleWindow'
+[LOG] Cannot resolve namespace qualified type 'VideoDisplay' in CSS selector 'VideoDisplay'
+[LOG] Total Time Taken for Preview: 1.157 seconds
+[LOG] PREVIEW OK
+[LOG] Start dragging from palette to edit area.
+[LOG] Added: minus
+[LOG] End dragging from palette to edit area.
+[LOG] Start dragging from palette to edit area.
+[LOG] Added: minus
+[LOG] End dragging from palette to edit area.
+[LOG] Added: get-val-2-1
+[LOG] Removed: get-val-2-1
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Added: get-val-2-2
+[LOG] Removed: get-val-2-2
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Added: mousexy
+[LOG] Removed: mousexy
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Added: mousexy
+[LOG] Removed: mousexy
+[LOG] Added: plus
+[LOG] Added: plus
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Removed: minus
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Removed: minus
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Action: Test Game...
+[LOG] Save in place.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\game.xml to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\game.xml.bak
+[LOG] Copy file from: data\ios\inner-joystick@2x.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\inner-joystick@2x.png
+[LOG] Copy file from: data\ios\inner-joystick.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\inner-joystick.png
+[LOG] Copy file from: data\ios\outer-joystick@2x.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\outer-joystick@2x.png
+[LOG] Copy file from: data\ios\outer-joystick.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\outer-joystick.png
+[LOG] Writing out local resources.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\data.xml to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\data.xml.bak
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Writing out scenes.
+[LOG] Saving thumbnail: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\scenes\0.png
+[LOG] Writing terrain.
+[LOG] Num Tiles: 0
+[LOG] Coverage: 0.0%
+[LOG] Segments: (1,1)
+[LOG] Using Pairwise
+[LOG] Combine took: 0ms
+[LOG] Terrain processing took: 0ms
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Writing out Scene Play
+[LOG] Copying over snippets.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\list.xml to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\list.xml.bak
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Copy from opened to disk: ActorEvents_2
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_2.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_2.design
+[LOG] Copy from opened to disk: SceneEvents_0
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\SceneEvents_0.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\SceneEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\SceneEvents_0.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_0.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_2.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.design
+[LOG] ActorEvents_0 is clean (on disk and already copied). Skip.
+[ERR] Verifying Top Level... event-mouse-enter-exit-actor
+[ERR] Result for: event-mouse-enter-exit-actor - false
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.as
+[LOG] Took 5 ms.
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-2-1
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-2-2
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: event-mouse-enter-exit-actor
+[LOG] Added: plus
+[LOG] Added: plus
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: event-mouse-enter-exit-actor
+[LOG] Added: plus
+[LOG] Added: plus
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.as
+[LOG] Took 98 ms.
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\favorites.xml
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\prefs\favorites.xml
+[LOG] Done writing game.
+[LOG] Num Files: 2
+[LOG] Num Scene Files: 2
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\StencylMain.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\MyAssets.as
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\game.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\game.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\data.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\resources.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\scenes\scenes.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\scenes.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\list.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\behaviors.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\preloader.png to: C:\House\Programming\Stencyl\stencylworks\preview\game\preloader.png
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets to: C:\House\Programming\Stencyl\stencylworks\preview\scripts
+[LOG] Copy Duration: 12
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources to: C:\House\Programming\Stencyl\stencylworks\preview\game\resources
+[LOG] Copy Duration: 8
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\scenes to: C:\House\Programming\Stencyl\stencylworks\preview\game\scenes
+[LOG] Copy Duration: 3
+[LOG] doFlashPreview: blockCall: false
+[LOG] Loading configuration file C:\Program Files (x86)\Stencyl\ext-tools\flex\frameworks\flex-config.xml
+[LOG] The source file or one of the included files has been updated.
+[LOG] The source file or one of the included files has been updated.
+[LOG] The source file or one of the included files has been updated.
+[LOG] The source file or one of the included files has been updated.
+[LOG] Files changed: 4 Files affected: 0
+[LOG] Default CSS file not found.
+[LOG] Cannot resolve namespace qualified type 'Menu' in CSS selector 'Menu'
+[LOG] Cannot resolve namespace qualified type 'Panel' in CSS selector 'Panel'
+[LOG] Cannot resolve namespace qualified type 'TitleWindow' in CSS selector 'TitleWindow'
+[LOG] Cannot resolve namespace qualified type 'VideoDisplay' in CSS selector 'VideoDisplay'
+[LOG] Total Time Taken for Preview: 1.159 seconds
+[LOG] PREVIEW OK
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Action: Test Game...
+[LOG] Save in place.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\game.xml to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\game.xml.bak
+[LOG] Copy file from: data\ios\inner-joystick@2x.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\inner-joystick@2x.png
+[LOG] Copy file from: data\ios\inner-joystick.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\inner-joystick.png
+[LOG] Copy file from: data\ios\outer-joystick@2x.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\outer-joystick@2x.png
+[LOG] Copy file from: data\ios\outer-joystick.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\outer-joystick.png
+[LOG] Writing out local resources.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\data.xml to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\data.xml.bak
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Writing out scenes.
+[LOG] Saving thumbnail: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\scenes\0.png
+[LOG] Writing terrain.
+[LOG] Num Tiles: 0
+[LOG] Coverage: 0.0%
+[LOG] Segments: (1,1)
+[LOG] Using Pairwise
+[LOG] Combine took: 1ms
+[LOG] Terrain processing took: 0ms
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Writing out Scene Play
+[LOG] Copying over snippets.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\list.xml to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\list.xml.bak
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Copy from opened to disk: ActorEvents_2
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_2.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_2.design
+[LOG] Copy from opened to disk: SceneEvents_0
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\SceneEvents_0.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\SceneEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\SceneEvents_0.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_0.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_2.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.design
+[LOG] ActorEvents_0 is clean (on disk and already copied). Skip.
+[ERR] Verifying Top Level... event-mouse-enter-exit-actor
+[ERR] Result for: event-mouse-enter-exit-actor - false
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.as
+[LOG] Took 4 ms.
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-2-1
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-2-2
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: event-mouse-enter-exit-actor
+[LOG] Added: plus
+[LOG] Added: plus
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: event-mouse-enter-exit-actor
+[LOG] Added: plus
+[LOG] Added: plus
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.as
+[LOG] Took 100 ms.
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\favorites.xml
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\prefs\favorites.xml
+[LOG] Done writing game.
+[LOG] Num Files: 2
+[LOG] Num Scene Files: 2
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\StencylMain.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\MyAssets.as
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\game.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\game.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\data.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\resources.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\scenes\scenes.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\scenes.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\list.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\behaviors.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\preloader.png to: C:\House\Programming\Stencyl\stencylworks\preview\game\preloader.png
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets to: C:\House\Programming\Stencyl\stencylworks\preview\scripts
+[LOG] Copy Duration: 12
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources to: C:\House\Programming\Stencyl\stencylworks\preview\game\resources
+[LOG] Copy Duration: 9
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\scenes to: C:\House\Programming\Stencyl\stencylworks\preview\game\scenes
+[LOG] Copy Duration: 4
+[LOG] doFlashPreview: blockCall: false
+[LOG] Missing: in.mousexy.help
+[LOG] Loading configuration file C:\Program Files (x86)\Stencyl\ext-tools\flex\frameworks\flex-config.xml
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] The source file or one of the included files has been updated.
+[LOG] The source file or one of the included files has been updated.
+[LOG] The source file or one of the included files has been updated.
+[LOG] The source file or one of the included files has been updated.
+[LOG] Files changed: 4 Files affected: 0
+[LOG] Default CSS file not found.
+[LOG] Cannot resolve namespace qualified type 'Menu' in CSS selector 'Menu'
+[LOG] Cannot resolve namespace qualified type 'Panel' in CSS selector 'Panel'
+[LOG] Cannot resolve namespace qualified type 'TitleWindow' in CSS selector 'TitleWindow'
+[LOG] Cannot resolve namespace qualified type 'VideoDisplay' in CSS selector 'VideoDisplay'
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Total Time Taken for Preview: 1.126 seconds
+[LOG] PREVIEW OK
+[LOG] Removed: plus
+[LOG] Removed: plus
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Added: step
+[LOG] _Held
+[LOG] Adding: get-val-2-3
+[LOG] Adding: set-val-2-3
+[LOG] Start dragging from palette to edit area.
+[LOG] Added: if
+[LOG] End dragging from palette to edit area.
+[LOG] Start dragging from palette to edit area.
+[LOG] Added: as-boolean
+[LOG] End dragging from palette to edit area.
+[LOG] Removed: as-boolean
+[LOG] Start dragging from palette to edit area.
+[LOG] Added: get-val-2-3
+[LOG] End dragging from palette to edit area.
+[LOG] Removed: get-val-2-3
+[LOG] Start dragging from palette to edit area.
+[LOG] Added: eq
+[LOG] End dragging from palette to edit area.
+[LOG] Removed: eq
+[LOG] Start dragging from palette to edit area.
+[LOG] Added: noteq
+[LOG] End dragging from palette to edit area.
+[LOG] Added: get-val-2-3
+[LOG] Removed: get-val-2-3
+[LOG] Start dragging from palette to edit area.
+[LOG] Added: true
+[LOG] End dragging from palette to edit area.
+[LOG] Removed: true
+[LOG] Start dragging from palette to edit area.
+[LOG] Added: eq
+[LOG] End dragging from palette to edit area.
+[LOG] Added: get-val-2-3
+[LOG] Removed: get-val-2-3
+[LOG] Start dragging from palette to edit area.
+[LOG] Added: false
+[LOG] End dragging from palette to edit area.
+[LOG] Removed: false
+[LOG] Added: as-boolean
+[LOG] Removed: eq
+[LOG] Start dragging from palette to edit area.
+[LOG] Added: set-val-2-3
+[LOG] End dragging from palette to edit area.
+[LOG] Added: true
+[LOG] Removed: true
+[LOG] Added: event-mouse-enter-exit-actor
+[LOG] Case 3b: Normal First
+[LOG] Added: set-val-2-3
+[LOG] Added: true
+[LOG] Removed: true
+[LOG] Start dragging from palette to edit area.
+[LOG] Added: false
+[LOG] End dragging from palette to edit area.
+[LOG] Removed: false
+[LOG] Missing: in.mousexy.help
+[LOG] Case 1: First in Group
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-2-1
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-2-2
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Case 1: First in Group
+[LOG] Removed: set-val-2-1
+[LOG] Removed: set-val-2-2
+[LOG] Removed: set-xy
+[LOG] Removed: set-xy
+[LOG] Case 3b: Normal First
+[LOG] Added: set-val-2-3
+[LOG] Added: if
+[LOG] Added: false
+[LOG] Removed: false
+[LOG] Added: true
+[LOG] Removed: true
+[LOG] Removed: set-val-2-3
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Added: eq
+[LOG] Removed: eq
+[LOG] Action: Test Game...
+[LOG] Save in place.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\game.xml to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\game.xml.bak
+[LOG] Copy file from: data\ios\inner-joystick@2x.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\inner-joystick@2x.png
+[LOG] Copy file from: data\ios\inner-joystick.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\inner-joystick.png
+[LOG] Copy file from: data\ios\outer-joystick@2x.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\outer-joystick@2x.png
+[LOG] Copy file from: data\ios\outer-joystick.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\outer-joystick.png
+[LOG] Writing out local resources.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\data.xml to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\data.xml.bak
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Writing out scenes.
+[LOG] Saving thumbnail: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\scenes\0.png
+[LOG] Writing terrain.
+[LOG] Num Tiles: 0
+[LOG] Coverage: 0.0%
+[LOG] Segments: (1,1)
+[LOG] Using Pairwise
+[LOG] Combine took: 0ms
+[LOG] Terrain processing took: 0ms
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Writing out Scene Play
+[LOG] Copying over snippets.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\list.xml to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\list.xml.bak
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Copy from opened to disk: ActorEvents_2
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_2.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_2.design
+[LOG] Copy from opened to disk: SceneEvents_0
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\SceneEvents_0.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\SceneEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\SceneEvents_0.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_0.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_2.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.design
+[LOG] ActorEvents_0 is clean (on disk and already copied). Skip.
+[ERR] Verifying Top Level... step
+[ERR] Result for: if - false
+[ERR] Result for: step - false
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.as
+[LOG] Took 3 ms.
+[LOG] Added: set-val-2-3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: event-mouse-enter-exit-actor
+[LOG] Added: as-boolean
+[LOG] Added: noteq
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-2-1
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-2-2
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[LOG] Added: if
+[LOG] Added: step
+[LOG] Added: set-val-2-3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: event-mouse-enter-exit-actor
+[LOG] Writing Design Snippet to C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.as
+[LOG] Took 64 ms.
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\favorites.xml
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\prefs\favorites.xml
+[LOG] Done writing game.
+[LOG] Num Files: 2
+[LOG] Num Scene Files: 2
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\StencylMain.as
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\MyAssets.as
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\game.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\game.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\data.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\resources.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\scenes\scenes.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\scenes.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\list.xml to: C:\House\Programming\Stencyl\stencylworks\preview\game\behaviors.xml
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\preloader.png to: C:\House\Programming\Stencyl\stencylworks\preview\game\preloader.png
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets to: C:\House\Programming\Stencyl\stencylworks\preview\scripts
+[LOG] Copy Duration: 17
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources to: C:\House\Programming\Stencyl\stencylworks\preview\game\resources
+[LOG] Copy Duration: 15
+[LOG] Copy directory from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\scenes to: C:\House\Programming\Stencyl\stencylworks\preview\game\scenes
+[LOG] Copy Duration: 6
+[LOG] doFlashPreview: blockCall: false
+[LOG] Loading configuration file C:\Program Files (x86)\Stencyl\ext-tools\flex\frameworks\flex-config.xml
+[LOG] Its dependent file, C:\House\Programming\Stencyl\stencylworks\preview\scripts\MyScripts.as, has been updated.
+[LOG] Its dependent file, C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.as, has been updated.
+[LOG] The source file or one of the included files has been updated.
+[LOG] Its dependent file, C:\House\Programming\Stencyl\stencylworks\preview\scripts\MyScripts.as, has been updated.
+[LOG] The source file or one of the included files has been updated.
+[LOG] The source file or one of the included files has been updated.
+[LOG] Files changed: 4 Files affected: 2
+[LOG] Default CSS file not found.
+[LOG] Cannot resolve namespace qualified type 'Menu' in CSS selector 'Menu'
+[LOG] Cannot resolve namespace qualified type 'Panel' in CSS selector 'Panel'
+[LOG] Cannot resolve namespace qualified type 'TitleWindow' in CSS selector 'TitleWindow'
+[LOG] Cannot resolve namespace qualified type 'VideoDisplay' in CSS selector 'VideoDisplay'
+[LOG] Total Time Taken for Preview: 1.18 seconds
+[LOG] PREVIEW OK
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Missing: in.mousexy.help
+[LOG] Attempting to quit out of Stencyl.
+[LOG] Save in place.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\game.xml to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\game.xml.bak
+[LOG] Copy file from: data\ios\inner-joystick@2x.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\inner-joystick@2x.png
+[LOG] Copy file from: data\ios\inner-joystick.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\inner-joystick.png
+[LOG] Copy file from: data\ios\outer-joystick@2x.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\outer-joystick@2x.png
+[LOG] Copy file from: data\ios\outer-joystick.png to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\outer-joystick.png
+[LOG] Writing out local resources.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\data.xml to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\resources\data.xml.bak
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Writing out scenes.
+[LOG] Saving thumbnail: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\scenes\0.png
+[LOG] Writing terrain.
+[LOG] Num Tiles: 0
+[LOG] Coverage: 0.0%
+[LOG] Segments: (1,1)
+[LOG] Using Pairwise
+[LOG] Combine took: 0ms
+[LOG] Terrain processing took: 0ms
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Writing out Scene Play
+[LOG] Copying over snippets.
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\list.xml to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\list.xml.bak
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Copy from opened to disk: ActorEvents_2
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_2.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_2.design
+[LOG] Copy from opened to disk: SceneEvents_0
+[LOG] Copied to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\SceneEvents_0.design
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\SceneEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\SceneEvents_0.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_0.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_0.design
+[LOG] Copy file from: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\snippets\ActorEvents_2.design to: C:\House\Programming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.design
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\games\MyBalls\favorites.xml
+[LOG] Write String out as file to: C:\House\Programming\Stencyl\stencylworks\prefs\favorites.xml
+[LOG] Done writing game.
+[LOG] Destroying extensions.
+[LOG] Destroying Temporary Sandbox.
+[LOG] Performing final close.
+[LOG] Exiting...

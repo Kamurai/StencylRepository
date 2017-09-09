@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scenes>
+    <scene desc="" format="1.0" id="0" name="lv 1"/>
+    <scene desc="" format="1.0" id="1" name="lv2"/>
+    <scene desc="" format="1.0" id="2" name="lv 3"/>
+    <scene desc="" format="1.0" id="3" name="level 4"/>
+    <scene desc="" format="1.0" id="4" name="lv 5"/>
+    <scene desc="" format="1.0" id="5" name="menu"/>
+    <scene desc="" format="1.0" id="6" name="credits"/>
+</scenes>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="161">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="3">
+        <receiver-1-635 comment="false" x="15" y="234">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="264">
+                    <int id="0" val="Game.get().controller[__control] = __key;"/>
+                </custom-code>
+            </group>
+            <get-byobval-513-635-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-513-635-1 comment="false" id="1" x="0" y="0"/>
+        </receiver-1-635>
+    </group>
+    <group eventID="-1" id="4">
+        <receiver-2-636 comment="false" x="15" y="312">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="342">
+                    <int id="0" val="return Game.get().controller[__control];"/>
+                </custom-code>
+            </group>
+            <get-byobval-513-636-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-2-636>
+    </group>
+    <group eventID="-1" id="5">
+        <receiver-4-638 comment="false" x="15" y="390">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="415">
+                    <int id="0" val="var controller:Array = Game.get().controller;&#10;var controls:Array = new Array();&#10;&#10;for (var control in controller)&#10;{&#10;&#9;controls.push(control);&#9;&#10;}&#10;&#10;return controls;&#10;"/>
+                </code-long>
+            </group>
+        </receiver-4-638>
+    </group>
+    <group id="-1">
+        <get-byobval-513-642-0 comment="false" x="0" y="0"/>
+    </group>
+</groups>

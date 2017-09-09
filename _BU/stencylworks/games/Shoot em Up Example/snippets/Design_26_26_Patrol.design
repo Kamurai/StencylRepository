@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<receive-message comment="false" x="15" y="560">
+<group id="-1">
+<setdx comment="false" x="26" y="585">
+<ACTOR eid="this" id="0"/>
+<get-val-26-1 comment="false" id="1" x="0" y="0"/>
+</setdx>
+<setanim comment="false" x="26" y="617">
+<ACTOR eid="this" id="0"/>
+<get-val-26-3 comment="false" id="1" x="0" y="0"/>
+</setanim>
+</group>
+<int id="0" val="left_to_right"/>
+</receive-message>
+</group>
+<group id="1">
+<init comment="false" x="15" y="15">
+<group id="-1">
+<setdx comment="false" x="26" y="40">
+<ACTOR eid="this" id="0"/>
+<get-val-26-1 comment="false" id="1" x="0" y="0"/>
+</setdx>
+</group>
+</init>
+</group>
+<group id="2">
+<receive-message comment="false" x="15" y="677">
+<group id="-1">
+<setdx comment="false" x="26" y="702">
+<ACTOR eid="this" id="0"/>
+<neg comment="false" id="1" x="0" y="0">
+<get-val-26-1 comment="false" id="0" x="0" y="0"/>
+</neg>
+</setdx>
+<setanim comment="false" x="26" y="739">
+<ACTOR eid="this" id="0"/>
+<get-val-26-2 comment="false" id="1" x="0" y="0"/>
+</setanim>
+</group>
+<int id="0" val="right_to_left"/>
+</receive-message>
+</group>
+<group id="3">
+<draw comment="false" x="15" y="487">
+<group id="-1"/>
+</draw>
+</group>
+<group id="4">
+<collide comment="false" x="15" y="304">
+<group id="-1">
+<if comment="false" x="26" y="329">
+<group id="-1">
+<say-this comment="false" x="37" y="362">
+<int id="0" val="left_to_right"/>
+</say-this>
+</group>
+<collision-left comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+</collision-left>
+</if>
+<if comment="false" x="26" y="394">
+<group id="-1">
+<say-this comment="false" x="37" y="427">
+<int id="0" val="right_to_left"/>
+</say-this>
+</group>
+<collision-right comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+</collision-right>
+</if>
+</group>
+</collide>
+</group>
+<group id="5">
+<step comment="false" x="15" y="100">
+<group id="-1">
+<if comment="false" x="26" y="125">
+<group id="-1">
+<setdx comment="false" x="37" y="163">
+<ACTOR eid="this" id="0"/>
+<get-val-26-1 comment="false" id="1" x="0" y="0"/>
+</setdx>
+</group>
+<moreeq comment="false" id="0" x="0" y="0">
+<getdx comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getdx>
+<int id="1" val="0"/>
+</moreeq>
+</if>
+<else comment="false" x="26" y="207">
+<group id="-1">
+<setdx comment="false" x="37" y="227">
+<ACTOR eid="this" id="0"/>
+<neg comment="false" id="1" x="0" y="0">
+<get-val-26-1 comment="false" id="0" x="0" y="0"/>
+</neg>
+</setdx>
+</group>
+</else>
+</group>
+</step>
+</group>
+<group id="-1"/>
+</groups>

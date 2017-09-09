@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <toggle-flxcont comment="false" x="26" y="40">
+                    <int id="0" val="0"/>
+                </toggle-flxcont>
+                <if comment="false" x="26" y="67">
+                    <group eventID="-1" id="-1">
+                        <toggle-flxpause comment="false" x="37" y="92">
+                            <int id="0" val="0"/>
+                        </toggle-flxpause>
+                    </group>
+                    <get-val-265-1 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="159">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="232">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1">
+<dolater comment="false" x="26" y="40">
+<group id="-1">
+<fadeOut comment="false" x="37" y="60">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="1"/>
+<int id="2" val="0"/>
+</fadeOut>
+<dolater comment="false" x="37" y="87">
+<group id="-1">
+<setanim comment="false" x="48" y="107">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="wewill"/>
+</setanim>
+<dolater comment="false" x="48" y="134">
+<group id="-1">
+<fadeIn comment="false" x="59" y="154">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="1"/>
+<int id="2" val="0"/>
+</fadeIn>
+<dolater comment="false" x="59" y="181">
+<group id="-1">
+<scaleTo comment="false" x="70" y="201">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="0"/>
+<int id="2" val="0"/>
+<int id="3" val="2"/>
+<int id="4" val="5"/>
+</scaleTo>
+<disable-snippet comment="false" x="70" y="228"/>
+</group>
+<int id="0" val="5"/>
+</dolater>
+</group>
+<int id="0" val="1"/>
+</dolater>
+</group>
+<int id="0" val="1"/>
+</dolater>
+</group>
+<int id="0" val="2"/>
+</dolater>
+</group>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="324">
+<group id="-1"/>
+</step>
+</group>
+<group id="2">
+<collide comment="false" x="15" y="397">
+<group id="-1"/>
+</collide>
+</group>
+<group id="3">
+<draw comment="false" x="15" y="470">
+<group id="-1"/>
+</draw>
+</group>
+<group id="-1"/>
+</groups>

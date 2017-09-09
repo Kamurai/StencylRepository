@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="-1" id="-1">
+                        <custom-421 comment="false" x="37" y="70">
+                            <int id="0" val="Missing Behavior &amp;quot;Get Actors Blocks&amp;quot; for &amp;quot;Shadow Manager&amp;quot;"/>
+                        </custom-421>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <scene-has-snippet comment="false" id="0" x="0" y="0">
+                            <int id="0" val="Get Actors Blocks"/>
+                        </scene-has-snippet>
+                    </not>
+                </if>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="130">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="203">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="228">
+                    <int id="0" val="}&#10;&#10;override public function drawLayer(g:Graphics, x:Number, y:Number, layerID:int):void&#10;{&#10;&#9;import flash.display.Bitmap;&#10;&#9;import flash.geom.Matrix;&#10;&#10;&#9;if(getLayerID(_ShadowLayerName) == layerID)&#10;&#9;{"/>
+                </code-long>
+                <for-each comment="false" x="26" y="388">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="413">
+                            <group eventID="-1" id="-1">
+                                <set-val-440-2 comment="false" x="48" y="451">
+                                    <get-attribute comment="false" id="0" x="0" y="0">
+                                        <for-each-item comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="Drop Shadow"/>
+                                        <int id="2" val="_Filter"/>
+                                    </get-attribute>
+                                </set-val-440-2>
+                                <set-val-440-4 comment="false" x="48" y="489">
+                                    <get-attribute comment="false" id="0" x="0" y="0">
+                                        <for-each-item comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="Drop Shadow"/>
+                                        <int id="2" val="_Enabled"/>
+                                    </get-attribute>
+                                </set-val-440-4>
+                                <if comment="false" x="48" y="527">
+                                    <group eventID="-1" id="-1">
+                                        <code-long comment="false" x="59" y="552">
+                                            <int id="0" val="var bitmap = new Bitmap();&#10;bitmap.bitmapData = item.currSprite._framePixels;&#10;bitmap.filters = [_Filter[0]];&#10;&#10;var matrix = new Matrix();&#10;matrix.identity();&#10;matrix.translate(item.getX() - getScreenX(), item.getY() - getScreenY());&#10;&#10;FlxG.buffer.draw(bitmap, matrix);"/>
+                                        </code-long>
+                                    </group>
+                                    <get-val-440-4 comment="false" id="0" x="0" y="0"/>
+                                </if>
+                            </group>
+                            <has-snippet comment="false" id="0" x="0" y="0">
+                                <for-each-item comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Drop Shadow"/>
+                            </has-snippet>
+                        </if>
+                    </group>
+                    <custom-567 comment="false" id="0" x="0" y="0"/>
+                </for-each>
+                <code-long comment="false" x="26" y="748">
+                    <int id="0" val="&#9;}&#10;}&#10;&#10;"/>
+                </code-long>
+                <code-long comment="false" x="26" y="908">
+                    <int id="0" val="public function getLayerID(name:String):int&#10;{&#10;&#9;for each(var tileLayer:TileLayer in scene.tileLayers)&#10;&#9;{&#10;&#9;&#9;if(tileLayer.name == name)&#10;&#9;&#9;{&#10;&#9;&#9;&#9;return tileLayer.layerID;&#10;&#9;&#9;}&#10;&#9;}&#10;&#9;return -1;&#10;//}"/>
+                </code-long>
+            </group>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

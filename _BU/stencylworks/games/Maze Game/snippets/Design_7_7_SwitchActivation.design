@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1"/>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="88">
+<group id="-1"/>
+</step>
+</group>
+<group id="2">
+<collide comment="false" x="15" y="161">
+<group id="-1">
+<comment-short comment="false" x="26" y="186">
+<int id="0" val="The player touches the switch actor"/>
+</comment-short>
+<if comment="false" x="26" y="206">
+<group id="-1">
+<comment-short comment="false" x="37" y="244">
+<int id="0" val="The Action 1 key is pressed (space key here)"/>
+</comment-short>
+<if comment="false" x="37" y="264">
+<group id="-1">
+<comment-short comment="false" x="48" y="297">
+<int id="0" val="Animation is switched to a pressed switch animation and a trigger sound plays"/>
+</comment-short>
+<setanim comment="false" x="48" y="317">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="switched"/>
+</setanim>
+<play-sound3 comment="false" x="48" y="344">
+<SOUND eid="var" id="0" vid="2"/>
+</play-sound3>
+<comment-short comment="false" x="48" y="371">
+<int id="0" val="This behavior becomes disabled for this scene and the block is removed, allowing passage"/>
+</comment-short>
+<die comment="false" x="48" y="391">
+<ACTOR eid="var" id="0" vid="1"/>
+</die>
+</group>
+<keypress2 comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<CONTROL eid="7" id="1"/>
+</keypress2>
+</if>
+</group>
+<eq comment="false" id="0" x="0" y="0">
+<collision-shape-group comment="false" id="0" x="0" y="0"/>
+<pick-group comment="false" id="1" x="0" y="0">
+<int id="0" val="0"/>
+</pick-group>
+</eq>
+</if>
+</group>
+</collide>
+</group>
+<group id="3">
+<draw comment="false" x="26" y="513">
+<group id="-1"/>
+</draw>
+</group>
+<group id="-1"/>
+</groups>

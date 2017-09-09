@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1"/>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="88">
+<group id="-1">
+<if comment="false" x="26" y="113">
+<group id="-1">
+<disable-snippet comment="false" x="37" y="151"/>
+<fade-out comment="false" x="37" y="171">
+<int id="0" val="0.5"/>
+</fade-out>
+</group>
+<not comment="false" id="0" x="0" y="0">
+<isalive comment="false" id="0" x="0" y="0">
+<ACTOR eid="var" id="0" vid="2"/>
+</isalive>
+</not>
+</if>
+<set-val-12-1 comment="false" x="26" y="203">
+<int id="0" val="0"/>
+</set-val-12-1>
+<actors-in-group comment="false" x="26" y="223">
+<group id="-1">
+<increment comment="false" x="37" y="256">
+<int id="0" val="1"/>
+<int id="1" val="1"/>
+</increment>
+</group>
+<pick-group comment="false" id="0" x="0" y="0">
+<int id="0" val="4"/>
+</pick-group>
+</actors-in-group>
+<if comment="false" x="26" y="295">
+<group id="-1">
+<disable-snippet comment="false" x="37" y="325"/>
+<if comment="false" x="37" y="345">
+<group id="-1">
+<comment-short comment="false" x="48" y="375">
+<int id="0" val="switches animation to one with no collision in case the player ship is hit by a bullet after all aliens are shot"/>
+</comment-short>
+<setanim comment="false" x="48" y="395">
+<ACTOR eid="var" id="0" vid="2"/>
+<int id="1" val="noColideRed"/>
+</setanim>
+</group>
+<eq comment="false" id="0" x="0" y="0">
+<get-game-val-5 comment="false" id="0" x="0" y="0"/>
+<true comment="false" id="1" x="0" y="0"/>
+</eq>
+</if>
+<else comment="false" x="37" y="434">
+<group id="-1">
+<setanim comment="false" x="48" y="454">
+<ACTOR eid="var" id="0" vid="2"/>
+<int id="1" val="noColide"/>
+</setanim>
+</group>
+</else>
+<comment-short comment="false" x="37" y="493">
+<int id="0" val="/end comment"/>
+</comment-short>
+<custom-76 comment="false" x="37" y="513">
+<ACTOR eid="var" id="0" vid="2"/>
+</custom-76>
+<setdx comment="false" x="37" y="540">
+<ACTOR eid="var" id="0" vid="2"/>
+<int id="1" val="0"/>
+</setdx>
+<disable-snippet2 comment="false" x="37" y="567">
+<ACTOR eid="var" id="0" vid="2"/>
+<int id="1" val="Cannot Exit Screen"/>
+</disable-snippet2>
+<disable-snippet2 comment="false" x="37" y="594">
+<ACTOR eid="var" id="0" vid="2"/>
+<int id="1" val="Cannot Exit Scrolling Screen"/>
+</disable-snippet2>
+<disable-snippet2 comment="false" x="37" y="621">
+<ACTOR eid="var" id="0" vid="2"/>
+<int id="1" val="2 Way Control"/>
+</disable-snippet2>
+<disable-snippet2 comment="false" x="37" y="648">
+<ACTOR eid="var" id="0" vid="2"/>
+<int id="1" val="Simple 4 Way Movement"/>
+</disable-snippet2>
+<disable-snippet2 comment="false" x="37" y="675">
+<ACTOR eid="var" id="0" vid="2"/>
+<int id="1" val="Fire Bullet One At a Time"/>
+</disable-snippet2>
+<disable-snippet2 comment="false" x="37" y="702">
+<ACTOR eid="var" id="0" vid="2"/>
+<int id="1" val="Fire Bullet"/>
+</disable-snippet2>
+<fade-out comment="false" x="37" y="729">
+<int id="0" val="1"/>
+</fade-out>
+<dolater comment="false" x="37" y="749">
+<group id="-1">
+<play-sound3 comment="false" x="48" y="769">
+<SOUND eid="var" id="0" vid="4"/>
+</play-sound3>
+<dolater comment="false" x="48" y="796">
+<group id="-1">
+<moveTo comment="false" x="59" y="821">
+<ACTOR eid="var" id="0" vid="2"/>
+<div comment="false" id="1" x="0" y="0">
+<screenw comment="false" id="0" x="0" y="0"/>
+<int id="1" val="2"/>
+</div>
+<get-val-12-11 comment="false" id="2" x="0" y="0"/>
+<int id="3" val="1"/>
+<int id="4" val="0"/>
+</moveTo>
+<dolater comment="false" x="59" y="858">
+<group id="-1">
+<dolater comment="false" x="70" y="883">
+<group id="-1">
+<push-shove comment="false" x="81" y="903">
+<ACTOR eid="var" id="0" vid="2"/>
+<int id="1" val="0"/>
+<int id="2" val="0"/>
+<int id="3" val="-512"/>
+<int id="4" val="100"/>
+</push-shove>
+<play-sound3 comment="false" x="81" y="930">
+<SOUND eid="var" id="0" vid="7"/>
+</play-sound3>
+<dolater comment="false" x="81" y="957">
+<group id="-1">
+<scene-change3 comment="false" x="92" y="977">
+<SCENE eid="var" id="0" vid="3"/>
+<int id="1" val="0"/>
+<get-val-12-5 comment="false" id="2" x="0" y="0"/>
+<int id="3" val="1"/>
+<get-val-12-5 comment="false" id="4" x="0" y="0"/>
+</scene-change3>
+</group>
+<int id="0" val="1"/>
+</dolater>
+</group>
+<int id="0" val="1.5"/>
+</dolater>
+</group>
+<get-val-12-10 comment="false" id="0" x="0" y="0"/>
+</dolater>
+</group>
+<get-val-12-9 comment="false" id="0" x="0" y="0"/>
+</dolater>
+</group>
+<int id="0" val="1.5"/>
+</dolater>
+</group>
+<lesseq comment="false" id="0" x="0" y="0">
+<get-val-12-1 comment="false" id="0" x="0" y="0"/>
+<int id="1" val="0"/>
+</lesseq>
+</if>
+</group>
+</step>
+</group>
+<group id="2">
+<draw comment="false" x="15" y="1082">
+<group id="-1"/>
+</draw>
+</group>
+<group id="3"/>
+<group id="4"/>
+<group id="5"/>
+<group id="6"/>
+<group id="-1"/>
+</groups>

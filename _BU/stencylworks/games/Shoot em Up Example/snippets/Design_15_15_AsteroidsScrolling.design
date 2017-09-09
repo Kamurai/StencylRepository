@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1">
+<if comment="false" x="26" y="40">
+<group id="-1">
+<setanim comment="false" x="37" y="65">
+<ACTOR eid="var" id="0" vid="1"/>
+<int id="1" val="stoppedRed"/>
+</setanim>
+<enable-snippet comment="false" x="37" y="92">
+<ACTOR eid="var" id="0" vid="1"/>
+<int id="1" val="Fire Bullet"/>
+</enable-snippet>
+</group>
+<get-game-val-5 comment="false" id="0" x="0" y="0"/>
+</if>
+<else comment="false" x="26" y="131">
+<group id="-1">
+<disable-snippet2 comment="false" x="37" y="151">
+<ACTOR eid="var" id="0" vid="1"/>
+<int id="1" val="Fire Bullet"/>
+</disable-snippet2>
+</group>
+</else>
+<dolater comment="false" x="26" y="190">
+<group id="-1">
+<custom-code comment="false" x="37" y="210">
+<int id="0" val="setScrollSpeedForBackground(0, 16);"/>
+</custom-code>
+<dolater comment="false" x="37" y="230">
+<group id="-1">
+<custom-code comment="false" x="48" y="250">
+<int id="0" val="setScrollSpeedForBackground(0, 32);"/>
+</custom-code>
+<dolater comment="false" x="48" y="270">
+<group id="-1">
+<custom-code comment="false" x="59" y="290">
+<int id="0" val="setScrollSpeedForBackground(0, 64);"/>
+</custom-code>
+<dolater comment="false" x="59" y="310">
+<group id="-1">
+<custom-code comment="false" x="70" y="330">
+<int id="0" val="setScrollSpeedForBackground(0, 128);"/>
+</custom-code>
+<dolater comment="false" x="70" y="350">
+<group id="-1">
+<custom-code comment="false" x="81" y="370">
+<int id="0" val="setScrollSpeedForBackground(0, 256);"/>
+</custom-code>
+</group>
+<int id="0" val="1.2"/>
+</dolater>
+</group>
+<int id="0" val="1.4"/>
+</dolater>
+</group>
+<int id="0" val="1.6"/>
+</dolater>
+</group>
+<int id="0" val="1.8"/>
+</dolater>
+</group>
+<int id="0" val="2"/>
+</dolater>
+</group>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="478">
+<group id="-1">
+<if comment="false" x="26" y="503">
+<group id="-1">
+<dolater comment="false" x="37" y="536">
+<group id="-1">
+<custom-code comment="false" x="48" y="556">
+<int id="0" val="setScrollSpeedForBackground(0, 200);"/>
+</custom-code>
+<dolater comment="false" x="48" y="576">
+<group id="-1">
+<custom-code comment="false" x="59" y="596">
+<int id="0" val="setScrollSpeedForBackground(0, 128);"/>
+</custom-code>
+<dolater comment="false" x="59" y="616">
+<group id="-1">
+<custom-code comment="false" x="70" y="636">
+<int id="0" val="setScrollSpeedForBackground(0, 64);"/>
+</custom-code>
+<dolater comment="false" x="70" y="656">
+<group id="-1">
+<custom-code comment="false" x="81" y="676">
+<int id="0" val="setScrollSpeedForBackground(0, 16);"/>
+</custom-code>
+</group>
+<int id="0" val="0.5"/>
+</dolater>
+</group>
+<int id="0" val="1.4"/>
+</dolater>
+</group>
+<int id="0" val="1.8"/>
+</dolater>
+</group>
+<int id="0" val="0.4"/>
+</dolater>
+<comment-short comment="false" x="37" y="744">
+<int id="0" val="disable player shooting until all aliens are on screen to prevent the level ending before the boss is created."/>
+</comment-short>
+<disable-snippet2 comment="false" x="37" y="764">
+<ACTOR eid="var" id="0" vid="1"/>
+<int id="1" val="Fire Bullets"/>
+</disable-snippet2>
+<disable-snippet2 comment="false" x="37" y="791">
+<ACTOR eid="var" id="0" vid="1"/>
+<int id="1" val="Fire Bullet"/>
+</disable-snippet2>
+<say-this comment="false" x="37" y="818">
+<int id="0" val="bossNear"/>
+</say-this>
+<disable-snippet comment="false" x="37" y="838"/>
+</group>
+<is-in-region comment="false" id="0" x="0" y="0">
+<ACTOR eid="var" id="0" vid="1"/>
+<REGION eid="var" id="1" vid="6"/>
+</is-in-region>
+</if>
+</group>
+</step>
+</group>
+<group id="2">
+<draw comment="false" x="15" y="898">
+<group id="-1"/>
+</draw>
+</group>
+<group id="3">
+<receive-message comment="false" x="15" y="971">
+<group id="-1">
+<fade-out comment="false" x="26" y="996">
+<int id="0" val="0.4"/>
+</fade-out>
+<disable-snippet2 comment="false" x="26" y="1016">
+<ACTOR eid="lastcreated" id="0"/>
+<int id="1" val="Fire Laser"/>
+</disable-snippet2>
+<disable-snippet2 comment="false" x="26" y="1043">
+<ACTOR eid="lastcreated" id="0"/>
+<int id="1" val="Back and Forth"/>
+</disable-snippet2>
+<disable-snippet2 comment="false" x="26" y="1070">
+<ACTOR eid="lastcreated" id="0"/>
+<int id="1" val="Health"/>
+</disable-snippet2>
+<dolater comment="false" x="26" y="1097">
+<group id="-1">
+<loop-sound3 comment="false" x="37" y="1117">
+<SOUND eid="var" id="0" vid="5"/>
+</loop-sound3>
+<dolater comment="false" x="37" y="1144">
+<group id="-1">
+<create-actor3 comment="false" x="48" y="1164">
+<ACTORTYPE eid="52" id="0"/>
+<get-val-15-3 comment="false" id="1" x="0" y="0"/>
+<get-val-15-4 comment="false" id="2" x="0" y="0"/>
+<int id="3" val="0"/>
+</create-actor3>
+<comment-short comment="false" x="48" y="1196">
+<int id="0" val="this is where we re-enable the shooting for the player. It is safe here no matter how fast you are shooting."/>
+</comment-short>
+<enable-snippet comment="false" x="48" y="1216">
+<ACTOR eid="var" id="0" vid="1"/>
+<int id="1" val="Fire Bullets"/>
+</enable-snippet>
+<enable-snippet comment="false" x="48" y="1243">
+<ACTOR eid="var" id="0" vid="1"/>
+<int id="1" val="Fire Bullet"/>
+</enable-snippet>
+<set-val-15-7 comment="false" x="48" y="1270">
+<ACTOR eid="lastcreated" id="0"/>
+</set-val-15-7>
+<enable-snippet comment="false" x="48" y="1297">
+<ACTOR eid="lastcreated" id="0"/>
+<int id="1" val="Back and Forth"/>
+</enable-snippet>
+<enable-snippet comment="false" x="48" y="1324">
+<ACTOR eid="lastcreated" id="0"/>
+<int id="1" val="Fire Laser"/>
+</enable-snippet>
+<enable-snippet comment="false" x="48" y="1351">
+<ACTOR eid="lastcreated" id="0"/>
+<int id="1" val="Health"/>
+</enable-snippet>
+</group>
+<int id="0" val="3"/>
+</dolater>
+</group>
+<int id="0" val="0.8"/>
+</dolater>
+</group>
+<int id="0" val="bossNear"/>
+</receive-message>
+</group>
+<group id="4"/>
+<group id="-1"/>
+</groups>

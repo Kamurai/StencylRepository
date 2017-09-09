@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <collide comment="false" x="15" y="161">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group eventID="-1" id="3">
+        <draw comment="false" x="15" y="234">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="4">
+        <receive-message comment="false" x="15" y="307">
+            <group eventID="-1" id="-1">
+                <custom-549 comment="false" x="26" y="337">
+                    <CONTROL eid="var" id="0" vid="2"/>
+                    <int id="1" val="W"/>
+                </custom-549>
+                <custom-549 comment="false" x="26" y="364">
+                    <CONTROL eid="var" id="0" vid="3"/>
+                    <int id="1" val="S"/>
+                </custom-549>
+                <custom-549 comment="false" x="26" y="391">
+                    <CONTROL eid="var" id="0" vid="4"/>
+                    <int id="1" val="A"/>
+                </custom-549>
+                <custom-549 comment="false" x="26" y="418">
+                    <CONTROL eid="var" id="0" vid="5"/>
+                    <int id="1" val="D"/>
+                </custom-549>
+            </group>
+            <get-val-507-1 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group id="-1"/>
+</groups>

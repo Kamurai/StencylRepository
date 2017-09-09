@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1"/>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="88">
+<group id="-1">
+<if comment="false" x="26" y="113">
+<group id="-1">
+<if comment="false" x="37" y="146">
+<group id="-1">
+<scene-change3 comment="false" x="48" y="176">
+<SCENE eid="2" id="0"/>
+<int id="1" val="0"/>
+<int id="2" val="0.8"/>
+<int id="3" val="1"/>
+<int id="4" val="0.8"/>
+</scene-change3>
+<disable-snippet comment="false" x="48" y="203"/>
+</group>
+<not comment="false" id="0" x="0" y="0">
+<is-transitioning comment="false" id="0" x="0" y="0"/>
+</not>
+</if>
+</group>
+<keypress2 comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<CONTROL eid="2" id="1"/>
+</keypress2>
+</if>
+</group>
+</step>
+</group>
+<group id="2">
+<draw comment="false" x="15" y="275">
+<group id="-1">
+<to-screen-space comment="false" x="26" y="300"/>
+<set-font-new comment="false" x="26" y="320">
+<FONT eid="218" id="0"/>
+</set-font-new>
+<draw-text comment="false" x="26" y="347">
+<int id="0" val="Simple Example Shump"/>
+<div comment="false" id="1" x="0" y="0">
+<screenw comment="false" id="0" x="0" y="0"/>
+<int id="1" val="14"/>
+</div>
+<div comment="false" id="2" x="0" y="0">
+<screenh comment="false" id="0" x="0" y="0"/>
+<int id="1" val="6"/>
+</div>
+</draw-text>
+<draw-text comment="false" x="26" y="377">
+<int id="0" val="Press X to Play"/>
+<div comment="false" id="1" x="0" y="0">
+<screenw comment="false" id="0" x="0" y="0"/>
+<int id="1" val="6"/>
+</div>
+<div comment="false" id="2" x="0" y="0">
+<screenh comment="false" id="0" x="0" y="0"/>
+<int id="1" val="4"/>
+</div>
+</draw-text>
+</group>
+</draw>
+</group>
+<group id="-1"/>
+</groups>

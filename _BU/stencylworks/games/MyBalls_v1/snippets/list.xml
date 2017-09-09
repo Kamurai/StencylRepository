@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <snippet attachedevent="true" class="scripts.SceneEvents_0" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="0" language="" name="SceneEvents_0" oid="-1" package="scripts." sceneid="0" scenespecific="true" shared="false" type="scene">
+        <number default="0" desc="" dropdown="" fullname="MooMooPants" hidden="false" id="1" name="_MooMooPants" order="0"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_0" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1" language="" name="ActorEvents_0" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_2" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="2" language="" name="ActorEvents_2" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <number default="0.0" desc="" dropdown="" fullname="xDiff" hidden="false" id="1" name="_xDiff" order="0"/>
+        <number default="0" desc="" dropdown="" fullname="yDiff" hidden="false" id="2" name="_yDiff" order="1"/>
+        <boolean default="false" desc="" dropdown="" fullname="Held" hidden="false" id="3" name="_Held" order="2"/>
+        <number default="0" desc="" dropdown="" fullname="xStored" hidden="false" id="4" name="_xStored" order="3"/>
+        <number default="0" desc="" dropdown="" fullname="yStored" hidden="false" id="5" name="_yStored" order="4"/>
+        <number default="0" desc="" dropdown="" fullname="xLaunch" hidden="false" id="6" name="_xLaunch" order="5"/>
+        <number default="0" desc="" dropdown="" fullname="yLaunch" hidden="false" id="7" name="_yLaunch" order="6"/>
+        <boolean default="false" desc="" dropdown="" fullname="Collided" hidden="true" id="8" name="_Collided" order="7"/>
+        <number default="0.0" desc="" dropdown="" fullname="Speed" hidden="true" id="9" name="_Speed" order="8"/>
+        <blocks/>
+        <events>
+            <event displayName="Left_Mouse_Pressed" enabled="true" id="1" name="event-mouse-enter-exit-actor" order="1" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="2" name="step" order="2" repeats="true"/>
+            <event displayName="Left_Mouse_Released" enabled="true" id="3" name="event-mouse-enter-exit-actor" order="3" repeats="true"/>
+            <event displayName="Constructor" enabled="true" id="4" name="init" order="4" repeats="true"/>
+            <event displayName="Collision_With_Wall" enabled="true" id="5" name="event-collide-actortotype" order="5" repeats="true"/>
+            <event displayName="Collision_With_Ball" enabled="true" id="6" name="event-collide-actortotype" order="6" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_5" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="3" language="" name="ActorEvents_5" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <number default="0.0" desc="Represents the maximum number of balls this object can release." dropdown="" fullname="Limit" hidden="false" id="1" name="_Limit" order="0"/>
+        <number default="0" desc="Represents how many seconds should elapse between releasing balls.&#10;&#10;i.e. &quot;Balls should release every Release seconds.&quot;" dropdown="" fullname="Release" hidden="false" id="2" name="_Release" order="1"/>
+        <number default="0" desc="Represents the amount of time that has past since the last release." dropdown="" fullname="TimeTracker" hidden="false" id="3" name="_TimeTracker" order="2"/>
+        <boolean default="false" desc="Represents whether this object is &quot;on&quot; or &quot;off&quot;." dropdown="" fullname="Run" hidden="false" id="4" name="_Run" order="3"/>
+        <number default="0" desc="Represents the number of balls released." dropdown="" fullname="BallTracker" hidden="false" id="5" name="_BallTracker" order="4"/>
+        <blocks/>
+        <events>
+            <event displayName="Constructor" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="2" name="step" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_7" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="4" language="" name="ActorEvents_7" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <number default="0.0" desc="Represents the maximum number of balls this object can release." dropdown="" fullname="Limit" hidden="false" id="1" name="_Limit" order="0"/>
+        <number default="0.0" desc="Represents the amount of time that has past since the last release." dropdown="" fullname="TimeTracker" hidden="false" id="2" name="_TimeTracker" order="1"/>
+        <number default="0.0" desc="Represents the number of balls released." dropdown="" fullname="BallTracker" hidden="false" id="3" name="_BallTracker" order="2"/>
+        <boolean default="false" desc="Represents whether this object is &quot;on&quot; or &quot;off&quot;." dropdown="" fullname="Run" hidden="false" id="4" name="_Run" order="3"/>
+        <number default="0.0" desc="Represents how many seconds should elapse between releasing balls.&#10;&#10;i.e. &quot;Balls should release every Release seconds.&quot;" dropdown="" fullname="Release" hidden="false" id="5" name="_Release" order="4"/>
+        <blocks/>
+        <events>
+            <event displayName="Constructor" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="2" name="step" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_9" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="5" language="" name="ActorEvents_9" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <number default="0.0" desc="Represents the amount of time left in the game." dropdown="" fullname="Time" hidden="false" id="1" name="_Time" order="0"/>
+        <number default="0" desc="Represents the number of balls each generator is to release." dropdown="" fullname="Balls" hidden="false" id="2" name="_Balls" order="1"/>
+        <blocks/>
+        <events>
+            <event displayName="Constructor" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="2" name="step" order="2" repeats="true"/>
+        </events>
+    </snippet>
+</pack>

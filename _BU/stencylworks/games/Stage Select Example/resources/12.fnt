@@ -1,0 +1,16 @@
+#
+#Tue Sep 13 09:42:20 CDT 2011
+monospace=true
+monospace.numerals=false
+style=bold
+tracking=0
+color=\#ffffff
+shadow.y=0
+family=Monospaced
+shadow.x=0
+shadow.color=\#000000
+gradient.offset=0
+shadow.blur=0
+stroke.size=0
+antialias=true
+size=24

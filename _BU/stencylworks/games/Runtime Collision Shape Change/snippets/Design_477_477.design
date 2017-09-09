@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="113">
+                    <group eventID="-1" id="-1">
+                        <set-val-476-8 comment="false" x="37" y="146">
+                            <str-replace comment="false" id="0" x="0" y="0">
+                                <get-val-476-1 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="[Key]"/>
+                                <custom-558 comment="false" id="2" x="0" y="0">
+                                    <CONTROL eid="var" id="0" vid="6"/>
+                                </custom-558>
+                            </str-replace>
+                        </set-val-476-8>
+                        <scene-shout comment="false" x="37" y="184">
+                            <get-val-476-8 comment="false" id="0" x="0" y="0"/>
+                        </scene-shout>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <CONTROL eid="var" id="1" vid="6"/>
+                    </keystate>
+                </if>
+                <if comment="false" x="26" y="221">
+                    <group eventID="-1" id="-1">
+                        <set-val-476-8 comment="false" x="37" y="254">
+                            <str-replace comment="false" id="0" x="0" y="0">
+                                <get-val-476-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="[Key]"/>
+                                <custom-558 comment="false" id="2" x="0" y="0">
+                                    <CONTROL eid="var" id="0" vid="6"/>
+                                </custom-558>
+                            </str-replace>
+                        </set-val-476-8>
+                        <scene-shout comment="false" x="37" y="292">
+                            <get-val-476-8 comment="false" id="0" x="0" y="0"/>
+                        </scene-shout>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <CONTROL eid="var" id="1" vid="6"/>
+                    </keystate>
+                </if>
+                <if comment="false" x="26" y="329">
+                    <group eventID="-1" id="-1">
+                        <set-val-476-8 comment="false" x="37" y="362">
+                            <str-replace comment="false" id="0" x="0" y="0">
+                                <get-val-476-3 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="[Key]"/>
+                                <custom-558 comment="false" id="2" x="0" y="0">
+                                    <CONTROL eid="var" id="0" vid="6"/>
+                                </custom-558>
+                            </str-replace>
+                        </set-val-476-8>
+                        <scene-shout comment="false" x="37" y="400">
+                            <get-val-476-8 comment="false" id="0" x="0" y="0"/>
+                        </scene-shout>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="2"/>
+                        <CONTROL eid="var" id="1" vid="6"/>
+                    </keystate>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="465">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

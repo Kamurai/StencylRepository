@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1">
+<offscreen comment="false" x="26" y="40">
+<int id="0" val="0"/>
+<int id="1" val="0"/>
+<int id="2" val="512"/>
+<int id="3" val="-512"/>
+</offscreen>
+<create-actor3 comment="false" x="26" y="60">
+<ACTORTYPE eid="var" id="0" vid="1"/>
+<int id="1" val="-1"/>
+<int id="2" val="-1"/>
+<int id="3" val="0"/>
+</create-actor3>
+<custom-code comment="false" x="26" y="87">
+<int id="0" val="_ActorAnimations = getLastCreatedActor().anims;"/>
+</custom-code>
+<die comment="false" x="26" y="107">
+<ACTOR eid="lastcreated" id="0"/>
+</die>
+<periodic comment="false" x="26" y="134">
+<group id="-1">
+<repeat comment="false" x="37" y="154">
+<group id="-1">
+<dolater comment="false" x="48" y="210">
+<group id="-1">
+<create-actor3 comment="false" x="59" y="258">
+<ACTORTYPE eid="var" id="0" vid="1"/>
+<randint comment="false" id="1" x="0" y="0">
+<screenw comment="false" id="0" x="0" y="0"/>
+<plus comment="false" id="1" x="0" y="0">
+<screenw comment="false" id="0" x="0" y="0"/>
+<int id="1" val="100"/>
+</plus>
+</randint>
+<randint comment="false" id="2" x="0" y="0">
+<int id="0" val="0"/>
+<minus comment="false" id="1" x="0" y="0">
+<screenh comment="false" id="0" x="0" y="0"/>
+<getheight comment="false" id="1" x="0" y="0">
+<ACTOR eid="lastcreated" id="0"/>
+</getheight>
+</minus>
+</randint>
+<int id="3" val="2"/>
+</create-actor3>
+<if comment="false" x="59" y="308">
+<group id="-1">
+<setdx comment="false" x="70" y="361">
+<ACTOR eid="lastcreated" id="0"/>
+<int id="1" val="-20"/>
+</setdx>
+</group>
+<less comment="false" id="0" x="0" y="0">
+<int id="0" val="-20"/>
+<neg comment="false" id="1" x="0" y="0">
+<roundnew comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<div comment="false" id="1" x="0" y="0">
+<get-game-val-3 comment="false" id="0" x="0" y="0"/>
+<int id="1" val="100"/>
+</div>
+</roundnew>
+</neg>
+</less>
+</if>
+<else comment="false" x="59" y="400">
+<group id="-1">
+<setdx comment="false" x="70" y="420">
+<ACTOR eid="lastcreated" id="0"/>
+<neg comment="false" id="1" x="0" y="0">
+<roundnew comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<div comment="false" id="1" x="0" y="0">
+<get-game-val-3 comment="false" id="0" x="0" y="0"/>
+<int id="1" val="100"/>
+</div>
+</roundnew>
+</neg>
+</setdx>
+</group>
+</else>
+</group>
+<div comment="false" id="0" x="0" y="0">
+<roundnew comment="false" id="0" x="0" y="0">
+<int id="0" val="1"/>
+<times comment="false" id="1" x="0" y="0">
+<random comment="false" id="0" x="0" y="0"/>
+<int id="1" val="100"/>
+</times>
+</roundnew>
+<int id="1" val="100"/>
+</div>
+</dolater>
+</group>
+<roundnew comment="false" id="0" x="0" y="0">
+<int id="0" val="2"/>
+<roundnew comment="false" id="1" x="0" y="0">
+<int id="0" val="2"/>
+<div comment="false" id="1" x="0" y="0">
+<get-game-val-3 comment="false" id="0" x="0" y="0"/>
+<int id="1" val="1500"/>
+</div>
+</roundnew>
+</roundnew>
+</repeat>
+</group>
+<int id="0" val="1.2"/>
+</periodic>
+</group>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="551">
+<group id="-1"/>
+</step>
+</group>
+<group id="2">
+<draw comment="false" x="15" y="624">
+<group id="-1"/>
+</draw>
+</group>
+<group id="-1"/>
+</groups>

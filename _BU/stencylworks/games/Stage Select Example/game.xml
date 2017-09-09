@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<game accelFramerate="0" aheight="416" appName="My Game" appType="0" author="" authorURL="" awidth="448" backgroundColor="-15592942" barBackgroundColor="-12303292" barColor="-7829368" barHeight="8" barLocation="0" barOffsetX="0" barOffsetY="0" barWidth="120" borderColor="-12303292" borderThickness="2" bundleID="com.yourname.gamename" checksum="none" default="0" defaultFramerate="60" desc="Similar to Mega Man's Boss Stage selection screen. You will switch to whichever scene you selected.&lt;br&gt;&lt;br&gt;Uploading is someone can help get selection by using the Arrow keys. Mouse selection is already included." deviceOS="null" engine="0" format="1.0" gameid="-1" guide="false" height="416" kit="false" lockURL="" name="Stage Select Example" onlineID="36468" orientation="0" projectType="web" scale="1.0" showAds="false" simulatorOS="null" splashStyle="0" thumbstickStyle="0" useGlossyIcon="false" usePVRTextures="true" width="448">
+    <folders>
+        <group desc="" id="0" name="S Fx" type="sound">
+            <r id="25"/>
+        </group>
+    </folders>
+    <packs/>
+    <groups>
+        <group desc="This group is the stage frame the cursor can collide with, while in it's region, and by pressing action key will take you to that level." id="4" name="Stage Frame"/>
+        <group desc="The Cursor Actor Group" id="5" name="Cursor"/>
+    </groups>
+    <cgroups>
+        <cgroup g1="5" g2="4"/>
+        <cgroup g1="1" g2="0"/>
+    </cgroups>
+    <input>
+        <key id="0" keyname="UP" name="Up" vk="38"/>
+        <key id="1" keyname="DOWN" name="Down" vk="40"/>
+        <key id="2" keyname="LEFT" name="Left" vk="37"/>
+        <key id="3" keyname="RIGHT" name="Right" vk="39"/>
+        <key id="4" keyname="X" name="Fire" vk="88"/>
+        <key id="5" keyname="Z" name="Jump" vk="90"/>
+        <key id="6" keyname="R" name="Restart" vk="82"/>
+        <key id="7" keyname="SPACE" name="Choose" vk="32"/>
+    </input>
+    <attcats>
+        <cat id="-1" name="Default"/>
+    </attcats>
+    <props/>
+    <attributes/>
+    <collisions>
+        <poly id="1" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="2" name="Tri 45R" pts="0.0,0.0#0.0,1.0#1.0,1.0"/>
+        <poly id="3" name="Tri 45L" pts="1.0,0.0#0.0,1.0#1.0,1.0"/>
+        <poly id="4" name="Tri 45R Inv" pts="0.0,0.0#0.0,1.0#1.0,0.0"/>
+        <poly id="5" name="Tri 45L Inv" pts="0.0,0.0#1.0,1.0#1.0,0.0"/>
+        <poly id="6" name="Tri 30R" pts="0.0,1.0#1.0,1.0#1.0,0.5"/>
+        <poly id="7" name="Tri 30L" pts="0.0,0.5#0.0,1.0#1.0,1.0"/>
+        <poly id="8" name="Tri 30-2R" pts="0.0,0.5#0.0,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="9" name="Tri 30-2L" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.5"/>
+        <poly id="10" name="Tri 30R Inv" pts="0.0,0.0#1.0,0.5#1.0,0.0"/>
+        <poly id="11" name="Tri 30L Inv" pts="0.0,0.0#0.0,0.5#1.0,0.0"/>
+        <poly id="12" name="Tri 30-2R Inv" pts="0.0,0.0#0.0,0.5#1.0,1.0#1.0,0.0"/>
+        <poly id="13" name="Tri 30-2L Inv" pts="0.0,0.0#0.0,1.0#1.0,0.5#1.0,0.0"/>
+        <poly id="14" name="Tri 60R" pts="0.5,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="15" name="Tri 60L" pts="0.0,0.0#0.0,1.0#0.5,1.0"/>
+        <poly id="17" name="Tri 60-2L" pts="0.0,0.0#0.0,1.0#1.0,1.0#0.5,0.0"/>
+        <poly id="16" name="Tri 60-2R" pts="0.5,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="19" name="Tri 60L Inv" pts="0.0,0.0#0.0,1.0#0.5,0.0"/>
+        <poly id="18" name="Tri 60R Inv" pts="0.5,0.0#1.0,1.0#1.0,0.0"/>
+        <poly id="21" name="Tri 60-2L Inv" pts="0.0,0.0#0.0,1.0#0.5,1.0#1.0,0.0"/>
+        <poly id="20" name="Tri 60-2R Inv" pts="0.0,0.0#0.5,1.0#1.0,1.0#1.0,0.0"/>
+    </collisions>
+</game>

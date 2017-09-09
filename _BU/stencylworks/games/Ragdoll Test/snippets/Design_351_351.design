@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <collide comment="false" x="15" y="161">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="186">
+                    <group eventID="-1" id="-1">
+                        <shout comment="false" x="37" y="224">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-351-1 comment="false" id="1" x="0" y="0"/>
+                        </shout>
+                    </group>
+                    <eq2 comment="false" id="0" x="0" y="0">
+                        <getgroup comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="lastcollided" id="0"/>
+                        </getgroup>
+                        <get-val-351-4 comment="false" id="1" x="0" y="0"/>
+                    </eq2>
+                </if>
+            </group>
+        </collide>
+    </group>
+    <group eventID="-1" id="3">
+        <draw comment="false" x="15" y="296">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

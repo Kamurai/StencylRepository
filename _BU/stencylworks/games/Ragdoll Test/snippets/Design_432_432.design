@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <set-val-432-7 comment="false" x="26" y="40">
+                    <div comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <get-val-432-5 comment="false" id="1" x="0" y="0"/>
+                    </div>
+                </set-val-432-7>
+                <set-val-432-6 comment="false" x="26" y="70">
+                    <div comment="false" id="0" x="0" y="0">
+                        <div comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                            <get-val-432-2 comment="false" id="1" x="0" y="0"/>
+                        </div>
+                        <int id="1" val="2"/>
+                    </div>
+                </set-val-432-6>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="133">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="158">
+                    <group eventID="-1" id="-1">
+                        <periodic comment="false" x="37" y="188">
+                            <group eventID="-1" id="-1">
+                                <incdec comment="false" x="48" y="220">
+                                    <int id="0" val="1"/>
+                                    <int id="1" val="1"/>
+                                    <get-val-432-7 comment="false" id="2" x="0" y="0"/>
+                                </incdec>
+                                <if comment="false" x="48" y="252">
+                                    <group eventID="-1" id="-1">
+                                        <set-val-432-1 comment="false" x="59" y="282">
+                                            <int id="0" val="0"/>
+                                        </set-val-432-1>
+                                        <cancel comment="false" x="59" y="302"/>
+                                    </group>
+                                    <lesseq comment="false" id="0" x="0" y="0">
+                                        <get-val-432-1 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="0"/>
+                                    </lesseq>
+                                </if>
+                            </group>
+                            <get-val-432-6 comment="false" id="0" x="0" y="0"/>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </periodic>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-432-1 comment="false" id="0" x="0" y="0"/>
+                        <get-val-432-2 comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="386">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="411">
+                    <group eventID="-1" id="-1">
+                        <set-color comment="false" x="37" y="441">
+                            <color id="0" vid="4"/>
+                        </set-color>
+                        <set-alpha comment="false" x="37" y="468">
+                            <get-val-432-1 comment="false" id="0" x="0" y="0"/>
+                        </set-alpha>
+                        <if comment="false" x="37" y="493">
+                            <group eventID="-1" id="-1">
+                                <set-blend comment="false" x="48" y="523">
+                                    <int id="0" val="0"/>
+                                </set-blend>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-432-9 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Add"/>
+                            </eq>
+                        </if>
+                        <else-if comment="false" x="37" y="562">
+                            <group eventID="-1" id="-1">
+                                <set-blend comment="false" x="48" y="592">
+                                    <int id="0" val="1"/>
+                                </set-blend>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-432-9 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Alpha"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="37" y="631">
+                            <group eventID="-1" id="-1">
+                                <set-blend comment="false" x="48" y="661">
+                                    <int id="0" val="2"/>
+                                </set-blend>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-432-9 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Darken"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="37" y="700">
+                            <group eventID="-1" id="-1">
+                                <set-blend comment="false" x="48" y="730">
+                                    <int id="0" val="3"/>
+                                </set-blend>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-432-9 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Difference"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="37" y="769">
+                            <group eventID="-1" id="-1">
+                                <set-blend comment="false" x="48" y="799">
+                                    <int id="0" val="4"/>
+                                </set-blend>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-432-9 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Erase"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="37" y="838">
+                            <group eventID="-1" id="-1">
+                                <set-blend comment="false" x="48" y="868">
+                                    <int id="0" val="5"/>
+                                </set-blend>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-432-9 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Hardlight"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="37" y="907">
+                            <group eventID="-1" id="-1">
+                                <set-blend comment="false" x="48" y="937">
+                                    <int id="0" val="6"/>
+                                </set-blend>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-432-9 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Invert"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="37" y="976">
+                            <group eventID="-1" id="-1">
+                                <set-blend comment="false" x="48" y="1006">
+                                    <int id="0" val="7"/>
+                                </set-blend>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-432-9 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Lighten"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="37" y="1045">
+                            <group eventID="-1" id="-1">
+                                <set-blend comment="false" x="48" y="1075">
+                                    <int id="0" val="8"/>
+                                </set-blend>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-432-9 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Multiply"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="37" y="1114">
+                            <group eventID="-1" id="-1">
+                                <set-blend comment="false" x="48" y="1144">
+                                    <int id="0" val="10"/>
+                                </set-blend>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-432-9 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Overlay"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="37" y="1183">
+                            <group eventID="-1" id="-1">
+                                <set-blend comment="false" x="48" y="1213">
+                                    <int id="0" val="11"/>
+                                </set-blend>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-432-9 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Sceen"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="37" y="1252">
+                            <group eventID="-1" id="-1">
+                                <set-blend comment="false" x="48" y="1282">
+                                    <int id="0" val="12"/>
+                                </set-blend>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-432-9 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Substract"/>
+                            </eq>
+                        </else-if>
+                        <else comment="false" x="37" y="1321">
+                            <group eventID="-1" id="-1">
+                                <set-blend comment="false" x="48" y="1341">
+                                    <int id="0" val="9"/>
+                                </set-blend>
+                            </group>
+                        </else>
+                        <drawfill-rect comment="false" x="37" y="1380">
+                            <int id="0" val="1"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0"/>
+                            <screen-wh comment="false" id="3" x="0" y="0">
+                                <int id="0" val="0"/>
+                            </screen-wh>
+                            <screen-wh comment="false" id="4" x="0" y="0">
+                                <int id="0" val="1"/>
+                            </screen-wh>
+                        </drawfill-rect>
+                        <set-alpha comment="false" x="37" y="1420">
+                            <int id="0" val="100"/>
+                        </set-alpha>
+                        <set-blend comment="false" x="37" y="1440">
+                            <int id="0" val="9"/>
+                        </set-blend>
+                    </group>
+                    <noteq comment="false" id="0" x="0" y="0">
+                        <get-val-432-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </noteq>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="-1" id="3">
+        <receive-message comment="false" x="15" y="1507">
+            <group eventID="-1" id="-1">
+                <set-val-432-1 comment="false" x="26" y="1537">
+                    <int id="0" val="0"/>
+                </set-val-432-1>
+                <periodic comment="false" x="26" y="1557">
+                    <group eventID="-1" id="-1">
+                        <incdec comment="false" x="37" y="1589">
+                            <int id="0" val="1"/>
+                            <int id="1" val="0"/>
+                            <get-val-432-7 comment="false" id="2" x="0" y="0"/>
+                        </incdec>
+                        <if comment="false" x="37" y="1621">
+                            <group eventID="-1" id="-1">
+                                <set-val-432-1 comment="false" x="48" y="1651">
+                                    <get-val-432-2 comment="false" id="0" x="0" y="0"/>
+                                </set-val-432-1>
+                                <cancel comment="false" x="48" y="1676"/>
+                            </group>
+                            <moreeq comment="false" id="0" x="0" y="0">
+                                <get-val-432-1 comment="false" id="0" x="0" y="0"/>
+                                <get-val-432-2 comment="false" id="1" x="0" y="0"/>
+                            </moreeq>
+                        </if>
+                    </group>
+                    <get-val-432-6 comment="false" id="0" x="0" y="0"/>
+                    <ACTOR eid="lastcreated" id="2"/>
+                </periodic>
+            </group>
+            <get-val-432-8 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group id="-1"/>
+</groups>

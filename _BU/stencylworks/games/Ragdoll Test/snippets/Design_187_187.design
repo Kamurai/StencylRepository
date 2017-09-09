@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <set-val-187-2 comment="false" x="26" y="40">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-187-2>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="93">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="118">
+                    <group eventID="-1" id="-1">
+                        <set-val-187-2 comment="false" x="37" y="143">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-187-2>
+                        <scene-shout comment="false" x="37" y="168">
+                            <get-val-187-1 comment="false" id="0" x="0" y="0"/>
+                        </scene-shout>
+                    </group>
+                    <get-val-187-2 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="233">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

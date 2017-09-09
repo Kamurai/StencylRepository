@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="2" desc="" eventsnippetid="1" extheight="384" extwidth="1504" extx="-32" exty="-32" format="2.1" gravx="-0.0" gravy="0.0" height="320" id="0" name="Menu" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="1440">
+    <layers>
+        <layer color="0,0,255" id="1" name="Cam Controller" order="0"/>
+        <layer color="100,168,234" id="0" name="Main" order="1"/>
+    </layers>
+    <color-bg blue="192" green="192" red="192"/>
+    <backgrounds/>
+    <foregrounds/>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="2" name="One 1" sx="1.0" sy="1.0" x="48" y="47" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="4" name="Two 2" sx="1.0" sy="1.0" x="530" y="50" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="6" name="Three 3" sx="1.0" sy="1.0" x="1009" y="50" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="0" name="CamHelper 4" sx="1.0" sy="1.0" x="0" y="0" z="1"/>
+    </actors>
+    <snippets/>
+    <terrain/>
+</scene>

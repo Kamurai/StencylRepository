@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1">
+<dolater comment="false" x="26" y="40">
+<group id="-1">
+<custom-code comment="false" x="37" y="60">
+<int id="0" val="setScrollSpeedForBackground(0, 16);"/>
+</custom-code>
+<dolater comment="false" x="37" y="80">
+<group id="-1">
+<custom-code comment="false" x="48" y="100">
+<int id="0" val="setScrollSpeedForBackground(0, 32);"/>
+</custom-code>
+<dolater comment="false" x="48" y="120">
+<group id="-1">
+<custom-code comment="false" x="59" y="140">
+<int id="0" val="setScrollSpeedForBackground(0, 64);"/>
+</custom-code>
+<dolater comment="false" x="59" y="160">
+<group id="-1">
+<custom-code comment="false" x="70" y="180">
+<int id="0" val="setScrollSpeedForBackground(0, 128);"/>
+</custom-code>
+<dolater comment="false" x="70" y="200">
+<group id="-1">
+<custom-code comment="false" x="81" y="220">
+<int id="0" val="setScrollSpeedForBackground(0, 256);"/>
+</custom-code>
+</group>
+<int id="0" val="0.1"/>
+</dolater>
+</group>
+<int id="0" val="0.2"/>
+</dolater>
+</group>
+<int id="0" val="0.3"/>
+</dolater>
+</group>
+<int id="0" val="0.4"/>
+</dolater>
+</group>
+<int id="0" val="0.5"/>
+</dolater>
+</group>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="328">
+<group id="-1"/>
+</step>
+</group>
+<group id="2">
+<draw comment="false" x="15" y="401">
+<group id="-1"/>
+</draw>
+</group>
+<group id="-1"/>
+</groups>

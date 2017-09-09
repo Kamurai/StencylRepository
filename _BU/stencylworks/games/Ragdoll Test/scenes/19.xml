@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" format="1.0" gravx="-0.0" gravy="0.0" height="640" id="19" name="Body Scene" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <layer color="100,168,234" id="0" name="Layer 0" order="0"/>
+    </layers>
+    <color-bg blue="255" green="255" red="255"/>
+    <backgrounds>
+        <ref id="429"/>
+    </backgrounds>
+    <foregrounds/>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="720" sx="1.0" sy="1.0" x="448" y="480" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain/>
+</scene>

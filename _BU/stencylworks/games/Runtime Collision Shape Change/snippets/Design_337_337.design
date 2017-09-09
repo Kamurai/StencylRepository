@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group id="0">
+        <init comment="false" x="15" y="15">
+            <group id="-1"/>
+        </init>
+    </group>
+    <group id="1">
+        <step comment="false" x="15" y="88">
+            <group id="-1"/>
+        </step>
+    </group>
+    <group id="2">
+        <draw comment="false" x="15" y="161">
+            <group id="-1"/>
+        </draw>
+    </group>
+    <group id="3">
+        <receive-message comment="false" x="15" y="234">
+            <group id="-1">
+                <save-game comment="false" x="26" y="264">
+                    <group id="-1">
+                        <if comment="false" x="37" y="284">
+                            <group id="-1">
+                                <scene-shout comment="false" x="48" y="309">
+                                    <get-val-337-2 comment="false" id="0" x="0" y="0"/>
+                                </scene-shout>
+                            </group>
+                            <saveload-success comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <else comment="false" x="37" y="346">
+                            <group id="-1">
+                                <scene-shout comment="false" x="48" y="366">
+                                    <get-val-337-3 comment="false" id="0" x="0" y="0"/>
+                                </scene-shout>
+                            </group>
+                        </else>
+                    </group>
+                </save-game>
+            </group>
+            <get-val-337-1 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group id="-1"/>
+</groups>

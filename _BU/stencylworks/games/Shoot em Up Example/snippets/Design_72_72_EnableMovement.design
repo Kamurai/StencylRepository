@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1">
+<actors-in-group comment="false" x="26" y="40">
+<group id="-1">
+<dolater comment="false" x="37" y="73">
+<group id="-1">
+<enable-snippet comment="false" x="48" y="93">
+<actor-in-group comment="false" id="0" x="0" y="0"/>
+<int id="1" val="Alien Movement"/>
+</enable-snippet>
+</group>
+<int id="0" val="4"/>
+</dolater>
+</group>
+<pick-group comment="false" id="0" x="0" y="0">
+<int id="0" val="4"/>
+</pick-group>
+</actors-in-group>
+</group>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="18" y="188">
+<group id="-1"/>
+</step>
+</group>
+<group id="2">
+<draw comment="false" x="20" y="396">
+<group id="-1"/>
+</draw>
+</group>
+<group id="-1"/>
+</groups>

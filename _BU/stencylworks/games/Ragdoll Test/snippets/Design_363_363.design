@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <set-val-363-2 comment="false" x="26" y="40">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-363-2>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="93">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="118">
+                    <group eventID="-1" id="-1">
+                        <set-val-363-2 comment="false" x="37" y="143">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-363-2>
+                        <dolater comment="false" x="37" y="168">
+                            <group eventID="-1" id="-1">
+                                <scene-shout comment="false" x="48" y="205">
+                                    <get-val-363-1 comment="false" id="0" x="0" y="0"/>
+                                </scene-shout>
+                            </group>
+                            <custom-502 comment="false" id="0" x="0" y="0">
+                                <get-val-363-4 comment="false" id="0" x="0" y="0"/>
+                                <get-val-363-5 comment="false" id="1" x="0" y="0"/>
+                            </custom-502>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </dolater>
+                    </group>
+                    <get-val-363-2 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="282">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

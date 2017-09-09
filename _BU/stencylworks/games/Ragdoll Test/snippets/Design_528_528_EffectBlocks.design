@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="161">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="3">
+        <receiver-2-721 comment="false" x="15" y="234">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="264">
+                    <int id="0" val="import flash.filters.ColorMatrixFilter;"/>
+                </custom-code>
+                <custom-code comment="false" x="26" y="284">
+                    <int id="0" val="FlxG.buffer.applyFilter(FlxG.buffer, FlxG.buffer.rect, FlxG.buffer.rect.topLeft, __effect as ColorMatrixFilter);"/>
+                </custom-code>
+            </group>
+            <get-byobval-528-641-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-2-721>
+    </group>
+    <group eventID="-1" id="4">
+        <receiver-4-720 comment="false" x="15" y="332">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="362">
+                    <int id="0" val="import flash.filters.ColorMatrixFilter;&#10;var matrix:Array = new Array();&#10;matrix = matrix.concat([1, 0, 0, 0, 0]); // red&#10;matrix = matrix.concat([0, 1, 0, 0, 0]); // green&#10;matrix = matrix.concat([0, 0, 1, 0, 0]); // blue&#10;matrix = matrix.concat([0, 0, 0, __alpha/100, 0]); // alpha&#10;return new ColorMatrixFilter(matrix);"/>
+                </code-long>
+            </group>
+            <get-byobval-528-722-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-4-720>
+    </group>
+    <group eventID="-1" id="5">
+        <receiver-6-722 comment="false" x="15" y="550">
+            <group eventID="-1" id="-1">
+                <custom-code comment="false" x="26" y="580">
+                    <int id="0" val="return new ColorMatrixFilter(__matrix);"/>
+                </custom-code>
+            </group>
+            <get-byobval-528-724-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-6-722>
+    </group>
+    <group id="-1"/>
+</groups>

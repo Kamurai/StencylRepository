@@ -1,0 +1,13 @@
+
+
+
+[LOG] Mirroring logs to the standard output...
+[LOG] Action: Preferences...
+[LOG] Choose Folder...
+[LOG] The Stencyl workspace is: C:\House\Programming\Stencyl\Workspace\
+[LOG] The Stencyl workspace is being set to: C:\House\Programming\Stencyl\
+[LOG] Copy directory from: C:\House\Programming\Stencyl\Workspace\stencylworks\prefs to: C:\House\Programming\Stencyl\stencylworks\prefs
+[LOG] Copy Duration: 15
+[LOG] Copy directory from: C:\House\Programming\Stencyl\Workspace\stencylworks\games to: C:\House\Programming\Stencyl\stencylworks\games
+[LOG] Copy Duration: 1
+[LOG] Copy directory from: C:\House\Programming\Stencyl\Workspace\stencylworks\logs to: C:\House\Programming\Stencyl\stencylworks\logs

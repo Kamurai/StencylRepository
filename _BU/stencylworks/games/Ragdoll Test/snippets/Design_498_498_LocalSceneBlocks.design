@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <comment-short comment="false" x="26" y="40">
+                    <int id="0" val="non-global"/>
+                </comment-short>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="161">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="3">
+        <receiver-3-565 comment="false" x="15" y="234">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="264">
+                    <int id="0" val="var actors = new Array();&#10;var callback = function (actor:Actor)&#10;{&#10;&#9;actors.push(actor);&#10;}&#10;getActorsAtPoint(__x, __y, callback);&#10;return actors;"/>
+                </code-long>
+            </group>
+            <get-byobval-498-565-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-498-565-1 comment="false" id="1" x="0" y="0"/>
+        </receiver-3-565>
+    </group>
+    <group eventID="-1" id="4">
+        <receiver-4-566 comment="false" x="15" y="452">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="482">
+                    <int id="0" val="var actors = new Array();&#10;var callback = function (actor:Actor)&#10;{&#10;&#9;actors.push(actor);&#10;}&#10;getActorsInArea(__x, __y, __w, __h, callback);&#10;return actors;"/>
+                </code-long>
+            </group>
+            <get-byobval-498-566-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-498-566-1 comment="false" id="1" x="0" y="0"/>
+            <get-byobval-498-566-2 comment="false" id="2" x="0" y="0"/>
+            <get-byobval-498-566-3 comment="false" id="3" x="0" y="0"/>
+        </receiver-4-566>
+    </group>
+    <group eventID="-1" id="5">
+        <receiver-5-567 comment="false" x="15" y="670">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="695">
+                    <int id="0" val="var actors = new Array();&#10;var callback = function (actor:Actor)&#10;{&#10;&#9;actors.push(actor);&#10;}&#10;getActorsOnScreen(callback);&#10;return actors;"/>
+                </code-long>
+            </group>
+        </receiver-5-567>
+    </group>
+    <group eventID="-1" id="6">
+        <receiver-7-571 comment="false" x="15" y="883">
+            <group eventID="-1" id="-1">
+                <code-long comment="false" x="26" y="913">
+                    <int id="0" val="var actors = new Array();&#10;var callback = function (actor:Actor)&#10;{&#10;&#9;actors.push(actor);&#10;}&#10;getActorsAlongLine(__x1, __y1, __x2, __y2, callback);&#10;return actors;"/>
+                </code-long>
+            </group>
+            <get-byobval-498-571-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-498-571-1 comment="false" id="1" x="0" y="0"/>
+            <get-byobval-498-571-2 comment="false" id="2" x="0" y="0"/>
+            <get-byobval-498-571-3 comment="false" id="3" x="0" y="0"/>
+        </receiver-7-571>
+    </group>
+    <group id="-1"/>
+</groups>

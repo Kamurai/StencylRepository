@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<draw comment="false" x="15" y="233">
+<group id="-1">
+<set-font comment="false" x="26" y="258">
+<int id="0" val="1"/>
+</set-font>
+<if comment="false" x="26" y="285">
+<group id="-1">
+<code-long comment="false" x="37" y="320">
+<int id="0" val="var zeroString:String = &amp;quot;&amp;quot;;&#10;var string:String = &amp;quot;&amp;quot; + getGameAttribute(score);&#10;&#10;for (var i:uint = 0; i &amp;lt; totalDigits - string.length; i++)&#10;{&#10;&#9;zeroString += &amp;quot;0&amp;quot;;&#10;}&#10;&#10;temp = zeroString + string;"/>
+</code-long>
+<draw-text comment="false" x="37" y="510">
+<get-val-53-6 comment="false" id="0" x="0" y="0"/>
+<get-val-53-7 comment="false" id="1" x="0" y="0"/>
+<get-val-53-8 comment="false" id="2" x="0" y="0"/>
+</draw-text>
+</group>
+<more comment="false" id="0" x="0" y="0">
+<as-number comment="false" id="0" x="0" y="0">
+<get-val-53-5 comment="false" id="0" x="0" y="0"/>
+</as-number>
+<int id="1" val="-1"/>
+</more>
+</if>
+<else comment="false" x="26" y="547">
+<group id="-1">
+<draw-text comment="false" x="37" y="567">
+<tostring comment="false" id="0" x="0" y="0">
+<roundnew comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<as-number comment="false" id="1" x="0" y="0">
+<get-game-val-3 comment="false" id="0" x="0" y="0"/>
+</as-number>
+</roundnew>
+</tostring>
+<get-val-53-7 comment="false" id="1" x="0" y="0"/>
+<get-val-53-8 comment="false" id="2" x="0" y="0"/>
+</draw-text>
+</group>
+</else>
+</group>
+</draw>
+</group>
+<group id="1">
+<step comment="false" x="15" y="88">
+<group id="-1">
+<if comment="false" x="26" y="113">
+<group id="-1">
+<fade-out comment="false" x="37" y="146">
+<int id="0" val="0.3"/>
+</fade-out>
+<scene-reload comment="false" x="37" y="166">
+<int id="0" val="0"/>
+<int id="1" val="1"/>
+<int id="2" val="1"/>
+<int id="3" val="1"/>
+</scene-reload>
+</group>
+<keypress comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<int id="1" val="6"/>
+</keypress>
+</if>
+</group>
+</step>
+</group>
+<group id="2">
+<init comment="false" x="15" y="15">
+<group id="-1"/>
+</init>
+</group>
+<group id="-1"/>
+</groups>

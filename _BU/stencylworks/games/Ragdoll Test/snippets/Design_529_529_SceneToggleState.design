@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <set-val-529-5 comment="false" x="26" y="40">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-529-5>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="93">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="118">
+                    <group eventID="-1" id="-1">
+                        <set-val-529-5 comment="false" x="37" y="143">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-529-5>
+                        <say-this comment="false" x="37" y="168">
+                            <int id="0" val="send"/>
+                        </say-this>
+                    </group>
+                    <get-val-529-5 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="228">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="3">
+        <receive-message comment="false" x="15" y="301">
+            <group eventID="-1" id="-1">
+                <set-val-529-1 comment="false" x="26" y="331">
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-val-529-1 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </set-val-529-1>
+                <say-this comment="false" x="26" y="361">
+                    <int id="0" val="send"/>
+                </say-this>
+            </group>
+            <get-val-529-4 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group eventID="-1" id="4">
+        <receive-message comment="false" x="15" y="409">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="434">
+                    <group eventID="-1" id="-1">
+                        <scene-shout comment="false" x="37" y="459">
+                            <get-val-529-3 comment="false" id="0" x="0" y="0"/>
+                        </scene-shout>
+                    </group>
+                    <get-val-529-1 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <else comment="false" x="26" y="496">
+                    <group eventID="-1" id="-1">
+                        <scene-shout comment="false" x="37" y="516">
+                            <get-val-529-2 comment="false" id="0" x="0" y="0"/>
+                        </scene-shout>
+                    </group>
+                </else>
+            </group>
+            <int id="0" val="send"/>
+        </receive-message>
+    </group>
+    <group id="-1"/>
+</groups>

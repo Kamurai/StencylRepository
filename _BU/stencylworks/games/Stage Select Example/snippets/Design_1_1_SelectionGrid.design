@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group id="0">
+        <init comment="false" x="15" y="15">
+            <group id="-1"/>
+        </init>
+    </group>
+    <group id="1">
+        <step comment="false" x="15" y="88">
+            <group id="-1"/>
+        </step>
+    </group>
+    <group id="2">
+        <collide comment="false" x="15" y="161">
+            <group id="-1">
+                <if comment="false" x="26" y="186">
+                    <group id="-1">
+                        <if comment="false" x="37" y="224">
+                            <group id="-1">
+                                <if comment="false" x="48" y="257">
+                                    <group id="-1">
+                                        <moveToBy comment="false" x="59" y="290">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="1"/>
+                                            <int id="2" val="240"/>
+                                            <int id="3" val="32"/>
+                                            <int id="4" val="0.2"/>
+                                            <int id="5" val="0"/>
+                                        </moveToBy>
+                                    </group>
+                                    <keystate comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="1"/>
+                                        <CONTROL eid="3" id="1"/>
+                                    </keystate>
+                                </if>
+                            </group>
+                            <is-in-region comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <REGION eid="var" id="1" vid="1"/>
+                            </is-in-region>
+                        </if>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <collision-shape-group comment="false" id="0" x="0" y="0"/>
+                        <pick-group comment="false" id="1" x="0" y="0">
+                            <int id="0" val="4"/>
+                        </pick-group>
+                    </eq>
+                </if>
+            </group>
+        </collide>
+    </group>
+    <group id="3">
+        <draw comment="false" x="19" y="451">
+            <group id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

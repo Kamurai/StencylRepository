@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <sprite atlasID="0" default="0" desc="" height="369" id="40" name="Bkgrd_Grid" shared="false" width="512">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="369" id="0" loop="false" name="Animation 0" numframes="1" originx="256" originy="184" width="512">
+            <poly data="4,0,0,512,0,512,369,0,369" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="false" desc="" eventsnippetid="20" fixedrot="false" fric="0.0" gid="3" id="39" ignoreg="false" inertia="1.0" ldamp="0.0" lw="true" mass="1.0" name="Bkgrd_Grid" oid="-1" pausable="false" rest="0.0" shared="false" sprite="40" static="true" touchable="false">
+        <snippets/>
+    </actor>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="369" id="0" name="Colors" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="512" xpf="0.0" ypf="0.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="21" fixedrot="false" fric="0.2" gid="3" id="41" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Controller" oid="-1" pausable="true" rest="0.0" shared="false" sprite="42" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" desc="" height="64" id="42" name="Controller" shared="false" width="64">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" width="64">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="default" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" desc="" height="15" id="14" name="Sq_Black" shared="false" width="15">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="15" id="0" loop="false" name="Animation 0" numframes="1" originx="8" originy="8" width="15">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="7" fixedrot="false" fric="0.2" gid="3" id="13" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Sq_Black" oid="-1" pausable="true" rest="0.0" shared="false" sprite="14" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" desc="" height="15" id="32" name="Sq_Blue" shared="false" width="15">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="15" id="0" loop="false" name="Animation 0" numframes="1" originx="8" originy="8" width="15">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="16" fixedrot="false" fric="0.2" gid="3" id="31" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Sq_Blue" oid="-1" pausable="true" rest="0.0" shared="false" sprite="32" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" desc="" height="15" id="16" name="Sq_Brown" shared="false" width="15">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="15" id="0" loop="false" name="Animation 0" numframes="1" originx="8" originy="8" width="15">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="8" fixedrot="false" fric="0.2" gid="3" id="15" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Sq_Brown" oid="-1" pausable="true" rest="0.0" shared="false" sprite="16" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="19" fixedrot="false" fric="0.2" gid="3" id="37" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Sq_Burnt" oid="-1" pausable="true" rest="0.0" shared="false" sprite="38" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" desc="" height="15" id="38" name="Sq_Burnt" shared="false" width="15">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="15" id="0" loop="false" name="Animation 0" numframes="1" originx="8" originy="8" width="15">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="17" fixedrot="false" fric="0.2" gid="3" id="33" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Sq_DkGrey" oid="-1" pausable="true" rest="0.0" shared="false" sprite="34" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" desc="" height="15" id="34" name="Sq_DkGrey" shared="false" width="15">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="15" id="0" loop="false" name="Animation 0" numframes="1" originx="8" originy="8" width="15">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" desc="" height="15" id="6" name="Sq_Green" shared="false" width="15">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="15" id="0" loop="false" name="Animation 0" numframes="1" originx="8" originy="8" width="15">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="3" fixedrot="false" fric="0.2" gid="3" id="5" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Sq_Green" oid="-1" pausable="true" rest="0.0" shared="false" sprite="6" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" desc="" height="15" id="30" name="Sq_Grey" shared="false" width="15">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="15" id="0" loop="false" name="Animation 0" numframes="1" originx="8" originy="8" width="15">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="15" fixedrot="false" fric="0.2" gid="3" id="29" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Sq_Grey" oid="-1" pausable="true" rest="0.0" shared="false" sprite="30" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" desc="" height="15" id="26" name="Sq_Lavender" shared="false" width="15">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="15" id="0" loop="false" name="Animation 0" numframes="1" originx="8" originy="8" width="15">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="13" fixedrot="false" fric="0.2" gid="3" id="25" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Sq_Lavender" oid="-1" pausable="true" rest="0.0" shared="false" sprite="26" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" desc="" height="15" id="18" name="Sq_Lime" shared="false" width="15">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="15" id="0" loop="false" name="Animation 0" numframes="1" originx="8" originy="8" width="15">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="9" fixedrot="false" fric="0.2" gid="3" id="17" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Sq_Lime" oid="-1" pausable="true" rest="0.0" shared="false" sprite="18" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" desc="" height="15" id="4" name="Sq_Orange" shared="false" width="15">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="15" id="0" loop="false" name="Animation 0" numframes="1" originx="8" originy="8" width="15">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="2" fixedrot="false" fric="0.2" gid="3" id="3" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Sq_Orange" oid="-1" pausable="true" rest="0.0" shared="false" sprite="4" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" desc="" height="15" id="22" name="Sq_Pink" shared="false" width="15">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="15" id="0" loop="false" name="Animation 0" numframes="1" originx="8" originy="8" width="15">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="11" fixedrot="false" fric="0.2" gid="3" id="21" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Sq_Pink" oid="-1" pausable="true" rest="0.0" shared="false" sprite="22" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" desc="" height="15" id="2" name="Sq_Red" shared="false" width="15">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="15" id="0" loop="false" name="Animation 0" numframes="1" originx="8" originy="8" width="15">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="1" fixedrot="false" fric="0.2" gid="3" id="1" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Sq_Red" oid="-1" pausable="true" rest="0.0" shared="false" sprite="2" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" desc="" height="15" id="12" name="Sq_Seafoam" shared="false" width="15">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="15" id="0" loop="false" name="Animation 0" numframes="1" originx="8" originy="8" width="15">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="6" fixedrot="false" fric="0.2" gid="3" id="11" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Sq_Seafoam" oid="-1" pausable="true" rest="0.0" shared="false" sprite="12" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" desc="" height="15" id="28" name="Sq_Sky" shared="false" width="15">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="15" id="0" loop="false" name="Animation 0" numframes="1" originx="8" originy="8" width="15">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="14" fixedrot="false" fric="0.2" gid="3" id="27" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Sq_Sky" oid="-1" pausable="true" rest="0.0" shared="false" sprite="28" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" desc="" height="15" id="8" name="Sq_Tan" shared="false" width="15">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="15" id="0" loop="false" name="Animation 0" numframes="1" originx="8" originy="8" width="15">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="4" fixedrot="false" fric="0.2" gid="3" id="7" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Sq_Tan" oid="-1" pausable="true" rest="0.0" shared="false" sprite="8" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" desc="" height="15" id="36" name="Sq_Tangerine" shared="false" width="15">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="15" id="0" loop="false" name="Animation 0" numframes="1" originx="8" originy="8" width="15">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="18" fixedrot="false" fric="0.2" gid="3" id="35" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Sq_Tangerine" oid="-1" pausable="true" rest="0.0" shared="false" sprite="36" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" desc="" height="15" id="10" name="Sq_Turqoise" shared="false" width="15">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="15" id="0" loop="false" name="Animation 0" numframes="1" originx="8" originy="8" width="15">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="5" fixedrot="false" fric="0.2" gid="3" id="9" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Sq_Turqoise" oid="-1" pausable="true" rest="0.0" shared="false" sprite="10" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" desc="" height="15" id="24" name="Sq_Violet" shared="false" width="15">
+        <anim across="1" atlasID="-1" down="1" durations="1" height="15" id="0" loop="false" name="Animation 0" numframes="1" originx="8" originy="8" width="15">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="12" fixedrot="false" fric="0.2" gid="3" id="23" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Sq_Violet" oid="-1" pausable="true" rest="0.0" shared="false" sprite="24" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" desc="" height="15" id="20" name="Sq_Yellow" shared="false" width="15">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="15" id="0" loop="false" name="Animation 0" numframes="1" originx="8" originy="8" width="15">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="10" fixedrot="false" fric="0.2" gid="3" id="19" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Sq_Yellow" oid="-1" pausable="true" rest="0.0" shared="false" sprite="20" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" desc="" height="16" id="44" name="Square" shared="false" width="16"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="22" fixedrot="false" fric="0.2" gid="3" id="43" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Square" oid="-1" pausable="true" rest="0.0" shared="false" sprite="44" static="false" touchable="true">
+        <snippets/>
+    </actor>
+</pack>

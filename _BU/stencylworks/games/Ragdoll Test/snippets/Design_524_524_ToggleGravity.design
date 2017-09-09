@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="-1" id="-1">
+                        <set-val-524-3 comment="false" x="37" y="65">
+                            <grav-xy comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                            </grav-xy>
+                        </set-val-524-3>
+                        <set-val-524-4 comment="false" x="37" y="98">
+                            <grav-xy comment="false" id="0" x="0" y="0">
+                                <int id="0" val="1"/>
+                            </grav-xy>
+                        </set-val-524-4>
+                    </group>
+                    <get-val-524-5 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <if comment="false" x="26" y="143">
+                    <group eventID="-1" id="-1">
+                        <setgrav comment="false" x="37" y="173">
+                            <int id="0" val="0"/>
+                            <int id="1" val="0"/>
+                        </setgrav>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-val-524-1 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </if>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="233">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="258">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="291">
+                            <group eventID="-1" id="-1">
+                                <set-val-524-1 comment="false" x="48" y="316">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-val-524-1>
+                                <setgrav comment="false" x="48" y="341">
+                                    <int id="0" val="0"/>
+                                    <int id="1" val="0"/>
+                                </setgrav>
+                            </group>
+                            <get-val-524-1 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <else comment="false" x="37" y="373">
+                            <group eventID="-1" id="-1">
+                                <set-val-524-1 comment="false" x="48" y="393">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-val-524-1>
+                                <setgrav comment="false" x="48" y="418">
+                                    <get-val-524-3 comment="false" id="0" x="0" y="0"/>
+                                    <get-val-524-4 comment="false" id="1" x="0" y="0"/>
+                                </setgrav>
+                            </group>
+                        </else>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <CONTROL eid="var" id="1" vid="2"/>
+                    </keystate>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="495">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <draw comment="false" x="15" y="306">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="93">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="118">
+                    <group eventID="-1" id="-1">
+                        <set-val-493-12 comment="false" x="37" y="148">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-493-12>
+                        <say-this comment="false" x="37" y="173">
+                            <int id="0" val="Check"/>
+                        </say-this>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <get-val-493-12 comment="false" id="0" x="0" y="0"/>
+                        <get-val-493-5 comment="false" id="1" x="0" y="0"/>
+                    </and>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <set-val-493-12 comment="false" x="26" y="40">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-493-12>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="3">
+        <collide comment="false" x="15" y="233">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group eventID="-1" id="4">
+        <receive-message comment="false" x="15" y="379">
+            <group eventID="-1" id="-1">
+                <set-val-493-5 comment="false" x="26" y="404">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-493-5>
+                <shout comment="false" x="26" y="429">
+                    <ACTOR eid="this" id="0"/>
+                    <get-val-493-6 comment="false" id="1" x="0" y="0"/>
+                </shout>
+            </group>
+            <int id="0" val="Check"/>
+        </receive-message>
+    </group>
+    <group eventID="-1" id="5">
+        <receive-message comment="false" x="15" y="489">
+            <group eventID="-1" id="-1">
+                <set-val-493-5 comment="false" x="26" y="514">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-493-5>
+                <shout comment="false" x="26" y="539">
+                    <ACTOR eid="this" id="0"/>
+                    <get-val-493-7 comment="false" id="1" x="0" y="0"/>
+                </shout>
+            </group>
+            <int id="0" val="Uncheck"/>
+        </receive-message>
+    </group>
+    <group eventID="-1" id="6">
+        <receive-message comment="false" x="15" y="599">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="629">
+                    <group eventID="-1" id="-1">
+                        <say-this comment="false" x="37" y="654">
+                            <int id="0" val="Uncheck"/>
+                        </say-this>
+                    </group>
+                    <get-val-493-5 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <else comment="false" x="26" y="686">
+                    <group eventID="-1" id="-1">
+                        <say-this comment="false" x="37" y="706">
+                            <int id="0" val="Check"/>
+                        </say-this>
+                    </group>
+                </else>
+            </group>
+            <get-val-493-11 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group id="-1"/>
+</groups>

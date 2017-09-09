@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="113">
+                    <group eventID="-1" id="-1">
+                        <set-val-471-13 comment="false" x="37" y="146">
+                            <str-replace comment="false" id="0" x="0" y="0">
+                                <get-val-471-8 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="[Key]"/>
+                                <tostring comment="false" id="2" x="0" y="0">
+                                    <get-val-471-1 comment="false" id="0" x="0" y="0"/>
+                                </tostring>
+                            </str-replace>
+                        </set-val-471-13>
+                        <shout comment="false" x="37" y="181">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-471-13 comment="false" id="1" x="0" y="0"/>
+                        </shout>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <CONTROL eid="var" id="1" vid="1"/>
+                    </keystate>
+                </if>
+                <if comment="false" x="26" y="225">
+                    <group eventID="-1" id="-1">
+                        <set-val-471-13 comment="false" x="37" y="258">
+                            <str-replace comment="false" id="0" x="0" y="0">
+                                <get-val-471-9 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="[Key]"/>
+                                <tostring comment="false" id="2" x="0" y="0">
+                                    <get-val-471-1 comment="false" id="0" x="0" y="0"/>
+                                </tostring>
+                            </str-replace>
+                        </set-val-471-13>
+                        <shout comment="false" x="37" y="293">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-471-13 comment="false" id="1" x="0" y="0"/>
+                        </shout>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <CONTROL eid="var" id="1" vid="1"/>
+                    </keystate>
+                </if>
+                <if comment="false" x="26" y="337">
+                    <group eventID="-1" id="-1">
+                        <set-val-471-13 comment="false" x="37" y="370">
+                            <str-replace comment="false" id="0" x="0" y="0">
+                                <get-val-471-10 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="[Key]"/>
+                                <tostring comment="false" id="2" x="0" y="0">
+                                    <get-val-471-1 comment="false" id="0" x="0" y="0"/>
+                                </tostring>
+                            </str-replace>
+                        </set-val-471-13>
+                        <shout comment="false" x="37" y="405">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-471-13 comment="false" id="1" x="0" y="0"/>
+                        </shout>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="2"/>
+                        <CONTROL eid="var" id="1" vid="1"/>
+                    </keystate>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <collide comment="false" x="15" y="486">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group eventID="-1" id="3">
+        <draw comment="false" x="15" y="559">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

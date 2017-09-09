@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" format="1.0" gravx="-0.0" gravy="0.0" height="640" id="15" name="Test Controls" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <layer color="100,168,234" id="0" name="Layer 0" order="0"/>
+    </layers>
+    <color-bg blue="255" green="255" red="255"/>
+    <backgrounds>
+        <ref id="429"/>
+    </backgrounds>
+    <foregrounds/>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="597" sx="1.0" sy="1.0" x="306" y="302" z="0"/>
+        <actor a="0.0" aid="2" c="true" group="3" id="582" sx="1.0" sy="1.0" x="480" y="576" z="0">
+            <snippets>
+                <s enabled="true" id="441">
+                    <prop id="1" list="0" val="168"/>
+                    <prop id="2" list="0" val="0,0,0,255"/>
+                    <prop id="3" list="0" val="true"/>
+                    <prop id="4" list="0" val="Change Controls"/>
+                    <prop id="5" list="0" val="0"/>
+                    <prop id="6" list="0" val="0"/>
+                    <prop id="7" list="0" val=""/>
+                    <prop id="8" list="0" val=""/>
+                    <prop id="9" list="0" val="true"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="0.0"/>
+                    <prop id="12" list="0" val="0.0"/>
+                    <prop id="13" list="0" val="false"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="429">
+                    <prop id="3" list="1" val=""/>
+                    <prop id="5" list="0" val="1.0"/>
+                    <prop id="6" list="0" val="8.0"/>
+                    <prop id="7" list="0" val="8.0"/>
+                    <prop id="8" list="0" val="153,204,255,255"/>
+                    <prop id="9" list="0" val="false"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="1"/>
+                    <prop id="12" list="0" val="2.0"/>
+                    <prop id="13" list="0" val="Mouse Enter"/>
+                    <prop id="15" list="0" val="1.0"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="17" list="0" val="true"/>
+                    <prop id="16" list="0" val="false"/>
+                    <prop id="18" list="0" val="Mouse Leave"/>
+                </s>
+                <s enabled="true" id="474">
+                    <prop id="1" list="0" val="Animation 1"/>
+                    <prop id="2" list="0" val=""/>
+                    <prop id="3" list="0" val="Animation 0"/>
+                    <prop id="4" list="0" val="Button Clicked"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="473">
+                    <prop id="17" list="0" val="Mouse Pressed on Self"/>
+                    <prop id="16" list="0" val="Mouse Down on Self"/>
+                    <prop id="18" list="0" val="Mouse Released on Self"/>
+                    <prop id="8" list="0" val="Mouse Released"/>
+                    <prop id="9" list="0" val="Mouse Pressed"/>
+                    <prop id="10" list="0" val="Mouse Down"/>
+                    <prop id="11" list="0" val="false"/>
+                    <prop id="12" list="0" val="Mouse Over"/>
+                    <prop id="13" list="0" val="Mouse Enter"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="15" list="0" val="Mouse Leave"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="366">
+                    <prop id="1" list="0" val="Button Clicked"/>
+                    <prop id="2" list="0" val="0.5"/>
+                    <prop id="3" list="0" val="0.5"/>
+                    <prop id="4" list="0" val="0,0,0,255"/>
+                    <prop id="5" list="0" val="14"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="503">
+                    <prop id="2" list="0" val="Animation 1"/>
+                    <prop id="3" list="0" val="Animation 0"/>
+                    <prop id="4" list="0" val="Mouse Pressed on Self"/>
+                    <prop id="5" list="0" val="Mouse Released"/>
+                    <prop id="6" list="0" val="Mouse Leave"/>
+                    <prop id="7" list="0" val="Animation 0"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+    </actors>
+    <snippets/>
+    <terrain/>
+</scene>

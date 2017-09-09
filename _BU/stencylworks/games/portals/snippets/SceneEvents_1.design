@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="3" id="0">
+        <event-collide-actortoactor comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <create-actor3 comment="false" x="26" y="47">
+                    <ACTORTYPE eid="2" id="0"/>
+                    <int id="1" val="600"/>
+                    <int id="2" val="35"/>
+                    <int id="3" val="0"/>
+                </create-actor3>
+                <die comment="false" x="26" y="74">
+                    <ACTOR eid="3" id="0"/>
+                </die>
+            </group>
+            <ACTOR eid="3" id="0"/>
+            <ACTOR eid="5" id="1"/>
+        </event-collide-actortoactor>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-collide-actortoactor comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <create-actor3 comment="false" x="26" y="47">
+                    <ACTORTYPE eid="32" id="0"/>
+                    <int id="1" val="590"/>
+                    <int id="2" val="35"/>
+                    <int id="3" val="0"/>
+                </create-actor3>
+                <die comment="false" x="26" y="74">
+                    <ACTOR eid="4" id="0"/>
+                </die>
+            </group>
+            <ACTOR eid="4" id="0"/>
+            <ACTOR eid="5" id="1"/>
+        </event-collide-actortoactor>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <event-collide-typetotype comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <scene-change-new comment="false" x="26" y="47">
+                    <SCENE eid="2" id="0"/>
+                    <int id="1" val="2"/>
+                    <int id="2" val="1"/>
+                    <int id="3" val="2"/>
+                    <int id="4" val="1"/>
+                </scene-change-new>
+            </group>
+            <ACTORTYPE eid="32" id="0"/>
+            <ACTORTYPE eid="38" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="5" id="-1"/>
+</groups>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="88">
+            <group eventID="-1" id="-1">
+                <for-each comment="false" x="26" y="113">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="138">
+                            <group eventID="-1" id="-1">
+                                <set-val-476-8 comment="false" x="48" y="176">
+                                    <str-replace comment="false" id="0" x="0" y="0">
+                                        <get-val-476-1 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="[Key]"/>
+                                        <for-each-item comment="false" id="2" x="0" y="0"/>
+                                    </str-replace>
+                                </set-val-476-8>
+                                <scene-shout comment="false" x="48" y="206">
+                                    <get-val-476-8 comment="false" id="0" x="0" y="0"/>
+                                </scene-shout>
+                            </group>
+                            <keystate comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                                <for-each-item comment="false" id="1" x="0" y="0"/>
+                            </keystate>
+                        </if>
+                        <if comment="false" x="37" y="243">
+                            <group eventID="-1" id="-1">
+                                <set-val-476-8 comment="false" x="48" y="281">
+                                    <str-replace comment="false" id="0" x="0" y="0">
+                                        <get-val-476-4 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="[Key]"/>
+                                        <for-each-item comment="false" id="2" x="0" y="0"/>
+                                    </str-replace>
+                                </set-val-476-8>
+                                <scene-shout comment="false" x="48" y="311">
+                                    <get-val-476-8 comment="false" id="0" x="0" y="0"/>
+                                </scene-shout>
+                            </group>
+                            <keystate comment="false" id="0" x="0" y="0">
+                                <int id="0" val="1"/>
+                                <for-each-item comment="false" id="1" x="0" y="0"/>
+                            </keystate>
+                        </if>
+                        <if comment="false" x="37" y="348">
+                            <group eventID="-1" id="-1">
+                                <set-val-476-8 comment="false" x="48" y="386">
+                                    <str-replace comment="false" id="0" x="0" y="0">
+                                        <get-val-476-3 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="[Key]"/>
+                                        <for-each-item comment="false" id="2" x="0" y="0"/>
+                                    </str-replace>
+                                </set-val-476-8>
+                                <scene-shout comment="false" x="48" y="416">
+                                    <get-val-476-8 comment="false" id="0" x="0" y="0"/>
+                                </scene-shout>
+                            </group>
+                            <keystate comment="false" id="0" x="0" y="0">
+                                <int id="0" val="2"/>
+                                <for-each-item comment="false" id="1" x="0" y="0"/>
+                            </keystate>
+                        </if>
+                    </group>
+                    <get-val-476-9 comment="false" id="0" x="0" y="0"/>
+                </for-each>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="508">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <draw comment="false" x="15" y="314">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="1">
+        <collide comment="false" x="15" y="241">
+            <group eventID="-1" id="-1"/>
+        </collide>
+    </group>
+    <group eventID="-1" id="2">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <set-val-422-4 comment="false" x="26" y="40">
+                    <getanim comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                    </getanim>
+                </set-val-422-4>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="3">
+        <receive-message comment="false" x="15" y="387">
+            <group eventID="-1" id="-1">
+                <setanim comment="false" x="26" y="417">
+                    <ACTOR eid="this" id="0"/>
+                    <get-val-422-1 comment="false" id="1" x="0" y="0"/>
+                </setanim>
+            </group>
+            <get-val-422-2 comment="false" id="0" x="0" y="0"/>
+        </receive-message>
+    </group>
+    <group eventID="-1" id="4">
+        <step comment="false" x="15" y="101">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="126">
+                    <group eventID="-1" id="-1">
+                        <setanim comment="false" x="37" y="169">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-422-4 comment="false" id="1" x="0" y="0"/>
+                        </setanim>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <eq comment="false" id="0" x="0" y="0">
+                            <getanim comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                            </getanim>
+                            <get-val-516-1 comment="false" id="1" x="0" y="0"/>
+                        </eq>
+                        <not comment="false" id="1" x="0" y="0">
+                            <is-anim comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                            </is-anim>
+                        </not>
+                    </and>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="5">
+        <eq comment="false" x="0" y="0">
+            <getanim comment="false" id="0" x="0" y="0">
+                <ACTOR eid="this" id="0"/>
+            </getanim>
+            <get-val-516-1 comment="false" id="1" x="0" y="0"/>
+        </eq>
+    </group>
+    <group id="-1"/>
+</groups>

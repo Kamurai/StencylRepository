@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<collide comment="false" x="15" y="465">
+<group id="-1"/>
+</collide>
+</group>
+<group id="1"/>
+<group id="2">
+<step comment="false" x="15" y="88">
+<group id="-1">
+<comment-short comment="false" x="26" y="113">
+<int id="0" val="Reached the left side. Switch direction."/>
+</comment-short>
+<if comment="false" x="26" y="133">
+<group id="-1">
+<if comment="false" x="37" y="171">
+<group id="-1">
+<set-game-val-2 comment="false" x="48" y="201">
+<true comment="false" id="0" x="0" y="0"/>
+</set-game-val-2>
+<set-game-val-0 comment="false" x="48" y="226">
+<true comment="false" id="0" x="0" y="0"/>
+</set-game-val-0>
+</group>
+<not comment="false" id="0" x="0" y="0">
+<get-game-val-0 comment="false" id="0" x="0" y="0"/>
+</not>
+</if>
+</group>
+<eq comment="false" id="0" x="0" y="0">
+<getx comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getx>
+<int id="1" val="16"/>
+</eq>
+</if>
+<comment-short comment="false" x="26" y="275">
+<int id="0" val="Reached the right side. Switch direction."/>
+</comment-short>
+<if comment="false" x="26" y="295">
+<group id="-1">
+<if comment="false" x="37" y="338">
+<group id="-1">
+<set-game-val-2 comment="false" x="48" y="363">
+<true comment="false" id="0" x="0" y="0"/>
+</set-game-val-2>
+<set-game-val-0 comment="false" x="48" y="388">
+<false comment="false" id="0" x="0" y="0"/>
+</set-game-val-0>
+</group>
+<get-game-val-0 comment="false" id="0" x="0" y="0"/>
+</if>
+</group>
+<eq comment="false" id="0" x="0" y="0">
+<plus comment="false" id="0" x="0" y="0">
+<getx comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getx>
+<getwidth comment="false" id="1" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getwidth>
+</plus>
+<minus comment="false" id="1" x="0" y="0">
+<scenew comment="false" id="0" x="0" y="0"/>
+<int id="1" val="16"/>
+</minus>
+</eq>
+</if>
+</group>
+</step>
+</group>
+<group id="3">
+<draw comment="false" x="15" y="538">
+<group id="-1"/>
+</draw>
+</group>
+<group id="4">
+<init comment="false" x="15" y="15">
+<group id="-1"/>
+</init>
+</group>
+<group id="5"/>
+<group id="-1"/>
+</groups>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<collide comment="false" x="15" y="166">
+<group id="-1"/>
+</collide>
+</group>
+<group id="1">
+<receive-message comment="false" x="15" y="312">
+<group id="-1">
+<if comment="false" x="26" y="342">
+<group id="-1">
+<shout comment="false" x="37" y="367">
+<ACTOR eid="this" id="0"/>
+<get-val-15-7 comment="false" id="1" x="0" y="0"/>
+</shout>
+<stop comment="false" x="37" y="399"/>
+</group>
+<get-val-15-4 comment="false" id="0" x="0" y="0"/>
+</if>
+<if comment="false" x="26" y="431">
+<group id="-1">
+<decrement comment="false" x="37" y="461">
+<int id="0" val="3"/>
+<int id="1" val="1"/>
+</decrement>
+<shout comment="false" x="37" y="488">
+<ACTOR eid="this" id="0"/>
+<get-val-15-7 comment="false" id="1" x="0" y="0"/>
+</shout>
+<if comment="false" x="37" y="520">
+<group id="-1">
+<shout comment="false" x="48" y="550">
+<ACTOR eid="this" id="0"/>
+<get-val-15-8 comment="false" id="1" x="0" y="0"/>
+</shout>
+</group>
+<lesseq comment="false" id="0" x="0" y="0">
+<get-val-15-3 comment="false" id="0" x="0" y="0"/>
+<int id="1" val="0"/>
+</lesseq>
+</if>
+</group>
+<more comment="false" id="0" x="0" y="0">
+<get-val-15-3 comment="false" id="0" x="0" y="0"/>
+<int id="1" val="0"/>
+</more>
+</if>
+</group>
+<get-val-15-5 comment="false" id="0" x="0" y="0"/>
+</receive-message>
+</group>
+<group id="2">
+<step comment="false" x="15" y="93">
+<group id="-1"/>
+</step>
+</group>
+<group id="3">
+<draw comment="false" x="15" y="239">
+<group id="-1"/>
+</draw>
+</group>
+<group id="4">
+<receive-message comment="false" x="15" y="634">
+<group id="-1">
+<set-val-15-3 comment="false" x="26" y="664">
+<get-val-15-1 comment="false" id="0" x="0" y="0"/>
+</set-val-15-3>
+</group>
+<get-val-15-6 comment="false" id="0" x="0" y="0"/>
+</receive-message>
+</group>
+<group id="5">
+<init comment="false" x="15" y="15">
+<group id="-1">
+<set-val-15-3 comment="false" x="26" y="40">
+<get-val-15-2 comment="false" id="0" x="0" y="0"/>
+</set-val-15-3>
+</group>
+</init>
+</group>
+<group id="-1"/>
+</groups>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="16" extheight="448" extwidth="704" extx="-32" exty="-32" format="2.1" gravx="-0.0" gravy="0.0" height="384" id="0" name="lv 1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <layer color="100,168,234" id="0" name="Layer 0" order="0"/>
+    </layers>
+    <color-bg blue="255" green="255" red="255"/>
+    <backgrounds>
+        <ref id="42"/>
+    </backgrounds>
+    <foregrounds/>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="3" c="false" group="3" id="2" name="Player 3" sx="1.0" sy="1.0" x="118" y="298" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="40" name="portal 4" sx="1.0" sy="1.0" x="0" y="0" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="40" name="portal 5" sx="1.0" sy="1.0" x="523" y="119" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="3" id="32" name="Box 6" sx="1.0" sy="1.0" x="256" y="288" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="3" id="38" name="platfotm 2 7" sx="1.0" sy="1.0" x="128" y="96" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="3" id="46" name="laser 8" sx="1.0" sy="1.0" x="489" y="114" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="384.0" y="288.0"/>
+        <p pts="6,224.0,192.0,0.0,192.0,0.0,160.0,192.0,160.0,192.0,0.0,224.0,0.0" x="0.0" y="0.0"/>
+    </terrain>
+</scene>

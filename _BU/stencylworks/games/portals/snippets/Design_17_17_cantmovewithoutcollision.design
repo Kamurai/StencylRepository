@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-collide-typetotype comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="80">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0"/>
+                        </set-dxy>
+                    </group>
+                    <collision-right comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <int id="1" val="1"/>
+                    </collision-right>
+                </if>
+                <if comment="false" x="26" y="119">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="152">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="0"/>
+                        </set-dxy>
+                    </group>
+                    <collision-bottom comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <int id="1" val="1"/>
+                    </collision-bottom>
+                </if>
+                <if comment="false" x="26" y="191">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="224">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="0"/>
+                        </set-dxy>
+                    </group>
+                    <collision-top comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <int id="1" val="1"/>
+                    </collision-top>
+                </if>
+                <if comment="false" x="26" y="263">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="296">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0"/>
+                        </set-dxy>
+                    </group>
+                    <collision-left comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <int id="1" val="1"/>
+                    </collision-left>
+                </if>
+            </group>
+            <ACTORTYPE eid="2" id="0"/>
+            <ACTORTYPE eid="32" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="3" id="0">
+        <event-collide-typetotype comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="80">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0"/>
+                        </set-dxy>
+                    </group>
+                    <collision-right comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <int id="1" val="1"/>
+                    </collision-right>
+                </if>
+                <if comment="false" x="26" y="119">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="152">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="0"/>
+                        </set-dxy>
+                    </group>
+                    <collision-bottom comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <int id="1" val="1"/>
+                    </collision-bottom>
+                </if>
+                <if comment="false" x="26" y="191">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="224">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="0"/>
+                        </set-dxy>
+                    </group>
+                    <collision-top comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <int id="1" val="1"/>
+                    </collision-top>
+                </if>
+                <if comment="false" x="26" y="263">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="296">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0"/>
+                        </set-dxy>
+                    </group>
+                    <collision-left comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <int id="1" val="1"/>
+                    </collision-left>
+                </if>
+            </group>
+            <ACTORTYPE eid="2" id="0"/>
+            <ACTORTYPE eid="34" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="3" id="-1"/>
+</groups>

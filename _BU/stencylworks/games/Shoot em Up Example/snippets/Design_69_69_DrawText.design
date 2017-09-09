@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="60" y="40">
+<group id="-1"/>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="60" y="150">
+<group id="-1"/>
+</step>
+</group>
+<group id="2">
+<draw comment="false" x="164" y="256">
+<group id="-1">
+<set-font-new comment="false" x="175" y="281">
+<FONT eid="133" id="0"/>
+</set-font-new>
+<draw-text comment="false" x="175" y="308">
+<int id="0" val="ABCD abcd "/>
+<int id="1" val="64"/>
+<int id="2" val="224"/>
+</draw-text>
+<draw-text comment="false" x="175" y="328">
+<int id="0" val="1234567890 "/>
+<int id="1" val="64"/>
+<int id="2" val="256"/>
+</draw-text>
+<draw-text comment="false" x="175" y="348">
+<int id="0" val="EFGHI efghi ( ) X z"/>
+<int id="1" val="64"/>
+<int id="2" val="288"/>
+</draw-text>
+<draw-text comment="false" x="175" y="368">
+<int id="0" val="---------------------"/>
+<int id="1" val="64"/>
+<int id="2" val="320"/>
+</draw-text>
+<draw-text comment="false" x="175" y="388">
+<int id="0" val="This is a test text."/>
+<int id="1" val="64"/>
+<int id="2" val="384"/>
+</draw-text>
+<draw-text comment="false" x="175" y="408">
+<int id="0" val="!@#$%^&amp;amp;*()_+"/>
+<int id="1" val="64"/>
+<int id="2" val="424"/>
+</draw-text>
+</group>
+</draw>
+</group>
+<group id="-1"/>
+</groups>

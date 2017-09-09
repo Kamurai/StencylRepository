@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <set-val-472-5 comment="false" x="26" y="40">
+                    <div comment="false" id="0" x="0" y="0">
+                        <minus comment="false" id="0" x="0" y="0">
+                            <screen-wh comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                            </screen-wh>
+                            <plus comment="false" id="1" x="0" y="0">
+                                <times comment="false" id="0" x="0" y="0">
+                                    <custom-532 comment="false" id="0" x="0" y="0">
+                                        <ACTORTYPE eid="var" id="0" vid="3"/>
+                                    </custom-532>
+                                    <length-list comment="false" id="1" x="0" y="0">
+                                        <get-val-472-4 comment="false" id="0" x="0" y="0"/>
+                                    </length-list>
+                                </times>
+                                <times comment="false" id="1" x="0" y="0">
+                                    <get-val-472-2 comment="false" id="0" x="0" y="0"/>
+                                    <minus comment="false" id="1" x="0" y="0">
+                                        <length-list comment="false" id="0" x="0" y="0">
+                                            <get-val-472-4 comment="false" id="0" x="0" y="0"/>
+                                        </length-list>
+                                        <int id="1" val="1"/>
+                                    </minus>
+                                </times>
+                            </plus>
+                        </minus>
+                        <int id="1" val="2"/>
+                    </div>
+                </set-val-472-5>
+                <custom-code comment="false" x="26" y="95">
+                    <int id="0" val="var scenes = Game.get().scenes;"/>
+                </custom-code>
+                <for-each comment="false" x="26" y="115">
+                    <group eventID="-1" id="-1">
+                        <custom-code comment="false" x="37" y="140">
+                            <int id="0" val="_CurrentScene = scenes[getIDForScene(item)];"/>
+                        </custom-code>
+                        <if comment="false" x="37" y="160">
+                            <group eventID="-1" id="-1">
+                                <create-actor3 comment="false" x="48" y="193">
+                                    <ACTORTYPE eid="var" id="0" vid="3"/>
+                                    <div comment="false" id="1" x="0" y="0">
+                                        <minus comment="false" id="0" x="0" y="0">
+                                            <screen-wh comment="false" id="0" x="0" y="0">
+                                                <int id="0" val="0"/>
+                                            </screen-wh>
+                                            <custom-531 comment="false" id="1" x="0" y="0">
+                                                <ACTORTYPE eid="var" id="0" vid="3"/>
+                                            </custom-531>
+                                        </minus>
+                                        <int id="1" val="2"/>
+                                    </div>
+                                    <get-val-472-5 comment="false" id="2" x="0" y="0"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                                <actor-enabledisable-snippet comment="false" x="48" y="243">
+                                    <ACTOR eid="lastcreated" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="Actor Switch Scene"/>
+                                </actor-enabledisable-snippet>
+                                <set-attribute comment="false" x="48" y="270">
+                                    <ACTOR eid="lastcreated" id="0"/>
+                                    <int id="1" val="Caption"/>
+                                    <int id="2" val="_Text"/>
+                                    <for-each-item comment="false" id="3" x="0" y="0"/>
+                                </set-attribute>
+                                <set-attribute comment="false" x="48" y="302">
+                                    <ACTOR eid="lastcreated" id="0"/>
+                                    <int id="1" val="Actor Switch Scene"/>
+                                    <int id="2" val="_Scene"/>
+                                    <get-val-472-6 comment="false" id="3" x="0" y="0"/>
+                                </set-attribute>
+                                <incdec comment="false" x="48" y="334">
+                                    <int id="0" val="5"/>
+                                    <int id="1" val="0"/>
+                                    <plus comment="false" id="2" x="0" y="0">
+                                        <get-wh comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="lastcreated" id="0"/>
+                                            <int id="1" val="1"/>
+                                        </get-wh>
+                                        <get-val-472-2 comment="false" id="1" x="0" y="0"/>
+                                    </plus>
+                                </incdec>
+                            </group>
+                            <value comment="false" id="0" x="0" y="0">
+                                <int id="0" val="6"/>
+                                <int id="1" val="0"/>
+                            </value>
+                        </if>
+                    </group>
+                    <get-val-472-4 comment="false" id="0" x="0" y="0"/>
+                </for-each>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="15" y="431">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="15" y="504">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

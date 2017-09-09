@@ -12,7 +12,7 @@
         <blank name="Actor1" order="0" type="ACTOR"/>
         <blank name="Actor2" order="1" type="ACTOR"/>
     </custom-block>
-    <custom-block blocktag="custom-524" blocktype="NORMAL" code="Number((scripts.Design_489_489.ActorID(~)))" desc="" global="true" gui="ID of %0" id="524" message="ActorID" name="ActorID" oid="-1" return="NUMBER" shared="false" snippetID="-1">
+    <custom-block blocktag="custom-524" blocktype="NORMAL" code="Number((scripts.Design_489_489.ActorID(~)))" desc="" global="true" gui="ID of %0" id="524" message="ActorID" name="ActorID" oid="-1" return="NUMBER" shared="false" snippetID="489">
         <blank name="actor" order="0" type="ACTOR"/>
     </custom-block>
     <custom-block blocktag="custom-493" blocktype="NORMAL" code="Boolean((scripts.Design_481_481.ActorInRect(~,~,~,~,~)))" desc="" global="true" gui="is %0 inside rectangle ( x: %1 y: %2 w: %3 h: %4 )" id="493" message="ActorInRect" name="ActorInRect" oid="-1" return="BOOLEAN" shared="false" snippetID="-1">
@@ -39,13 +39,13 @@
         <blank name="actor1" order="0" type="ACTOR"/>
         <blank name="actor2" order="1" type="ACTOR"/>
     </custom-block>
-    <custom-block blocktag="custom-525" blocktype="NORMAL" code="String((scripts.Design_489_489.ActorTypeAndID(~)))" desc="" global="true" gui="type and ID of %0" id="525" message="ActorTypeAndID" name="ActorTypeAndID" oid="-1" return="TEXT" shared="false" snippetID="-1">
+    <custom-block blocktag="custom-525" blocktype="NORMAL" code="String((scripts.Design_489_489.ActorTypeAndID(~)))" desc="" global="true" gui="type and ID of %0" id="525" message="ActorTypeAndID" name="ActorTypeAndID" oid="-1" return="TEXT" shared="false" snippetID="489">
         <blank name="actor" order="0" type="ACTOR"/>
     </custom-block>
-    <custom-block blocktag="custom-532" blocktype="NORMAL" code="Number((scripts.Design_491_491.ActorTypeHeight(~)))" desc="" global="true" gui="height of actor type %0" id="532" message="ActorTypeHeight" name="ActorTypeHeight" oid="-1" return="NUMBER" shared="false" snippetID="-1">
+    <custom-block blocktag="custom-532" blocktype="NORMAL" code="Number((scripts.Design_491_491.ActorTypeHeight(~)))" desc="" global="true" gui="height of actor type %0" id="532" message="ActorTypeHeight" name="ActorTypeHeight" oid="-1" return="NUMBER" shared="false" snippetID="491">
         <blank name="actor type" order="0" type="ACTORTYPE"/>
     </custom-block>
-    <custom-block blocktag="custom-531" blocktype="NORMAL" code="Number((scripts.Design_491_491.ActorTypeWidth(~)))" desc="" global="true" gui="width of actor type %0" id="531" message="ActorTypeWidth" name="ActorTypeWidth" oid="-1" return="NUMBER" shared="false" snippetID="-1">
+    <custom-block blocktag="custom-531" blocktype="NORMAL" code="Number((scripts.Design_491_491.ActorTypeWidth(~)))" desc="" global="true" gui="width of actor type %0" id="531" message="ActorTypeWidth" name="ActorTypeWidth" oid="-1" return="NUMBER" shared="false" snippetID="491">
         <blank name="actor type" order="0" type="ACTORTYPE"/>
     </custom-block>
     <custom-block blocktag="custom-611" blocktype="NORMAL" code="Number((scripts.Design_487_487.Angle(~,~)))" desc="" global="true" gui="angle of ( x: %0 y: %1 )" id="611" message="Angle" name="Angle" oid="-1" return="NUMBER" shared="false" snippetID="-1">
@@ -83,8 +83,13 @@
         <blank name="anything" order="2" type="OBJECT"/>
         <blank name="array" order="3" type="LIST"/>
     </custom-block>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="3" id="632" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Arrow Button Left" oid="-1" pausable="true" rest="0.0" shared="false" sprite="633" static="true" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" fixedrot="false" fric="0.2" gid="3" id="632" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Arrow Button Left" oid="-1" pausable="true" rest="0.0" shared="false" sprite="633" static="true" touchable="true">
         <snippets>
+            <s enabled="true" id="474">
+                <prop id="4" list="0" val="Button Clicked"/>
+                <prop id="5" list="0" val="false"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
             <s enabled="true" id="429">
                 <prop id="3" list="1" val=""/>
                 <prop id="5" list="0" val="1.0"/>
@@ -102,11 +107,6 @@
                 <prop id="16" list="0" val="false"/>
                 <prop id="18" list="0" val="Mouse Leave"/>
             </s>
-            <s enabled="true" id="474">
-                <prop id="4" list="0" val="Button Clicked"/>
-                <prop id="5" list="0" val="false"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
             <s enabled="true" id="473">
                 <prop id="17" list="0" val="Mouse Pressed on Self"/>
                 <prop id="16" list="0" val="Mouse Down on Self"/>
@@ -118,8 +118,8 @@
                 <prop id="12" list="0" val="Mouse Over"/>
                 <prop id="13" list="0" val="Mouse Enter"/>
                 <prop id="14" list="0" val="false"/>
-                <prop id="15" list="0" val="Mouse Leave"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val="Mouse Leave"/>
             </s>
             <s enabled="true" id="503">
                 <prop id="2" list="0" val="Animation 1"/>
@@ -164,8 +164,13 @@
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="3" id="628" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Arrow Button Right" oid="-1" pausable="true" rest="0.0" shared="false" sprite="629" static="true" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" fixedrot="false" fric="0.2" gid="3" id="628" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Arrow Button Right" oid="-1" pausable="true" rest="0.0" shared="false" sprite="629" static="true" touchable="true">
         <snippets>
+            <s enabled="true" id="474">
+                <prop id="4" list="0" val="Button Clicked"/>
+                <prop id="5" list="0" val="false"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
             <s enabled="true" id="429">
                 <prop id="3" list="1" val=""/>
                 <prop id="5" list="0" val="1.0"/>
@@ -183,11 +188,6 @@
                 <prop id="16" list="0" val="false"/>
                 <prop id="18" list="0" val="Mouse Leave"/>
             </s>
-            <s enabled="true" id="474">
-                <prop id="4" list="0" val="Button Clicked"/>
-                <prop id="5" list="0" val="false"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
             <s enabled="true" id="473">
                 <prop id="17" list="0" val="Mouse Pressed on Self"/>
                 <prop id="16" list="0" val="Mouse Down on Self"/>
@@ -199,8 +199,8 @@
                 <prop id="12" list="0" val="Mouse Over"/>
                 <prop id="13" list="0" val="Mouse Enter"/>
                 <prop id="14" list="0" val="false"/>
-                <prop id="15" list="0" val="Mouse Leave"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val="Mouse Leave"/>
             </s>
             <s enabled="true" id="503">
                 <prop id="2" list="0" val="Animation 1"/>
@@ -252,7 +252,7 @@
             <poly data="4,0,0,128,0,128,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="3" id="582" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Button 128" oid="-1" pausable="true" rest="0.0" shared="false" sprite="583" static="true" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" fixedrot="false" fric="0.2" gid="3" id="582" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Button 128" oid="-1" pausable="true" rest="0.0" shared="false" sprite="583" static="true" touchable="true">
         <snippets>
             <s enabled="true" id="441">
                 <prop id="1" list="0" val="168"/>
@@ -269,7 +269,15 @@
                 <prop id="12" list="0" val="0.0"/>
                 <prop id="13" list="0" val="false"/>
                 <prop id="14" list="0" val="false"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="15" list="0" val="false"/>
+            </s>
+            <s enabled="true" id="474">
+                <prop id="1" list="0" val="Animation 1"/>
+                <prop id="2" list="0" val=""/>
+                <prop id="3" list="0" val="Animation 0"/>
+                <prop id="4" list="0" val="Button Clicked"/>
+                <prop id="5" list="0" val="false"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
             <s enabled="true" id="429">
@@ -289,14 +297,6 @@
                 <prop id="16" list="0" val="false"/>
                 <prop id="18" list="0" val="Mouse Leave"/>
             </s>
-            <s enabled="true" id="474">
-                <prop id="1" list="0" val="Animation 1"/>
-                <prop id="2" list="0" val=""/>
-                <prop id="3" list="0" val="Animation 0"/>
-                <prop id="4" list="0" val="Button Clicked"/>
-                <prop id="5" list="0" val="false"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
             <s enabled="true" id="473">
                 <prop id="17" list="0" val="Mouse Pressed on Self"/>
                 <prop id="16" list="0" val="Mouse Down on Self"/>
@@ -308,8 +308,8 @@
                 <prop id="12" list="0" val="Mouse Over"/>
                 <prop id="13" list="0" val="Mouse Enter"/>
                 <prop id="14" list="0" val="false"/>
-                <prop id="15" list="0" val="Mouse Leave"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val="Mouse Leave"/>
             </s>
             <s enabled="true" id="503">
                 <prop id="2" list="0" val="Animation 1"/>
@@ -322,7 +322,7 @@
             </s>
         </snippets>
     </actor>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="3" id="595" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Button 64" oid="-1" pausable="true" rest="0.0" shared="false" sprite="596" static="true" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" fixedrot="false" fric="0.2" gid="3" id="595" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Button 64" oid="-1" pausable="true" rest="0.0" shared="false" sprite="596" static="true" touchable="true">
         <snippets>
             <s enabled="true" id="441">
                 <prop id="1" list="0" val="168"/>
@@ -339,7 +339,15 @@
                 <prop id="12" list="0" val="0.0"/>
                 <prop id="13" list="0" val="false"/>
                 <prop id="14" list="0" val="false"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="15" list="0" val="false"/>
+            </s>
+            <s enabled="true" id="474">
+                <prop id="1" list="0" val="Animation 1"/>
+                <prop id="2" list="0" val=""/>
+                <prop id="3" list="0" val="Animation 0"/>
+                <prop id="4" list="0" val="Button Clicked"/>
+                <prop id="5" list="0" val="false"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
             <s enabled="true" id="429">
@@ -359,14 +367,6 @@
                 <prop id="16" list="0" val="false"/>
                 <prop id="18" list="0" val="Mouse Leave"/>
             </s>
-            <s enabled="true" id="474">
-                <prop id="1" list="0" val="Animation 1"/>
-                <prop id="2" list="0" val=""/>
-                <prop id="3" list="0" val="Animation 0"/>
-                <prop id="4" list="0" val="Button Clicked"/>
-                <prop id="5" list="0" val="false"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
             <s enabled="true" id="473">
                 <prop id="17" list="0" val="Mouse Pressed on Self"/>
                 <prop id="16" list="0" val="Mouse Down on Self"/>
@@ -378,8 +378,8 @@
                 <prop id="12" list="0" val="Mouse Over"/>
                 <prop id="13" list="0" val="Mouse Enter"/>
                 <prop id="14" list="0" val="false"/>
-                <prop id="15" list="0" val="Mouse Leave"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val="Mouse Leave"/>
             </s>
             <s enabled="true" id="503">
                 <prop id="2" list="0" val="Animation 1"/>
@@ -400,7 +400,7 @@
             <poly data="4,0,0,128,0,128,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="3" id="591" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Change Control Button" oid="-1" pausable="true" rest="0.0" shared="false" sprite="592" static="true" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" fixedrot="false" fric="0.2" gid="3" id="591" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Change Control Button" oid="-1" pausable="true" rest="0.0" shared="false" sprite="592" static="true" touchable="true">
         <snippets>
             <s enabled="true" id="441">
                 <prop id="1" list="0" val="168"/>
@@ -417,8 +417,8 @@
                 <prop id="12" list="0" val="0.0"/>
                 <prop id="13" list="0" val="false"/>
                 <prop id="14" list="0" val="false"/>
-                <prop id="15" list="0" val="false"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val="false"/>
             </s>
             <s enabled="true" id="429">
                 <prop id="3" list="1" val=""/>
@@ -448,8 +448,8 @@
                 <prop id="12" list="0" val="Mouse Over"/>
                 <prop id="13" list="0" val="Mouse Enter"/>
                 <prop id="14" list="0" val="false"/>
-                <prop id="15" list="0" val="Mouse Leave"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val="Mouse Leave"/>
             </s>
             <s enabled="true" id="503">
                 <prop id="2" list="0" val="Animation 0"/>
@@ -462,7 +462,7 @@
             </s>
         </snippets>
     </actor>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="3" id="577" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Checkbox" oid="-1" pausable="true" rest="0.0" shared="false" sprite="578" static="true" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" fixedrot="false" fric="0.2" gid="3" id="577" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Checkbox" oid="-1" pausable="true" rest="0.0" shared="false" sprite="578" static="true" touchable="true">
         <snippets>
             <s enabled="true" id="441">
                 <prop id="1" list="0" val="168"/>
@@ -479,8 +479,8 @@
                 <prop id="12" list="0" val="0.0"/>
                 <prop id="13" list="0" val="false"/>
                 <prop id="14" list="0" val="false"/>
-                <prop id="15" list="0" val="false"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val="false"/>
             </s>
             <s enabled="true" id="429">
                 <prop id="3" list="1" val=""/>
@@ -510,8 +510,8 @@
                 <prop id="12" list="0" val="Mouse Over"/>
                 <prop id="13" list="0" val="Mouse Enter"/>
                 <prop id="14" list="0" val="false"/>
-                <prop id="15" list="0" val="Mouse Leave"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val="Mouse Leave"/>
             </s>
             <s enabled="true" id="503">
                 <prop id="2" list="0" val="Animation 1"/>
@@ -580,7 +580,7 @@
         <blank name="x2" order="2" type="NUMBER"/>
         <blank name="y2" order="3" type="NUMBER"/>
     </custom-block>
-    <custom-block blocktag="custom-602" blocktype="NORMAL" code="String((scripts.Design_486_486.EmptyString()))" desc="" global="true" gui="empty string" id="602" message="EmptyString" name="EmptyString" oid="-1" return="TEXT" shared="false" snippetID="-1"/>
+    <custom-block blocktag="custom-602" blocktype="NORMAL" code="String((scripts.Design_486_486.EmptyString()))" desc="" global="true" gui="empty string" id="602" message="EmptyString" name="EmptyString" oid="-1" return="TEXT" shared="false" snippetID="486"/>
     <custom-block blocktag="custom-555" blocktype="ACTION" code="scripts.Design_497_497.EnableAntialiasing(~);" desc="" global="true" gui="enable antialiasing for %0" id="555" message="EnableAntialiasing" name="EnableAntialiasing" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="actor" order="0" type="ACTOR"/>
     </custom-block>
@@ -604,10 +604,10 @@
     <custom-block blocktag="custom-581" blocktype="NORMAL" code="((sayToScene(&quot;Scene Blocks&quot;, &quot;GetActorTypeByName&quot;, ~)) as ActorType)" desc="" global="false" gui="get actor type by name %0" id="581" message="GetActorTypeByName" name="GetActorTypeByName" oid="-1" return="ACTORTYPE" shared="false" snippetID="-1">
         <blank name="name" order="0" type="TEXT"/>
     </custom-block>
-    <custom-block blocktag="custom-590" blocktype="NORMAL" code="String((scripts.Design_496_496_UserInputBlocks.GetKey(~)))" desc="" global="true" gui="get key %0" id="590" message="GetKey" name="GetKey" oid="-1" return="TEXT" shared="false" snippetID="-1">
+    <custom-block blocktag="custom-590" blocktype="NORMAL" code="String((scripts.Design_496_496_UserInputBlocks.GetKey(~)))" desc="" global="true" gui="get key %0" id="590" message="GetKey" name="GetKey" oid="-1" return="TEXT" shared="false" snippetID="496">
         <blank name="key" order="0" type="TEXT"/>
     </custom-block>
-    <custom-block blocktag="custom-657" blocktype="NORMAL" code="String((scripts.Design_519_519_UserInputBlocks.GetKeyName(~)))" desc="" global="true" gui="get name of key %0" id="657" message="GetKeyName" name="GetKeyName" oid="-1" return="TEXT" shared="false" snippetID="519">
+    <custom-block blocktag="custom-657" blocktype="NORMAL" code="String((scripts.Design_496_496_UserInputBlocks.GetKeyName(~)))" desc="" global="true" gui="get name of key %0" id="657" message="GetKeyName" name="GetKeyName" oid="-1" return="TEXT" shared="false" snippetID="519">
         <blank name="key" order="0" type="TEXT"/>
     </custom-block>
     <custom-block blocktag="custom-570" blocktype="NORMAL" code="((sayToScene(&quot;Scene Blocks&quot;, &quot;GetSceneByName&quot;, ~)) as Scene)" desc="" global="false" gui="get scene by name %0" id="570" message="GetSceneByName" name="GetSceneByName" oid="-1" return="SCENE" shared="false" snippetID="-1">
@@ -629,20 +629,20 @@
     <custom-block blocktag="custom-644" blocktype="NORMAL" code="Boolean((scripts.Design_515_515_DisableWidget.IsEnabled(~)))" desc="" global="true" gui="is %0 enabled" id="644" message="IsEnabled" name="IsEnabled" oid="-1" return="BOOLEAN" shared="false" snippetID="-1">
         <blank name="actor" order="0" type="ACTOR"/>
     </custom-block>
-    <custom-block blocktag="custom-656" blocktype="NORMAL" code="Boolean((scripts.Design_519_519_UserInputBlocks.IsKeyLetter(~)))" desc="" global="true" gui="is key %0 a letter" id="656" message="IsKeyLetter" name="IsKeyLetter" oid="-1" return="BOOLEAN" shared="false" snippetID="519">
+    <custom-block blocktag="custom-656" blocktype="NORMAL" code="Boolean((scripts.Design_496_496_UserInputBlocks.IsKeyLetter(~)))" desc="" global="true" gui="is key %0 a letter" id="656" message="IsKeyLetter" name="IsKeyLetter" oid="-1" return="BOOLEAN" shared="false" snippetID="519">
         <blank name="key" order="0" type="TEXT"/>
     </custom-block>
-    <custom-block blocktag="custom-589" blocktype="NORMAL" code="Boolean((scripts.Design_496_496_UserInputBlocks.IsKeyLetter(~)))" desc="" global="true" gui="is key %0 a letter" id="589" message="IsKeyLetter" name="IsKeyLetter" oid="-1" return="BOOLEAN" shared="false" snippetID="-1">
+    <custom-block blocktag="custom-589" blocktype="NORMAL" code="Boolean((scripts.Design_496_496_UserInputBlocks.IsKeyLetter(~)))" desc="" global="true" gui="is key %0 a letter" id="589" message="IsKeyLetter" name="IsKeyLetter" oid="-1" return="BOOLEAN" shared="false" snippetID="496">
         <blank name="key" order="0" type="TEXT"/>
     </custom-block>
-    <custom-block blocktag="custom-655" blocktype="NORMAL" code="Boolean((scripts.Design_519_519_UserInputBlocks.IsNumber(~)))" desc="" global="true" gui="is key %0 a number" id="655" message="IsNumber" name="IsNumber" oid="-1" return="BOOLEAN" shared="false" snippetID="519">
+    <custom-block blocktag="custom-655" blocktype="NORMAL" code="Boolean((scripts.Design_496_496_UserInputBlocks.IsNumber(~)))" desc="" global="true" gui="is key %0 a number" id="655" message="IsNumber" name="IsNumber" oid="-1" return="BOOLEAN" shared="false" snippetID="519">
         <blank name="key" order="0" type="TEXT"/>
     </custom-block>
-    <custom-block blocktag="custom-587" blocktype="NORMAL" code="Boolean((scripts.Design_496_496_UserInputBlocks.IsNumber(~)))" desc="" global="true" gui="is key %0 a number" id="587" message="IsNumber" name="IsNumber" oid="-1" return="BOOLEAN" shared="false" snippetID="-1">
+    <custom-block blocktag="custom-587" blocktype="NORMAL" code="Boolean((scripts.Design_496_496_UserInputBlocks.IsNumber(~)))" desc="" global="true" gui="is key %0 a number" id="587" message="IsNumber" name="IsNumber" oid="-1" return="BOOLEAN" shared="false" snippetID="496">
         <blank name="key" order="0" type="TEXT"/>
     </custom-block>
-    <custom-block blocktag="custom-552" blocktype="NORMAL" code="((scripts.Design_496_496_UserInputBlocks.Keymap()) as Array)" desc="" global="true" gui="keymap" id="552" message="Keymap" name="Keymap" oid="-1" return="LIST" shared="false" snippetID="-1"/>
-    <custom-block blocktag="custom-588" blocktype="NORMAL" code="((scripts.Design_496_496_UserInputBlocks.LetterKeymap()) as Array)" desc="" global="true" gui="letter keymap" id="588" message="LetterKeymap" name="LetterKeymap" oid="-1" return="LIST" shared="false" snippetID="-1"/>
+    <custom-block blocktag="custom-552" blocktype="NORMAL" code="((scripts.Design_496_496_UserInputBlocks.Keymap()) as Array)" desc="" global="true" gui="keymap" id="552" message="Keymap" name="Keymap" oid="-1" return="LIST" shared="false" snippetID="496"/>
+    <custom-block blocktag="custom-588" blocktype="NORMAL" code="((scripts.Design_496_496_UserInputBlocks.LetterKeymap()) as Array)" desc="" global="true" gui="letter keymap" id="588" message="LetterKeymap" name="LetterKeymap" oid="-1" return="LIST" shared="false" snippetID="496"/>
     <custom-block blocktag="custom-651" blocktype="ACTION" code="scripts.Design_516_516_CollisionShapeBlocks.MakeActorASensor(~);" desc="" global="true" gui="make actor %0 a sensor" id="651" message="MakeActorASensor" name="MakeActorASensor" oid="-1" return="VOID" shared="false" snippetID="516">
         <blank name="actor" order="0" type="ACTOR"/>
     </custom-block>
@@ -653,8 +653,13 @@
         <blank name="actor" order="0" type="ACTOR"/>
         <blank name="script" order="1" type="OBJECT"/>
     </custom-block>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="3" id="630" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Next Scene Button" oid="-1" pausable="true" rest="0.0" shared="false" sprite="631" static="true" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" fixedrot="false" fric="0.2" gid="3" id="630" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Next Scene Button" oid="-1" pausable="true" rest="0.0" shared="false" sprite="631" static="true" touchable="true">
         <snippets>
+            <s enabled="true" id="474">
+                <prop id="4" list="0" val="Button Clicked"/>
+                <prop id="5" list="0" val="false"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
             <s enabled="true" id="429">
                 <prop id="3" list="1" val=""/>
                 <prop id="5" list="0" val="1.0"/>
@@ -672,11 +677,6 @@
                 <prop id="16" list="0" val="false"/>
                 <prop id="18" list="0" val="Mouse Leave"/>
             </s>
-            <s enabled="true" id="474">
-                <prop id="4" list="0" val="Button Clicked"/>
-                <prop id="5" list="0" val="false"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
             <s enabled="true" id="473">
                 <prop id="17" list="0" val="Mouse Pressed on Self"/>
                 <prop id="16" list="0" val="Mouse Down on Self"/>
@@ -688,8 +688,8 @@
                 <prop id="12" list="0" val="Mouse Over"/>
                 <prop id="13" list="0" val="Mouse Enter"/>
                 <prop id="14" list="0" val="false"/>
-                <prop id="15" list="0" val="Mouse Leave"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val="Mouse Leave"/>
             </s>
             <s enabled="true" id="503">
                 <prop id="2" list="0" val="Animation 1"/>
@@ -713,7 +713,7 @@
             <poly data="4,0,0,37,0,37,38,0,38" density="0.1" fric="0.2" gid="-1000" id="0" name="Fastup" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="false" desc="From Cosmicannon." eventsnippetid="-1" fixedrot="false" fric="0.75" gid="3" id="597" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Nova" oid="5404" pausable="true" rest="0.14" shared="true" sprite="598" static="false" touchable="true">
+    <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="false" desc="From Cosmicannon." fixedrot="false" fric="0.75" gid="3" id="597" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Nova" oid="5404" pausable="true" rest="0.14" shared="true" sprite="598" static="false" touchable="true">
         <snippets>
             <s enabled="true" id="429">
                 <prop id="3" list="1" val=""/>
@@ -745,7 +745,7 @@
         </snippets>
     </actor>
     <custom-block blocktag="custom-530" blocktype="NORMAL" code="((scripts.Design_484_484.Null()))" desc="" global="true" gui="null" id="530" message="Null" name="Null" oid="-1" return="OBJECT" shared="false" snippetID="-1"/>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="3" id="637" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Number Field" oid="-1" pausable="true" rest="0.0" shared="false" sprite="638" static="true" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" fixedrot="false" fric="0.2" gid="3" id="637" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Number Field" oid="-1" pausable="true" rest="0.0" shared="false" sprite="638" static="true" touchable="true">
         <snippets>
             <s enabled="true" id="441">
                 <prop id="1" list="0" val="-1"/>
@@ -762,8 +762,8 @@
                 <prop id="12" list="0" val="0.0"/>
                 <prop id="13" list="0" val="false"/>
                 <prop id="14" list="0" val="false"/>
-                <prop id="15" list="0" val="false"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val="false"/>
             </s>
             <s enabled="true" id="429">
                 <prop id="3" list="1" val=""/>
@@ -795,8 +795,8 @@
                 <prop id="12" list="0" val=""/>
                 <prop id="13" list="0" val=""/>
                 <prop id="14" list="0" val="12.0"/>
-                <prop id="15" list="0" val="0"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val="0"/>
             </s>
             <s enabled="true" id="473">
                 <prop id="17" list="0" val="Mouse Pressed on Self"/>
@@ -809,12 +809,12 @@
                 <prop id="12" list="0" val="Mouse Over"/>
                 <prop id="13" list="0" val="Mouse Enter"/>
                 <prop id="14" list="0" val="false"/>
-                <prop id="15" list="0" val="Mouse Leave"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val="Mouse Leave"/>
             </s>
         </snippets>
     </actor>
-    <custom-block blocktag="custom-586" blocktype="NORMAL" code="((scripts.Design_496_496_UserInputBlocks.NumberKeymap()) as Array)" desc="" global="true" gui="numeric keymap" id="586" message="NumberKeymap" name="NumberKeymap" oid="-1" return="LIST" shared="false" snippetID="-1"/>
+    <custom-block blocktag="custom-586" blocktype="NORMAL" code="((scripts.Design_496_496_UserInputBlocks.NumberKeymap()) as Array)" desc="" global="true" gui="numeric keymap" id="586" message="NumberKeymap" name="NumberKeymap" oid="-1" return="LIST" shared="false" snippetID="496"/>
     <custom-block blocktag="custom-506" blocktype="NORMAL" code="Boolean((scripts.Design_485_485.PointInCircle(~,~,~,~,~)))" desc="" global="true" gui="is point ( x: %0 y: %1 ) in circle ( x: %2 y: %3 r: %4 )" id="506" message="PointInCircle" name="PointInCircle" oid="-1" return="BOOLEAN" shared="false" snippetID="-1">
         <blank name="x" order="0" type="NUMBER"/>
         <blank name="y" order="1" type="NUMBER"/>
@@ -830,10 +830,15 @@
         <blank name="w" order="4" type="NUMBER"/>
         <blank name="h" order="5" type="NUMBER"/>
     </custom-block>
-    <custom-block blocktag="custom-654" blocktype="NORMAL" code="String((scripts.Design_519_519_UserInputBlocks.PressedKey()))" desc="" global="true" gui="pressed key" id="654" message="PressedKey" name="PressedKey" oid="-1" return="TEXT" shared="false" snippetID="519"/>
-    <custom-block blocktag="custom-548" blocktype="NORMAL" code="String((scripts.Design_496_496_UserInputBlocks.PressedKey()))" desc="" global="true" gui="pressed key" id="548" message="PressedKey" name="PressedKey" oid="-1" return="TEXT" shared="false" snippetID="-1"/>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="3" id="634" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Previous Scene Button" oid="-1" pausable="true" rest="0.0" shared="false" sprite="635" static="true" touchable="true">
+    <custom-block blocktag="custom-654" blocktype="NORMAL" code="String((scripts.Design_496_496_UserInputBlocks.PressedKey()))" desc="" global="true" gui="pressed key" id="654" message="PressedKey" name="PressedKey" oid="-1" return="TEXT" shared="false" snippetID="519"/>
+    <custom-block blocktag="custom-548" blocktype="NORMAL" code="String((scripts.Design_496_496_UserInputBlocks.PressedKey()))" desc="" global="true" gui="pressed key" id="548" message="PressedKey" name="PressedKey" oid="-1" return="TEXT" shared="false" snippetID="496"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" fixedrot="false" fric="0.2" gid="3" id="634" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Previous Scene Button" oid="-1" pausable="true" rest="0.0" shared="false" sprite="635" static="true" touchable="true">
         <snippets>
+            <s enabled="true" id="474">
+                <prop id="4" list="0" val="Button Clicked"/>
+                <prop id="5" list="0" val="false"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
             <s enabled="true" id="429">
                 <prop id="3" list="1" val=""/>
                 <prop id="5" list="0" val="1.0"/>
@@ -851,11 +856,6 @@
                 <prop id="16" list="0" val="false"/>
                 <prop id="18" list="0" val="Mouse Leave"/>
             </s>
-            <s enabled="true" id="474">
-                <prop id="4" list="0" val="Button Clicked"/>
-                <prop id="5" list="0" val="false"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
             <s enabled="true" id="473">
                 <prop id="17" list="0" val="Mouse Pressed on Self"/>
                 <prop id="16" list="0" val="Mouse Down on Self"/>
@@ -867,8 +867,8 @@
                 <prop id="12" list="0" val="Mouse Over"/>
                 <prop id="13" list="0" val="Mouse Enter"/>
                 <prop id="14" list="0" val="false"/>
-                <prop id="15" list="0" val="Mouse Leave"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val="Mouse Leave"/>
             </s>
             <s enabled="true" id="503">
                 <prop id="2" list="0" val="Animation 1"/>
@@ -881,11 +881,11 @@
             </s>
         </snippets>
     </actor>
-    <custom-block blocktag="custom-407" blocktype="ACTION" code="scripts.Design_448_448.PrintFromActor(~,~);" desc="" global="true" gui="print %1 from %0" id="407" message="PrintFromActor" name="PrintFromActor" oid="-1" return="VOID" shared="false" snippetID="-1">
+    <custom-block blocktag="custom-407" blocktype="ACTION" code="scripts.Design_448_448.PrintFromActor(~,~);" desc="" global="true" gui="print %1 from %0" id="407" message="PrintFromActor" name="PrintFromActor" oid="-1" return="VOID" shared="false" snippetID="448">
         <blank name="Actor" order="0" type="ACTOR"/>
         <blank name="Message" order="1" type="TEXT"/>
     </custom-block>
-    <custom-block blocktag="custom-401" blocktype="ACTION" code="scripts.Design_448_448.PrintFromScene(~);" desc="" global="true" gui="print %0 from scene" id="401" message="PrintFromScene" name="PrintFromScene" oid="-1" return="VOID" shared="false" snippetID="-1">
+    <custom-block blocktag="custom-401" blocktype="ACTION" code="scripts.Design_448_448.PrintFromScene(~);" desc="" global="true" gui="print %0 from scene" id="401" message="PrintFromScene" name="PrintFromScene" oid="-1" return="VOID" shared="false" snippetID="448">
         <blank name="Message" order="0" type="TEXT"/>
     </custom-block>
     <sprite atlasID="0" default="0" desc="" height="16" id="580" name="Radio Button" shared="false" width="16">
@@ -896,7 +896,7 @@
             <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="3" id="579" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Radio Button" oid="-1" pausable="true" rest="0.0" shared="false" sprite="580" static="true" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" fixedrot="false" fric="0.2" gid="3" id="579" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Radio Button" oid="-1" pausable="true" rest="0.0" shared="false" sprite="580" static="true" touchable="true">
         <snippets>
             <s enabled="true" id="441">
                 <prop id="1" list="0" val="168"/>
@@ -913,8 +913,8 @@
                 <prop id="12" list="0" val="0.0"/>
                 <prop id="13" list="0" val="false"/>
                 <prop id="14" list="0" val="false"/>
-                <prop id="15" list="0" val="false"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val="false"/>
             </s>
             <s enabled="true" id="429">
                 <prop id="3" list="1" val=""/>
@@ -944,8 +944,8 @@
                 <prop id="12" list="0" val="Mouse Over"/>
                 <prop id="13" list="0" val="Mouse Enter"/>
                 <prop id="14" list="0" val="false"/>
-                <prop id="15" list="0" val="Mouse Leave"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val="Mouse Leave"/>
             </s>
             <s enabled="true" id="503">
                 <prop id="2" list="0" val="Animation 1"/>
@@ -1012,7 +1012,7 @@
             <poly data="4,0,0,8,0,8,8,0,8" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="3" id="607" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Scrollbar Down Button" oid="-1" pausable="true" rest="0.0" shared="false" sprite="608" static="true" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" fixedrot="false" fric="0.2" gid="3" id="607" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Scrollbar Down Button" oid="-1" pausable="true" rest="0.0" shared="false" sprite="608" static="true" touchable="true">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" desc="" height="8" id="608" name="Scrollbar Down Button" shared="false" width="8">
@@ -1020,7 +1020,7 @@
             <poly data="4,0,0,8,0,8,8,0,8" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="3" id="603" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Scrollbar Handle" oid="-1" pausable="true" rest="0.0" shared="false" sprite="604" static="true" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" fixedrot="false" fric="0.2" gid="3" id="603" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Scrollbar Handle" oid="-1" pausable="true" rest="0.0" shared="false" sprite="604" static="true" touchable="true">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" desc="" height="8" id="606" name="Scrollbar Up" shared="false" width="8">
@@ -1028,14 +1028,14 @@
             <poly data="4,0,0,8,0,8,8,0,8" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="3" id="605" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Scrollbar Up Button" oid="-1" pausable="true" rest="0.0" shared="false" sprite="606" static="true" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" fixedrot="false" fric="0.2" gid="3" id="605" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Scrollbar Up Button" oid="-1" pausable="true" rest="0.0" shared="false" sprite="606" static="true" touchable="true">
         <snippets/>
     </actor>
-    <custom-block blocktag="custom-601" blocktype="NORMAL" code="String((scripts.Design_486_486.Space()))" desc="" global="true" gui="space" id="601" message="Space" name="Space" oid="-1" return="TEXT" shared="false" snippetID="-1"/>
+    <custom-block blocktag="custom-601" blocktype="NORMAL" code="String((scripts.Design_486_486.Space()))" desc="" global="true" gui="space" id="601" message="Space" name="Space" oid="-1" return="TEXT" shared="false" snippetID="486"/>
     <custom-block blocktag="custom-495" blocktype="NORMAL" code="Number((scripts.Design_482_482.Speed(~)))" desc="" global="true" gui="speed of %0" id="495" message="Speed" name="Speed" oid="-1" return="NUMBER" shared="false" snippetID="-1">
         <blank name="Actor" order="0" type="ACTOR"/>
     </custom-block>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="3" id="626" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Switch Scene Button" oid="-1" pausable="true" rest="0.0" shared="false" sprite="627" static="true" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" fixedrot="false" fric="0.2" gid="3" id="626" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Switch Scene Button" oid="-1" pausable="true" rest="0.0" shared="false" sprite="627" static="true" touchable="true">
         <snippets>
             <s enabled="true" id="441">
                 <prop id="1" list="0" val="168"/>
@@ -1052,7 +1052,15 @@
                 <prop id="12" list="0" val="0.0"/>
                 <prop id="13" list="0" val="false"/>
                 <prop id="14" list="0" val="false"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="15" list="0" val="false"/>
+            </s>
+            <s enabled="true" id="474">
+                <prop id="1" list="0" val="Animation 1"/>
+                <prop id="2" list="0" val=""/>
+                <prop id="3" list="0" val="Animation 0"/>
+                <prop id="4" list="0" val="Button Clicked"/>
+                <prop id="5" list="0" val="false"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
             <s enabled="true" id="429">
@@ -1072,14 +1080,6 @@
                 <prop id="16" list="0" val="false"/>
                 <prop id="18" list="0" val="Mouse Leave"/>
             </s>
-            <s enabled="true" id="474">
-                <prop id="1" list="0" val="Animation 1"/>
-                <prop id="2" list="0" val=""/>
-                <prop id="3" list="0" val="Animation 0"/>
-                <prop id="4" list="0" val="Button Clicked"/>
-                <prop id="5" list="0" val="false"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
             <s enabled="true" id="473">
                 <prop id="17" list="0" val="Mouse Pressed on Self"/>
                 <prop id="16" list="0" val="Mouse Down on Self"/>
@@ -1091,8 +1091,8 @@
                 <prop id="12" list="0" val="Mouse Over"/>
                 <prop id="13" list="0" val="Mouse Enter"/>
                 <prop id="14" list="0" val="false"/>
-                <prop id="15" list="0" val="Mouse Leave"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val="Mouse Leave"/>
             </s>
             <s enabled="true" id="503">
                 <prop id="2" list="0" val="Animation 1"/>
@@ -1111,7 +1111,7 @@
     <custom-block blocktag="custom-619" blocktype="NORMAL" code="Number((~.say(&quot;Test&quot;, &quot;Test2&quot;)))" desc="" global="false" gui="test %0" id="619" message="Test2" name="Test2" oid="-1" return="NUMBER" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="false" desc="" eventsnippetid="-1" fixedrot="true" fric="0.2" gid="3" id="388" ignoreg="true" inertia="1.0" ldamp="0.0" lw="true" mass="1.0" name="Text" oid="-1" pausable="false" rest="0.0" shared="false" sprite="389" static="true" touchable="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="false" desc="" fixedrot="true" fric="0.2" gid="3" id="388" ignoreg="true" inertia="1.0" ldamp="0.0" lw="true" mass="1.0" name="Text" oid="-1" pausable="false" rest="0.0" shared="false" sprite="389" static="true" touchable="false">
         <snippets>
             <s enabled="true" id="441">
                 <prop id="1" list="0" val="168"/>
@@ -1128,8 +1128,8 @@
                 <prop id="12" list="0" val="0"/>
                 <prop id="13" list="0" val="true"/>
                 <prop id="14" list="0" val="false"/>
-                <prop id="15" list="0" val="false"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val="false"/>
             </s>
         </snippets>
     </actor>
@@ -1143,7 +1143,7 @@
             <poly data="4,0,0,128,0,128,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="3" id="599" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Text Box" oid="-1" pausable="true" rest="0.0" shared="false" sprite="600" static="true" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" fixedrot="false" fric="0.2" gid="3" id="599" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Text Box" oid="-1" pausable="true" rest="0.0" shared="false" sprite="600" static="true" touchable="true">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" desc="" height="32" id="585" name="Text Field" shared="false" width="128">
@@ -1151,7 +1151,7 @@
             <poly data="4,0,0,128,0,128,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="3" id="584" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Text Field" oid="-1" pausable="true" rest="0.0" shared="false" sprite="585" static="true" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" fixedrot="false" fric="0.2" gid="3" id="584" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Text Field" oid="-1" pausable="true" rest="0.0" shared="false" sprite="585" static="true" touchable="true">
         <snippets>
             <s enabled="true" id="441">
                 <prop id="1" list="0" val="-1"/>
@@ -1168,8 +1168,8 @@
                 <prop id="12" list="0" val="0.0"/>
                 <prop id="13" list="0" val="false"/>
                 <prop id="14" list="0" val="false"/>
-                <prop id="15" list="0" val="false"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val="false"/>
             </s>
             <s enabled="true" id="429">
                 <prop id="3" list="1" val=""/>
@@ -1199,8 +1199,8 @@
                 <prop id="12" list="0" val="Mouse Over"/>
                 <prop id="13" list="0" val="Mouse Enter"/>
                 <prop id="14" list="0" val="false"/>
-                <prop id="15" list="0" val="Mouse Leave"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val="Mouse Leave"/>
             </s>
         </snippets>
     </actor>
@@ -1210,13 +1210,13 @@
         </anim>
     </sprite>
     <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="19" id="168" name="Typewriter 14" offsets="0|0|0|,8|0|8,11|0|11,17|0|17,26|0|26,33|0|33,42|0|42,51|0|51,54|0|54,60|0|60,66|0|66,73|0|73,81|0|81,84|0|84,90|0|90,93|0|93,101|0|101,109|0|109,116|0|116,122|0|122,129|0|129,137|0|137,143|0|143,150|0|150,157|0|157,164|0|164,171|0|171,174|0|174,177|0|177,185|0|185,193|0|193,201|0|201,208|0|208,217|0|217,226|0|226,233|0|233,241|0|241,249|0|249,256|0|256,263|0|263,271|0|271,278|0|278,285|0|285,291|0|291,299|0|299,306|0|306,314|0|314,321|0|321,329|0|329,336|0|336,345|0|345,353|0|353,360|0|360,369|0|369,376|0|376,385|0|385,394|0|394,403|0|403,412|0|412,420|0|420,425|0|425,433|0|433,438|0|438,446|0|446,455|0|455,458|0|458,466|0|466,473|0|473,480|0|480,488|0|488,495|0|495,503|0|503,511|0|511,518|0|518,523|0|523,529|0|529,537|0|537,542|0|542,550|0|550,557|0|557,565|0|565,572|0|572,580|0|580,586|0|586,593|0|593,601|0|601,608|0|608,616|0|616,625|0|625,633|0|633,642|0|642,649|0|649,655|0|655,657|0|657,663|0|663,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,671|0|671,679|0|679,682|0|682,688|0|688,695|0|695,703|0|703,712|0|712,714|0|714,720|0|720,725|0|725,733|0|733,740|0|740,748|0|748,756|0|756,762|0|762,769|0|769,778|0|778,783|0|783,791|0|791,796|0|796,801|0|801,805|0|805,812|0|812,819|0|819,822|0|822,825|0|825,830|0|830,836|0|836,844|0|844,853|0|853,862|0|862,871|0|871,878|0|878,887|0|887,896|0|896,905|0|905,914|0|914,923|0|923,932|0|932,941|0|941,949|0|949,956|0|956,963|0|963,970|0|970,977|0|977,984|0|984,991|0|991,998|0|998,1005|0|1005,1013|0|1013,1020|0|1020,1028|0|1028,1036|0|1036,1044|0|1044,1052|0|1052,1060|0|1060,1068|0|1068,1076|0|1076,1083|0|1083,1090|0|1090,1097|0|1097,1104|0|1104,1113|0|1113,1120|0|1120,1127|0|1127,1135|0|1135,1143|0|1143,1151|0|1151,1159|0|1159,1167|0|1167,1175|0|1175,1184|0|1184,1191|0|1191,1198|0|1198,1205|0|1205,1212|0|1212,1219|0|1219,1224|0|1224,1230|0|1230,1237|0|1237,1243|0|1243,1251|0|1251,1258|0|1258,1266|0|1266,1274|0|1274,1282|0|1282,1290|0|1290,1298|0|1298,1306|0|1306,1314|0|1314,1321|0|1321,1328|0|1328,1335|0|1335,1342|0|1342,1351|0|1351,1358|0|1358,1367|0|1367,1376|0|1376,1384|0|1384,1393|0|1393,1401|0|1401,1410|0|1410,1418|0|1418,1426|0|1426,1433|0|1433,1441|0|1441,1448|0|1448,1456|0|1456,1463|0|1463,1471|0|1471,1478|0|1478,1486|0|1486,1495|0|1495,1503|0|1503,1512|0|1512,1519|0|1519,1526|0|1526,1533|0|1533,1540|0|1540,1547|0|1547,1554|0|1554,1562|0|1562,1569|0|1569,1576|0|1576,1583|0|1583,1591|0|1591,1599|0|1599,1607|0|1607,1615|0|1615,1623|0|1623,1631|0|1631,1639|0|1639,1647|0|1647,1654|0|1654,1661|0|1661,1670|0|1670,1678|0|1678,1685|0|1685,1691|0|1691,1698|0|1698,1703|0|1703,1710|0|1710,1716|0|1716,1723|0|1723,1729|0|1729,1736|0|1736,1741|0|1741,1749|0|1749,1757|0|1757,1763|0|1763,1768|0|1768,1776|0|1776,1784|0|1784,1792|0|1792,1799|0|1799,1805|0|1805,1812|0|1812,1817|0|1817,1824|0|1824,1831|0|1831,1838|0|1838,1847|0|1847,1855|0|1855,1862|0|1862,1869|0|1869,1876|0|1876,1883|0|1883,1890|0|1890,1897|0|1897,1904|0|1904,1912|0|1912,1919|0|1919,1926|0|1926,1934|0|1934,1942|0|1942,1950|0|1950,1958|0|1958,1966|0|1966,1974|0|1974,1983|0|1983,1992|0|1992,2000|0|2000,2006|0|2006,2014|0|2014,2020|0|2020,2028|0|2028,2034|0|2034,2041|0|2041,2048|0|2048,2055|0|2055,2062|0|2062,2069|0|2069,2076|0|2076,2083|0|2083,2090|0|2090,2099|0|2099,2107|0|2107,2116|0|2116,2124|0|2124,2133|0|2133,2141|0|2141,2148|0|2148,2155|0|2155,2162|0|2162,2169|0|2169,2176|0|2176,2183|0|2183,2190|0|2190,2197|0|2197,2204|0|2204,2211|0|2211,2218|0|2218,2225|0|2225,2234|0|2234,2243|0|2243,2252|0|2252,2261|0|2261,2270|0|2270,2278|0|2278,2285|0|2285,2293|0|2293,2300|0|2300,2308|0|2308,2315|0|2315" oid="-1" rowHeight="19" shared="false"/>
-    <custom-block blocktag="custom-422" blocktype="ACTION" code="scripts.Design_448_448.WarningFromActor(~,~);" desc="" global="true" gui="warning %0 from %1" id="422" message="WarningFromActor" name="WarningFromActor" oid="-1" return="VOID" shared="false" snippetID="-1">
+    <custom-block blocktag="custom-422" blocktype="ACTION" code="scripts.Design_448_448.WarningFromActor(~,~);" desc="" global="true" gui="warning %0 from %1" id="422" message="WarningFromActor" name="WarningFromActor" oid="-1" return="VOID" shared="false" snippetID="448">
         <blank name="Message" order="0" type="TEXT"/>
         <blank name="Actor" order="1" type="ACTOR"/>
     </custom-block>
-    <custom-block blocktag="custom-421" blocktype="ACTION" code="scripts.Design_448_448.WarningFromScene(~);" desc="" global="true" gui="warning %0 from scene" id="421" message="WarningFromScene" name="WarningFromScene" oid="-1" return="VOID" shared="false" snippetID="-1">
+    <custom-block blocktag="custom-421" blocktype="ACTION" code="scripts.Design_448_448.WarningFromScene(~);" desc="" global="true" gui="warning %0 from scene" id="421" message="WarningFromScene" name="WarningFromScene" oid="-1" return="VOID" shared="false" snippetID="448">
         <blank name="Message" order="0" type="TEXT"/>
     </custom-block>
-    <custom-block blocktag="custom-653" blocktype="NORMAL" code="Boolean((scripts.Design_519_519_UserInputBlocks.WasKeyPressed()))" desc="" global="true" gui="was key pressed" id="653" message="WasKeyPressed" name="WasKeyPressed" oid="-1" return="BOOLEAN" shared="false" snippetID="519"/>
-    <custom-block blocktag="custom-551" blocktype="NORMAL" code="Boolean((scripts.Design_496_496_UserInputBlocks.WasKeyPressed()))" desc="" global="true" gui="was key pressed" id="551" message="WasKeyPressed" name="WasKeyPressed" oid="-1" return="BOOLEAN" shared="false" snippetID="-1"/>
+    <custom-block blocktag="custom-653" blocktype="NORMAL" code="Boolean((scripts.Design_496_496_UserInputBlocks.WasKeyPressed()))" desc="" global="true" gui="was key pressed" id="653" message="WasKeyPressed" name="WasKeyPressed" oid="-1" return="BOOLEAN" shared="false" snippetID="519"/>
+    <custom-block blocktag="custom-551" blocktype="NORMAL" code="Boolean((scripts.Design_496_496_UserInputBlocks.WasKeyPressed()))" desc="" global="true" gui="was key pressed" id="551" message="WasKeyPressed" name="WasKeyPressed" oid="-1" return="BOOLEAN" shared="false" snippetID="496"/>
 </pack>

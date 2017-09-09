@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <receive-message comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <repeat comment="false" x="26" y="40">
+                    <group eventID="-1" id="-1">
+                        <create-recycled-actor comment="false" x="37" y="65">
+                            <ACTORTYPE eid="var" id="0" vid="3"/>
+                            <plus comment="false" id="1" x="0" y="0">
+                                <get-xy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                </get-xy>
+                                <get-wh comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="2"/>
+                                </get-wh>
+                            </plus>
+                            <plus comment="false" id="2" x="0" y="0">
+                                <get-xy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                </get-xy>
+                                <get-wh comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="3"/>
+                                </get-wh>
+                            </plus>
+                            <int id="3" val="0"/>
+                        </create-recycled-actor>
+                        <push-shove2 comment="false" x="37" y="110">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="1"/>
+                            <randint comment="false" id="2" x="0" y="0">
+                                <int id="0" val="1"/>
+                                <int id="1" val="360"/>
+                            </randint>
+                            <get-val-89-2 comment="false" id="3" x="0" y="0"/>
+                        </push-shove2>
+                    </group>
+                    <get-val-89-1 comment="false" id="0" x="0" y="0"/>
+                </repeat>
+                <repeat comment="false" x="26" y="154">
+                    <group eventID="-1" id="-1">
+                        <create-recycled-actor comment="false" x="37" y="179">
+                            <ACTORTYPE eid="var" id="0" vid="6"/>
+                            <plus comment="false" id="1" x="0" y="0">
+                                <get-xy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                </get-xy>
+                                <get-wh comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="2"/>
+                                </get-wh>
+                            </plus>
+                            <plus comment="false" id="2" x="0" y="0">
+                                <get-xy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                </get-xy>
+                                <get-wh comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="3"/>
+                                </get-wh>
+                            </plus>
+                            <int id="3" val="0"/>
+                        </create-recycled-actor>
+                        <push-shove2 comment="false" x="37" y="224">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="1"/>
+                            <randint comment="false" id="2" x="0" y="0">
+                                <int id="0" val="1"/>
+                                <int id="1" val="360"/>
+                            </randint>
+                            <get-val-89-7 comment="false" id="3" x="0" y="0"/>
+                        </push-shove2>
+                    </group>
+                    <get-val-89-5 comment="false" id="0" x="0" y="0"/>
+                </repeat>
+                <play-sound4 comment="false" x="26" y="268">
+                    <int id="0" val="0"/>
+                    <SOUND eid="var" id="1" vid="8"/>
+                </play-sound4>
+                <if comment="false" x="26" y="295">
+                    <group eventID="1" id="-1">
+                        <scene-reload-new comment="false" x="37" y="333">
+                            <int id="0" val="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="0"/>
+                            <int id="3" val="1"/>
+                        </scene-reload-new>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <getatype comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                        </getatype>
+                        <pick-type comment="false" id="1" x="0" y="0">
+                            <ACTORTYPE eid="1" id="0"/>
+                        </pick-type>
+                    </eq>
+                </if>
+            </group>
+            <int id="0" val="healthDepleted"/>
+        </receive-message>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

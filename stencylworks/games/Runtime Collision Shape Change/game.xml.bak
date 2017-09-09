@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<game accelFramerate="0" adsPosition="0" aheight="640" airCert="" airPass="" appName="My Game" appType="0" author="" authorURL="" autoRotate="false" awidth="640" backgroundColor="-15592942" barBackgroundColor="-12303292" barColor="-7829368" barHeight="8" barLocation="0" barOffsetX="0" barOffsetXPhone="0" barOffsetXTablet="0" barOffsetY="0" barOffsetYPhone="0" barOffsetYTablet="0" barScalePhone="1.0" barScaleTablet="2.0" barWidth="120" borderColor="-12303292" borderThickness="2" bundleID="com.company.gamename" bundleVersion="1.0" checksum="none" cpmID="" cws-desc="" cws-icon128="" cws-icon16="" cws-name="" cws-version="" default="17" defaultFramerate="30" desc="&lt;b&gt;Runtime Collision Shape Change v1.1&lt;/b&gt;&#10;An Example on how to modify collision shapes during runtime.&#10;&#10;Only for Flash (not for iOS)&#10;&#10;Uses Graph Paper background and Nova actor by Ceric.&#10;&#10;" deviceOS="null" engine="30" format="2.0" gameid="10271" height="640" kit="false" lockURL="" mochi="" multitouch="false" name="Runtime Collision Shape Change" ngID="" ngKey="" onlineID="45830" orientation="0" preloaderstyle="0" products="" projectType="" scale="1.0" showAds="false" simulatorOS="null" splashStyle="0" swfHeight="0" swfWidth="0" swfX="0" swfY="0" swfloc="" thumbstickStyle="0" useGlossyIcon="false" width="640">
+<game accelFramerate="0" adsPosition="0" aheight="640" appName="My Game" appType="0" author="" authorURL="" awidth="640" backgroundColor="-15592942" barBackgroundColor="-12303292" barColor="-7829368" barHeight="8" barLocation="0" barOffsetX="0" barOffsetXPhone="0" barOffsetXTablet="0" barOffsetY="0" barOffsetYPhone="0" barOffsetYTablet="0" barScalePhone="1.0" barScaleTablet="2.0" barWidth="120" borderColor="-12303292" borderThickness="2" bundleID="com.company.gamename" bundleVersion="1.0" checksum="none" default="17" defaultFramerate="30" desc="&lt;b&gt;Runtime Collision Shape Change v1.1&lt;/b&gt;&#10;An Example on how to modify collision shapes during runtime.&#10;&#10;Only for Flash (not for iOS)&#10;&#10;Uses Graph Paper background and Nova actor by Ceric.&#10;&#10;" deviceOS="null" engine="30" format="1.0" gameid="10271" height="640" kit="false" lockURL="" mochi="" name="Runtime Collision Shape Change" ngID="" ngKey="" onlineID="45830" orientation="0" projectType="" scale="1.0" showAds="false" simulatorOS="null" splashStyle="0" thumbstickStyle="0" useGlossyIcon="false" width="640">
     <folders>
         <group desc="" id="3" name="Debug" type="snippet">
             <r id="259"/>
@@ -18,8 +18,8 @@
         </group>
         <group desc="" id="10" name="User Input" type="snippet">
             <r id="517"/>
-            <r id="473"/>
             <r id="515"/>
+            <r id="473"/>
         </group>
         <group desc="" id="21" name="Custom Blocks" type="snippet">
             <r id="516"/>
@@ -35,7 +35,7 @@
         <cgroup g1="1" g2="0"/>
     </cgroups>
     <input>
-        <key id="0" keyname="R" name="Reload" vk="82" vks="82"/>
+        <key id="0" keyname="R" name="Reload" vk="82"/>
     </input>
     <attcats>
         <cat id="-1" name="Default"/>

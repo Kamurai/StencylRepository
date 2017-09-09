@@ -91,7 +91,7 @@
             <circle data="10,0,8" density="0.1" fric="0.2" gid="-1000" id="3" name="Circle" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="9" id="690" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Belly" oid="-1" pausable="true" rest="0.0" shared="false" sprite="691" static="false" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" fixedrot="false" fric="0.2" gid="9" id="690" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Belly" oid="-1" pausable="true" rest="0.0" shared="false" sprite="691" static="false" touchable="true">
         <snippets>
             <s enabled="true" id="525">
                 <prop id="1" list="0" val="false"/>
@@ -189,7 +189,7 @@
     <custom-block blocktag="custom-555" blocktype="ACTION" code="scripts.Design_497_497.EnableAntialiasing(~);" desc="" global="true" gui="enable antialiasing for %0" id="555" message="EnableAntialiasing" name="EnableAntialiasing" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="actor" order="0" type="ACTOR"/>
     </custom-block>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="9" id="684" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Foot" oid="-1" pausable="true" rest="0.0" shared="false" sprite="685" static="false" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" fixedrot="false" fric="0.2" gid="9" id="684" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Foot" oid="-1" pausable="true" rest="0.0" shared="false" sprite="685" static="false" touchable="true">
         <snippets>
             <s enabled="true" id="525">
                 <prop id="1" list="0" val="false"/>
@@ -266,7 +266,7 @@
             <circle data="5,0,6" density="0.1" fric="0.2" gid="-1000" id="1" name="Circle" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="9" id="702" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Hand" oid="-1" pausable="true" rest="0.0" shared="false" sprite="703" static="false" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" fixedrot="false" fric="0.2" gid="9" id="702" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Hand" oid="-1" pausable="true" rest="0.0" shared="false" sprite="703" static="false" touchable="true">
         <snippets>
             <s enabled="true" id="525">
                 <prop id="1" list="0" val="false"/>
@@ -284,7 +284,7 @@
             <circle data="8,0,8" density="0.1" fric="0.2" gid="-1000" id="2" name="Circle" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="9" id="696" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Head" oid="-1" pausable="true" rest="0.0" shared="false" sprite="697" static="false" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" fixedrot="false" fric="0.2" gid="9" id="696" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Head" oid="-1" pausable="true" rest="0.0" shared="false" sprite="697" static="false" touchable="true">
         <snippets>
             <s enabled="true" id="525">
                 <prop id="1" list="0" val="false"/>
@@ -324,7 +324,7 @@
             <poly data="4,0,0,2,30,10,30,12,0" density="0.1" fric="0.2" gid="-1000" id="1" name="" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="9" id="700" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Lower Arm" oid="-1" pausable="true" rest="0.0" shared="false" sprite="701" static="false" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" fixedrot="false" fric="0.2" gid="9" id="700" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Lower Arm" oid="-1" pausable="true" rest="0.0" shared="false" sprite="701" static="false" touchable="true">
         <snippets>
             <s enabled="true" id="525">
                 <prop id="1" list="0" val="false"/>
@@ -336,7 +336,7 @@
             </s>
         </snippets>
     </actor>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="9" id="686" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Lower Leg" oid="-1" pausable="true" rest="0.0" shared="false" sprite="687" static="false" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" fixedrot="false" fric="0.2" gid="9" id="686" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Lower Leg" oid="-1" pausable="true" rest="0.0" shared="false" sprite="687" static="false" touchable="true">
         <snippets>
             <s enabled="true" id="525">
                 <prop id="1" list="0" val="false"/>
@@ -368,7 +368,7 @@
             <poly data="4,0,0,2,26,14,26,12,0" density="0.1" fric="0.2" gid="-1000" id="0" name="" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="9" id="694" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Neck" oid="-1" pausable="true" rest="0.0" shared="false" sprite="695" static="false" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" fixedrot="false" fric="0.2" gid="9" id="694" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Neck" oid="-1" pausable="true" rest="0.0" shared="false" sprite="695" static="false" touchable="true">
         <snippets>
             <s enabled="true" id="525">
                 <prop id="1" list="0" val="false"/>
@@ -459,7 +459,7 @@
     <custom-block blocktag="custom-495" blocktype="NORMAL" code="Number((scripts.Design_482_482.Speed(~)))" desc="" global="true" gui="speed of %0" id="495" message="Speed" name="Speed" oid="-1" return="NUMBER" shared="false" snippetID="-1">
         <blank name="actor" order="0" type="ACTOR"/>
     </custom-block>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="false" desc="" eventsnippetid="-1" fixedrot="true" fric="0.2" gid="3" id="388" ignoreg="true" inertia="1.0" ldamp="0.0" lw="true" mass="1.0" name="Text" oid="-1" pausable="false" rest="0.0" shared="false" sprite="389" static="true" touchable="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="false" desc="" fixedrot="true" fric="0.2" gid="3" id="388" ignoreg="true" inertia="1.0" ldamp="0.0" lw="true" mass="1.0" name="Text" oid="-1" pausable="false" rest="0.0" shared="false" sprite="389" static="true" touchable="false">
         <snippets>
             <s enabled="true" id="441">
                 <prop id="1" list="0" val="168"/>
@@ -476,8 +476,8 @@
                 <prop id="12" list="0" val="0"/>
                 <prop id="13" list="0" val="true"/>
                 <prop id="14" list="0" val="false"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="15" list="0" val="false"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
             </s>
         </snippets>
     </actor>
@@ -493,7 +493,7 @@
             <circle data="10,0,28" density="0.1" fric="0.2" gid="-1000" id="4" name="Circle" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="9" id="692" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Torso" oid="-1" pausable="true" rest="0.0" shared="false" sprite="693" static="false" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" fixedrot="false" fric="0.2" gid="9" id="692" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Torso" oid="-1" pausable="true" rest="0.0" shared="false" sprite="693" static="false" touchable="true">
         <snippets>
             <s enabled="true" id="525">
                 <prop id="1" list="0" val="false"/>
@@ -515,7 +515,7 @@
             <poly data="4,0,0,3,38,13,38,16,0" density="0.1" fric="0.2" gid="-1000" id="1" name="" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="9" id="698" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Upper Arm" oid="-1" pausable="true" rest="0.0" shared="false" sprite="699" static="false" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" fixedrot="false" fric="0.2" gid="9" id="698" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Upper Arm" oid="-1" pausable="true" rest="0.0" shared="false" sprite="699" static="false" touchable="true">
         <snippets>
             <s enabled="true" id="525">
                 <prop id="1" list="0" val="false"/>
@@ -533,7 +533,7 @@
             <circle data="10,0,0" density="0.1" fric="0.2" gid="-1000" id="2" name="Circle" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="9" id="688" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Upper Leg" oid="-1" pausable="true" rest="0.0" shared="false" sprite="689" static="false" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" fixedrot="false" fric="0.2" gid="9" id="688" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Upper Leg" oid="-1" pausable="true" rest="0.0" shared="false" sprite="689" static="false" touchable="true">
         <snippets>
             <s enabled="true" id="525">
                 <prop id="1" list="0" val="false"/>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" format="1.0" gravx="-0.0" gravy="0.0" height="668" id="4" name="Space Scene 0" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <layer color="100,168,234" id="0" name="Layer 0" order="0"/>
+    </layers>
+    <color-bg blue="255" green="255" red="255"/>
+    <backgrounds>
+        <ref id="18"/>
+    </backgrounds>
+    <foregrounds/>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="true" group="0" id="1" sx="1.0" sy="1.0" x="288" y="544" z="0">
+            <snippets>
+                <s enabled="true" id="273">
+                    <prop id="1" list="0" val="54"/>
+                    <prop id="2" list="0" val="0.0"/>
+                    <prop id="3" list="0" val="0.0"/>
+                    <prop id="5" list="0" val="Health Depleted"/>
+                    <prop id="6" list="0" val="true"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="272">
+                    <prop id="1" list="0" val="5"/>
+                    <prop id="2" list="0" val="0.0"/>
+                    <prop id="3" list="0" val="Health Depleted"/>
+                    <prop id="4" list="0" val="Health Lost"/>
+                    <prop id="5" list="0" val="1"/>
+                    <prop id="6" list="0" val="0"/>
+                    <prop id="7" list="0" val="Kill Self"/>
+                    <prop id="8" list="0" val="0.2"/>
+                    <prop id="9" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="458">
+                    <prop id="2" list="0" val="Off Screen"/>
+                    <prop id="3" list="0" val="false"/>
+                    <prop id="4" list="0" val="false"/>
+                    <prop id="5" list="0" val="Leaving Screen"/>
+                    <prop id="6" list="0" val="Entering Screen"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="475">
+                    <prop id="1" list="0" val="0.3"/>
+                    <prop id="2" list="0" val="With Delay"/>
+                    <prop id="4" list="0" val="Fire Key Down"/>
+                    <prop id="5" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="446">
+                    <prop id="1" list="0" val="No Control"/>
+                    <prop id="7" list="0" val=""/>
+                    <prop id="8" list="0" val="[Key] Key Down"/>
+                    <prop id="9" list="0" val="[Key] Key Pressed"/>
+                    <prop id="10" list="0" val="[Key] Key Released"/>
+                    <prop id="13" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="311">
+                    <prop id="1" list="0" val="Player Health Lost"/>
+                    <prop id="3" list="0" val="Health Lost"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="158">
+                    <prop id="1" list="0" val="With Delay"/>
+                    <prop id="2" list="0" val="50"/>
+                    <prop id="4" list="0" val="21"/>
+                    <prop id="5" list="0" val="90"/>
+                    <prop id="8" list="0" val="-32"/>
+                    <prop id="9" list="0" val="0"/>
+                    <prop id="10" list="0" val="100"/>
+                    <prop id="11" list="0" val="false"/>
+                    <prop id="12" list="0" val="true"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="433">
+                    <prop id="1" list="0" val="0.2"/>
+                    <prop id="2" list="0" val="Health Lost"/>
+                    <prop id="4" list="0" val="100"/>
+                    <prop id="5" list="0" val="90"/>
+                    <prop id="6" list="0" val="255,204,0,255"/>
+                    <prop id="7" list="0" val="50.0"/>
+                    <prop id="8" list="0" val="50.0"/>
+                    <prop id="9" list="0" val="false"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="false"/>
+                    <prop id="12" list="0" val="false"/>
+                    <prop id="13" list="0" val="false"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="15" list="0" val="false"/>
+                    <prop id="17" list="0" val="0.0"/>
+                    <prop id="19" list="0" val=""/>
+                    <prop id="18" list="0" val="false"/>
+                    <prop id="20" list="0" val="false"/>
+                </s>
+                <s enabled="true" id="365">
+                    <prop id="1" list="0" val="Health Depleted"/>
+                    <prop id="2" list="0" val="1"/>
+                    <prop id="3" list="0" val="1"/>
+                    <prop id="4" list="0" val="128,0,0,255"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="466">
+                    <prop id="34" list="0" val="Right"/>
+                    <prop id="32" list="0" val="Down"/>
+                    <prop id="19" list="0" val="false"/>
+                    <prop id="33" list="0" val="Left"/>
+                    <prop id="18" list="0" val="false"/>
+                    <prop id="21" list="0" val="false"/>
+                    <prop id="20" list="0" val="false"/>
+                    <prop id="11" list="0" val="20.0"/>
+                    <prop id="31" list="0" val="Up"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="271">
+                    <prop id="1" list="0" val="10"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="464">
+                    <prop id="1" list="0" val="IdleAnim"/>
+                    <prop id="2" list="0" val="IdleAnim"/>
+                    <prop id="3" list="0" val="LeftAnim"/>
+                    <prop id="4" list="0" val="RightAnim"/>
+                    <prop id="13" list="0" val="IdleAnim"/>
+                    <prop id="14" list="0" val="IdleAnim"/>
+                    <prop id="15" list="0" val="IdleAnim"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="17" list="0" val=""/>
+                    <prop id="16" list="0" val="IdleAnim"/>
+                    <prop id="19" list="0" val="0.001"/>
+                    <prop id="18" list="0" val="Left/Right"/>
+                    <prop id="21" list="0" val="false"/>
+                    <prop id="20" list="0" val="false"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="2" c="true" group="4" id="14" sx="1.0" sy="1.0" x="288" y="64" z="0">
+            <snippets>
+                <s enabled="true" id="273">
+                    <prop id="1" list="0" val="52"/>
+                    <prop id="2" list="0" val="0.0"/>
+                    <prop id="3" list="0" val="0.0"/>
+                    <prop id="5" list="0" val="Health Depleted"/>
+                    <prop id="6" list="0" val="true"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="272">
+                    <prop id="1" list="0" val="3"/>
+                    <prop id="2" list="0" val="0"/>
+                    <prop id="3" list="0" val="Health Depleted"/>
+                    <prop id="4" list="0" val="Health Lost"/>
+                    <prop id="5" list="0" val="1"/>
+                    <prop id="6" list="0" val="0"/>
+                    <prop id="7" list="0" val="Kill Self"/>
+                    <prop id="8" list="0" val="0.2"/>
+                    <prop id="9" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="158">
+                    <prop id="1" list="0" val="Randomly"/>
+                    <prop id="2" list="0" val="10.0"/>
+                    <prop id="4" list="0" val="102"/>
+                    <prop id="5" list="0" val="270"/>
+                    <prop id="8" list="0" val="0.0"/>
+                    <prop id="9" list="0" val="0.0"/>
+                    <prop id="10" list="0" val="0"/>
+                    <prop id="11" list="0" val="false"/>
+                    <prop id="12" list="0" val="true"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="433">
+                    <prop id="1" list="0" val="0.2"/>
+                    <prop id="2" list="0" val="Health Lost"/>
+                    <prop id="4" list="0" val="100"/>
+                    <prop id="5" list="0" val="90"/>
+                    <prop id="6" list="0" val="255,204,0,255"/>
+                    <prop id="7" list="0" val="50.0"/>
+                    <prop id="8" list="0" val="50.0"/>
+                    <prop id="9" list="0" val="false"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="false"/>
+                    <prop id="12" list="0" val="false"/>
+                    <prop id="13" list="0" val="false"/>
+                    <prop id="14" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="15" list="0" val="false"/>
+                    <prop id="17" list="0" val="0.0"/>
+                    <prop id="19" list="0" val=""/>
+                    <prop id="18" list="0" val="false"/>
+                    <prop id="20" list="0" val="false"/>
+                </s>
+                <s enabled="false" id="302">
+                    <prop id="2" list="0" val="Randomly"/>
+                    <prop id="5" list="0" val="0.5"/>
+                    <prop id="6" list="0" val="false"/>
+                    <prop id="7" list="0" val="false"/>
+                    <prop id="8" list="0" val="3"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+    </actors>
+    <snippets>
+        <s enabled="true" id="259">
+            <prop id="1" list="0" val="255,204,0,255"/>
+            <prop id="2" list="0" val="true"/>
+            <prop id="3" list="0" val="No Control"/>
+            <prop id="4" list="0" val="true"/>
+            <prop id="5" list="0" val="0,255,255,255"/>
+            <prop id="6" list="0" val="2"/>
+        </s>
+        <s enabled="true" id="411">
+            <prop id="1" list="0" val="0.0"/>
+            <prop id="2" list="0" val="0"/>
+            <prop id="3" list="0" val="0,255,255,255"/>
+            <prop id="4" list="0" val="true"/>
+            <prop id="5" list="0" val="No Control"/>
+            <prop id="6" list="0" val="25"/>
+        </s>
+        <s enabled="true" id="495">
+            <prop id="1" list="0" val=""/>
+            <prop id="2" list="0" val="168"/>
+            <prop id="3" list="0" val="255,204,0,255"/>
+            <prop id="4" list="0" val="10"/>
+            <prop id="5" list="0" val="0"/>
+            <prop id="6" list="0" val="true"/>
+            <prop id="7" list="0" val="No Control"/>
+        </s>
+        <s enabled="true" id="432">
+            <prop id="1" list="0" val="0.0"/>
+            <prop id="2" list="0" val="50.0"/>
+            <prop id="4" list="0" val="128,0,0,255"/>
+            <prop id="5" list="0" val="0.2"/>
+            <prop id="6" list="0" val="0"/>
+            <prop id="7" list="0" val="10"/>
+            <prop id="8" list="0" val="Player Health Lost"/>
+            <prop id="9" list="0" val="Normal"/>
+        </s>
+        <s enabled="true" id="434">
+            <prop id="2" list="0" val="1"/>
+            <prop id="3" list="0" val="No Actor in Group Alive"/>
+            <prop id="4" list="0" val="1.0"/>
+            <prop id="5" list="0" val="1.0"/>
+            <prop id="6" list="0" val="0,0,0,255"/>
+        </s>
+        <s enabled="true" id="265">
+            <prop id="1" list="0" val="true"/>
+        </s>
+        <s enabled="true" id="314">
+            <prop id="1" list="0" val="No Actor in Group Alive"/>
+            <prop id="3" list="0" val="false"/>
+            <prop id="4" list="0" val="4"/>
+            <prop id="5" list="0" val="true"/>
+            <prop id="6" list="0" val="false"/>
+        </s>
+        <s enabled="true" id="497">
+            <prop id="1" list="0" val=""/>
+            <prop id="2" list="0" val="168"/>
+            <prop id="3" list="0" val="0,255,0,255"/>
+            <prop id="4" list="0" val="0"/>
+            <prop id="5" list="0" val="20"/>
+            <prop id="6" list="0" val=""/>
+            <prop id="7" list="0" val="true"/>
+            <prop id="8" list="0" val="No Control"/>
+        </s>
+        <s enabled="true" id="498"/>
+    </snippets>
+    <terrain/>
+</scene>
